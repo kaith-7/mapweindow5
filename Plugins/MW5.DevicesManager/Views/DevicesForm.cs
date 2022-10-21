@@ -1029,6 +1029,7 @@ namespace MW5.Plugins.DevicesManager
 
         private void Delete()
         {
+            bool isDeleted = false;
             var nodeSelected = tvDirectories.SelectedNode;
             if (nodeSelected == null || nodeSelected.Tag == null || nodeSelected.Parent == tvDirectories.Root || (nodeSelected.Parent != null && nodeSelected.Parent.Parent == tvDirectories.Root))
             {
@@ -1139,10 +1140,11 @@ namespace MW5.Plugins.DevicesManager
                         }
                         tvDirectories.EndUpdate();
 
-                        MessageBox.Show(this,"删除成功!", "提示");
+                       
                     }
                     catch (Exception ex)
                     {
+                        isDeleted = false;
                         tvDirectories.EndUpdate();
                         lvFiles.EndUpdate();
                         if (!ex.Message.Contains("已中止 I/O 操作") && !ex.Message.Contains("已关闭"))
@@ -1152,6 +1154,7 @@ namespace MW5.Plugins.DevicesManager
                     {
                         //device.Disconnect();
                         ResetTreeNode(nodeSelected);
+                        if(isDeleted) MessageBox.Show( "删除成功!", "提示");
                     }
                 }
             }
