@@ -1,0 +1,667 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="&gt;&gt;lblType.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;btnPlus.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="functionTreeView1.ToolTipControl.AccessibleDescription" type="System.Resources.ResXNullRef, System.Windows.Forms">
+    <value />
+  </data>
+  <assembly alias="System.Drawing" name="System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
+  <data name="btnDivide.Size" type="System.Drawing.Size, System.Drawing">
+    <value>32, 21</value>
+  </data>
+  <data name="&gt;&gt;btnTest.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;btnTest.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="&gt;&gt;lblValidation.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="functionTreeView1.HelpTextControl.Font" type="System.Resources.ResXNullRef, System.Windows.Forms">
+    <value />
+  </data>
+  <data name="functionTreeView1.ToolTipControl.Text" xml:space="preserve">
+    <value>toolTip</value>
+  </data>
+  <data name="&gt;&gt;lblField.Name" xml:space="preserve">
+    <value>lblField</value>
+  </data>
+  <data name="&gt;&gt;fieldTypeGrid1.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="functionTreeView1.HelpTextControl.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>Inherit</value>
+  </data>
+  <data name="functionTreeView1.HelpTextControl.AutoSizeMode" type="System.Windows.Forms.AutoSizeMode, System.Windows.Forms">
+    <value>GrowOnly</value>
+  </data>
+  <data name="functionTreeView1.ToolTipControl.AccessibleName" type="System.Resources.ResXNullRef, System.Windows.Forms">
+    <value />
+  </data>
+  <data name="&gt;&gt;label1.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;functionTreeView1.Name" xml:space="preserve">
+    <value>functionTreeView1</value>
+  </data>
+  <data name="&gt;&gt;fieldTypeGrid1.Name" xml:space="preserve">
+    <value>fieldTypeGrid1</value>
+  </data>
+  <data name="btnClear.Size" type="System.Drawing.Size, System.Drawing">
+    <value>70, 21</value>
+  </data>
+  <data name="btnPlus.Size" type="System.Drawing.Size, System.Drawing">
+    <value>32, 21</value>
+  </data>
+  <data name="btnMultiply.Text" xml:space="preserve">
+    <value>*</value>
+  </data>
+  <assembly alias="mscorlib" name="mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="functionTreeView1.ToolTipControl.AutoScroll" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="lblValidation.Location" type="System.Drawing.Point, System.Drawing">
+    <value>12, 354</value>
+  </data>
+  <data name="btnPlus.Text" xml:space="preserve">
+    <value>+</value>
+  </data>
+  <data name="&gt;&gt;btnPlus.Name" xml:space="preserve">
+    <value>btnPlus</value>
+  </data>
+  <data name="&gt;&gt;btnOk.Type" xml:space="preserve">
+    <value>Syncfusion.Windows.Forms.ButtonAdv, Syncfusion.Shared.Base, Version=18.1460.0.42, Culture=neutral, PublicKeyToken=3d67ed1f87d44c89</value>
+  </data>
+  <data name="txtSearch.FarImage" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        iVBORw0KGgoAAAANSUhEUgAAABgAAAAYCAYAAADgdz34AAAABGdBTUEAALGPC/xhBQAAAx1JREFUSEvt
+        k8lPU1EYxflb3GhiQAL0UREMIFGiwTqUGexAZ55tH4UWOtCWtvSV0gERMCYaVIYC+jeQusBC0QXuWHVj
+        UheaaDQWAzl+r2I3UHQvJznJy0vu+Z1773dLTvUfq1QkOlNWxaTJmWIuZ8SZCnFNhqmpzVTX1WVqLtc7
+        DpefrNLKynNlVaIPrJnDi6VlLCwnCl5MJLCUWMHyyioSa2tYWXuJ1ZevEInH0XC1ef4worjOM8yFMhHz
+        0WA04cn8Mzx+8hR8KIRofArPFhbwfGERLxaXCLyEcCSCh3NzSKyuYnp2Fs0tLScDykUi0QWm+rNKZ8Ak
+        BUbIQsj+/j42NjbgHx/HzNyjvPmJCezt7SGVSmEyFkU4GsUtqbQ4oKyCqauovvhVrtLA5R2De8wHt8+H
+        KC08ODiAoI03b2B3ueAPBJCjcEFv373DWMAPfzCIju7O4wEisbiJqa373iNXwGQZBDdkhcVqw+DwCHkY
+        E+FwAbKzs4NcLpf/3t7ehs1uRzDEY9TrgVyhOAoQ19Y3XWpozLV1dUOp0UKl00FjMEDHsjAY74M1m8Ga
+        TOB5vgARtJXegonj4HSPUrgbdqcDGr3uKKD+ypXmhmvXftIFQSKVor27Cz1yOWRKJeRqFfq0GoJqYaOd
+        /GkuKJlMQm/QgxvkYBow4b6ZynDG44+oWSK5fkMi+XHzzh3capXibnsbWjs70Nnbja57vbDabIXw3d3d
+        wk7W19cJrobZYsbA0AAd52DxS77d2dpIod86erryoT1yGWR9Ctgd9vy0CEptpqBUKRGhyfoDSb5O0lEZ
+        6YiG4fQ4igMEyWSySxT6RaHug0qrhlqvQZAP5sM2NzehM+hgoaYW6wBi8d/TlU6nMWSzwOtz0xh7TwYI
+        0rLaKj3b/6nfxMJIzQS73C6wxn6aGCuN6QhdrIP+OeALjME2MoRx3kfvIoBg2P93gCCO40qpZXbYYaNm
+        HgR4P0JhHpPRMGIPIpiajuHBwzimZ+L0HUVsapIeJP/vAEFOp/MsNX3v8bqyXr8nS9vPUtMsNS3qYCjg
+        OVx+qv9HJSW/AEy3TXanRs8BAAAAAElFTkSuQmCC
+</value>
+  </data>
+  <data name="btnDivide.Text" xml:space="preserve">
+    <value>/</value>
+  </data>
+  <data name="btnTest.TabIndex" type="System.Int32, mscorlib">
+    <value>66</value>
+  </data>
+  <data name="$this.Text" xml:space="preserve">
+    <value>Field Calculator</value>
+  </data>
+  <data name="&gt;&gt;btnTest.Type" xml:space="preserve">
+    <value>Syncfusion.Windows.Forms.ButtonAdv, Syncfusion.Shared.Base, Version=18.1460.0.42, Culture=neutral, PublicKeyToken=3d67ed1f87d44c89</value>
+  </data>
+  <data name="functionTreeView1.TabIndex" type="System.Int32, mscorlib">
+    <value>35</value>
+  </data>
+  <data name="functionTreeView1.ToolTipControl.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Top, Left</value>
+  </data>
+  <data name="functionTreeView1.HelpTextControl.Size" type="System.Drawing.Size, System.Drawing">
+    <value>61, 14</value>
+  </data>
+  <data name="&gt;&gt;label1.ZOrder" xml:space="preserve">
+    <value>9</value>
+  </data>
+  <data name="functionTreeView1.Text" xml:space="preserve">
+    <value>functionsTreeView1</value>
+  </data>
+  <data name="&gt;&gt;label1.Name" xml:space="preserve">
+    <value>label1</value>
+  </data>
+  <data name="&gt;&gt;lblField.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="functionTreeView1.ToolTipControl.MaximumSize" type="System.Drawing.Size, System.Drawing">
+    <value>0, 0</value>
+  </data>
+  <data name="functionTreeView1.HelpTextControl.AutoSize" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="&gt;&gt;fieldTypeGrid1.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="$this.AutoScaleDimensions" type="System.Drawing.SizeF, System.Drawing">
+    <value>6, 12</value>
+  </data>
+  <data name="&gt;&gt;functionTreeView1.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;btnClear.Type" xml:space="preserve">
+    <value>Syncfusion.Windows.Forms.ButtonAdv, Syncfusion.Shared.Base, Version=18.1460.0.42, Culture=neutral, PublicKeyToken=3d67ed1f87d44c89</value>
+  </data>
+  <data name="btnClear.Location" type="System.Drawing.Point, System.Drawing">
+    <value>280, 164</value>
+  </data>
+  <data name="functionTreeView1.HelpTextControl.AutoScroll" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="functionTreeView1.ToolTipControl.BackgroundImageLayout" type="System.Windows.Forms.ImageLayout, System.Windows.Forms">
+    <value>Tile</value>
+  </data>
+  <data name="btnMultiply.TabIndex" type="System.Int32, mscorlib">
+    <value>56</value>
+  </data>
+  <data name="functionTreeView1.HelpTextControl.BackgroundImageLayout" type="System.Windows.Forms.ImageLayout, System.Windows.Forms">
+    <value>Tile</value>
+  </data>
+  <data name="functionTreeView1.HelpTextControl.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 0</value>
+  </data>
+  <data name="&gt;&gt;btnTest.Name" xml:space="preserve">
+    <value>btnTest</value>
+  </data>
+  <data name="&gt;&gt;btnClear.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="functionTreeView1.HelpTextControl.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>None</value>
+  </data>
+  <data name="&gt;&gt;btnMinus.Type" xml:space="preserve">
+    <value>Syncfusion.Windows.Forms.ButtonAdv, Syncfusion.Shared.Base, Version=18.1460.0.42, Culture=neutral, PublicKeyToken=3d67ed1f87d44c89</value>
+  </data>
+  <data name="btnOk.Text" xml:space="preserve">
+    <value>Calculate</value>
+  </data>
+  <data name="&gt;&gt;btnMultiply.Name" xml:space="preserve">
+    <value>btnMultiply</value>
+  </data>
+  <data name="&gt;&gt;btnMinus.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;txtSearch.ZOrder" xml:space="preserve">
+    <value>12</value>
+  </data>
+  <data name="&gt;&gt;btnOk.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="functionTreeView1.ToolTipControl.TabIndex" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="&gt;&gt;btnCancel.Type" xml:space="preserve">
+    <value>Syncfusion.Windows.Forms.ButtonAdv, Syncfusion.Shared.Base, Version=18.1460.0.42, Culture=neutral, PublicKeyToken=3d67ed1f87d44c89</value>
+  </data>
+  <data name="functionTreeView1.ToolTipControl.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>None</value>
+  </data>
+  <data name="&gt;&gt;txtExpression.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;lblField.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="functionTreeView1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>206, 301</value>
+  </data>
+  <data name="functionTreeView1.HelpTextControl.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;btnPlus.Type" xml:space="preserve">
+    <value>Syncfusion.Windows.Forms.ButtonAdv, Syncfusion.Shared.Base, Version=18.1460.0.42, Culture=neutral, PublicKeyToken=3d67ed1f87d44c89</value>
+  </data>
+  <data name="&gt;&gt;btnMinus.ZOrder" xml:space="preserve">
+    <value>5</value>
+  </data>
+  <data name="functionTreeView1.ToolTipControl.AutoSizeMode" type="System.Windows.Forms.AutoSizeMode, System.Windows.Forms">
+    <value>GrowOnly</value>
+  </data>
+  <data name="lblValidation.TabIndex" type="System.Int32, mscorlib">
+    <value>41</value>
+  </data>
+  <data name="label1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>12, 8</value>
+  </data>
+  <data name="txtSearch.Location" type="System.Drawing.Point, System.Drawing">
+    <value>361, 23</value>
+  </data>
+  <data name="&gt;&gt;$this.Name" xml:space="preserve">
+    <value>FieldCalculatorView</value>
+  </data>
+  <data name="txtExpression.Multiline" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="txtExpression.Size" type="System.Drawing.Size, System.Drawing">
+    <value>338, 134</value>
+  </data>
+  <data name="lblValidation.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 8.25pt, style=Bold</value>
+  </data>
+  <data name="&gt;&gt;btnOk.ZOrder" xml:space="preserve">
+    <value>15</value>
+  </data>
+  <data name="&gt;&gt;txtExpression.ZOrder" xml:space="preserve">
+    <value>10</value>
+  </data>
+  <data name="fieldTypeGrid1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>12, 24</value>
+  </data>
+  <data name="functionTreeView1.ToolTipControl.Font" type="System.Resources.ResXNullRef, System.Windows.Forms">
+    <value />
+  </data>
+  <data name="lblType.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleRight</value>
+  </data>
+  <data name="btnMinus.Text" xml:space="preserve">
+    <value>-</value>
+  </data>
+  <data name="functionTreeView1.ToolTipControl.AutoSize" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="btnMinus.Location" type="System.Drawing.Point, System.Drawing">
+    <value>280, 50</value>
+  </data>
+  <data name="label1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>41, 12</value>
+  </data>
+  <data name="&gt;&gt;btnCancel.ZOrder" xml:space="preserve">
+    <value>14</value>
+  </data>
+  <data name="&gt;&gt;btnOk.Name" xml:space="preserve">
+    <value>btnOk</value>
+  </data>
+  <data name="&gt;&gt;functionTreeView1.ZOrder" xml:space="preserve">
+    <value>13</value>
+  </data>
+  <data name="btnDivide.TabIndex" type="System.Int32, mscorlib">
+    <value>47</value>
+  </data>
+  <data name="&gt;&gt;btnMultiply.ZOrder" xml:space="preserve">
+    <value>4</value>
+  </data>
+  <data name="lblValidation.Size" type="System.Drawing.Size, System.Drawing">
+    <value>338, 22</value>
+  </data>
+  <data name="txtExpression.Location" type="System.Drawing.Point, System.Drawing">
+    <value>12, 215</value>
+  </data>
+  <data name="btnPlus.TabIndex" type="System.Int32, mscorlib">
+    <value>46</value>
+  </data>
+  <data name="functionTreeView1.ToolTipControl.RightToLeft" type="System.Windows.Forms.RightToLeft, System.Windows.Forms">
+    <value>Inherit</value>
+  </data>
+  <data name="functionTreeView1.ToolTipControl.Visible" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="txtSearch.TabIndex" type="System.Int32, mscorlib">
+    <value>39</value>
+  </data>
+  <data name="txtSearch.Cue" xml:space="preserve">
+    <value>输入查找功能(Ctrl + F)</value>
+  </data>
+  <data name="label1.Text" xml:space="preserve">
+    <value>Fields</value>
+  </data>
+  <data name="&gt;&gt;txtSearch.Type" xml:space="preserve">
+    <value>MW5.UI.Controls.WatermarkTextbox, MW5.UI, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;lblValidation.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;functionTreeView1.Type" xml:space="preserve">
+    <value>MW5.Plugins.TableEditor.Controls.FunctionTreeView, MW5.TableEditor, Version=1.0.0.28416, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;btnMinus.Name" xml:space="preserve">
+    <value>btnMinus</value>
+  </data>
+  <data name="btnCancel.TabIndex" type="System.Int32, mscorlib">
+    <value>34</value>
+  </data>
+  <data name="btnClear.TabIndex" type="System.Int32, mscorlib">
+    <value>64</value>
+  </data>
+  <data name="label1.TabIndex" type="System.Int32, mscorlib">
+    <value>44</value>
+  </data>
+  <data name="functionTreeView1.ToolTipControl.BackgroundImage" type="System.Resources.ResXNullRef, System.Windows.Forms">
+    <value />
+  </data>
+  <data name="functionTreeView1.HelpTextControl.MaximumSize" type="System.Drawing.Size, System.Drawing">
+    <value>0, 0</value>
+  </data>
+  <data name="&gt;&gt;btnCancel.Name" xml:space="preserve">
+    <value>btnCancel</value>
+  </data>
+  <data name="btnOk.Size" type="System.Drawing.Size, System.Drawing">
+    <value>85, 24</value>
+  </data>
+  <data name="functionTreeView1.HelpTextControl.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Top, Left</value>
+  </data>
+  <data name="&gt;&gt;btnDivide.Type" xml:space="preserve">
+    <value>Syncfusion.Windows.Forms.ButtonAdv, Syncfusion.Shared.Base, Version=18.1460.0.42, Culture=neutral, PublicKeyToken=3d67ed1f87d44c89</value>
+  </data>
+  <data name="&gt;&gt;btnMultiply.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="btnDivide.Location" type="System.Drawing.Point, System.Drawing">
+    <value>280, 77</value>
+  </data>
+  <data name="&gt;&gt;btnMultiply.Type" xml:space="preserve">
+    <value>Syncfusion.Windows.Forms.ButtonAdv, Syncfusion.Shared.Base, Version=18.1460.0.42, Culture=neutral, PublicKeyToken=3d67ed1f87d44c89</value>
+  </data>
+  <data name="btnMultiply.Size" type="System.Drawing.Size, System.Drawing">
+    <value>32, 21</value>
+  </data>
+  <data name="btnPlus.Location" type="System.Drawing.Point, System.Drawing">
+    <value>280, 23</value>
+  </data>
+  <data name="btnCancel.Text" xml:space="preserve">
+    <value>Cancel</value>
+  </data>
+  <data name="btnTest.Location" type="System.Drawing.Point, System.Drawing">
+    <value>280, 138</value>
+  </data>
+  <data name="lblField.TabIndex" type="System.Int32, mscorlib">
+    <value>45</value>
+  </data>
+  <data name="&gt;&gt;lblType.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="lblValidation.Text" xml:space="preserve">
+    <value>Expression is empty</value>
+  </data>
+  <data name="functionTreeView1.HelpTextControl.Visible" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="&gt;&gt;label1.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;$this.Type" xml:space="preserve">
+    <value>MW5.Plugins.TableEditor.Views.FieldCalculatorViewBase, MW5.TableEditor, Version=1.0.0.28416, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="functionTreeView1.HelpTextControl.Text" xml:space="preserve">
+    <value>help text</value>
+  </data>
+  <data name="btnCancel.Size" type="System.Drawing.Size, System.Drawing">
+    <value>85, 24</value>
+  </data>
+  <data name="&gt;&gt;btnDivide.ZOrder" xml:space="preserve">
+    <value>6</value>
+  </data>
+  <data name="btnClear.Text" xml:space="preserve">
+    <value>Clear</value>
+  </data>
+  <data name="&gt;&gt;lblType.Name" xml:space="preserve">
+    <value>lblType</value>
+  </data>
+  <data name="lblType.Text" xml:space="preserve">
+    <value>Type</value>
+  </data>
+  <data name="&gt;&gt;txtSearch.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="lblType.TabIndex" type="System.Int32, mscorlib">
+    <value>67</value>
+  </data>
+  <data name="&gt;&gt;btnDivide.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="txtExpression.TabIndex" type="System.Int32, mscorlib">
+    <value>42</value>
+  </data>
+  <data name="btnTest.Text" xml:space="preserve">
+    <value>Test</value>
+  </data>
+  <data name="lblField.Size" type="System.Drawing.Size, System.Drawing">
+    <value>83, 12</value>
+  </data>
+  <data name="fieldTypeGrid1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>262, 162</value>
+  </data>
+  <data name="&gt;&gt;btnPlus.ZOrder" xml:space="preserve">
+    <value>7</value>
+  </data>
+  <data name="fieldTypeGrid1.TabIndex" type="System.Int32, mscorlib">
+    <value>65</value>
+  </data>
+  <data name="btnOk.TabIndex" type="System.Int32, mscorlib">
+    <value>33</value>
+  </data>
+  <data name="&gt;&gt;lblValidation.Name" xml:space="preserve">
+    <value>lblValidation</value>
+  </data>
+  <data name="lblField.Location" type="System.Drawing.Point, System.Drawing">
+    <value>12, 200</value>
+  </data>
+  <data name="&gt;&gt;lblType.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="functionTreeView1.HelpTextControl.RightToLeft" type="System.Windows.Forms.RightToLeft, System.Windows.Forms">
+    <value>Inherit</value>
+  </data>
+  <data name="functionTreeView1.HelpTextControl.AccessibleName" type="System.Resources.ResXNullRef, System.Windows.Forms">
+    <value />
+  </data>
+  <data name="btnOk.Location" type="System.Drawing.Point, System.Drawing">
+    <value>392, 354</value>
+  </data>
+  <data name="btnMinus.TabIndex" type="System.Int32, mscorlib">
+    <value>50</value>
+  </data>
+  <data name="&gt;&gt;lblField.ZOrder" xml:space="preserve">
+    <value>8</value>
+  </data>
+  <data name="fieldTypeGrid1.Text" xml:space="preserve">
+    <value>fieldTypeGrid1</value>
+  </data>
+  <data name="$this.ClientSize" type="System.Drawing.Size, System.Drawing">
+    <value>575, 385</value>
+  </data>
+  <data name="&gt;&gt;btnDivide.Name" xml:space="preserve">
+    <value>btnDivide</value>
+  </data>
+  <data name="&gt;&gt;txtExpression.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="lblField.Text" xml:space="preserve">
+    <value>Field name = </value>
+  </data>
+  <data name="btnMinus.Size" type="System.Drawing.Size, System.Drawing">
+    <value>32, 21</value>
+  </data>
+  <data name="&gt;&gt;btnCancel.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="btnTest.Size" type="System.Drawing.Size, System.Drawing">
+    <value>70, 21</value>
+  </data>
+  <data name="&gt;&gt;txtSearch.Name" xml:space="preserve">
+    <value>txtSearch</value>
+  </data>
+  <data name="functionTreeView1.HelpTextControl.BackgroundImage" type="System.Resources.ResXNullRef, System.Windows.Forms">
+    <value />
+  </data>
+  <data name="functionTreeView1.ToolTipControl.Size" type="System.Drawing.Size, System.Drawing">
+    <value>49, 14</value>
+  </data>
+  <data name="functionTreeView1.ToolTipControl.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>Inherit</value>
+  </data>
+  <data name="&gt;&gt;txtExpression.Name" xml:space="preserve">
+    <value>txtExpression</value>
+  </data>
+  <data name="&gt;&gt;btnClear.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="functionTreeView1.ToolTipControl.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 0</value>
+  </data>
+  <data name="lblType.Size" type="System.Drawing.Size, System.Drawing">
+    <value>144, 12</value>
+  </data>
+  <data name="lblType.Location" type="System.Drawing.Point, System.Drawing">
+    <value>206, 200</value>
+  </data>
+  <data name="txtSearch.Size" type="System.Drawing.Size, System.Drawing">
+    <value>206, 21</value>
+  </data>
+  <data name="&gt;&gt;lblValidation.ZOrder" xml:space="preserve">
+    <value>11</value>
+  </data>
+  <data name="lblField.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="functionTreeView1.HelpTextControl.AccessibleDescription" type="System.Resources.ResXNullRef, System.Windows.Forms">
+    <value />
+  </data>
+  <data name="&gt;&gt;fieldTypeGrid1.Type" xml:space="preserve">
+    <value>MW5.Attributes.Controls.FieldTypeGrid, MW5.Attributes, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="functionTreeView1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>361, 48</value>
+  </data>
+  <data name="btnCancel.Location" type="System.Drawing.Point, System.Drawing">
+    <value>482, 354</value>
+  </data>
+  <data name="&gt;&gt;btnClear.Name" xml:space="preserve">
+    <value>btnClear</value>
+  </data>
+  <data name="label1.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="btnMultiply.Location" type="System.Drawing.Point, System.Drawing">
+    <value>280, 103</value>
+  </data>
+  <metadata name="$this.Localizable" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <metadata name="$this.Language" type="System.Globalization.CultureInfo, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>zh-CN</value>
+  </metadata>
+</root>

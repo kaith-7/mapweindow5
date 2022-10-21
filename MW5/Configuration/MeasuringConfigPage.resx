@@ -1,0 +1,978 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <assembly alias="System.Drawing" name="System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
+  <data name="label3.Size" type="System.Drawing.Size, System.Drawing">
+    <value>59, 12</value>
+  </data>
+  <data name="udLengthPrecision.Size" type="System.Drawing.Size, System.Drawing">
+    <value>68, 21</value>
+  </data>
+  <data name="&gt;&gt;label6.Name" xml:space="preserve">
+    <value>label6</value>
+  </data>
+  <data name="&gt;&gt;configPanelControl1.Name" xml:space="preserve">
+    <value>configPanelControl1</value>
+  </data>
+  <data name="&gt;&gt;label8.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <assembly alias="mscorlib" name="mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="label11.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="&gt;&gt;label8.ZOrder" xml:space="preserve">
+    <value>6</value>
+  </data>
+  <data name="label12.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="&gt;&gt;label5.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;cboLengthUnits.Type" xml:space="preserve">
+    <value>Syncfusion.Windows.Forms.Tools.ComboBoxAdv, Syncfusion.Tools.Windows, Version=18.1460.0.42, Culture=neutral, PublicKeyToken=3d67ed1f87d44c89</value>
+  </data>
+  <data name="label4.TabIndex" type="System.Int32, mscorlib">
+    <value>6</value>
+  </data>
+  <data name="&gt;&gt;label7.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="label8.TabIndex" type="System.Int32, mscorlib">
+    <value>19</value>
+  </data>
+  <data name="&gt;&gt;cboLengthUnits.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="fillTransparency.Location" type="System.Drawing.Point, System.Drawing">
+    <value>142, 111</value>
+  </data>
+  <data name="cboBearingType.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 8.25pt</value>
+  </data>
+  <data name="chkShowBearing.Size" type="System.Drawing.Size, System.Drawing">
+    <value>96, 16</value>
+  </data>
+  <data name="&gt;&gt;label4.Parent" xml:space="preserve">
+    <value>configPanelControl2</value>
+  </data>
+  <data name="configPanelControl4.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 338</value>
+  </data>
+  <data name="chkShowPointLabels.Text" xml:space="preserve">
+    <value>Show point labels</value>
+  </data>
+  <data name="label4.Size" type="System.Drawing.Size, System.Drawing">
+    <value>59, 12</value>
+  </data>
+  <data name="label6.Text" xml:space="preserve">
+    <value>Length units</value>
+  </data>
+  <data name="chkShowBearing.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="&gt;&gt;label1.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;label12.ZOrder" xml:space="preserve">
+    <value>7</value>
+  </data>
+  <data name="&gt;&gt;label6.Parent" xml:space="preserve">
+    <value>configPanelControl2</value>
+  </data>
+  <data name="&gt;&gt;label2.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="label11.Location" type="System.Drawing.Point, System.Drawing">
+    <value>185, 37</value>
+  </data>
+  <data name="cboAngleFormat.Location" type="System.Drawing.Point, System.Drawing">
+    <value>102, 102</value>
+  </data>
+  <data name="cboBearingType.Size" type="System.Drawing.Size, System.Drawing">
+    <value>121, 21</value>
+  </data>
+  <data name="&gt;&gt;clpFillColor.Parent" xml:space="preserve">
+    <value>configPanelControl4</value>
+  </data>
+  <data name="fillTransparency.MaximumSize" type="System.Drawing.Size, System.Drawing">
+    <value>1024, 30</value>
+  </data>
+  <data name="&gt;&gt;label9.ZOrder" xml:space="preserve">
+    <value>11</value>
+  </data>
+  <data name="&gt;&gt;fillTransparency.Parent" xml:space="preserve">
+    <value>configPanelControl4</value>
+  </data>
+  <data name="label1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>77, 12</value>
+  </data>
+  <data name="&gt;&gt;cboLineStyle.Parent" xml:space="preserve">
+    <value>configPanelControl4</value>
+  </data>
+  <data name="cboLineWidth.Size" type="System.Drawing.Size, System.Drawing">
+    <value>86, 22</value>
+  </data>
+  <data name="chkShowTotalLength.TabIndex" type="System.Int32, mscorlib">
+    <value>8</value>
+  </data>
+  <data name="&gt;&gt;label11.Parent" xml:space="preserve">
+    <value>configPanelControl4</value>
+  </data>
+  <data name="&gt;&gt;configPanelControl4.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="chkShowBearing.Location" type="System.Drawing.Point, System.Drawing">
+    <value>33, 32</value>
+  </data>
+  <data name="label7.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="&gt;&gt;label10.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;udAreaPrecision.Name" xml:space="preserve">
+    <value>udAreaPrecision</value>
+  </data>
+  <data name="&gt;&gt;chkShowBearing.Name" xml:space="preserve">
+    <value>chkShowBearing</value>
+  </data>
+  <data name="cboAngleFormat.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 8.25pt</value>
+  </data>
+  <data name="&gt;&gt;chkShowTotalLength.Parent" xml:space="preserve">
+    <value>configPanelControl2</value>
+  </data>
+  <data name="udLengthPrecision.Location" type="System.Drawing.Point, System.Drawing">
+    <value>299, 77</value>
+  </data>
+  <data name="&gt;&gt;label1.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="&gt;&gt;label5.Name" xml:space="preserve">
+    <value>label5</value>
+  </data>
+  <data name="&gt;&gt;label10.Name" xml:space="preserve">
+    <value>label10</value>
+  </data>
+  <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="configPanelControl4.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Top</value>
+  </data>
+  <data name="&gt;&gt;udBearingPrecision.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="label3.TabIndex" type="System.Int32, mscorlib">
+    <value>6</value>
+  </data>
+  <data name="label12.Size" type="System.Drawing.Size, System.Drawing">
+    <value>65, 12</value>
+  </data>
+  <data name="label7.TabIndex" type="System.Int32, mscorlib">
+    <value>13</value>
+  </data>
+  <data name="label6.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="chkShowPointLabels.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="&gt;&gt;label11.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="$this.AutoScaleDimensions" type="System.Drawing.SizeF, System.Drawing">
+    <value>6, 12</value>
+  </data>
+  <data name="label5.TabIndex" type="System.Int32, mscorlib">
+    <value>14</value>
+  </data>
+  <data name="&gt;&gt;label2.ZOrder" xml:space="preserve">
+    <value>5</value>
+  </data>
+  <data name="&gt;&gt;configPanelControl1.Type" xml:space="preserve">
+    <value>MW5.UI.Controls.ConfigPanelControl, MW5.UI, Version=5.6.3.33476, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="configPanelControl1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>447, 76</value>
+  </data>
+  <data name="label5.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="cboLineStyle.Size" type="System.Drawing.Size, System.Drawing">
+    <value>86, 22</value>
+  </data>
+  <data name="&gt;&gt;label11.Name" xml:space="preserve">
+    <value>label11</value>
+  </data>
+  <data name="&gt;&gt;udBearingPrecision.Name" xml:space="preserve">
+    <value>udBearingPrecision</value>
+  </data>
+  <data name="&gt;&gt;chkShowPointLabels.Type" xml:space="preserve">
+    <value>System.Windows.Forms.CheckBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="clpLineColor.Items" xml:space="preserve">
+    <value>Color</value>
+  </data>
+  <data name="label2.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="&gt;&gt;udBearingPrecision.Parent" xml:space="preserve">
+    <value>configPanelControl3</value>
+  </data>
+  <data name="chkShowPoints.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="label3.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="fillTransparency.MinimumSize" type="System.Drawing.Size, System.Drawing">
+    <value>128, 30</value>
+  </data>
+  <data name="clpFillColor.TabIndex" type="System.Int32, mscorlib">
+    <value>21</value>
+  </data>
+  <data name="&gt;&gt;chkShowPointLabels.Parent" xml:space="preserve">
+    <value>configPanelControl4</value>
+  </data>
+  <data name="&gt;&gt;label12.Parent" xml:space="preserve">
+    <value>configPanelControl4</value>
+  </data>
+  <data name="&gt;&gt;cboBearingType.Parent" xml:space="preserve">
+    <value>configPanelControl3</value>
+  </data>
+  <data name="udLengthPrecision.TabIndex" type="System.Int32, mscorlib">
+    <value>7</value>
+  </data>
+  <data name="&gt;&gt;label5.Parent" xml:space="preserve">
+    <value>configPanelControl1</value>
+  </data>
+  <data name="&gt;&gt;configPanelControl1.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;configPanelControl4.Name" xml:space="preserve">
+    <value>configPanelControl4</value>
+  </data>
+  <data name="&gt;&gt;chkShowBearing.Parent" xml:space="preserve">
+    <value>configPanelControl3</value>
+  </data>
+  <data name="configPanelControl3.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 197</value>
+  </data>
+  <data name="cboLengthUnits.Size" type="System.Drawing.Size, System.Drawing">
+    <value>121, 21</value>
+  </data>
+  <data name="label5.Size" type="System.Drawing.Size, System.Drawing">
+    <value>59, 12</value>
+  </data>
+  <data name="chkShowPoints.Size" type="System.Drawing.Size, System.Drawing">
+    <value>90, 16</value>
+  </data>
+  <data name="label12.Text" xml:space="preserve">
+    <value>Line style</value>
+  </data>
+  <data name="&gt;&gt;label5.ZOrder" xml:space="preserve">
+    <value>4</value>
+  </data>
+  <data name="chkShowLength.Location" type="System.Drawing.Point, System.Drawing">
+    <value>31, 42</value>
+  </data>
+  <data name="&gt;&gt;cboAngleFormat.Type" xml:space="preserve">
+    <value>Syncfusion.Windows.Forms.Tools.ComboBoxAdv, Syncfusion.Tools.Windows, Version=18.1460.0.42, Culture=neutral, PublicKeyToken=3d67ed1f87d44c89</value>
+  </data>
+  <data name="cboLineWidth.Location" type="System.Drawing.Point, System.Drawing">
+    <value>246, 34</value>
+  </data>
+  <data name="&gt;&gt;chkShowPoints.Type" xml:space="preserve">
+    <value>System.Windows.Forms.CheckBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;cboAreaUnits.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="&gt;&gt;cboAngleFormat.Parent" xml:space="preserve">
+    <value>configPanelControl3</value>
+  </data>
+  <data name="configPanelControl2.Size" type="System.Drawing.Size, System.Drawing">
+    <value>447, 121</value>
+  </data>
+  <data name="label7.Size" type="System.Drawing.Size, System.Drawing">
+    <value>65, 12</value>
+  </data>
+  <data name="&gt;&gt;configPanelControl4.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;label1.Name" xml:space="preserve">
+    <value>label1</value>
+  </data>
+  <data name="chkShowLength.Text" xml:space="preserve">
+    <value>Show length</value>
+  </data>
+  <data name="&gt;&gt;chkShowPoints.Parent" xml:space="preserve">
+    <value>configPanelControl4</value>
+  </data>
+  <data name="label4.Location" type="System.Drawing.Point, System.Drawing">
+    <value>243, 78</value>
+  </data>
+  <data name="configPanelControl2.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 0</value>
+  </data>
+  <data name="configPanelControl3.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Top</value>
+  </data>
+  <data name="clpFillColor.Items" xml:space="preserve">
+    <value>Color</value>
+  </data>
+  <data name="&gt;&gt;configPanelControl3.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="label8.Size" type="System.Drawing.Size, System.Drawing">
+    <value>65, 12</value>
+  </data>
+  <data name="label10.TabIndex" type="System.Int32, mscorlib">
+    <value>22</value>
+  </data>
+  <data name="&gt;&gt;$this.Name" xml:space="preserve">
+    <value>MeasuringConfigPage</value>
+  </data>
+  <data name="&gt;&gt;label4.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;cboLineStyle.Name" xml:space="preserve">
+    <value>cboLineStyle</value>
+  </data>
+  <data name="cboAngleFormat.TabIndex" type="System.Int32, mscorlib">
+    <value>5</value>
+  </data>
+  <data name="configPanelControl2.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Top</value>
+  </data>
+  <data name="chkShowLength.Size" type="System.Drawing.Size, System.Drawing">
+    <value>90, 16</value>
+  </data>
+  <data name="fillTransparency.Size" type="System.Drawing.Size, System.Drawing">
+    <value>190, 30</value>
+  </data>
+  <data name="&gt;&gt;udAreaPrecision.Parent" xml:space="preserve">
+    <value>configPanelControl1</value>
+  </data>
+  <data name="chkShowPointLabels.Size" type="System.Drawing.Size, System.Drawing">
+    <value>126, 16</value>
+  </data>
+  <data name="&gt;&gt;chkShowBearing.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="&gt;&gt;label4.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="chkShowLength.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="clpLineColor.TabIndex" type="System.Int32, mscorlib">
+    <value>18</value>
+  </data>
+  <data name="&gt;&gt;clpFillColor.ZOrder" xml:space="preserve">
+    <value>9</value>
+  </data>
+  <data name="chkShowPoints.TabIndex" type="System.Int32, mscorlib">
+    <value>28</value>
+  </data>
+  <data name="&gt;&gt;cboBearingType.ZOrder" xml:space="preserve">
+    <value>4</value>
+  </data>
+  <data name="cboAngleFormat.Size" type="System.Drawing.Size, System.Drawing">
+    <value>121, 21</value>
+  </data>
+  <data name="&gt;&gt;configPanelControl2.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="&gt;&gt;chkShowTotalLength.Type" xml:space="preserve">
+    <value>System.Windows.Forms.CheckBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="configPanelControl4.TabIndex" type="System.Int32, mscorlib">
+    <value>33</value>
+  </data>
+  <data name="chkShowPoints.Location" type="System.Drawing.Point, System.Drawing">
+    <value>41, 146</value>
+  </data>
+  <data name="&gt;&gt;clpFillColor.Type" xml:space="preserve">
+    <value>MW5.UI.Controls.Office2007ColorPicker, MW5.UI, Version=5.6.3.33476, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;clpLineColor.Type" xml:space="preserve">
+    <value>MW5.UI.Controls.Office2007ColorPicker, MW5.UI, Version=5.6.3.33476, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="label11.Text" xml:space="preserve">
+    <value>Line width</value>
+  </data>
+  <data name="label8.Location" type="System.Drawing.Point, System.Drawing">
+    <value>30, 37</value>
+  </data>
+  <data name="chkShowPointLabels.TabIndex" type="System.Int32, mscorlib">
+    <value>29</value>
+  </data>
+  <data name="configPanelControl3.TabIndex" type="System.Int32, mscorlib">
+    <value>32</value>
+  </data>
+  <data name="&gt;&gt;chkShowTotalLength.Name" xml:space="preserve">
+    <value>chkShowTotalLength</value>
+  </data>
+  <data name="&gt;&gt;label7.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="configPanelControl4.Size" type="System.Drawing.Size, System.Drawing">
+    <value>447, 175</value>
+  </data>
+  <data name="clpFillColor.Location" type="System.Drawing.Point, System.Drawing">
+    <value>91, 72</value>
+  </data>
+  <data name="cboLengthUnits.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 8.25pt</value>
+  </data>
+  <data name="&gt;&gt;label2.Parent" xml:space="preserve">
+    <value>configPanelControl3</value>
+  </data>
+  <data name="&gt;&gt;chkShowPointLabels.Name" xml:space="preserve">
+    <value>chkShowPointLabels</value>
+  </data>
+  <data name="&gt;&gt;label9.Name" xml:space="preserve">
+    <value>label9</value>
+  </data>
+  <data name="clpLineColor.Size" type="System.Drawing.Size, System.Drawing">
+    <value>79, 22</value>
+  </data>
+  <data name="chkShowTotalLength.Location" type="System.Drawing.Point, System.Drawing">
+    <value>132, 42</value>
+  </data>
+  <data name="chkShowPoints.Text" xml:space="preserve">
+    <value>Show points</value>
+  </data>
+  <data name="cboAreaUnits.Location" type="System.Drawing.Point, System.Drawing">
+    <value>99, 38</value>
+  </data>
+  <data name="&gt;&gt;clpLineColor.Parent" xml:space="preserve">
+    <value>configPanelControl4</value>
+  </data>
+  <data name="&gt;&gt;udBearingPrecision.Type" xml:space="preserve">
+    <value>System.Windows.Forms.NumericUpDown, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="label12.TabIndex" type="System.Int32, mscorlib">
+    <value>25</value>
+  </data>
+  <data name="&gt;&gt;cboAreaUnits.Parent" xml:space="preserve">
+    <value>configPanelControl1</value>
+  </data>
+  <data name="&gt;&gt;cboLineWidth.Parent" xml:space="preserve">
+    <value>configPanelControl4</value>
+  </data>
+  <data name="label9.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="clpLineColor.Location" type="System.Drawing.Point, System.Drawing">
+    <value>91, 34</value>
+  </data>
+  <data name="&gt;&gt;label8.Parent" xml:space="preserve">
+    <value>configPanelControl4</value>
+  </data>
+  <data name="&gt;&gt;cboLengthUnits.Parent" xml:space="preserve">
+    <value>configPanelControl2</value>
+  </data>
+  <data name="&gt;&gt;configPanelControl3.Name" xml:space="preserve">
+    <value>configPanelControl3</value>
+  </data>
+  <data name="cboLengthUnits.TabIndex" type="System.Int32, mscorlib">
+    <value>2</value>
+  </data>
+  <data name="label10.Text" xml:space="preserve">
+    <value>Fill transparency</value>
+  </data>
+  <data name="label1.Text" xml:space="preserve">
+    <value>Bearing type</value>
+  </data>
+  <data name="clpFillColor.IntegralHeight" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="&gt;&gt;chkShowPoints.ZOrder" xml:space="preserve">
+    <value>8</value>
+  </data>
+  <data name="&gt;&gt;udLengthPrecision.Name" xml:space="preserve">
+    <value>udLengthPrecision</value>
+  </data>
+  <data name="label5.Text" xml:space="preserve">
+    <value>Precision</value>
+  </data>
+  <data name="&gt;&gt;cboAngleFormat.ZOrder" xml:space="preserve">
+    <value>7</value>
+  </data>
+  <data name="&gt;&gt;cboBearingType.Type" xml:space="preserve">
+    <value>Syncfusion.Windows.Forms.Tools.ComboBoxAdv, Syncfusion.Tools.Windows, Version=18.1460.0.42, Culture=neutral, PublicKeyToken=3d67ed1f87d44c89</value>
+  </data>
+  <data name="&gt;&gt;label12.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="label7.Text" xml:space="preserve">
+    <value>Area units</value>
+  </data>
+  <data name="label9.Text" xml:space="preserve">
+    <value>Fill color</value>
+  </data>
+  <data name="&gt;&gt;label9.Parent" xml:space="preserve">
+    <value>configPanelControl4</value>
+  </data>
+  <data name="&gt;&gt;label12.Name" xml:space="preserve">
+    <value>label12</value>
+  </data>
+  <data name="label1.TabIndex" type="System.Int32, mscorlib">
+    <value>3</value>
+  </data>
+  <data name="udBearingPrecision.Size" type="System.Drawing.Size, System.Drawing">
+    <value>68, 21</value>
+  </data>
+  <data name="&gt;&gt;chkShowLength.Parent" xml:space="preserve">
+    <value>configPanelControl2</value>
+  </data>
+  <data name="&gt;&gt;label10.ZOrder" xml:space="preserve">
+    <value>5</value>
+  </data>
+  <data name="label3.Location" type="System.Drawing.Point, System.Drawing">
+    <value>243, 66</value>
+  </data>
+  <data name="label2.TabIndex" type="System.Int32, mscorlib">
+    <value>4</value>
+  </data>
+  <data name="clpFillColor.Size" type="System.Drawing.Size, System.Drawing">
+    <value>79, 22</value>
+  </data>
+  <data name="chkShowBearing.TabIndex" type="System.Int32, mscorlib">
+    <value>16</value>
+  </data>
+  <data name="&gt;&gt;udAreaPrecision.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="&gt;&gt;configPanelControl2.Name" xml:space="preserve">
+    <value>configPanelControl2</value>
+  </data>
+  <data name="chkShowTotalLength.Text" xml:space="preserve">
+    <value>Show total length</value>
+  </data>
+  <data name="label6.TabIndex" type="System.Int32, mscorlib">
+    <value>3</value>
+  </data>
+  <data name="&gt;&gt;chkShowTotalLength.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="$this.Size" type="System.Drawing.Size, System.Drawing">
+    <value>447, 528</value>
+  </data>
+  <data name="&gt;&gt;label3.Parent" xml:space="preserve">
+    <value>configPanelControl3</value>
+  </data>
+  <data name="fillTransparency.TabIndex" type="System.Int32, mscorlib">
+    <value>23</value>
+  </data>
+  <data name="label9.Size" type="System.Drawing.Size, System.Drawing">
+    <value>65, 12</value>
+  </data>
+  <data name="cboLineStyle.Location" type="System.Drawing.Point, System.Drawing">
+    <value>246, 72</value>
+  </data>
+  <data name="&gt;&gt;configPanelControl2.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;chkShowPoints.Name" xml:space="preserve">
+    <value>chkShowPoints</value>
+  </data>
+  <data name="&gt;&gt;label4.Name" xml:space="preserve">
+    <value>label4</value>
+  </data>
+  <data name="chkShowLength.TabIndex" type="System.Int32, mscorlib">
+    <value>10</value>
+  </data>
+  <data name="&gt;&gt;label7.Parent" xml:space="preserve">
+    <value>configPanelControl1</value>
+  </data>
+  <data name="&gt;&gt;fillTransparency.Name" xml:space="preserve">
+    <value>fillTransparency</value>
+  </data>
+  <data name="&gt;&gt;label11.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="&gt;&gt;label6.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;udLengthPrecision.Type" xml:space="preserve">
+    <value>System.Windows.Forms.NumericUpDown, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="cboAreaUnits.Size" type="System.Drawing.Size, System.Drawing">
+    <value>120, 21</value>
+  </data>
+  <data name="&gt;&gt;$this.Type" xml:space="preserve">
+    <value>MW5.UI.Controls.ConfigPageBase, MW5.UI, Version=5.6.3.33476, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;label3.Name" xml:space="preserve">
+    <value>label3</value>
+  </data>
+  <data name="label11.TabIndex" type="System.Int32, mscorlib">
+    <value>24</value>
+  </data>
+  <data name="label2.Text" xml:space="preserve">
+    <value>Angle format</value>
+  </data>
+  <data name="&gt;&gt;cboLengthUnits.Name" xml:space="preserve">
+    <value>cboLengthUnits</value>
+  </data>
+  <data name="configPanelControl1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 121</value>
+  </data>
+  <data name="&gt;&gt;fillTransparency.Type" xml:space="preserve">
+    <value>MW5.UI.Controls.TransparencyControl, MW5.UI, Version=5.6.3.33476, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="label8.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="cboBearingType.TabIndex" type="System.Int32, mscorlib">
+    <value>2</value>
+  </data>
+  <data name="label10.Location" type="System.Drawing.Point, System.Drawing">
+    <value>30, 111</value>
+  </data>
+  <data name="label7.Location" type="System.Drawing.Point, System.Drawing">
+    <value>30, 41</value>
+  </data>
+  <data name="&gt;&gt;label8.Name" xml:space="preserve">
+    <value>label8</value>
+  </data>
+  <data name="&gt;&gt;clpLineColor.ZOrder" xml:space="preserve">
+    <value>10</value>
+  </data>
+  <data name="&gt;&gt;cboAreaUnits.Type" xml:space="preserve">
+    <value>Syncfusion.Windows.Forms.Tools.ComboBoxAdv, Syncfusion.Tools.Windows, Version=18.1460.0.42, Culture=neutral, PublicKeyToken=3d67ed1f87d44c89</value>
+  </data>
+  <data name="label5.Location" type="System.Drawing.Point, System.Drawing">
+    <value>243, 41</value>
+  </data>
+  <data name="udBearingPrecision.TabIndex" type="System.Int32, mscorlib">
+    <value>7</value>
+  </data>
+  <data name="label2.Size" type="System.Drawing.Size, System.Drawing">
+    <value>77, 12</value>
+  </data>
+  <data name="configPanelControl2.TabIndex" type="System.Int32, mscorlib">
+    <value>30</value>
+  </data>
+  <data name="&gt;&gt;udLengthPrecision.Parent" xml:space="preserve">
+    <value>configPanelControl2</value>
+  </data>
+  <data name="label10.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="cboLineStyle.TabIndex" type="System.Int32, mscorlib">
+    <value>27</value>
+  </data>
+  <data name="&gt;&gt;udLengthPrecision.ZOrder" xml:space="preserve">
+    <value>6</value>
+  </data>
+  <data name="cboLineWidth.TabIndex" type="System.Int32, mscorlib">
+    <value>26</value>
+  </data>
+  <data name="&gt;&gt;configPanelControl3.Type" xml:space="preserve">
+    <value>MW5.UI.Controls.ConfigPanelControl, MW5.UI, Version=5.6.3.33476, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="chkShowTotalLength.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="cboBearingType.Location" type="System.Drawing.Point, System.Drawing">
+    <value>102, 64</value>
+  </data>
+  <data name="chkShowPointLabels.Location" type="System.Drawing.Point, System.Drawing">
+    <value>142, 146</value>
+  </data>
+  <data name="label12.Location" type="System.Drawing.Point, System.Drawing">
+    <value>185, 75</value>
+  </data>
+  <data name="&gt;&gt;chkShowPointLabels.ZOrder" xml:space="preserve">
+    <value>4</value>
+  </data>
+  <data name="&gt;&gt;chkShowLength.ZOrder" xml:space="preserve">
+    <value>4</value>
+  </data>
+  <data name="chkShowBearing.Text" xml:space="preserve">
+    <value>Show bearing</value>
+  </data>
+  <data name="&gt;&gt;chkShowLength.Name" xml:space="preserve">
+    <value>chkShowLength</value>
+  </data>
+  <data name="label9.Location" type="System.Drawing.Point, System.Drawing">
+    <value>30, 75</value>
+  </data>
+  <data name="&gt;&gt;udAreaPrecision.Type" xml:space="preserve">
+    <value>System.Windows.Forms.NumericUpDown, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="label6.Size" type="System.Drawing.Size, System.Drawing">
+    <value>77, 12</value>
+  </data>
+  <data name="&gt;&gt;label10.Parent" xml:space="preserve">
+    <value>configPanelControl4</value>
+  </data>
+  <data name="&gt;&gt;configPanelControl1.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="configPanelControl3.Size" type="System.Drawing.Size, System.Drawing">
+    <value>447, 141</value>
+  </data>
+  <data name="&gt;&gt;cboAreaUnits.Name" xml:space="preserve">
+    <value>cboAreaUnits</value>
+  </data>
+  <data name="&gt;&gt;label2.Name" xml:space="preserve">
+    <value>label2</value>
+  </data>
+  <data name="clpLineColor.IntegralHeight" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="&gt;&gt;configPanelControl3.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;configPanelControl4.Type" xml:space="preserve">
+    <value>MW5.UI.Controls.ConfigPanelControl, MW5.UI, Version=5.6.3.33476, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;configPanelControl2.Type" xml:space="preserve">
+    <value>MW5.UI.Controls.ConfigPanelControl, MW5.UI, Version=5.6.3.33476, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;cboAngleFormat.Name" xml:space="preserve">
+    <value>cboAngleFormat</value>
+  </data>
+  <data name="label8.Text" xml:space="preserve">
+    <value>Line color</value>
+  </data>
+  <data name="label2.Location" type="System.Drawing.Point, System.Drawing">
+    <value>30, 104</value>
+  </data>
+  <data name="&gt;&gt;chkShowLength.Type" xml:space="preserve">
+    <value>System.Windows.Forms.CheckBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;clpFillColor.Name" xml:space="preserve">
+    <value>clpFillColor</value>
+  </data>
+  <data name="label1.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="&gt;&gt;cboBearingType.Name" xml:space="preserve">
+    <value>cboBearingType</value>
+  </data>
+  <data name="&gt;&gt;cboLineWidth.Name" xml:space="preserve">
+    <value>cboLineWidth</value>
+  </data>
+  <data name="udAreaPrecision.Size" type="System.Drawing.Size, System.Drawing">
+    <value>68, 21</value>
+  </data>
+  <data name="&gt;&gt;label6.ZOrder" xml:space="preserve">
+    <value>5</value>
+  </data>
+  <data name="&gt;&gt;label1.Parent" xml:space="preserve">
+    <value>configPanelControl3</value>
+  </data>
+  <data name="&gt;&gt;label3.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="label3.Text" xml:space="preserve">
+    <value>Precision</value>
+  </data>
+  <data name="&gt;&gt;label3.ZOrder" xml:space="preserve">
+    <value>6</value>
+  </data>
+  <data name="cboAreaUnits.TabIndex" type="System.Int32, mscorlib">
+    <value>12</value>
+  </data>
+  <data name="chkShowTotalLength.Size" type="System.Drawing.Size, System.Drawing">
+    <value>126, 16</value>
+  </data>
+  <data name="&gt;&gt;chkShowBearing.Type" xml:space="preserve">
+    <value>System.Windows.Forms.CheckBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="configPanelControl1.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Top</value>
+  </data>
+  <data name="&gt;&gt;clpLineColor.Name" xml:space="preserve">
+    <value>clpLineColor</value>
+  </data>
+  <data name="&gt;&gt;label7.Name" xml:space="preserve">
+    <value>label7</value>
+  </data>
+  <data name="udAreaPrecision.Location" type="System.Drawing.Point, System.Drawing">
+    <value>299, 39</value>
+  </data>
+  <data name="label11.Size" type="System.Drawing.Size, System.Drawing">
+    <value>65, 12</value>
+  </data>
+  <data name="cboAreaUnits.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 8.25pt</value>
+  </data>
+  <data name="&gt;&gt;cboLineStyle.Type" xml:space="preserve">
+    <value>MW5.UI.Controls.ImageCombo, MW5.UI, Version=5.6.3.33476, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;fillTransparency.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="label9.TabIndex" type="System.Int32, mscorlib">
+    <value>20</value>
+  </data>
+  <data name="configPanelControl1.TabIndex" type="System.Int32, mscorlib">
+    <value>31</value>
+  </data>
+  <data name="label10.Size" type="System.Drawing.Size, System.Drawing">
+    <value>107, 12</value>
+  </data>
+  <data name="udBearingPrecision.Location" type="System.Drawing.Point, System.Drawing">
+    <value>299, 64</value>
+  </data>
+  <data name="&gt;&gt;cboLineWidth.Type" xml:space="preserve">
+    <value>MW5.UI.Controls.ImageCombo, MW5.UI, Version=5.6.3.33476, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="cboLengthUnits.Location" type="System.Drawing.Point, System.Drawing">
+    <value>99, 77</value>
+  </data>
+  <data name="&gt;&gt;cboLineStyle.ZOrder" xml:space="preserve">
+    <value>12</value>
+  </data>
+  <data name="label1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>30, 66</value>
+  </data>
+  <data name="&gt;&gt;label9.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="label6.Location" type="System.Drawing.Point, System.Drawing">
+    <value>28, 81</value>
+  </data>
+  <data name="udAreaPrecision.TabIndex" type="System.Int32, mscorlib">
+    <value>15</value>
+  </data>
+  <data name="label4.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="label4.Text" xml:space="preserve">
+    <value>Precision</value>
+  </data>
+  <data name="&gt;&gt;cboLineWidth.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <metadata name="$this.Localizable" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <metadata name="$this.Language" type="System.Globalization.CultureInfo, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>zh-CN</value>
+  </metadata>
+</root>

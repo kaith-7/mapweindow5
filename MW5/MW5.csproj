@@ -1,0 +1,1030 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="12.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="..\packages\NUnit.3.12.0\build\NUnit.props" Condition="Exists('..\packages\NUnit.3.12.0\build\NUnit.props')" />
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{BC107A2C-9A23-48C0-A7D5-3C9A03EC8038}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>MW5</RootNamespace>
+    <AssemblyName>MapWindow</AssemblyName>
+    <TargetFrameworkVersion>v4.6.1</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <IsWebBootstrapper>false</IsWebBootstrapper>
+    <OutputPath>..\..\bin\$(Platform)\$(Configuration)\</OutputPath>
+    <NuGetPackageImportStamp>
+    </NuGetPackageImportStamp>
+    <SolutionDir Condition="$(SolutionDir) == '' Or $(SolutionDir) == '*Undefined*'">..\</SolutionDir>
+    <TargetFrameworkProfile />
+    <PublishUrl>publish\</PublishUrl>
+    <Install>true</Install>
+    <InstallFrom>Disk</InstallFrom>
+    <UpdateEnabled>false</UpdateEnabled>
+    <UpdateMode>Foreground</UpdateMode>
+    <UpdateInterval>7</UpdateInterval>
+    <UpdateIntervalUnits>Days</UpdateIntervalUnits>
+    <UpdatePeriodically>false</UpdatePeriodically>
+    <UpdateRequired>false</UpdateRequired>
+    <MapFileExtensions>true</MapFileExtensions>
+    <ApplicationRevision>1</ApplicationRevision>
+    <ApplicationVersion>1.0.0.%2a</ApplicationVersion>
+    <UseApplicationTrust>false</UseApplicationTrust>
+    <PublishWizardCompleted>true</PublishWizardCompleted>
+    <BootstrapperEnabled>true</BootstrapperEnabled>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Debug|x86'">
+    <DebugSymbols>true</DebugSymbols>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <DebugType>full</DebugType>
+    <PlatformTarget>x86</PlatformTarget>
+    <ErrorReport>prompt</ErrorReport>
+    <CodeAnalysisRuleSet>MinimumRecommendedRules.ruleset</CodeAnalysisRuleSet>
+    <Prefer32Bit>true</Prefer32Bit>
+    <GenerateSerializationAssemblies>Off</GenerateSerializationAssemblies>
+    <LangVersion>7.1</LangVersion>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Release|x86'">
+    <DefineConstants>TRACE</DefineConstants>
+    <Optimize>true</Optimize>
+    <DebugType>none</DebugType>
+    <PlatformTarget>x86</PlatformTarget>
+    <ErrorReport>prompt</ErrorReport>
+    <CodeAnalysisRuleSet>MinimumRecommendedRules.ruleset</CodeAnalysisRuleSet>
+    <Prefer32Bit>true</Prefer32Bit>
+    <GenerateSerializationAssemblies>On</GenerateSerializationAssemblies>
+    <LangVersion>7.1</LangVersion>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ApplicationIcon>MW5.ico</ApplicationIcon>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Debug|x64'">
+    <DebugSymbols>true</DebugSymbols>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <DebugType>full</DebugType>
+    <PlatformTarget>x64</PlatformTarget>
+    <GenerateSerializationAssemblies>Auto</GenerateSerializationAssemblies>
+    <ErrorReport>prompt</ErrorReport>
+    <CodeAnalysisRuleSet>MinimumRecommendedRules.ruleset</CodeAnalysisRuleSet>
+    <Prefer32Bit>true</Prefer32Bit>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Release|x64'">
+    <DefineConstants>TRACE</DefineConstants>
+    <Optimize>true</Optimize>
+    <DebugType>none</DebugType>
+    <PlatformTarget>x64</PlatformTarget>
+    <GenerateSerializationAssemblies>On</GenerateSerializationAssemblies>
+    <ErrorReport>prompt</ErrorReport>
+    <CodeAnalysisRuleSet>MinimumRecommendedRules.ruleset</CodeAnalysisRuleSet>
+    <Prefer32Bit>true</Prefer32Bit>
+  </PropertyGroup>
+  <PropertyGroup>
+    <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
+  </PropertyGroup>
+  <PropertyGroup>
+    <TargetZone>LocalIntranet</TargetZone>
+  </PropertyGroup>
+  <PropertyGroup>
+    <GenerateManifests>true</GenerateManifests>
+  </PropertyGroup>
+  <PropertyGroup />
+  <PropertyGroup>
+    <ManifestCertificateThumbprint>2B0F3FE499FB741067452A0AA0E753F8A4FEC788</ManifestCertificateThumbprint>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ManifestKeyFile>MW5_TemporaryKey.pfx</ManifestKeyFile>
+  </PropertyGroup>
+  <PropertyGroup>
+    <SignManifests>true</SignManifests>
+  </PropertyGroup>
+  <PropertyGroup />
+  <PropertyGroup>
+    <ApplicationManifest>app.manifest</ApplicationManifest>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="EnvDTE, Version=8.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+      <EmbedInteropTypes>True</EmbedInteropTypes>
+    </Reference>
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="Newtonsoft.Json, Version=13.0.0.0, Culture=neutral, PublicKeyToken=30ad4fe6b2a6aeed, processorArchitecture=MSIL">
+      <HintPath>..\packages\Newtonsoft.Json.13.0.1\lib\net45\Newtonsoft.Json.dll</HintPath>
+    </Reference>
+    <Reference Include="nunit.framework, Version=3.12.0.0, Culture=neutral, PublicKeyToken=2638cd05610744eb, processorArchitecture=MSIL">
+      <HintPath>..\packages\NUnit.3.12.0\lib\net45\nunit.framework.dll</HintPath>
+    </Reference>
+    <Reference Include="Syncfusion.Grid.Base, Version=19.4460.0.38, Culture=neutral, PublicKeyToken=3d67ed1f87d44c89, processorArchitecture=MSIL" />
+    <Reference Include="Syncfusion.Grid.Grouping.Windows, Version=19.4460.0.38, Culture=neutral, PublicKeyToken=3d67ed1f87d44c89, processorArchitecture=MSIL" />
+    <Reference Include="Syncfusion.Grid.Windows, Version=19.4460.0.38, Culture=neutral, PublicKeyToken=3d67ed1f87d44c89, processorArchitecture=MSIL" />
+    <Reference Include="Syncfusion.GridHelperClasses.Windows, Version=19.4460.0.38, Culture=neutral, PublicKeyToken=3d67ed1f87d44c89, processorArchitecture=MSIL" />
+    <Reference Include="Syncfusion.Grouping.Base, Version=19.4460.0.38, Culture=neutral, PublicKeyToken=3d67ed1f87d44c89, processorArchitecture=MSIL" />
+    <Reference Include="Syncfusion.HighContrastTheme.WinForms, Version=19.4460.0.38, Culture=neutral, PublicKeyToken=3d67ed1f87d44c89, processorArchitecture=MSIL" />
+    <Reference Include="Syncfusion.Office2016Theme.WinForms, Version=19.4460.0.38, Culture=neutral, PublicKeyToken=3d67ed1f87d44c89, processorArchitecture=MSIL" />
+    <Reference Include="Syncfusion.Office2019Theme.WinForms, Version=19.4460.0.38, Culture=neutral, PublicKeyToken=3d67ed1f87d44c89, processorArchitecture=MSIL" />
+    <Reference Include="Syncfusion.Shared.Base, Version=19.4460.0.38, Culture=neutral, PublicKeyToken=3d67ed1f87d44c89, processorArchitecture=MSIL" />
+    <Reference Include="Syncfusion.Shared.Windows, Version=19.4460.0.38, Culture=neutral, PublicKeyToken=3d67ed1f87d44c89, processorArchitecture=MSIL" />
+    <Reference Include="Syncfusion.SpellChecker.Base, Version=19.4460.0.38, Culture=neutral, PublicKeyToken=3d67ed1f87d44c89, processorArchitecture=MSIL" />
+    <Reference Include="Syncfusion.Spreadsheet.Windows, Version=19.4460.0.38, Culture=neutral, PublicKeyToken=3d67ed1f87d44c89, processorArchitecture=MSIL" />
+    <Reference Include="Syncfusion.Tools.Base, Version=19.4460.0.38, Culture=neutral, PublicKeyToken=3d67ed1f87d44c89, processorArchitecture=MSIL" />
+    <Reference Include="Syncfusion.Tools.Windows, Version=19.4460.0.38, Culture=neutral, PublicKeyToken=3d67ed1f87d44c89, processorArchitecture=MSIL" />
+    <Reference Include="System" />
+    <Reference Include="System.Buffers, Version=4.0.3.0, Culture=neutral, PublicKeyToken=cc7b13ffcd2ddd51, processorArchitecture=MSIL">
+      <HintPath>..\packages\System.Buffers.4.5.1\lib\net461\System.Buffers.dll</HintPath>
+    </Reference>
+    <Reference Include="System.CodeDom, Version=6.0.0.0, Culture=neutral, PublicKeyToken=cc7b13ffcd2ddd51, processorArchitecture=MSIL">
+      <HintPath>..\packages\System.CodeDom.6.0.0\lib\net461\System.CodeDom.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Core" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Data.SQLite, Version=1.0.116.0, Culture=neutral, PublicKeyToken=db937bc2d44ff139, processorArchitecture=MSIL">
+      <HintPath>..\packages\Stub.System.Data.SQLite.Core.NetFramework.1.0.116.0\lib\net46\System.Data.SQLite.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Design" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Drawing.Design" />
+    <Reference Include="System.Management" />
+    <Reference Include="System.Memory, Version=4.0.1.2, Culture=neutral, PublicKeyToken=cc7b13ffcd2ddd51, processorArchitecture=MSIL">
+      <HintPath>..\packages\System.Memory.4.5.5\lib\net461\System.Memory.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Numerics" />
+    <Reference Include="System.Numerics.Vectors, Version=4.1.4.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL">
+      <HintPath>..\packages\System.Numerics.Vectors.4.5.0\lib\net46\System.Numerics.Vectors.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Runtime.Serialization" />
+    <Reference Include="System.Runtime.Serialization.Formatters.Soap" />
+    <Reference Include="System.Threading.Tasks.Extensions, Version=4.2.0.1, Culture=neutral, PublicKeyToken=cc7b13ffcd2ddd51, processorArchitecture=MSIL">
+      <HintPath>..\packages\System.Threading.Tasks.Extensions.4.5.4\lib\net461\System.Threading.Tasks.Extensions.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="UIAutomationProvider" />
+    <Reference Include="UIAutomationTypes" />
+    <Reference Include="WindowsBase" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="..\SolutionItems\SolutionInfoCore.cs">
+      <Link>Properties\SolutionInfoCore.cs</Link>
+    </Compile>
+    <Compile Include="AesCBC.cs" />
+    <Compile Include="CheckPassIm.cs" />
+    <Compile Include="Configuration\ToolsConfigPage.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Configuration\ToolsConfigPage.Designer.cs">
+      <DependentUpon>ToolsConfigPage.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Configuration\DataFormatsConfigPage.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Configuration\DataFormatsConfigPage.Designer.cs">
+      <DependentUpon>DataFormatsConfigPage.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Configuration\TilesConfigPage.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Configuration\TilesConfigPage.Designer.cs">
+      <DependentUpon>TilesConfigPage.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Configuration\VectorConfigPage.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Configuration\VectorConfigPage.Designer.cs">
+      <DependentUpon>VectorConfigPage.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Configuration\ProjectionsConfigPage.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Configuration\ProjectionsConfigPage.Designer.cs">
+      <DependentUpon>ProjectionsConfigPage.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Configuration\MapConfigPage.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Configuration\MapConfigPage.Designer.cs">
+      <DependentUpon>MapConfigPage.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Configuration\MeasuringConfigPage.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Configuration\MeasuringConfigPage.Designer.cs">
+      <DependentUpon>MeasuringConfigPage.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Configuration\PluginGrid.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Configuration\RasterConfigPage.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Configuration\RasterConfigPage.Designer.cs">
+      <DependentUpon>RasterConfigPage.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Configuration\WidgetsConfigPage.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Configuration\WidgetsConfigPage.Designer.cs">
+      <DependentUpon>WidgetsConfigPage.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Controls\AssembliesGrid.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Controls\AssemblyInfo.cs" />
+    <Compile Include="Controls\ConfigTreeView.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Controls\LegendCommand.cs" />
+    <Compile Include="Controls\LegendDockPanel.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Controls\LegendDockPanel.Designer.cs">
+      <DependentUpon>LegendDockPanel.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Controls\LegendPresenter.cs" />
+    <Compile Include="Controls\LocatorDockPanel.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Controls\LocatorDockPanel.Designer.cs">
+      <DependentUpon>LocatorDockPanel.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Controls\LocatorPresenter.cs" />
+    <Compile Include="Enums\Enums.cs" />
+    <Compile Include="ExceptionHandler.cs" />
+    <Compile Include="Helpers\Sandbox.cs" />
+    <Compile Include="Helpers\UpdaterHelper.cs" />
+    <Compile Include="Listeners\MainPluginListener.cs" />
+    <Compile Include="Menu\ContextMenuCommand.cs" />
+    <Compile Include="Menu\ContextMenuPresenter.cs" />
+    <Compile Include="Menu\ContextMenuView.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Menu\ContextMenuView.Designer.cs">
+      <DependentUpon>ContextMenuView.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Menu\MenuKeys.cs" />
+    <Compile Include="Menu\StatusBarKeys.cs" />
+    <Compile Include="Menu\StatusBarListener.cs" />
+    <Compile Include="Menu\TilesMenuHelper.cs" />
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <Compile Include="Views\AboutPresenter.cs" />
+    <Compile Include="Views\AboutView.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Views\AboutView.Designer.cs">
+      <DependentUpon>AboutView.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Views\Abstract\IAboutView.cs" />
+    <Compile Include="Views\Abstract\ICreatePyramidsView.cs" />
+    <Compile Include="Views\Abstract\IGoToXYView.cs" />
+    <Compile Include="Views\Abstract\ILegendGroupView.cs" />
+    <Compile Include="Views\Abstract\IMeasuringView.cs" />
+    <Compile Include="Views\Abstract\IProjectionView.cs" />
+    <Compile Include="AppContext.cs" />
+    <Compile Include="CompositionRoot.cs" />
+    <Compile Include="Configuration\GeneralConfigPage.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Configuration\GeneralConfigPage.Designer.cs">
+      <DependentUpon>GeneralConfigPage.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Configuration\Plugins\PluginInfo.cs" />
+    <Compile Include="Configuration\Plugins\PluginProvider.cs" />
+    <Compile Include="Configuration\PluginsConfigPage.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Configuration\PluginsConfigPage.Designer.cs">
+      <DependentUpon>PluginsConfigPage.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Helpers\DockPanelHelper.cs" />
+    <Compile Include="Helpers\MapInitializer.cs" />
+    <Compile Include="Views\Abstract\IConfigView.cs" />
+    <Compile Include="Listeners\LegendListener.cs" />
+    <Compile Include="Listeners\MapListener.cs" />
+    <Compile Include="Menu\MenuCommands.cs" />
+    <Compile Include="Menu\MenuListener.cs" />
+    <Compile Include="Menu\MenuUpdater.cs" />
+    <Compile Include="Menu\PluginsMenuHelper.cs" />
+    <Compile Include="Views\Abstract\IGeoLocationView.cs" />
+    <Compile Include="Views\Abstract\ISetScaleView.cs" />
+    <Compile Include="Views\Abstract\ISpatialIndexView.cs" />
+    <Compile Include="Views\Abstract\IWelcomeView.cs" />
+    <Compile Include="Views\ConfigCommand.cs" />
+    <Compile Include="Views\ConfigPresenter.cs" />
+    <Compile Include="Views\ConfigViewModel.cs" />
+    <Compile Include="Views\CreatePyramidsPresenter.cs" />
+    <Compile Include="Views\CreatePyramidsView.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Views\CreatePyramidsView.Designer.cs">
+      <DependentUpon>CreatePyramidsView.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\ErrorView.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\ErrorView.Designer.cs">
+      <DependentUpon>ErrorView.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Views\GoToXYView.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Views\GoToXYView.Designer.cs">
+      <DependentUpon>GoToXYView.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Views\GoToXYPresenter.cs" />
+    <Compile Include="Views\LegendGroupPresenter.cs" />
+    <Compile Include="Views\LegendGroupView.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Views\LegendGroupView.Designer.cs">
+      <DependentUpon>LegendGroupView.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Views\MainPresenter.cs" />
+    <Compile Include="Views\MeasuringPresenter.cs" />
+    <Compile Include="Views\MeasuringView.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Views\MeasuringView.Designer.cs">
+      <DependentUpon>MeasuringView.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Views\GeoLocationPresenter.cs" />
+    <Compile Include="Views\GeoLocationView.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Views\GeoLocationView.Designer.cs">
+      <DependentUpon>GeoLocationView.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Views\SetLicenseForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Views\SetLicenseForm.Designer.cs">
+      <DependentUpon>SetLicenseForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Views\SetProjectionPresenter.cs" />
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Menu\MenuGenerator.cs" />
+    <Compile Include="Views\ConfigView.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Views\ConfigView.Designer.cs">
+      <DependentUpon>ConfigView.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Views\MainView.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Views\MainView.Designer.cs">
+      <DependentUpon>MainView.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Views\SetProjectionView.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Views\SetProjectionView.Designer.cs">
+      <DependentUpon>SetProjectionView.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\SplashView.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\SplashView.Designer.cs">
+      <DependentUpon>SplashView.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Views\SetScalePresenter.cs" />
+    <Compile Include="Views\SetScaleView.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Views\SetScaleView.Designer.cs">
+      <DependentUpon>SetScaleView.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Views\SpatialIndexPresenter.cs" />
+    <Compile Include="Views\SpatialIndexView.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Views\SpatialIndexView.Designer.cs">
+      <DependentUpon>SpatialIndexView.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Views\WelcomePresenter.cs" />
+    <Compile Include="Views\WelcomeView.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Views\WelcomeView.Designer.cs">
+      <DependentUpon>WelcomeView.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Views\WelcomeViewModel.cs" />
+    <EmbeddedResource Include="Configuration\DataFormatsConfigPage.resx">
+      <DependentUpon>DataFormatsConfigPage.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Configuration\GeneralConfigPage.zh-CN.resx">
+      <DependentUpon>GeneralConfigPage.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Configuration\MapConfigPage.zh-CN.resx">
+      <DependentUpon>MapConfigPage.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Configuration\MeasuringConfigPage.zh-CN.resx">
+      <DependentUpon>MeasuringConfigPage.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Configuration\PluginsConfigPage.zh-CN.resx">
+      <DependentUpon>PluginsConfigPage.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Configuration\ProjectionsConfigPage.zh-CN.resx">
+      <DependentUpon>ProjectionsConfigPage.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Configuration\RasterConfigPage.zh-CN.resx">
+      <DependentUpon>RasterConfigPage.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Configuration\TilesConfigPage.resx">
+      <DependentUpon>TilesConfigPage.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Configuration\TilesConfigPage.zh-CN.resx">
+      <DependentUpon>TilesConfigPage.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Configuration\ToolsConfigPage.resx">
+      <DependentUpon>ToolsConfigPage.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Configuration\VectorConfigPage.resx">
+      <DependentUpon>VectorConfigPage.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Configuration\ProjectionsConfigPage.resx">
+      <DependentUpon>ProjectionsConfigPage.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Configuration\MapConfigPage.resx">
+      <DependentUpon>MapConfigPage.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Configuration\GeneralConfigPage.resx">
+      <DependentUpon>GeneralConfigPage.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Configuration\MeasuringConfigPage.resx">
+      <DependentUpon>MeasuringConfigPage.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Configuration\PluginsConfigPage.resx">
+      <DependentUpon>PluginsConfigPage.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Configuration\RasterConfigPage.resx">
+      <DependentUpon>RasterConfigPage.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Configuration\VectorConfigPage.zh-CN.resx">
+      <DependentUpon>VectorConfigPage.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Configuration\WidgetsConfigPage.resx">
+      <DependentUpon>WidgetsConfigPage.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Configuration\WidgetsConfigPage.zh-CN.resx">
+      <DependentUpon>WidgetsConfigPage.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Controls\LegendDockPanel.resx">
+      <DependentUpon>LegendDockPanel.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Controls\LocatorDockPanel.resx">
+      <DependentUpon>LocatorDockPanel.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\ErrorView.zh-CN.resx">
+      <DependentUpon>ErrorView.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\SplashView.zh-CN.resx">
+      <DependentUpon>SplashView.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Menu\ContextMenuView.resx">
+      <DependentUpon>ContextMenuView.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <SubType>Designer</SubType>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Views\AboutView.resx">
+      <DependentUpon>AboutView.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Views\AboutView.zh-CN.resx">
+      <DependentUpon>AboutView.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Views\ConfigView.resx">
+      <DependentUpon>ConfigView.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Views\ConfigView.zh-CN.resx">
+      <DependentUpon>ConfigView.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Views\CreatePyramidsView.resx">
+      <DependentUpon>CreatePyramidsView.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\ErrorView.resx">
+      <DependentUpon>ErrorView.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Views\CreatePyramidsView.zh-CN.resx">
+      <DependentUpon>CreatePyramidsView.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Views\GoToXYView.resx">
+      <DependentUpon>GoToXYView.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Views\GoToXYView.zh-CN.resx">
+      <DependentUpon>GoToXYView.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Views\GeoLocationView.resx">
+      <DependentUpon>GeoLocationView.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Views\GeoLocationView.zh-CN.resx">
+      <DependentUpon>GeoLocationView.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Views\LegendGroupView.resx">
+      <DependentUpon>LegendGroupView.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Views\LegendGroupView.zh-CN.resx">
+      <DependentUpon>LegendGroupView.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Views\MainView.resx">
+      <DependentUpon>MainView.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Views\MainView.zh-CN.resx">
+      <DependentUpon>MainView.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Views\MeasuringView.resx">
+      <DependentUpon>MeasuringView.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Views\MeasuringView.zh-CN.resx">
+      <DependentUpon>MeasuringView.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Views\SetLicenseForm.resx">
+      <DependentUpon>SetLicenseForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Views\SetProjectionView.resx">
+      <DependentUpon>SetProjectionView.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\SplashView.resx">
+      <DependentUpon>SplashView.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Views\SetProjectionView.zh-CN.resx">
+      <DependentUpon>SetProjectionView.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Views\SetScaleView.resx">
+      <DependentUpon>SetScaleView.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Views\SetScaleView.zh-CN.resx">
+      <DependentUpon>SetScaleView.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Views\SpatialIndexView.resx">
+      <DependentUpon>SpatialIndexView.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Views\SpatialIndexView.zh-CN.resx">
+      <DependentUpon>SpatialIndexView.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Views\WelcomeView.resx">
+      <DependentUpon>WelcomeView.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Views\WelcomeView.zh-CN.resx">
+      <DependentUpon>WelcomeView.cs</DependentUpon>
+    </EmbeddedResource>
+    <None Include="app.manifest" />
+    <None Include="MW5_TemporaryKey.pfx" />
+    <None Include="packages.config" />
+    <None Include="Properties\app.manifest" />
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\MW5.Api\MW5.Api.csproj">
+      <Project>{8AAD34B3-8EF3-485F-A04D-ED2C07D8F1DF}</Project>
+      <Name>MW5.Api</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\MW5.Attributes\MW5.Attributes.csproj">
+      <Project>{6af734f1-2cd0-4636-88e2-ef2dafa241f8}</Project>
+      <Name>MW5.Attributes</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\MW5.Data\MW5.Data.csproj">
+      <Project>{12476697-03B6-4944-92C1-AE7214A13F0B}</Project>
+      <Name>MW5.Data</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\MW5.DI\MW5.DI.Castle\MW5.DI.Castle.csproj">
+      <Project>{193010c4-9bde-42a3-a960-0b39700a9de1}</Project>
+      <Name>MW5.DI.Castle</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\MW5.Gdal\MW5.Gdal.csproj">
+      <Project>{adeef162-77eb-48ed-af35-cb6a00c55b42}</Project>
+      <Name>MW5.Gdal</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\MW5.Projections\MW5.Projections.csproj">
+      <Project>{dd259453-611a-4ad5-878e-385cb2c89df5}</Project>
+      <Name>MW5.Projections</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\MW5.Services\MW5.Services.csproj">
+      <Project>{54bb55da-dbdc-47e5-8dec-de325f35f074}</Project>
+      <Name>MW5.Services</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\MW5.Plugins\MW5.Plugins.csproj">
+      <Project>{76644cdf-5165-428d-8419-93c1e978db1b}</Project>
+      <Name>MW5.Plugins</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\MW5.Shared\MW5.Shared.csproj">
+      <Project>{79400594-DE0D-4FFD-B115-AF2AEAC79CD9}</Project>
+      <Name>MW5.Shared</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\MW5.Tiles\MW5.Tiles.csproj">
+      <Project>{80af2bdb-f74a-480f-84c3-913953baae67}</Project>
+      <Name>MW5.Tiles</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\MW5.Tools\MW5.Tools.csproj">
+      <Project>{FB836BB0-2668-41E6-A4AD-7798B13C327F}</Project>
+      <Name>MW5.Tools</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\MW5.UI\MW5.UI.csproj">
+      <Project>{784a24f2-9a57-46ee-8945-d87869595216}</Project>
+      <Name>MW5.UI</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Plugins\MW5.ShapeEditor\MW5.ShapeEditor.csproj">
+      <Project>{1b24eca2-57ed-48d3-9639-7c111c9b817a}</Project>
+      <Name>MW5.ShapeEditor</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Plugins\MW5.Symbology\MW5.Symbology.csproj">
+      <Project>{1bd04fe1-16ad-41f9-8f80-485925e407dd}</Project>
+      <Name>MW5.Symbology</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <BootstrapperPackage Include=".NETFramework,Version=v4.5">
+      <Visible>False</Visible>
+      <ProductName>Microsoft .NET Framework 4.5 %28x86 and x64%29</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Client.3.5">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1 Client Profile</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.3.5.SP1">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icon_attribute_show.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icon_crs_change.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icon_element_add.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icon_folder.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icon_label_add.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icon_layer_add.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icon_layer_clear.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icon_layer_create.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icon_layer_database_add.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icon_layer_db_add.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icon_layer_raster_add.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icon_layer_remove.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icon_layer_vector_add.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icon_layer_vector_thematic_add.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icon_measure_area.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icon_measure_distance.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icon_new_map.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icon_pan.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icon_pan1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icon_project_open.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icon_quit.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icon_save.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icon_save_as.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icon_save1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icon_search.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icon_select.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icon_select_by_polygon.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icon_snapshot.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icon_vertex.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icon_zoom_in.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icon_zoom_max_extents.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icon_zoom_out.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icon_zoom_to_layer.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icon_zoom_to_selection.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icon_clear_selection.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icon_settings.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ico_zoom_to_layer.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ico_legend.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icon_identify.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="icon_mapwindow.ico" />
+    <Content Include="MW5.ico" />
+    <None Include="Resources\地图投影.png" />
+    <None Include="Resources\多边形选择.png" />
+    <None Include="Resources\地理数据库.png" />
+    <None Include="Resources\地图浏览.png" />
+    <None Include="Resources\后视图.png" />
+    <None Include="Resources\前视图.png" />
+    <None Include="Resources\右.png" />
+    <None Include="Resources\左.png" />
+    <None Include="Resources\数据字典.png" />
+    <None Include="Resources\删除当前图层.png" />
+    <None Include="Resources\比例尺.png" />
+    <None Include="Resources\清除所有图层.png" />
+    <None Include="Resources\WMS图层.png" />
+    <None Include="Resources\照片设置.png" />
+    <None Include="Resources\移动设备.png" />
+    <None Include="Resources\要素信息.png" />
+    <None Include="Resources\选择.png" />
+    <None Include="Resources\新建图层.png" />
+    <None Include="Resources\小班照片.png" />
+    <None Include="Resources\统计表.png" />
+    <None Include="Resources\条件选择.png" />
+    <None Include="Resources\添加数据.png" />
+    <None Include="Resources\缩小.png" />
+    <None Include="Resources\缩放已选.png" />
+    <None Include="Resources\矢量图层.png" />
+    <None Include="Resources\删格图层.png" />
+    <None Include="Resources\全图.png" />
+    <None Include="Resources\全不选.png" />
+    <None Include="Resources\区域打印.png" />
+    <None Include="Resources\剖面与投影.png" />
+    <None Include="Resources\面透明.png" />
+    <None Include="Resources\面积测量.png" />
+    <None Include="Resources\空间选择.png" />
+    <None Include="Resources\卷帘.png" />
+    <None Include="Resources\距离测量.png" />
+    <None Include="Resources\矩形选择.png" />
+    <None Include="Resources\角度测量.png" />
+    <None Include="Resources\符号旋转.png" />
+    <None Include="Resources\分类渲染.png" />
+    <None Include="Resources\放大.png" />
+    <None Include="Resources\定位.png" />
+    <None Include="Resources\底图.png" />
+    <None Include="Resources\打印机.png" />
+    <None Include="Resources\标注设置.png" />
+    <None Include="Resources\标签移动标签.png" />
+    <None Include="Resources\智能识别.ico" />
+    <None Include="Resources\缩略图.ico" />
+    <None Include="Resources\工具箱.ico" />
+    <None Include="Resources\栅格数据重投影.png" />
+    <None Include="Resources\属性提取.png" />
+    <None Include="Resources\删格转多边形.png" />
+    <None Include="Resources\面转线.png" />
+    <None Include="Resources\面融合.png" />
+    <None Include="Resources\按属性统计.png" />
+    <None Include="Resources\按属性合并.png" />
+    <None Include="Resources\线构面.png" />
+    <None Include="Resources\影像配准.png" />
+    <None Include="Resources\小班排号.png" />
+    <None Include="Resources\拓扑检查.png" />
+    <None Include="Resources\矢量数据重投影.png" />
+    <None Include="Resources\矢量格式转换.png" />
+    <None Include="Resources\删格格式转换.png" />
+    <None Include="Resources\手册.png" />
+    <None Include="Resources\欢迎.png" />
+    <None Include="Resources\关于.png" />
+    <None Include="Resources\保存编辑.png" />
+    <None Include="Resources\重做.png" />
+    <None Include="Resources\粘贴.png" />
+    <None Include="Resources\移动.png" />
+    <None Include="Resources\旋转.png" />
+    <None Include="Resources\新建要素.png" />
+    <None Include="Resources\线分割.png" />
+    <None Include="Resources\所有层.png" />
+    <None Include="Resources\属性粘贴.png" />
+    <None Include="Resources\属性复制.png" />
+    <None Include="Resources\删除.png" />
+    <None Include="Resources\开始编辑.png" />
+    <None Include="Resources\剪切.png" />
+    <None Include="Resources\间断点.png" />
+    <None Include="Resources\合并.png" />
+    <None Include="Resources\复制.png" />
+    <None Include="Resources\多边形分割.png" />
+    <None Include="Resources\顶点编辑.png" />
+    <None Include="Resources\顶点.png" />
+    <None Include="Resources\当前层.png" />
+    <None Include="Resources\撤销.png" />
+    <None Include="Resources\拆分.png" />
+    <None Include="Resources\测量面积.png" />
+    <None Include="Resources\测量距离.png" />
+    <None Include="Resources\全屏.png" />
+    <None Include="Resources\drop_down.png" />
+    <None Include="Resources\small_down_arrow.png" />
+    <None Include="Resources\定位1.png" />
+    <None Include="Resources\比例尺1.png" />
+    <None Include="Resources\删除要素.png" />
+    <None Include="Resources\移动视图.png" />
+    <None Include="Resources\一键透明.png" />
+    <None Include="Resources\渲染全部.png" />
+    <None Include="Resources\添加图层.png" />
+    <None Include="Resources\缩放到已选.png" />
+    <None Include="Resources\关联照片.png" />
+    <None Include="Resources\导航.png" />
+    <None Include="Resources\打印.png" />
+    <None Include="Resources\捕捉所有图层.png" />
+    <None Include="Resources\捕捉到间断点.png" />
+    <None Include="Resources\捕捉到顶点.png" />
+    <None Include="Resources\捕捉当前图层.png" />
+    <None Include="Resources\标签移动.png" />
+    <None Include="Resources\定点编辑.png" />
+    <None Include="Resources\定点.png" />
+    <None Include="Resources\智能识别.png" />
+    <None Include="Resources\文件夹新建.png" />
+    <None Include="Resources\缩略图.png" />
+    <None Include="Resources\联合 7.png" />
+    <None Include="Resources\联合 6.png" />
+    <None Include="Resources\联合 5.png" />
+    <None Include="Resources\基础层.png" />
+    <None Include="Resources\工具箱.png" />
+    <None Include="Resources\多边形 8.png" />
+    <None Include="Resources\多边形 7.png" />
+    <None Include="Resources\存储.png" />
+    <None Include="Resources\测量长度.png" />
+    <None Include="Resources\icon_layer_save.png" />
+    <None Include="Resources\icon_layer_edit.png" />
+    <None Include="Resources\SelectionSelectByAttributes32.png" />
+    <None Include="Resources\red_no_fill.png" />
+    <None Include="Resources\red_fill.png" />
+    <None Include="Resources\GoToXY32.png" />
+    <None Include="Resources\EffectsSwipe32.png" />
+    <None Include="Resources\img_picture321.png" />
+    <None Include="Resources\icon_attribute_show1.png" />
+    <None Include="Resources\ST GIS%282%291.png" />
+    <None Include="Resources\ST GIS%281%29.png" />
+    <None Include="Resources\img_toolbox24.png" />
+    <None Include="Resources\img_coordinates32.png" />
+    <None Include="Resources\img_vector32_1.png" />
+    <None Include="Resources\img_eye32.png" />
+    <None Include="Resources\img_tools32.png" />
+    <None Include="Resources\img_measure32.png" />
+    <None Include="Resources\img_layers32.png" />
+    <None Include="Resources\img_server32.png" />
+    <None Include="Resources\img_scale24.png" />
+    <None Include="Resources\img_wms_add24.png" />
+    <None Include="Resources\img_tiles32.png" />
+    <None Include="Resources\img_warning64.png" />
+    <None Include="Resources\ico_tasks.ico" />
+    <None Include="Resources\ico_results.ico" />
+    <None Include="Resources\img_widgets32.png" />
+    <None Include="Resources\img_vector32.png" />
+    <None Include="Resources\img_picture32.png" />
+    <None Include="Resources\img_world_grid32.png" />
+    <None Include="Resources\img_test24.png" />
+    <None Include="Resources\img_zoom_next24.png" />
+    <None Include="Resources\img_zoom_prev24.png" />
+    <None Include="Resources\img_default24.png" />
+    <None Include="Resources\img_paypal24.png" />
+    <None Include="Resources\img_docs24.png" />
+    <None Include="Resources\img_book24.png" />
+    <None Include="Resources\img_folder_open32.png" />
+    <None Include="Resources\img_tune32.png" />
+    <None Include="Resources\img_open_layer32.png" />
+    <None Include="Resources\img_globe32.png" />
+    <None Include="Resources\img_plugin32.png" />
+    <None Include="Resources\img_map32.png" />
+    <None Include="Resources\img_raster.png" />
+    <None Include="Resources\img_geometry.png" />
+    <None Include="Resources\img_broken_robot.jpg" />
+    <None Include="Resources\img_error_red32.png" />
+    <None Include="Resources\img_error_orange32.png" />
+    <None Include="Resources\img_mapwindow_logo.png" />
+    <None Include="Resources\mapwindow_logo.png" />
+    <None Include="Resources\img_mapwindow24.png" />
+    <None Include="Resources\img_component32.png" />
+    <None Include="Resources\img_palette.png" />
+    <None Include="Resources\img_compass.png" />
+    <None Include="Resources\img_measure_length.png" />
+    <None Include="Resources\ico_toolbox24.ico" />
+    <None Include="Resources\img_toolbox16.png" />
+    <None Include="Resources\img_options.png" />
+    <None Include="Resources\ico_tools.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <COMReference Include="AxMapWinGIS">
+      <Guid>{C368D713-CC5F-40ED-9F53-F84FE197B96A}</Guid>
+      <VersionMajor>5</VersionMajor>
+      <VersionMinor>2</VersionMinor>
+      <Lcid>0</Lcid>
+      <WrapperTool>aximp</WrapperTool>
+      <Isolated>False</Isolated>
+    </COMReference>
+    <COMReference Include="MapWinGIS">
+      <Guid>{C368D713-CC5F-40ED-9F53-F84FE197B96A}</Guid>
+      <VersionMajor>5</VersionMajor>
+      <VersionMinor>2</VersionMinor>
+      <Lcid>0</Lcid>
+      <WrapperTool>tlbimp</WrapperTool>
+      <Isolated>False</Isolated>
+      <EmbedInteropTypes>True</EmbedInteropTypes>
+    </COMReference>
+    <COMReference Include="stdole">
+      <Guid>{00020430-0000-0000-C000-000000000046}</Guid>
+      <VersionMajor>2</VersionMajor>
+      <VersionMinor>0</VersionMinor>
+      <Lcid>0</Lcid>
+      <WrapperTool>primary</WrapperTool>
+      <Isolated>False</Isolated>
+      <EmbedInteropTypes>True</EmbedInteropTypes>
+    </COMReference>
+  </ItemGroup>
+  <ItemGroup>
+    <WCFMetadata Include="Connected Services\" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <PropertyGroup>
+    <PostBuildEvent>if $(ConfigurationName) == Release (
+if $(PlatformName) == x86  $(SolutionDir)\postbuild.bat  $(TargetDir) 
+if $(PlatformName) == x64  $(SolutionDir)\postbuild_x64.bat  $(TargetDir) 
+)</PostBuildEvent>
+  </PropertyGroup>
+  <Import Project="..\packages\System.Data.SQLite.Core.1.0.111.0\build\net46\System.Data.SQLite.Core.targets" Condition="Exists('..\packages\System.Data.SQLite.Core.1.0.111.0\build\net46\System.Data.SQLite.Core.targets')" />
+  <Import Project="..\packages\Stub.System.Data.SQLite.Core.NetFramework.1.0.116.0\build\net46\Stub.System.Data.SQLite.Core.NetFramework.targets" Condition="Exists('..\packages\Stub.System.Data.SQLite.Core.NetFramework.1.0.116.0\build\net46\Stub.System.Data.SQLite.Core.NetFramework.targets')" />
+  <Target Name="EnsureNuGetPackageBuildImports" BeforeTargets="PrepareForBuild">
+    <PropertyGroup>
+      <ErrorText>这台计算机上缺少此项目引用的 NuGet 程序包。使用“NuGet 程序包还原”可下载这些程序包。有关更多信息，请参见 http://go.microsoft.com/fwlink/?LinkID=322105。缺少的文件是 {0}。</ErrorText>
+    </PropertyGroup>
+    <Error Condition="!Exists('..\packages\Stub.System.Data.SQLite.Core.NetFramework.1.0.116.0\build\net46\Stub.System.Data.SQLite.Core.NetFramework.targets')" Text="$([System.String]::Format('$(ErrorText)', '..\packages\Stub.System.Data.SQLite.Core.NetFramework.1.0.116.0\build\net46\Stub.System.Data.SQLite.Core.NetFramework.targets'))" />
+  </Target>
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

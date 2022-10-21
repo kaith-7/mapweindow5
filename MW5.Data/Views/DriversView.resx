@@ -1,0 +1,643 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <assembly alias="mscorlib" name="mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="driversTreeView1.ToolTipControl.AutoScroll" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="driversTreeView1.HelpTextControl.Text" xml:space="preserve">
+    <value>help text</value>
+  </data>
+  <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="driversTreeView1.HelpTextControl.BackgroundImageLayout" type="System.Windows.Forms.ImageLayout, System.Windows.Forms">
+    <value>Tile</value>
+  </data>
+  <assembly alias="System.Drawing" name="System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
+  <data name="gridCreationOptions.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 0</value>
+  </data>
+  <data name="btnClose.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Bottom, Right</value>
+  </data>
+  <data name="driversTreeView1.ToolTipControl.AccessibleName" type="System.Resources.ResXNullRef, System.Windows.Forms">
+    <value />
+  </data>
+  <data name="&gt;&gt;tabOpenOptions.Name" xml:space="preserve">
+    <value>tabOpenOptions</value>
+  </data>
+  <data name="driversTreeView1.TabIndex" type="System.Int32, mscorlib">
+    <value>2</value>
+  </data>
+  <data name="&gt;&gt;tabGeneral.Parent" xml:space="preserve">
+    <value>tabControlAdv1</value>
+  </data>
+  <data name="&gt;&gt;tabGeneral.Type" xml:space="preserve">
+    <value>Syncfusion.Windows.Forms.Tools.TabPageAdv, Syncfusion.Tools.Windows, Version=18.1460.0.42, Culture=neutral, PublicKeyToken=3d67ed1f87d44c89</value>
+  </data>
+  <data name="lblCount.Location" type="System.Drawing.Point, System.Drawing">
+    <value>12, 446</value>
+  </data>
+  <data name="tabOpenOptions.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 21</value>
+  </data>
+  <data name="&gt;&gt;cboFilter.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="driversTreeView1.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Top, Bottom, Left</value>
+  </data>
+  <data name="&gt;&gt;gridLayerOptions.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="gridCreationOptions.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Fill</value>
+  </data>
+  <data name="driversTreeView1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>228, 388</value>
+  </data>
+  <data name="txtSearch.FarImage" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        iVBORw0KGgoAAAANSUhEUgAAABgAAAAYCAYAAADgdz34AAAABGdBTUEAALGPC/xhBQAAAx1JREFUSEvt
+        k8lPU1EYxflb3GhiQAL0UREMIFGiwTqUGexAZ55tH4UWOtCWtvSV0gERMCYaVIYC+jeQusBC0QXuWHVj
+        UheaaDQWAzl+r2I3UHQvJznJy0vu+Z1773dLTvUfq1QkOlNWxaTJmWIuZ8SZCnFNhqmpzVTX1WVqLtc7
+        DpefrNLKynNlVaIPrJnDi6VlLCwnCl5MJLCUWMHyyioSa2tYWXuJ1ZevEInH0XC1ef4worjOM8yFMhHz
+        0WA04cn8Mzx+8hR8KIRofArPFhbwfGERLxaXCLyEcCSCh3NzSKyuYnp2Fs0tLScDykUi0QWm+rNKZ8Ak
+        BUbIQsj+/j42NjbgHx/HzNyjvPmJCezt7SGVSmEyFkU4GsUtqbQ4oKyCqauovvhVrtLA5R2De8wHt8+H
+        KC08ODiAoI03b2B3ueAPBJCjcEFv373DWMAPfzCIju7O4wEisbiJqa373iNXwGQZBDdkhcVqw+DwCHkY
+        E+FwAbKzs4NcLpf/3t7ehs1uRzDEY9TrgVyhOAoQ19Y3XWpozLV1dUOp0UKl00FjMEDHsjAY74M1m8Ga
+        TOB5vgARtJXegonj4HSPUrgbdqcDGr3uKKD+ypXmhmvXftIFQSKVor27Cz1yOWRKJeRqFfq0GoJqYaOd
+        /GkuKJlMQm/QgxvkYBow4b6ZynDG44+oWSK5fkMi+XHzzh3capXibnsbWjs70Nnbja57vbDabIXw3d3d
+        wk7W19cJrobZYsbA0AAd52DxS77d2dpIod86erryoT1yGWR9Ctgd9vy0CEptpqBUKRGhyfoDSb5O0lEZ
+        6YiG4fQ4igMEyWSySxT6RaHug0qrhlqvQZAP5sM2NzehM+hgoaYW6wBi8d/TlU6nMWSzwOtz0xh7TwYI
+        0rLaKj3b/6nfxMJIzQS73C6wxn6aGCuN6QhdrIP+OeALjME2MoRx3kfvIoBg2P93gCCO40qpZXbYYaNm
+        HgR4P0JhHpPRMGIPIpiajuHBwzimZ+L0HUVsapIeJP/vAEFOp/MsNX3v8bqyXr8nS9vPUtMsNS3qYCjg
+        OVx+qv9HJSW/AEy3TXanRs8BAAAAAElFTkSuQmCC
+</value>
+  </data>
+  <data name="driversTreeView1.ToolTipControl.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>Inherit</value>
+  </data>
+  <data name="$this.ClientSize" type="System.Drawing.Size, System.Drawing">
+    <value>808, 473</value>
+  </data>
+  <data name="&gt;&gt;gridOpenOptions.Type" xml:space="preserve">
+    <value>MW5.Data.Controls.DriverOptionsGrid, MW5.Data, Version=5.6.3.33476, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="$this.Text" xml:space="preserve">
+    <value>Supported GDAL drivers</value>
+  </data>
+  <data name="&gt;&gt;cboFilter.Name" xml:space="preserve">
+    <value>cboFilter</value>
+  </data>
+  <data name="gridLayerOptions.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Fill</value>
+  </data>
+  <data name="gridLayerOptions.TabIndex" type="System.Int32, mscorlib">
+    <value>2</value>
+  </data>
+  <data name="&gt;&gt;driversTreeView1.Type" xml:space="preserve">
+    <value>MW5.Data.Controls.DriversTreeView, MW5.Data, Version=5.6.3.33476, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;tabGeneral.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="driversTreeView1.ToolTipControl.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 0</value>
+  </data>
+  <data name="driversTreeView1.HelpTextControl.BackgroundImage" type="System.Resources.ResXNullRef, System.Windows.Forms">
+    <value />
+  </data>
+  <data name="driversTreeView1.ToolTipControl.AccessibleDescription" type="System.Resources.ResXNullRef, System.Windows.Forms">
+    <value />
+  </data>
+  <data name="&gt;&gt;tabCreationOptions.Type" xml:space="preserve">
+    <value>Syncfusion.Windows.Forms.Tools.TabPageAdv, Syncfusion.Tools.Windows, Version=18.1460.0.42, Culture=neutral, PublicKeyToken=3d67ed1f87d44c89</value>
+  </data>
+  <data name="tabLayerOptions.Text" xml:space="preserve">
+    <value>Layer creation options</value>
+  </data>
+  <data name="driversTreeView1.HelpTextControl.Font" type="System.Resources.ResXNullRef, System.Windows.Forms">
+    <value />
+  </data>
+  <data name="&gt;&gt;btnClose.ZOrder" xml:space="preserve">
+    <value>5</value>
+  </data>
+  <data name="cboFilter.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 8.25pt</value>
+  </data>
+  <data name="&gt;&gt;tabControlAdv1.Name" xml:space="preserve">
+    <value>tabControlAdv1</value>
+  </data>
+  <data name="tabLayerOptions.Size" type="System.Drawing.Size, System.Drawing">
+    <value>566, 367</value>
+  </data>
+  <data name="btnClose.Location" type="System.Drawing.Point, System.Drawing">
+    <value>706, 438</value>
+  </data>
+  <data name="lblCount.TabIndex" type="System.Int32, mscorlib">
+    <value>4</value>
+  </data>
+  <data name="driversTreeView1.Text" xml:space="preserve">
+    <value>driversTreeView1</value>
+  </data>
+  <data name="gridOpenOptions.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 0</value>
+  </data>
+  <data name="&gt;&gt;cboFilter.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="tabGeneral.Text" xml:space="preserve">
+    <value>General</value>
+  </data>
+  <data name="txtSearch.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 9pt</value>
+  </data>
+  <data name="driversTreeView1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>5, 44</value>
+  </data>
+  <data name="&gt;&gt;tabGeneral.Name" xml:space="preserve">
+    <value>tabGeneral</value>
+  </data>
+  <data name="cboFilter.TabIndex" type="System.Int32, mscorlib">
+    <value>6</value>
+  </data>
+  <data name="&gt;&gt;txtSearch.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="driversTreeView1.ToolTipControl.MaximumSize" type="System.Drawing.Size, System.Drawing">
+    <value>0, 0</value>
+  </data>
+  <data name="tabLayerOptions.TabIndex" type="System.Int32, mscorlib">
+    <value>4</value>
+  </data>
+  <data name="driversTreeView1.ToolTipControl.BackgroundImageLayout" type="System.Windows.Forms.ImageLayout, System.Windows.Forms">
+    <value>Tile</value>
+  </data>
+  <data name="&gt;&gt;gridCreationOptions.Name" xml:space="preserve">
+    <value>gridCreationOptions</value>
+  </data>
+  <data name="_driverMetadataGrid1.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Fill</value>
+  </data>
+  <data name="driversTreeView1.HelpTextControl.AutoSizeMode" type="System.Windows.Forms.AutoSizeMode, System.Windows.Forms">
+    <value>GrowOnly</value>
+  </data>
+  <data name="lblCount.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="&gt;&gt;lblCount.Name" xml:space="preserve">
+    <value>lblCount</value>
+  </data>
+  <data name="driversTreeView1.HelpTextControl.AutoSize" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="&gt;&gt;tabLayerOptions.Parent" xml:space="preserve">
+    <value>tabControlAdv1</value>
+  </data>
+  <data name="gridLayerOptions.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 0</value>
+  </data>
+  <data name="driversTreeView1.ToolTipControl.Font" type="System.Resources.ResXNullRef, System.Windows.Forms">
+    <value />
+  </data>
+  <data name="&gt;&gt;gridLayerOptions.Type" xml:space="preserve">
+    <value>MW5.Data.Controls.DriverOptionsGrid, MW5.Data, Version=5.6.3.33476, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="gridOpenOptions.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Fill</value>
+  </data>
+  <data name="driversTreeView1.HelpTextControl.AccessibleName" type="System.Resources.ResXNullRef, System.Windows.Forms">
+    <value />
+  </data>
+  <data name="&gt;&gt;tabOpenOptions.Type" xml:space="preserve">
+    <value>Syncfusion.Windows.Forms.Tools.TabPageAdv, Syncfusion.Tools.Windows, Version=18.1460.0.42, Culture=neutral, PublicKeyToken=3d67ed1f87d44c89</value>
+  </data>
+  <data name="tabCreationOptions.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 21</value>
+  </data>
+  <data name="gridCreationOptions.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="txtSearch.Size" type="System.Drawing.Size, System.Drawing">
+    <value>528, 21</value>
+  </data>
+  <data name="txtSearch.Location" type="System.Drawing.Point, System.Drawing">
+    <value>12, 11</value>
+  </data>
+  <data name="tabGeneral.TabIndex" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="&gt;&gt;$this.Name" xml:space="preserve">
+    <value>DriversView</value>
+  </data>
+  <data name="tabOpenOptions.Text" xml:space="preserve">
+    <value>Open options</value>
+  </data>
+  <data name="&gt;&gt;tabOpenOptions.Parent" xml:space="preserve">
+    <value>tabControlAdv1</value>
+  </data>
+  <data name="tabControlAdv1.ActiveTabFont" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 8.25pt, style=Bold</value>
+  </data>
+  <data name="cboFilter.Size" type="System.Drawing.Size, System.Drawing">
+    <value>259, 21</value>
+  </data>
+  <data name="driversTreeView1.ToolTipControl.BackgroundImage" type="System.Resources.ResXNullRef, System.Windows.Forms">
+    <value />
+  </data>
+  <data name="gridOpenOptions.TabIndex" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="_driverMetadataGrid1.TabIndex" type="System.Int32, mscorlib">
+    <value>3</value>
+  </data>
+  <data name="lblCount.Text" xml:space="preserve">
+    <value>Raster formats:</value>
+  </data>
+  <data name="tabOpenOptions.TabIndex" type="System.Int32, mscorlib">
+    <value>3</value>
+  </data>
+  <data name="driversTreeView1.ToolTipControl.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>None</value>
+  </data>
+  <data name="&gt;&gt;tabCreationOptions.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="&gt;&gt;_driverMetadataGrid1.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="driversTreeView1.HelpTextControl.MaximumSize" type="System.Drawing.Size, System.Drawing">
+    <value>0, 0</value>
+  </data>
+  <data name="driversTreeView1.HelpTextControl.AutoScroll" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="driversTreeView1.HelpTextControl.Size" type="System.Drawing.Size, System.Drawing">
+    <value>61, 14</value>
+  </data>
+  <data name="driversTreeView1.ToolTipControl.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Top, Left</value>
+  </data>
+  <data name="tabControlAdv1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>239, 44</value>
+  </data>
+  <data name="&gt;&gt;tabLayerOptions.Type" xml:space="preserve">
+    <value>Syncfusion.Windows.Forms.Tools.TabPageAdv, Syncfusion.Tools.Windows, Version=18.1460.0.42, Culture=neutral, PublicKeyToken=3d67ed1f87d44c89</value>
+  </data>
+  <data name="&gt;&gt;gridCreationOptions.Type" xml:space="preserve">
+    <value>MW5.Data.Controls.DriverOptionsGrid, MW5.Data, Version=5.6.3.33476, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="driversTreeView1.HelpTextControl.RightToLeft" type="System.Windows.Forms.RightToLeft, System.Windows.Forms">
+    <value>Inherit</value>
+  </data>
+  <data name="driversTreeView1.HelpTextControl.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 0</value>
+  </data>
+  <data name="&gt;&gt;tabOpenOptions.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="_driverMetadataGrid1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 0</value>
+  </data>
+  <data name="_driverMetadataGrid1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>566, 367</value>
+  </data>
+  <data name="&gt;&gt;txtSearch.Name" xml:space="preserve">
+    <value>txtSearch</value>
+  </data>
+  <data name="&gt;&gt;tabControlAdv1.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="tabControlAdv1.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Top, Bottom, Left, Right</value>
+  </data>
+  <data name="txtSearch.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="txtSearch.Cue" xml:space="preserve">
+    <value>输入驱动程序名称</value>
+  </data>
+  <data name="gridLayerOptions.Text" xml:space="preserve">
+    <value>driverOptionsGrid1</value>
+  </data>
+  <data name="&gt;&gt;driversTreeView1.Name" xml:space="preserve">
+    <value>driversTreeView1</value>
+  </data>
+  <data name="&gt;&gt;txtSearch.Type" xml:space="preserve">
+    <value>MW5.UI.Controls.WatermarkTextbox, MW5.UI, Version=5.6.3.33476, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;gridLayerOptions.Parent" xml:space="preserve">
+    <value>tabLayerOptions</value>
+  </data>
+  <data name="driversTreeView1.HelpTextControl.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="tabGeneral.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 21</value>
+  </data>
+  <data name="driversTreeView1.HelpTextControl.Visible" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="driversTreeView1.HelpTextControl.AccessibleDescription" type="System.Resources.ResXNullRef, System.Windows.Forms">
+    <value />
+  </data>
+  <data name="&gt;&gt;gridCreationOptions.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="driversTreeView1.ToolTipControl.AutoSizeMode" type="System.Windows.Forms.AutoSizeMode, System.Windows.Forms">
+    <value>GrowOnly</value>
+  </data>
+  <data name="&gt;&gt;btnClose.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="txtSearch.MinimumSize" type="System.Drawing.Size, System.Drawing">
+    <value>24, 20</value>
+  </data>
+  <data name="lblCount.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Bottom, Left</value>
+  </data>
+  <data name="gridOpenOptions.Size" type="System.Drawing.Size, System.Drawing">
+    <value>566, 367</value>
+  </data>
+  <data name="&gt;&gt;cboFilter.Type" xml:space="preserve">
+    <value>Syncfusion.Windows.Forms.Tools.ComboBoxAdv, Syncfusion.Tools.Windows, Version=18.1460.0.42, Culture=neutral, PublicKeyToken=3d67ed1f87d44c89</value>
+  </data>
+  <data name="tabControlAdv1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>566, 388</value>
+  </data>
+  <data name="tabCreationOptions.TabIndex" type="System.Int32, mscorlib">
+    <value>2</value>
+  </data>
+  <data name="gridOpenOptions.Text" xml:space="preserve">
+    <value>driverOptionsGrid1</value>
+  </data>
+  <data name="&gt;&gt;tabLayerOptions.Name" xml:space="preserve">
+    <value>tabLayerOptions</value>
+  </data>
+  <data name="&gt;&gt;lblCount.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;gridLayerOptions.Name" xml:space="preserve">
+    <value>gridLayerOptions</value>
+  </data>
+  <data name="gridCreationOptions.Size" type="System.Drawing.Size, System.Drawing">
+    <value>566, 367</value>
+  </data>
+  <data name="tabCreationOptions.Text" xml:space="preserve">
+    <value>Creation options</value>
+  </data>
+  <data name="&gt;&gt;driversTreeView1.ZOrder" xml:space="preserve">
+    <value>4</value>
+  </data>
+  <data name="&gt;&gt;$this.Type" xml:space="preserve">
+    <value>MW5.Data.Views.DriversViewBase, MW5.Data, Version=5.6.3.33476, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="cboFilter.Location" type="System.Drawing.Point, System.Drawing">
+    <value>546, 11</value>
+  </data>
+  <data name="&gt;&gt;gridCreationOptions.Parent" xml:space="preserve">
+    <value>tabCreationOptions</value>
+  </data>
+  <data name="driversTreeView1.HelpTextControl.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Top, Left</value>
+  </data>
+  <data name="driversTreeView1.ToolTipControl.Text" xml:space="preserve">
+    <value>toolTip</value>
+  </data>
+  <data name="&gt;&gt;_driverMetadataGrid1.Parent" xml:space="preserve">
+    <value>tabGeneral</value>
+  </data>
+  <data name="&gt;&gt;tabCreationOptions.Parent" xml:space="preserve">
+    <value>tabControlAdv1</value>
+  </data>
+  <data name="lblCount.Size" type="System.Drawing.Size, System.Drawing">
+    <value>95, 12</value>
+  </data>
+  <data name="&gt;&gt;btnClose.Name" xml:space="preserve">
+    <value>btnClose</value>
+  </data>
+  <data name="tabGeneral.Size" type="System.Drawing.Size, System.Drawing">
+    <value>566, 367</value>
+  </data>
+  <data name="&gt;&gt;gridOpenOptions.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="driversTreeView1.HelpTextControl.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>None</value>
+  </data>
+  <data name="$this.AutoScaleDimensions" type="System.Drawing.SizeF, System.Drawing">
+    <value>6, 12</value>
+  </data>
+  <data name="&gt;&gt;txtSearch.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;tabCreationOptions.Name" xml:space="preserve">
+    <value>tabCreationOptions</value>
+  </data>
+  <data name="&gt;&gt;gridOpenOptions.Name" xml:space="preserve">
+    <value>gridOpenOptions</value>
+  </data>
+  <data name="driversTreeView1.ToolTipControl.Visible" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="&gt;&gt;lblCount.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;tabLayerOptions.ZOrder" xml:space="preserve">
+    <value>4</value>
+  </data>
+  <data name="&gt;&gt;tabControlAdv1.Type" xml:space="preserve">
+    <value>Syncfusion.Windows.Forms.Tools.TabControlAdv, Syncfusion.Tools.Windows, Version=18.1460.0.42, Culture=neutral, PublicKeyToken=3d67ed1f87d44c89</value>
+  </data>
+  <data name="driversTreeView1.ToolTipControl.AutoSize" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="gridCreationOptions.Text" xml:space="preserve">
+    <value>driverOptionsGrid1</value>
+  </data>
+  <data name="&gt;&gt;gridOpenOptions.Parent" xml:space="preserve">
+    <value>tabOpenOptions</value>
+  </data>
+  <data name="driversTreeView1.ToolTipControl.RightToLeft" type="System.Windows.Forms.RightToLeft, System.Windows.Forms">
+    <value>Inherit</value>
+  </data>
+  <data name="driversTreeView1.HelpTextControl.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>Inherit</value>
+  </data>
+  <data name="tabLayerOptions.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 21</value>
+  </data>
+  <data name="&gt;&gt;tabControlAdv1.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="_driverMetadataGrid1.Text" xml:space="preserve">
+    <value>driversGrid1</value>
+  </data>
+  <data name="driversTreeView1.ToolTipControl.Size" type="System.Drawing.Size, System.Drawing">
+    <value>49, 14</value>
+  </data>
+  <data name="cboFilter.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Top, Left, Right</value>
+  </data>
+  <data name="&gt;&gt;_driverMetadataGrid1.Type" xml:space="preserve">
+    <value>MW5.Data.Controls.DriverMetadataGrid, MW5.Data, Version=5.6.3.33476, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;lblCount.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="&gt;&gt;driversTreeView1.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="tabOpenOptions.Size" type="System.Drawing.Size, System.Drawing">
+    <value>566, 367</value>
+  </data>
+  <data name="btnClose.Size" type="System.Drawing.Size, System.Drawing">
+    <value>90, 24</value>
+  </data>
+  <data name="gridLayerOptions.Size" type="System.Drawing.Size, System.Drawing">
+    <value>566, 367</value>
+  </data>
+  <data name="btnClose.Text" xml:space="preserve">
+    <value>Close</value>
+  </data>
+  <data name="btnClose.TabIndex" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="tabCreationOptions.Size" type="System.Drawing.Size, System.Drawing">
+    <value>566, 367</value>
+  </data>
+  <data name="&gt;&gt;btnClose.Type" xml:space="preserve">
+    <value>Syncfusion.Windows.Forms.ButtonAdv, Syncfusion.Shared.Base, Version=18.1460.0.42, Culture=neutral, PublicKeyToken=3d67ed1f87d44c89</value>
+  </data>
+  <data name="&gt;&gt;_driverMetadataGrid1.Name" xml:space="preserve">
+    <value>_driverMetadataGrid1</value>
+  </data>
+  <data name="driversTreeView1.ToolTipControl.TabIndex" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="tabControlAdv1.TabIndex" type="System.Int32, mscorlib">
+    <value>5</value>
+  </data>
+  <metadata name="$this.Localizable" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <metadata name="$this.Language" type="System.Globalization.CultureInfo, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>zh-CN</value>
+  </metadata>
+</root>

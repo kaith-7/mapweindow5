@@ -1,0 +1,1085 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="ico_tasks" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\ico_tasks.ico;System.Drawing.Icon, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="标注设置" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\标注设置.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="删格转多边形" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\删格转多边形.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="捕捉到间断点" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\捕捉到间断点.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="前视图" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\前视图.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="img_mapwindow24" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\img_mapwindow24.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="面透明" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\面透明.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="多边形分割" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\多边形分割.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="保存编辑" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\保存编辑.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="map_window_version" xml:space="preserve">
+    <value>MapWindow版本：</value>
+    <comment>MapWindow version:</comment>
+  </data>
+  <data name="red_no_fill" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\red_no_fill.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="按属性统计" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\按属性统计.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="GoToXY" xml:space="preserve">
+    <value>定位到坐标</value>
+    <comment>Go to XY</comment>
+  </data>
+  <data name="MeasureDistance" xml:space="preserve">
+    <value>测距</value>
+    <comment>Measure Distance</comment>
+  </data>
+  <data name="Test" xml:space="preserve">
+    <value>测试</value>
+    <comment>Test</comment>
+  </data>
+  <data name="img_vector32_1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\img_vector32_1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="icon_layer_edit" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\icon_layer_edit.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="ico_results" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\ico_results.ico;System.Drawing.Icon, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+
+  <data name="地图投影" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\地图投影.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="顶点" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\顶点.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="小班照片" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\小班照片.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="img_wms_add24" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\img_wms_add24.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="img_Swipe32" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\EffectsSwipe32.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="捕捉到顶点" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\捕捉到顶点.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="icon_measure_distance" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\icon_measure_distance.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="img_server32" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\img_server32.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="打印机" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\打印机.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="删除当前图层" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\删除当前图层.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="img_measure32" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\img_measure32.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="全图" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\全图.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="img_palette" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\img_palette.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="要素信息" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\要素信息.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="icon_zoom_to_layer" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\icon_zoom_to_layer.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="移动设备" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\移动设备.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="属性提取" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\属性提取.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="BingApiKey" xml:space="preserve">
+    <value>设置Bing API秘钥</value>
+    <comment>Set Bing API key</comment>
+  </data>
+  <data name="缩略图" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\缩略图.ico;System.Drawing.Icon, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="渲染全部" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\渲染全部.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="工具箱" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\工具箱.ico;System.Drawing.Icon, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="SetScale" xml:space="preserve">
+    <value>设置比例尺</value>
+    <comment>Set Scale</comment>
+  </data>
+  <data name="icon_layer_add" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\icon_layer_add.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="img_geometry" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\img_geometry.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="标签移动" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\标签移动.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="卷帘" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\卷帘.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="img_options" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\img_options.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="img_SelectionByAttributes32" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\SelectionSelectByAttributes32.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="删除" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\删除.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="red_fill" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\red_fill.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="粘贴" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\粘贴.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="img_layers32" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\img_layers32.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="img_compass" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\img_compass.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="条件选择" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\条件选择.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="ico_zoom_to_layer" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\ico_zoom_to_layer.ico;System.Drawing.Icon, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="icon_layer_database_add" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\icon_layer_database_add.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Toolbars" xml:space="preserve">
+    <value>工具栏</value>
+    <comment>Toolbars</comment>
+  </data>
+  <data name="选择" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\选择.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="icon_label_add" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\icon_label_add.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="AddDatabaseLayer" xml:space="preserve">
+    <value>添加地理数据库图层</value>
+    <comment>Add Database Layer</comment>
+  </data>
+  <data name="img_error_red32" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\img_error_red32.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="拓扑检查" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\拓扑检查.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="ShowScalebar" xml:space="preserve">
+    <value>显示比例尺</value>
+    <comment>Show Scale Bar</comment>
+  </data>
+  <data name="合并" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\合并.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="img_vector32" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\img_vector32.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="drop_down" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\drop_down.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="img_scale24" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\img_scale24.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="icon_zoom_max_extents" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\icon_zoom_max_extents.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="icon_attribute_show" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\icon_attribute_show.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="img_widgets32" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\img_widgets32.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="AddWmsLayer" xml:space="preserve">
+    <value>添加WMS图层</value>
+    <comment>Add WMS Layer</comment>
+  </data>
+  <data name="角度测量" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\角度测量.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="ClearSelection" xml:space="preserve">
+    <value>清除选定</value>
+    <comment>Clear Selection</comment>
+  </data>
+  <data name="img_tiles32" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\img_tiles32.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="ZoomToBaseLayer" xml:space="preserve">
+    <value>缩放到基础层</value>
+    <comment>Zoom to Base Layer</comment>
+  </data>
+  <data name="捕捉当前图层" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\捕捉当前图层.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="icon_snapshot" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\icon_snapshot.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="icon_identify" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\icon_identify.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="img_folder_open32" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\img_folder_open32.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="删格图层" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\删格图层.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="icon_layer_raster_add" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\icon_layer_raster_add.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="新建要素" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\新建要素.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="后视图" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\后视图.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="移动视图" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\地图浏览.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+
+  <data name="icon_layer_clear" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\icon_layer_clear.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="测量距离" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\测量距离.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="按属性合并" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\按属性合并.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="线分割" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\线分割.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="icon_save_as" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\icon_save_as.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="img_open_layer32" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\img_open_layer32.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="矢量格式转换" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\矢量格式转换.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="矢量图层" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\矢量图层.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="缩放到已选" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\缩放到已选.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="顶点编辑" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\顶点编辑.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="间断点" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\间断点.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="img_zoom_next24" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\img_zoom_next24.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="icon_pan1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\icon_pan1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="空间选择" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\空间选择.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="icon_element_add" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\icon_element_add.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="清除所有图层" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\清除所有图层.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="img_map32" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\img_map32.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="ZoomMax" xml:space="preserve">
+    <value>缩放到最大</value>
+    <comment>Zoom to Maximum Exte</comment>
+  </data>
+  <data name="img_warning64" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\img_warning64.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="小班排号" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\小班排号.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="地理数据库" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\地理数据库.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="icon_layer_create" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\icon_layer_create.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="放大" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\放大.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="SaveProject" xml:space="preserve">
+    <value>保存项目</value>
+    <comment>Save Project</comment>
+  </data>
+  <data name="About" xml:space="preserve">
+    <value>关于</value>
+    <comment>About</comment>
+  </data>
+  <data name="small_down_arrow" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\small_down_arrow.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="智能识别" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\智能识别.ico;System.Drawing.Icon, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="当前层" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\当前层.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="ZoomToSelected" xml:space="preserve">
+    <value>缩放到选定</value>
+    <comment>Zoom to Selected</comment>
+  </data>
+  <data name="img_suntoongis_logo" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\ST GIS(1).png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="符号旋转" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\符号旋转.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="SwitchFill" xml:space="preserve">
+    <value>一键透明</value>
+    <comment>Switch Area Fill</comment>
+  </data>
+  <data name="icon_save1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\icon_save1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="全不选" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\全不选.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="重做" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\重做.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="SelectByPolygon" xml:space="preserve">
+    <value>多边形工具</value>
+    <comment>By Polygon</comment>
+  </data>
+  <data name="删格格式转换" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\删格格式转换.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="底图" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\底图.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="icon_save" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\icon_save.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="icon_select_by_polygon" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\icon_select_by_polygon.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="距离测量" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\距离测量.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="icon_measure_area" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\icon_measure_area.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="属性复制" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\属性复制.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="关于" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\关于.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="定位" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\定位.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="AddRasterLayer" xml:space="preserve">
+    <value>添加栅格图层</value>
+    <comment>Add Raster Layer</comment>
+  </data>
+  <data name="拆分" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\拆分.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="img_globe32" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\img_globe32.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="栅格数据重投影" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\栅格数据重投影.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="img_picture32" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\img_picture32.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="复制" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\复制.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="icon_layer_save" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\icon_layer_save.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Settings" xml:space="preserve">
+    <value>设置</value>
+    <comment>Settings</comment>
+  </data>
+  <data name="删除要素" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\删除要素.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="面融合" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\面融合.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="img_measure_length" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\img_measure_length.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="img_toolbox24" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\img_toolbox24.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Pan" xml:space="preserve">
+    <value>平移</value>
+    <comment>Pan</comment>
+  </data>
+  <data name="CustomProviders" xml:space="preserve">
+    <value />
+  </data>
+  <data name="img_book24" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\img_book24.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="数据字典" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\数据字典.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="AttributesTool" xml:space="preserve">
+    <value>属性</value>
+    <comment>Attributes</comment>
+  </data>
+  <data name="线构面" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\线构面.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="ComUsage" xml:space="preserve">
+    <value>COM使用</value>
+    <comment>COM Usage</comment>
+  </data>
+  <data name="缩放已选" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\缩放已选.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="比例尺" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\比例尺.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="AddVectorLayer" xml:space="preserve">
+    <value>添加矢量图层</value>
+    <comment>Add Vector Layer</comment>
+  </data>
+  <data name="MeasureArea" xml:space="preserve">
+    <value>测量面积</value>
+    <comment>Measure Area</comment>
+  </data>
+  <data name="添加图层" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\添加图层.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="icon_layer_vector_thematic_add" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\icon_layer_vector_thematic_add.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="打印" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\打印.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="ClearLayers" xml:space="preserve">
+    <value>删除所有图层</value>
+    <comment>Clear Layers</comment>
+  </data>
+  <data name="属性粘贴" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\属性粘贴.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="SetProjection" xml:space="preserve">
+    <value>地图投影</value>
+    <comment>Map Projection</comment>
+  </data>
+  <data name="多边形选择" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\多边形选择.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="img_docs24" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\img_docs24.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="矩形选择" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\矩形选择.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="缩小" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\缩小.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="img_default24" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\img_default24.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Exit" xml:space="preserve">
+    <value>退出</value>
+    <comment>Exit</comment>
+  </data>
+  <data name="ShowCoordinates" xml:space="preserve">
+    <value>显示坐标</value>
+    <comment>Show Coordinates</comment>
+  </data>
+  <data name="矢量数据重投影" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\矢量数据重投影.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="img_raster" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\img_raster.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="icon_layer_vector_add" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\icon_layer_vector_add.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="区域打印" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\区域打印.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="SaveProjectAs" xml:space="preserve">
+    <value>另存为</value>
+    <comment>Save Project As</comment>
+  </data>
+  <data name="img_coordinates32" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\img_coordinates32.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="img_SelectionSelectByLocation32" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\SelectionSelectByLocation32.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="RemoveLayer" xml:space="preserve">
+    <value>删除图层</value>
+    <comment>Remove Layer</comment>
+  </data>
+  <data name="icon_zoom_out" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\icon_zoom_out.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="icon_select" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\icon_select.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="面转线" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\面转线.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="icon_clear_selection" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\icon_clear_selection.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="img_world_grid32" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\img_world_grid32.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="旋转" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\旋转.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="img_suntoongis_view" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\ST GIS(2)1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="img_zoom_prev24" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\img_zoom_prev24.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="ico_tools" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\ico_tools.ico;System.Drawing.Icon, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="撤销" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\撤销.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="icon_new_map" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\icon_new_map.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="icon_folder" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\icon_folder.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="LayerClearSelection" xml:space="preserve">
+    <value>清除选择</value>
+    <comment>Clear Selection</comment>
+  </data>
+  <data name="img_tune32" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\img_tune32.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="map_winGIS_version" xml:space="preserve">
+    <value>MapWinGIS版本：</value>
+    <comment>MapWinGIS version:</comment>
+  </data>
+  <data name="ShowRepository" xml:space="preserve">
+    <value>显示存储库</value>
+    <comment>Show Repository</comment>
+  </data>
+  <data name="Welcome" xml:space="preserve">
+    <value>欢迎</value>
+    <comment>Show Welcome Screen</comment>
+  </data>
+  <data name="PluginsConfigure" xml:space="preserve">
+    <value>插件配置</value>
+    <comment>Configure Plugins...</comment>
+  </data>
+  <data name="Windows" xml:space="preserve">
+    <value>窗口</value>
+    <comment>Windows</comment>
+  </data>
+  <data name="icon_project_open" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\icon_project_open.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="ZoomIn" xml:space="preserve">
+    <value>放大</value>
+    <comment>Zoom In</comment>
+  </data>
+  <data name="NewMap" xml:space="preserve">
+    <value>新建地图</value>
+    <comment>New Map</comment>
+  </data>
+  <data name="添加数据" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\添加数据.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="img_eye32" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\img_eye32.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="icon_crs_change" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\icon_crs_change.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="照片设置" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\照片设置.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="PluginsConfigure" xml:space="preserve">
+    <value>插件配置</value>
+    <comment>Configure Plugins...</comment>
+
+  </data>
+  <data name="img_plugin32" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\img_plugin32.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="GDAL_version" xml:space="preserve">
+    <value>GDAL 版本：</value>
+    <comment>GDAL version:</comment>
+  </data>
+  <data name="icon_settings" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\icon_settings.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="img_component32" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\img_component32.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="所有层" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\所有层.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="img_GoToXY32" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\GoToXY32.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="img_error_orange32" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\img_error_orange32.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="ZoomToLayer" xml:space="preserve">
+    <value>缩放到当前</value>
+    <comment>Zoom to Layer</comment>
+  </data>
+  <data name="ShowZoombar" xml:space="preserve">
+    <value>显示缩放栏</value>
+    <comment>Show Zoom Bar</comment>
+  </data>
+  <data name="测量面积" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\测量面积.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="分类渲染" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\分类渲染.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="OpenProject" xml:space="preserve">
+    <value>打开项目</value>
+    <comment>Open Project</comment>
+  </data>
+  <data name="统计表" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\统计表.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="icon_zoom_to_selection" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\icon_zoom_to_selection.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="ZoomNext" xml:space="preserve">
+    <value>转至下一视图</value>
+    <comment>Zoom to Next</comment>
+  </data>
+  <data name="手册" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\手册.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="SelectionSelectByLocation" xml:space="preserve">
+    <value>按位置关系选择要素</value>
+    <comment>Selection Select By Location Relationship</comment>
+  </data>
+  <data name="icon_pan" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\icon_pan.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="img_test24" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\img_test24.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="img_mapwindow_logo" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\img_mapwindow_logo.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="导航" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\导航.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="捕捉所有图层" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\捕捉所有图层.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="SelectDropDown" xml:space="preserve">
+    <value>选择</value>
+    <comment>Select</comment>
+  </data>
+  <data name="img_paypal24" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\img_paypal24.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="mapwindow_logo" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\mapwindow_logo.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="面积测量" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\面积测量.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="ShowToolbox" xml:space="preserve">
+    <value>显示工具箱</value>
+    <comment>Show Toolbox</comment>
+  </data>
+  <data name="FindLocation" xml:space="preserve">
+    <value>查找位置</value>
+    <comment>Find Location</comment>
+  </data>
+  <data name="icon_vertex" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\icon_vertex.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="剪切" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\剪切.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="icon_search" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\icon_search.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="SelectionByAttribute" xml:space="preserve">
+    <value>按属性选择要素</value>
+    <comment>Selection By Attributes</comment>
+  </data>
+  <data name="新建图层" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\新建图层.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="开始编辑" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\开始编辑.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="ShowRedrawTime" xml:space="preserve">
+    <value>显示重画时间</value>
+    <comment>Show Redraw Time</comment>
+  </data>
+  <data name="欢迎" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\欢迎.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="SelectByRectangle" xml:space="preserve">
+    <value>矩形工具</value>
+    <comment>By Rectangle</comment>
+  </data>
+  <data name="SupportedDrivers" xml:space="preserve">
+    <value>驱动支持</value>
+    <comment>Supported Drivers</comment>
+  </data>
+  <data name="ZoomPrev" xml:space="preserve">
+    <value>返回上一视图</value>
+    <comment>Zoom to Previous</comment>
+  </data>
+  <data name="img_tools32" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\img_tools32.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="ico_legend" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\ico_legend.ico;System.Drawing.Icon, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="影像配准" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\影像配准.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="ZoomOut" xml:space="preserve">
+    <value>缩小</value>
+    <comment>Zoom Out</comment>
+  </data>
+  <data name="WMS图层" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\WMS图层.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="移动" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\移动.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Swipe" xml:space="preserve">
+    <value>影像卷帘</value>
+    <comment>Swipe Image</comment>
+  </data>
+  <data name="icon_layer_db_add" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\icon_layer_db_add.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="icon_quit" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\icon_quit.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="img_FindLocation" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\img_picture321.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="icon_zoom_in" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\icon_zoom_in.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="TilesConfigure" xml:space="preserve">
+    <value>瓦片配置</value>
+    <comment>Configure Tiles...</comment>
+  </data>
+  <data name="icon_layer_remove" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\icon_layer_remove.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="标签移动标签" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\标签移动标签.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="AddLayer" xml:space="preserve">
+    <value>添加图层</value>
+    <comment>Add Layer</comment>
+  </data>
+  <data name="ico_toolbox24" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\ico_toolbox24.ico;System.Drawing.Icon, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+
+  <data name="添加数据1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\添加数据.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+
+  <data name="small_down_arrow" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\small_down_arrow.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="drop_down" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\drop_down.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="保存编辑" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\保存编辑.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="属性粘贴" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\属性粘贴.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="当前层" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\当前层.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="所有层" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\所有层.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="打印机" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\打印机.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="添加数据" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\添加数据.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="移动设备" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\移动设备.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="角度测量" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\角度测量.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="间断点" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\间断点.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="面透明" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\面透明.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="顶点" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\顶点.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="WMS图层" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\WMS图层.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="删格图层" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\删格图层.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="地理数据库" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\地理数据库.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="小班照片" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\小班照片.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="标签移动标签" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\标签移动标签.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="照片设置" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\照片设置.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="矢量图层" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\矢量图层.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="缩放已选" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\缩放已选.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="关于" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\关于.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="手册" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\手册.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="欢迎" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\欢迎.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="删格格式转换" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\删格格式转换.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="删格转多边形" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\删格转多边形.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="小班排号" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\小班排号.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="属性提取" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\属性提取.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="影像配准" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\影像配准.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="拓扑检查" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\拓扑检查.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="按属性合并" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\按属性合并.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="按属性统计" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\按属性统计.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="矢量数据重投影" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\矢量数据重投影.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="矢量格式转换" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\矢量格式转换.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="线构面" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\线构面.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="面融合" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\面融合.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="面转线" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\面转线.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="栅格数据重投影" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\栅格数据重投影.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="工具箱" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\工具箱.ico;System.Drawing.Icon, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="智能识别" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\智能识别.ico;System.Drawing.Icon, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="缩略图" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\缩略图.ico;System.Drawing.Icon, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="数据字典" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\数据字典.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="移动视图" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\地图浏览.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="距离测量" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\距离测量.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="地图投影" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\地图投影.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="多边形选择" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\多边形选择.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+
+</root>

@@ -1,0 +1,861 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="&gt;&gt;chkUniqueValues.Name" xml:space="preserve">
+    <value>chkUniqueValues</value>
+  </data>
+  <data name="&gt;&gt;dgvCategories.Parent" xml:space="preserve">
+    <value>groupBox12</value>
+  </data>
+  <data name="&gt;&gt;cmnExpression.Type" xml:space="preserve">
+    <value>System.Windows.Forms.DataGridViewTextBoxColumn, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="udMaxSize.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <assembly alias="mscorlib" name="mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="lstFields1.TabIndex" type="System.Int32, mscorlib">
+    <value>124</value>
+  </data>
+  <assembly alias="System.Drawing" name="System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
+  <data name="chkUniqueValues.Location" type="System.Drawing.Point, System.Drawing">
+    <value>23, 51</value>
+  </data>
+  <data name="dgvCategories.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="&gt;&gt;btnCategoryAppearance.Name" xml:space="preserve">
+    <value>btnCategoryAppearance</value>
+  </data>
+  <data name="&gt;&gt;groupVariableSize.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="cmnStyle.HeaderText" xml:space="preserve">
+    <value>Style</value>
+  </data>
+  <data name="&gt;&gt;label5.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;groupVariableSize.Type" xml:space="preserve">
+    <value>System.Windows.Forms.GroupBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;chkRandomColors.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="chkUseVariableSize.Size" type="System.Drawing.Size, System.Drawing">
+    <value>60, 16</value>
+  </data>
+  <data name="&gt;&gt;icbCategories.Type" xml:space="preserve">
+    <value>MW5.Plugins.Symbology.Controls.ImageCombo.ColorSchemeCombo, MW5.Symbology, Version=1.0.0.33477, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;cmnCount.Name" xml:space="preserve">
+    <value>cmnCount</value>
+  </data>
+  <data name="udMaxSize.TabIndex" type="System.Int32, mscorlib">
+    <value>118</value>
+  </data>
+  <data name="label5.TabIndex" type="System.Int32, mscorlib">
+    <value>116</value>
+  </data>
+  <data name="&gt;&gt;chkUseVariableSize.Type" xml:space="preserve">
+    <value>System.Windows.Forms.CheckBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="cmnExpression.HeaderText" xml:space="preserve">
+    <value>Expression</value>
+  </data>
+  <data name="btnChangeColorScheme.Location" type="System.Drawing.Point, System.Drawing">
+    <value>162, 23</value>
+  </data>
+  <data name="&gt;&gt;btnCategoryRemove.Name" xml:space="preserve">
+    <value>btnCategoryRemove</value>
+  </data>
+  <data name="label19.Location" type="System.Drawing.Point, System.Drawing">
+    <value>21, 27</value>
+  </data>
+  <data name="icbCategories.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="&gt;&gt;btnCategoryAppearance.ZOrder" xml:space="preserve">
+    <value>7</value>
+  </data>
+  <data name="groupBox9.TabIndex" type="System.Int32, mscorlib">
+    <value>134</value>
+  </data>
+  <data name="&gt;&gt;btnCategoryRemove.Type" xml:space="preserve">
+    <value>Syncfusion.Windows.Forms.ButtonAdv, Syncfusion.Shared.Base, Version=18.1460.0.42, Culture=neutral, PublicKeyToken=3d67ed1f87d44c89</value>
+  </data>
+  <data name="groupBox9.Location" type="System.Drawing.Point, System.Drawing">
+    <value>168, 81</value>
+  </data>
+  <data name="&gt;&gt;groupBox9.Type" xml:space="preserve">
+    <value>System.Windows.Forms.GroupBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;groupBox9.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="label5.Location" type="System.Drawing.Point, System.Drawing">
+    <value>13, 49</value>
+  </data>
+  <data name="&gt;&gt;btnChangeColorScheme.Parent" xml:space="preserve">
+    <value>groupBox6</value>
+  </data>
+  <data name="&gt;&gt;groupBox6.Name" xml:space="preserve">
+    <value>groupBox6</value>
+  </data>
+  <data name="btnCategoryGenerate.Size" type="System.Drawing.Size, System.Drawing">
+    <value>93, 24</value>
+  </data>
+  <data name="&gt;&gt;chkUseVariableSize.Name" xml:space="preserve">
+    <value>chkUseVariableSize</value>
+  </data>
+  <data name="btnChangeColorScheme.Text" xml:space="preserve">
+    <value>...</value>
+  </data>
+  <data name="groupBox9.Text" xml:space="preserve">
+    <value>Classification</value>
+  </data>
+  <data name="&gt;&gt;chkRandomColors.Type" xml:space="preserve">
+    <value>System.Windows.Forms.CheckBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;groupBox11.Name" xml:space="preserve">
+    <value>groupBox11</value>
+  </data>
+  <data name="&gt;&gt;lstFields1.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ListBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;chkRandomColors.Name" xml:space="preserve">
+    <value>chkRandomColors</value>
+  </data>
+  <data name="udNumCategories.Size" type="System.Drawing.Size, System.Drawing">
+    <value>55, 21</value>
+  </data>
+  <data name="&gt;&gt;btnChangeColorScheme.Type" xml:space="preserve">
+    <value>Syncfusion.Windows.Forms.ButtonAdv, Syncfusion.Shared.Base, Version=18.1460.0.42, Culture=neutral, PublicKeyToken=3d67ed1f87d44c89</value>
+  </data>
+  <data name="&gt;&gt;chkUniqueValues.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="btnCategoryAppearance.TabIndex" type="System.Int32, mscorlib">
+    <value>131</value>
+  </data>
+  <data name="&gt;&gt;btnCategoryClear.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;btnCategoryGenerate.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="dgvCategories.Location" type="System.Drawing.Point, System.Drawing">
+    <value>3, 17</value>
+  </data>
+  <data name="&gt;&gt;cmnCount.Type" xml:space="preserve">
+    <value>System.Windows.Forms.DataGridViewTextBoxColumn, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;dgvCategories.Type" xml:space="preserve">
+    <value>MW5.Plugins.Symbology.Controls.CategoriesGrid, MW5.Symbology, Version=1.0.0.33477, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="ID.Visible" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="$this.AutoScaleDimensions" type="System.Drawing.SizeF, System.Drawing">
+    <value>6, 12</value>
+  </data>
+  <data name="groupBox12.Size" type="System.Drawing.Size, System.Drawing">
+    <value>366, 202</value>
+  </data>
+  <data name="label5.Size" type="System.Drawing.Size, System.Drawing">
+    <value>35, 12</value>
+  </data>
+  <data name="chkRandomColors.TabIndex" type="System.Int32, mscorlib">
+    <value>108</value>
+  </data>
+  <data name="&gt;&gt;btnCategoryRemove.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="groupBox6.Text" xml:space="preserve">
+    <value>Color scheme</value>
+  </data>
+  <data name="cmnName.Width" type="System.Int32, mscorlib">
+    <value>120</value>
+  </data>
+  <data name="groupBox12.Text" xml:space="preserve">
+    <value>Categories</value>
+  </data>
+  <data name="label5.Text" xml:space="preserve">
+    <value>Size:</value>
+  </data>
+  <data name="chkRandomColors.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="groupBox6.Size" type="System.Drawing.Size, System.Drawing">
+    <value>201, 76</value>
+  </data>
+  <data name="cmnCount.Width" type="System.Int32, mscorlib">
+    <value>40</value>
+  </data>
+  <data name="groupBox11.Size" type="System.Drawing.Size, System.Drawing">
+    <value>153, 157</value>
+  </data>
+  <data name="&gt;&gt;ID.Type" xml:space="preserve">
+    <value>System.Windows.Forms.DataGridViewTextBoxColumn, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;groupBox6.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;udMaxSize.Parent" xml:space="preserve">
+    <value>groupVariableSize</value>
+  </data>
+  <data name="&gt;&gt;label5.Parent" xml:space="preserve">
+    <value>groupVariableSize</value>
+  </data>
+  <data name="lstFields1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>3, 17</value>
+  </data>
+  <data name="btnCategoryRemove.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="&gt;&gt;groupBox12.Type" xml:space="preserve">
+    <value>System.Windows.Forms.GroupBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="btnCategoryGenerate.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="&gt;&gt;label19.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="btnCategoryGenerate.Location" type="System.Drawing.Point, System.Drawing">
+    <value>392, 15</value>
+  </data>
+  <data name="&gt;&gt;udNumCategories.Name" xml:space="preserve">
+    <value>udNumCategories</value>
+  </data>
+  <data name="&gt;&gt;groupBox12.Name" xml:space="preserve">
+    <value>groupBox12</value>
+  </data>
+  <data name="chkSetGradient.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="label19.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="&gt;&gt;label5.Name" xml:space="preserve">
+    <value>label5</value>
+  </data>
+  <data name="lstFields1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>147, 137</value>
+  </data>
+  <data name="udNumCategories.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="&gt;&gt;btnChangeColorScheme.Name" xml:space="preserve">
+    <value>btnChangeColorScheme</value>
+  </data>
+  <data name="udMaxSize.Location" type="System.Drawing.Point, System.Drawing">
+    <value>30, 88</value>
+  </data>
+  <data name="chkUseVariableSize.Location" type="System.Drawing.Point, System.Drawing">
+    <value>16, 26</value>
+  </data>
+  <data name="&gt;&gt;cmnVisible.Type" xml:space="preserve">
+    <value>System.Windows.Forms.DataGridViewCheckBoxColumn, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;btnCategoryGenerate.ZOrder" xml:space="preserve">
+    <value>8</value>
+  </data>
+  <data name="&gt;&gt;chkSetGradient.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="groupBox12.Location" type="System.Drawing.Point, System.Drawing">
+    <value>3, 166</value>
+  </data>
+  <data name="&gt;&gt;groupVariableSize.Name" xml:space="preserve">
+    <value>groupVariableSize</value>
+  </data>
+  <data name="&gt;&gt;btnCategoryRemove.ZOrder" xml:space="preserve">
+    <value>6</value>
+  </data>
+  <data name="dgvCategories.Size" type="System.Drawing.Size, System.Drawing">
+    <value>360, 182</value>
+  </data>
+  <data name="chkRandomColors.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="&gt;&gt;lstFields1.Parent" xml:space="preserve">
+    <value>groupBox11</value>
+  </data>
+  <data name="groupBox11.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="groupVariableSize.Text" xml:space="preserve">
+    <value>Variable size</value>
+  </data>
+  <data name="&gt;&gt;btnCategoryClear.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="cmnVisible.HeaderText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="btnChangeColorScheme.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="dgvCategories.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Fill</value>
+  </data>
+  <data name="&gt;&gt;btnCategoryClear.Type" xml:space="preserve">
+    <value>Syncfusion.Windows.Forms.ButtonAdv, Syncfusion.Shared.Base, Version=18.1460.0.42, Culture=neutral, PublicKeyToken=3d67ed1f87d44c89</value>
+  </data>
+  <data name="&gt;&gt;chkRandomColors.Parent" xml:space="preserve">
+    <value>groupBox6</value>
+  </data>
+  <data name="chkSetGradient.Location" type="System.Drawing.Point, System.Drawing">
+    <value>19, 48</value>
+  </data>
+  <data name="udMinSize.Size" type="System.Drawing.Size, System.Drawing">
+    <value>45, 21</value>
+  </data>
+  <data name="cmnExpression.Visible" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="&gt;&gt;groupBox12.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;btnCategoryGenerate.Type" xml:space="preserve">
+    <value>Syncfusion.Windows.Forms.ButtonAdv, Syncfusion.Shared.Base, Version=18.1460.0.42, Culture=neutral, PublicKeyToken=3d67ed1f87d44c89</value>
+  </data>
+  <data name="btnCategoryGenerate.Text" xml:space="preserve">
+    <value>Generate</value>
+  </data>
+  <data name="cmnStyle.Width" type="System.Int32, mscorlib">
+    <value>50</value>
+  </data>
+  <data name="btnCategoryAppearance.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="&gt;&gt;udNumCategories.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="udMaxSize.Size" type="System.Drawing.Size, System.Drawing">
+    <value>45, 21</value>
+  </data>
+  <data name="btnCategoryGenerate.TabIndex" type="System.Int32, mscorlib">
+    <value>130</value>
+  </data>
+  <data name="btnCategoryClear.TabIndex" type="System.Int32, mscorlib">
+    <value>132</value>
+  </data>
+  <data name="&gt;&gt;groupBox6.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="btnCategoryRemove.Text" xml:space="preserve">
+    <value>Remove</value>
+  </data>
+  <data name="&gt;&gt;groupBox9.Name" xml:space="preserve">
+    <value>groupBox9</value>
+  </data>
+  <data name="&gt;&gt;groupBox12.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="chkSetGradient.Text" xml:space="preserve">
+    <value>Gradient</value>
+  </data>
+  <data name="&gt;&gt;dgvCategories.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;btnCategoryAppearance.Type" xml:space="preserve">
+    <value>Syncfusion.Windows.Forms.ButtonAdv, Syncfusion.Shared.Base, Version=18.1460.0.42, Culture=neutral, PublicKeyToken=3d67ed1f87d44c89</value>
+  </data>
+  <data name="&gt;&gt;udMaxSize.Type" xml:space="preserve">
+    <value>MW5.Plugins.Symbology.Controls.NumericUpDownEx, MW5.Symbology, Version=1.0.0.33477, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;icbCategories.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="btnCategoryAppearance.Text" xml:space="preserve">
+    <value>Appearance...</value>
+  </data>
+  <data name="label5.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="&gt;&gt;chkSetGradient.Type" xml:space="preserve">
+    <value>System.Windows.Forms.CheckBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;label19.Parent" xml:space="preserve">
+    <value>groupBox9</value>
+  </data>
+  <data name="groupVariableSize.Location" type="System.Drawing.Point, System.Drawing">
+    <value>392, 166</value>
+  </data>
+  <data name="groupBox11.Text" xml:space="preserve">
+    <value>Fields</value>
+  </data>
+  <data name="btnChangeColorScheme.TabIndex" type="System.Int32, mscorlib">
+    <value>107</value>
+  </data>
+  <data name="&gt;&gt;btnChangeColorScheme.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="groupBox9.Size" type="System.Drawing.Size, System.Drawing">
+    <value>201, 76</value>
+  </data>
+  <data name="chkRandomColors.Size" type="System.Drawing.Size, System.Drawing">
+    <value>102, 16</value>
+  </data>
+  <data name="&gt;&gt;ID.Name" xml:space="preserve">
+    <value>ID</value>
+  </data>
+  <data name="btnCategoryRemove.TabIndex" type="System.Int32, mscorlib">
+    <value>133</value>
+  </data>
+  <data name="&gt;&gt;lstFields1.Name" xml:space="preserve">
+    <value>lstFields1</value>
+  </data>
+  <data name="groupBox11.TabIndex" type="System.Int32, mscorlib">
+    <value>137</value>
+  </data>
+  <data name="btnCategoryAppearance.Size" type="System.Drawing.Size, System.Drawing">
+    <value>93, 24</value>
+  </data>
+  <data name="chkUniqueValues.TabIndex" type="System.Int32, mscorlib">
+    <value>123</value>
+  </data>
+  <data name="udMinSize.Location" type="System.Drawing.Point, System.Drawing">
+    <value>30, 64</value>
+  </data>
+  <data name="label19.TabIndex" type="System.Int32, mscorlib">
+    <value>101</value>
+  </data>
+  <data name="&gt;&gt;cmnName.Name" xml:space="preserve">
+    <value>cmnName</value>
+  </data>
+  <data name="chkSetGradient.Size" type="System.Drawing.Size, System.Drawing">
+    <value>68, 18</value>
+  </data>
+  <data name="btnCategoryRemove.Size" type="System.Drawing.Size, System.Drawing">
+    <value>93, 24</value>
+  </data>
+  <data name="btnCategoryAppearance.Location" type="System.Drawing.Point, System.Drawing">
+    <value>392, 44</value>
+  </data>
+  <data name="groupBox6.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="cmnCount.HeaderText" xml:space="preserve">
+    <value>Count</value>
+  </data>
+  <data name="&gt;&gt;udNumCategories.Type" xml:space="preserve">
+    <value>MW5.Plugins.Symbology.Controls.NumericUpDownEx, MW5.Symbology, Version=1.0.0.33477, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;udMinSize.Parent" xml:space="preserve">
+    <value>groupVariableSize</value>
+  </data>
+  <data name="&gt;&gt;toolTip1.Name" xml:space="preserve">
+    <value>toolTip1</value>
+  </data>
+  <data name="ID.Width" type="System.Int32, mscorlib">
+    <value>30</value>
+  </data>
+  <data name="chkUseVariableSize.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="icbCategories.TabIndex" type="System.Int32, mscorlib">
+    <value>106</value>
+  </data>
+  <data name="$this.Size" type="System.Drawing.Size, System.Drawing">
+    <value>493, 371</value>
+  </data>
+  <data name="chkUseVariableSize.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="&gt;&gt;$this.Name" xml:space="preserve">
+    <value>CategoriesSubView</value>
+  </data>
+  <data name="&gt;&gt;$this.Type" xml:space="preserve">
+    <value>MW5.Plugins.Symbology.Views.CategoriesSubViewBase, MW5.Symbology, Version=1.0.0.33477, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="btnChangeColorScheme.FlatStyle" type="System.Windows.Forms.FlatStyle, System.Windows.Forms">
+    <value>System</value>
+  </data>
+  <data name="&gt;&gt;groupVariableSize.ZOrder" xml:space="preserve">
+    <value>4</value>
+  </data>
+  <data name="&gt;&gt;cmnVisible.Name" xml:space="preserve">
+    <value>cmnVisible</value>
+  </data>
+  <data name="btnCategoryClear.Size" type="System.Drawing.Size, System.Drawing">
+    <value>93, 24</value>
+  </data>
+  <data name="label19.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="btnCategoryClear.Location" type="System.Drawing.Point, System.Drawing">
+    <value>392, 103</value>
+  </data>
+  <data name="&gt;&gt;cmnStyle.Type" xml:space="preserve">
+    <value>System.Windows.Forms.DataGridViewImageColumn, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;dgvCategories.Name" xml:space="preserve">
+    <value>dgvCategories</value>
+  </data>
+  <data name="&gt;&gt;udMaxSize.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;cmnStyle.Name" xml:space="preserve">
+    <value>cmnStyle</value>
+  </data>
+  <data name="&gt;&gt;chkUniqueValues.Parent" xml:space="preserve">
+    <value>groupBox9</value>
+  </data>
+  <data name="&gt;&gt;btnCategoryAppearance.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;chkUseVariableSize.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="&gt;&gt;lstFields1.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="groupBox11.Location" type="System.Drawing.Point, System.Drawing">
+    <value>3, 0</value>
+  </data>
+  <data name="&gt;&gt;btnCategoryGenerate.Name" xml:space="preserve">
+    <value>btnCategoryGenerate</value>
+  </data>
+  <data name="&gt;&gt;udMinSize.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="dgvCategories.TabIndex" type="System.Int32, mscorlib">
+    <value>93</value>
+  </data>
+  <data name="udMinSize.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="&gt;&gt;groupBox9.ZOrder" xml:space="preserve">
+    <value>5</value>
+  </data>
+  <data name="dgvCategories.RowHeadersWidth" type="System.Int32, mscorlib">
+    <value>15</value>
+  </data>
+  <data name="lstFields1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="cmnExpression.Width" type="System.Int32, mscorlib">
+    <value>5</value>
+  </data>
+  <data name="&gt;&gt;icbCategories.Parent" xml:space="preserve">
+    <value>groupBox6</value>
+  </data>
+  <data name="&gt;&gt;label5.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="chkRandomColors.Text" xml:space="preserve">
+    <value>Random colors</value>
+  </data>
+  <data name="cmnName.HeaderText" xml:space="preserve">
+    <value>Name</value>
+  </data>
+  <data name="&gt;&gt;chkUniqueValues.Type" xml:space="preserve">
+    <value>System.Windows.Forms.CheckBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="groupBox12.TabIndex" type="System.Int32, mscorlib">
+    <value>138</value>
+  </data>
+  <data name="&gt;&gt;udMaxSize.Name" xml:space="preserve">
+    <value>udMaxSize</value>
+  </data>
+  <data name="btnCategoryClear.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="label5.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="groupBox12.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="chkUniqueValues.Text" xml:space="preserve">
+    <value>Unique values</value>
+  </data>
+  <data name="$this.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="chkRandomColors.Location" type="System.Drawing.Point, System.Drawing">
+    <value>93, 50</value>
+  </data>
+  <data name="&gt;&gt;udMinSize.Type" xml:space="preserve">
+    <value>MW5.Plugins.Symbology.Controls.NumericUpDownEx, MW5.Symbology, Version=1.0.0.33477, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="chkUniqueValues.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="groupBox6.TabIndex" type="System.Int32, mscorlib">
+    <value>136</value>
+  </data>
+  <data name="&gt;&gt;groupBox6.Type" xml:space="preserve">
+    <value>System.Windows.Forms.GroupBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;chkSetGradient.Parent" xml:space="preserve">
+    <value>groupBox6</value>
+  </data>
+  <data name="groupVariableSize.Size" type="System.Drawing.Size, System.Drawing">
+    <value>93, 131</value>
+  </data>
+  <data name="chkUniqueValues.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="&gt;&gt;label19.Name" xml:space="preserve">
+    <value>label19</value>
+  </data>
+  <data name="groupVariableSize.Visible" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="&gt;&gt;label19.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="label19.Text" xml:space="preserve">
+    <value>Categories</value>
+  </data>
+  <data name="udNumCategories.TabIndex" type="System.Int32, mscorlib">
+    <value>156</value>
+  </data>
+  <data name="icbCategories.Location" type="System.Drawing.Point, System.Drawing">
+    <value>19, 23</value>
+  </data>
+  <data name="btnCategoryClear.Text" xml:space="preserve">
+    <value>Clear</value>
+  </data>
+  <data name="&gt;&gt;chkSetGradient.Name" xml:space="preserve">
+    <value>chkSetGradient</value>
+  </data>
+  <data name="&gt;&gt;groupBox11.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="lstFields1.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Fill</value>
+  </data>
+  <data name="&gt;&gt;chkUseVariableSize.Parent" xml:space="preserve">
+    <value>groupVariableSize</value>
+  </data>
+  <data name="chkUseVariableSize.Text" xml:space="preserve">
+    <value>Enable</value>
+  </data>
+  <data name="ID.HeaderText" xml:space="preserve">
+    <value>ID</value>
+  </data>
+  <data name="lstFields1.ItemHeight" type="System.Int32, mscorlib">
+    <value>12</value>
+  </data>
+  <data name="chkSetGradient.TabIndex" type="System.Int32, mscorlib">
+    <value>116</value>
+  </data>
+  <data name="&gt;&gt;udMinSize.Name" xml:space="preserve">
+    <value>udMinSize</value>
+  </data>
+  <data name="udNumCategories.Location" type="System.Drawing.Point, System.Drawing">
+    <value>84, 24</value>
+  </data>
+  <data name="groupVariableSize.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="chkUniqueValues.Size" type="System.Drawing.Size, System.Drawing">
+    <value>102, 16</value>
+  </data>
+  <data name="groupBox9.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="btnCategoryRemove.Location" type="System.Drawing.Point, System.Drawing">
+    <value>392, 74</value>
+  </data>
+  <data name="&gt;&gt;toolTip1.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolTip, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="udMinSize.TabIndex" type="System.Int32, mscorlib">
+    <value>117</value>
+  </data>
+  <data name="groupBox6.Location" type="System.Drawing.Point, System.Drawing">
+    <value>168, 0</value>
+  </data>
+  <data name="&gt;&gt;groupBox11.Type" xml:space="preserve">
+    <value>System.Windows.Forms.GroupBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;udNumCategories.Parent" xml:space="preserve">
+    <value>groupBox9</value>
+  </data>
+  <data name="groupVariableSize.TabIndex" type="System.Int32, mscorlib">
+    <value>135</value>
+  </data>
+  <data name="icbCategories.Size" type="System.Drawing.Size, System.Drawing">
+    <value>137, 22</value>
+  </data>
+  <data name="&gt;&gt;btnCategoryClear.Name" xml:space="preserve">
+    <value>btnCategoryClear</value>
+  </data>
+  <data name="label19.Size" type="System.Drawing.Size, System.Drawing">
+    <value>65, 12</value>
+  </data>
+  <data name="&gt;&gt;cmnName.Type" xml:space="preserve">
+    <value>System.Windows.Forms.DataGridViewTextBoxColumn, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="btnChangeColorScheme.Size" type="System.Drawing.Size, System.Drawing">
+    <value>28, 19</value>
+  </data>
+  <data name="&gt;&gt;groupBox11.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="dgvCategories.ScrollBars" type="System.Windows.Forms.ScrollBars, System.Windows.Forms">
+    <value>Vertical</value>
+  </data>
+  <data name="cmnVisible.Width" type="System.Int32, mscorlib">
+    <value>30</value>
+  </data>
+  <data name="&gt;&gt;icbCategories.Name" xml:space="preserve">
+    <value>icbCategories</value>
+  </data>
+  <data name="&gt;&gt;cmnExpression.Name" xml:space="preserve">
+    <value>cmnExpression</value>
+  </data>
+  <data name="chkUseVariableSize.TabIndex" type="System.Int32, mscorlib">
+    <value>115</value>
+  </data>
+  <metadata name="cmnVisible.UserAddedColumn" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <metadata name="cmnCount.UserAddedColumn" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <metadata name="$this.Localizable" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <metadata name="cmnStyle.UserAddedColumn" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <metadata name="cmnExpression.UserAddedColumn" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <metadata name="cmnName.UserAddedColumn" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <metadata name="toolTip1.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>17, 17</value>
+  </metadata>
+  <metadata name="ID.UserAddedColumn" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <metadata name="$this.Language" type="System.Globalization.CultureInfo, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>zh-CN</value>
+  </metadata>
+</root>

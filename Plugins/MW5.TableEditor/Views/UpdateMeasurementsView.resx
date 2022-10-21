@@ -1,0 +1,756 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="&gt;&gt;optAreaNew.Type" xml:space="preserve">
+    <value>System.Windows.Forms.RadioButton, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <assembly alias="System.Drawing" name="System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
+  <data name="pictureBox1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>24, 24</value>
+  </data>
+  <data name="udLengthPrecision.Size" type="System.Drawing.Size, System.Drawing">
+    <value>32, 21</value>
+  </data>
+  <data name="&gt;&gt;optLengthNew.ZOrder" xml:space="preserve">
+    <value>8</value>
+  </data>
+  <data name="&gt;&gt;optLengthNew.Name" xml:space="preserve">
+    <value>optLengthNew</value>
+  </data>
+  <data name="optAreaIgnore.Text" xml:space="preserve">
+    <value>Don't calculate</value>
+  </data>
+  <data name="optAreaExisting.Size" type="System.Drawing.Size, System.Drawing">
+    <value>113, 16</value>
+  </data>
+  <data name="&gt;&gt;btnCancel.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="&gt;&gt;cboLengthUnits.Type" xml:space="preserve">
+    <value>Syncfusion.Windows.Forms.Tools.ComboBoxAdv, Syncfusion.Tools.Windows, Version=18.1460.0.42, Culture=neutral, PublicKeyToken=3d67ed1f87d44c89</value>
+  </data>
+  <assembly alias="mscorlib" name="mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="optLengthExisting.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="optAreaExisting.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="&gt;&gt;udLengthPrecision.Name" xml:space="preserve">
+    <value>udLengthPrecision</value>
+  </data>
+  <data name="&gt;&gt;udAreaWidth.Parent" xml:space="preserve">
+    <value>groupArea</value>
+  </data>
+  <data name="&gt;&gt;txtAreaField.Parent" xml:space="preserve">
+    <value>groupArea</value>
+  </data>
+  <data name="pictureBox1.TabIndex" type="System.Int32, mscorlib">
+    <value>37</value>
+  </data>
+  <data name="&gt;&gt;optAreaExisting.Name" xml:space="preserve">
+    <value>optAreaExisting</value>
+  </data>
+  <data name="&gt;&gt;label1.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="groupArea.Location" type="System.Drawing.Point, System.Drawing">
+    <value>8, 172</value>
+  </data>
+  <data name="optAreaNew.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="&gt;&gt;label2.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="txtAreaField.TabIndex" type="System.Int32, mscorlib">
+    <value>4</value>
+  </data>
+  <data name="&gt;&gt;btnSetDefault.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;cboAreaField.Parent" xml:space="preserve">
+    <value>groupArea</value>
+  </data>
+  <data name="&gt;&gt;cboLengthUnits.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="cboAreaField.TabIndex" type="System.Int32, mscorlib">
+    <value>3</value>
+  </data>
+  <data name="&gt;&gt;optAreaExisting.Type" xml:space="preserve">
+    <value>System.Windows.Forms.RadioButton, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;udLengthPrecision.ZOrder" xml:space="preserve">
+    <value>5</value>
+  </data>
+  <data name="&gt;&gt;pictureBox2.Name" xml:space="preserve">
+    <value>pictureBox2</value>
+  </data>
+  <data name="txtAreaField.Location" type="System.Drawing.Point, System.Drawing">
+    <value>115, 92</value>
+  </data>
+  <data name="btnOk.TabIndex" type="System.Int32, mscorlib">
+    <value>35</value>
+  </data>
+  <data name="groupLength.Text" xml:space="preserve">
+    <value>Length</value>
+  </data>
+  <data name="&gt;&gt;udAreaPrecision.Name" xml:space="preserve">
+    <value>udAreaPrecision</value>
+  </data>
+  <data name="&gt;&gt;optLengthIgnore.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="optAreaNew.Size" type="System.Drawing.Size, System.Drawing">
+    <value>89, 16</value>
+  </data>
+  <data name="&gt;&gt;optAreaNew.ZOrder" xml:space="preserve">
+    <value>8</value>
+  </data>
+  <data name="udLengthPrecision.Location" type="System.Drawing.Point, System.Drawing">
+    <value>304, 90</value>
+  </data>
+  <data name="cboAreaField.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 8.25pt</value>
+  </data>
+  <data name="&gt;&gt;label1.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="&gt;&gt;pictureBox1.Type" xml:space="preserve">
+    <value>System.Windows.Forms.PictureBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;udAreaPrecision.Type" xml:space="preserve">
+    <value>System.Windows.Forms.NumericUpDown, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;label1.Name" xml:space="preserve">
+    <value>label1</value>
+  </data>
+  <data name="&gt;&gt;pictureBox1.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="&gt;&gt;optAreaExisting.ZOrder" xml:space="preserve">
+    <value>9</value>
+  </data>
+  <data name="&gt;&gt;optAreaIgnore.Parent" xml:space="preserve">
+    <value>groupArea</value>
+  </data>
+  <data name="&gt;&gt;txtAreaField.Name" xml:space="preserve">
+    <value>txtAreaField</value>
+  </data>
+  <data name="&gt;&gt;cboLengthField.Name" xml:space="preserve">
+    <value>cboLengthField</value>
+  </data>
+  <data name="optAreaExisting.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;groupArea.Name" xml:space="preserve">
+    <value>groupArea</value>
+  </data>
+  <data name="txtLengthField.Location" type="System.Drawing.Point, System.Drawing">
+    <value>116, 90</value>
+  </data>
+  <data name="&gt;&gt;btnSetDefault.Type" xml:space="preserve">
+    <value>Syncfusion.Windows.Forms.ButtonAdv, Syncfusion.Shared.Base, Version=18.1460.0.42, Culture=neutral, PublicKeyToken=3d67ed1f87d44c89</value>
+  </data>
+  <data name="optAreaIgnore.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="optLengthNew.Location" type="System.Drawing.Point, System.Drawing">
+    <value>23, 90</value>
+  </data>
+  <data name="&gt;&gt;udLengthWidth.ZOrder" xml:space="preserve">
+    <value>4</value>
+  </data>
+  <data name="optAreaNew.Location" type="System.Drawing.Point, System.Drawing">
+    <value>22, 93</value>
+  </data>
+  <data name="&gt;&gt;cboAreaUnits.Type" xml:space="preserve">
+    <value>Syncfusion.Windows.Forms.Tools.ComboBoxAdv, Syncfusion.Tools.Windows, Version=18.1460.0.42, Culture=neutral, PublicKeyToken=3d67ed1f87d44c89</value>
+  </data>
+  <data name="&gt;&gt;cboAreaField.Name" xml:space="preserve">
+    <value>cboAreaField</value>
+  </data>
+  <data name="cboAreaUnits.Location" type="System.Drawing.Point, System.Drawing">
+    <value>115, 128</value>
+  </data>
+  <data name="label2.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="udAreaWidth.Location" type="System.Drawing.Point, System.Drawing">
+    <value>253, 92</value>
+  </data>
+  <data name="groupLength.Location" type="System.Drawing.Point, System.Drawing">
+    <value>8, 2</value>
+  </data>
+  <data name="&gt;&gt;cboLengthUnits.Parent" xml:space="preserve">
+    <value>groupLength</value>
+  </data>
+  <data name="&gt;&gt;udAreaWidth.Name" xml:space="preserve">
+    <value>udAreaWidth</value>
+  </data>
+  <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="pictureBox1.SizeMode" type="System.Windows.Forms.PictureBoxSizeMode, System.Windows.Forms">
+    <value>AutoSize</value>
+  </data>
+  <data name="&gt;&gt;groupLength.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="udAreaWidth.Size" type="System.Drawing.Size, System.Drawing">
+    <value>44, 21</value>
+  </data>
+  <data name="&gt;&gt;label2.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="&gt;&gt;btnOk.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="cboLengthUnits.Size" type="System.Drawing.Size, System.Drawing">
+    <value>220, 21</value>
+  </data>
+  <data name="&gt;&gt;btnSetDefault.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;optAreaNew.Name" xml:space="preserve">
+    <value>optAreaNew</value>
+  </data>
+  <data name="&gt;&gt;btnCancel.Type" xml:space="preserve">
+    <value>Syncfusion.Windows.Forms.ButtonAdv, Syncfusion.Shared.Base, Version=18.1460.0.42, Culture=neutral, PublicKeyToken=3d67ed1f87d44c89</value>
+  </data>
+  <data name="txtAreaField.Size" type="System.Drawing.Size, System.Drawing">
+    <value>132, 21</value>
+  </data>
+  <data name="&gt;&gt;cboAreaUnits.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="udLengthWidth.Location" type="System.Drawing.Point, System.Drawing">
+    <value>254, 90</value>
+  </data>
+  <data name="&gt;&gt;udLengthPrecision.Parent" xml:space="preserve">
+    <value>groupLength</value>
+  </data>
+  <data name="optLengthIgnore.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="&gt;&gt;btnCancel.Name" xml:space="preserve">
+    <value>btnCancel</value>
+  </data>
+  <data name="&gt;&gt;txtAreaField.ZOrder" xml:space="preserve">
+    <value>6</value>
+  </data>
+  <data name="&gt;&gt;groupLength.Type" xml:space="preserve">
+    <value>System.Windows.Forms.GroupBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="pictureBox2.Location" type="System.Drawing.Point, System.Drawing">
+    <value>86, 126</value>
+  </data>
+  <data name="&gt;&gt;cboLengthField.Parent" xml:space="preserve">
+    <value>groupLength</value>
+  </data>
+  <data name="&gt;&gt;txtLengthField.Parent" xml:space="preserve">
+    <value>groupLength</value>
+  </data>
+  <data name="optLengthNew.TabIndex" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="cboAreaField.Location" type="System.Drawing.Point, System.Drawing">
+    <value>115, 59</value>
+  </data>
+  <data name="&gt;&gt;udLengthPrecision.Type" xml:space="preserve">
+    <value>System.Windows.Forms.NumericUpDown, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;cboAreaField.ZOrder" xml:space="preserve">
+    <value>7</value>
+  </data>
+  <data name="&gt;&gt;optLengthNew.Type" xml:space="preserve">
+    <value>System.Windows.Forms.RadioButton, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;optLengthIgnore.Name" xml:space="preserve">
+    <value>optLengthIgnore</value>
+  </data>
+  <data name="&gt;&gt;udAreaPrecision.Parent" xml:space="preserve">
+    <value>groupArea</value>
+  </data>
+  <data name="&gt;&gt;groupArea.Type" xml:space="preserve">
+    <value>System.Windows.Forms.GroupBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;pictureBox2.Parent" xml:space="preserve">
+    <value>groupLength</value>
+  </data>
+  <data name="&gt;&gt;optAreaIgnore.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;pictureBox1.Parent" xml:space="preserve">
+    <value>groupArea</value>
+  </data>
+  <data name="&gt;&gt;optLengthExisting.Name" xml:space="preserve">
+    <value>optLengthExisting</value>
+  </data>
+  <data name="pictureBox2.SizeMode" type="System.Windows.Forms.PictureBoxSizeMode, System.Windows.Forms">
+    <value>AutoSize</value>
+  </data>
+  <data name="&gt;&gt;cboLengthField.Type" xml:space="preserve">
+    <value>Syncfusion.Windows.Forms.Tools.ComboBoxAdv, Syncfusion.Tools.Windows, Version=18.1460.0.42, Culture=neutral, PublicKeyToken=3d67ed1f87d44c89</value>
+  </data>
+  <data name="btnSetDefault.Location" type="System.Drawing.Point, System.Drawing">
+    <value>12, 343</value>
+  </data>
+  <data name="groupArea.Text" xml:space="preserve">
+    <value>Area</value>
+  </data>
+  <data name="&gt;&gt;optLengthExisting.Type" xml:space="preserve">
+    <value>System.Windows.Forms.RadioButton, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="udAreaWidth.TabIndex" type="System.Int32, mscorlib">
+    <value>6</value>
+  </data>
+  <data name="&gt;&gt;optLengthExisting.ZOrder" xml:space="preserve">
+    <value>9</value>
+  </data>
+  <data name="label2.TabIndex" type="System.Int32, mscorlib">
+    <value>8</value>
+  </data>
+  <data name="optLengthIgnore.Location" type="System.Drawing.Point, System.Drawing">
+    <value>23, 26</value>
+  </data>
+  <data name="cboLengthUnits.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 8.25pt</value>
+  </data>
+  <data name="&gt;&gt;label2.Parent" xml:space="preserve">
+    <value>groupLength</value>
+  </data>
+  <data name="optAreaNew.TabIndex" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="&gt;&gt;optAreaIgnore.Name" xml:space="preserve">
+    <value>optAreaIgnore</value>
+  </data>
+  <data name="groupArea.Size" type="System.Drawing.Size, System.Drawing">
+    <value>364, 166</value>
+  </data>
+  <data name="&gt;&gt;pictureBox2.Type" xml:space="preserve">
+    <value>System.Windows.Forms.PictureBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="groupArea.TabIndex" type="System.Int32, mscorlib">
+    <value>2</value>
+  </data>
+  <data name="&gt;&gt;cboAreaUnits.Parent" xml:space="preserve">
+    <value>groupArea</value>
+  </data>
+  <data name="cboLengthField.Size" type="System.Drawing.Size, System.Drawing">
+    <value>220, 21</value>
+  </data>
+  <data name="optAreaIgnore.TabIndex" type="System.Int32, mscorlib">
+    <value>38</value>
+  </data>
+  <data name="&gt;&gt;txtAreaField.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;udAreaPrecision.ZOrder" xml:space="preserve">
+    <value>5</value>
+  </data>
+  <data name="$this.Text" xml:space="preserve">
+    <value>Update Measurements</value>
+  </data>
+  <data name="&gt;&gt;udLengthWidth.Name" xml:space="preserve">
+    <value>udLengthWidth</value>
+  </data>
+  <data name="&gt;&gt;groupLength.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;groupArea.ZOrder" xml:space="preserve">
+    <value>4</value>
+  </data>
+  <data name="btnOk.Text" xml:space="preserve">
+    <value>Ok</value>
+  </data>
+  <data name="optAreaExisting.Location" type="System.Drawing.Point, System.Drawing">
+    <value>22, 60</value>
+  </data>
+  <data name="btnSetDefault.Text" xml:space="preserve">
+    <value>Set default</value>
+  </data>
+  <data name="btnCancel.TabIndex" type="System.Int32, mscorlib">
+    <value>36</value>
+  </data>
+  <data name="&gt;&gt;optLengthIgnore.Type" xml:space="preserve">
+    <value>System.Windows.Forms.RadioButton, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="label1.TabIndex" type="System.Int32, mscorlib">
+    <value>8</value>
+  </data>
+  <data name="udLengthWidth.Size" type="System.Drawing.Size, System.Drawing">
+    <value>44, 21</value>
+  </data>
+  <data name="&gt;&gt;groupLength.Name" xml:space="preserve">
+    <value>groupLength</value>
+  </data>
+  <data name="&gt;&gt;udLengthWidth.Parent" xml:space="preserve">
+    <value>groupLength</value>
+  </data>
+  <data name="&gt;&gt;pictureBox1.Name" xml:space="preserve">
+    <value>pictureBox1</value>
+  </data>
+  <data name="&gt;&gt;udAreaWidth.Type" xml:space="preserve">
+    <value>System.Windows.Forms.NumericUpDown, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="btnOk.Size" type="System.Drawing.Size, System.Drawing">
+    <value>85, 24</value>
+  </data>
+  <data name="&gt;&gt;txtLengthField.ZOrder" xml:space="preserve">
+    <value>6</value>
+  </data>
+  <data name="&gt;&gt;optLengthNew.Parent" xml:space="preserve">
+    <value>groupLength</value>
+  </data>
+  <data name="optAreaIgnore.Location" type="System.Drawing.Point, System.Drawing">
+    <value>22, 28</value>
+  </data>
+  <data name="&gt;&gt;cboAreaField.Type" xml:space="preserve">
+    <value>Syncfusion.Windows.Forms.Tools.ComboBoxAdv, Syncfusion.Tools.Windows, Version=18.1460.0.42, Culture=neutral, PublicKeyToken=3d67ed1f87d44c89</value>
+  </data>
+  <data name="&gt;&gt;groupArea.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="txtAreaField.Text" xml:space="preserve">
+    <value>Area</value>
+  </data>
+  <data name="&gt;&gt;$this.Name" xml:space="preserve">
+    <value>UpdateMeasurementsView</value>
+  </data>
+  <data name="btnCancel.Text" xml:space="preserve">
+    <value>Cancel</value>
+  </data>
+  <data name="&gt;&gt;optLengthIgnore.Parent" xml:space="preserve">
+    <value>groupLength</value>
+  </data>
+  <data name="&gt;&gt;optAreaNew.Parent" xml:space="preserve">
+    <value>groupArea</value>
+  </data>
+  <data name="optLengthNew.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="cboAreaUnits.Size" type="System.Drawing.Size, System.Drawing">
+    <value>220, 21</value>
+  </data>
+  <data name="&gt;&gt;optAreaExisting.Parent" xml:space="preserve">
+    <value>groupArea</value>
+  </data>
+  <data name="&gt;&gt;$this.Type" xml:space="preserve">
+    <value>MW5.Plugins.TableEditor.Views.UpdateMeasurementsViewBase, MW5.TableEditor, Version=1.0.0.28416, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;label1.Parent" xml:space="preserve">
+    <value>groupArea</value>
+  </data>
+  <data name="optLengthExisting.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="optLengthIgnore.Size" type="System.Drawing.Size, System.Drawing">
+    <value>113, 16</value>
+  </data>
+  <data name="&gt;&gt;btnOk.Name" xml:space="preserve">
+    <value>btnOk</value>
+  </data>
+  <data name="cboAreaUnits.TabIndex" type="System.Int32, mscorlib">
+    <value>9</value>
+  </data>
+  <data name="label2.Text" xml:space="preserve">
+    <value>Units</value>
+  </data>
+  <data name="&gt;&gt;cboLengthUnits.Name" xml:space="preserve">
+    <value>cboLengthUnits</value>
+  </data>
+  <data name="&gt;&gt;optAreaIgnore.Type" xml:space="preserve">
+    <value>System.Windows.Forms.RadioButton, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="cboLengthField.TabIndex" type="System.Int32, mscorlib">
+    <value>3</value>
+  </data>
+  <data name="&gt;&gt;btnOk.Type" xml:space="preserve">
+    <value>Syncfusion.Windows.Forms.ButtonAdv, Syncfusion.Shared.Base, Version=18.1460.0.42, Culture=neutral, PublicKeyToken=3d67ed1f87d44c89</value>
+  </data>
+  <data name="cboLengthUnits.TabIndex" type="System.Int32, mscorlib">
+    <value>9</value>
+  </data>
+  <data name="&gt;&gt;txtLengthField.Name" xml:space="preserve">
+    <value>txtLengthField</value>
+  </data>
+  <data name="cboLengthField.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 8.25pt</value>
+  </data>
+  <data name="cboLengthField.Location" type="System.Drawing.Point, System.Drawing">
+    <value>116, 56</value>
+  </data>
+  <data name="label2.Size" type="System.Drawing.Size, System.Drawing">
+    <value>35, 12</value>
+  </data>
+  <data name="&gt;&gt;cboLengthField.ZOrder" xml:space="preserve">
+    <value>7</value>
+  </data>
+  <data name="optLengthIgnore.TabIndex" type="System.Int32, mscorlib">
+    <value>39</value>
+  </data>
+  <data name="label1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>35, 12</value>
+  </data>
+  <data name="optAreaExisting.Text" xml:space="preserve">
+    <value>Existing field:</value>
+  </data>
+  <data name="optLengthNew.Text" xml:space="preserve">
+    <value>New field: </value>
+  </data>
+  <data name="$this.AutoScaleDimensions" type="System.Drawing.SizeF, System.Drawing">
+    <value>6, 12</value>
+  </data>
+  <data name="udLengthPrecision.TabIndex" type="System.Int32, mscorlib">
+    <value>5</value>
+  </data>
+  <data name="label1.Text" xml:space="preserve">
+    <value>Units</value>
+  </data>
+  <data name="optAreaIgnore.Size" type="System.Drawing.Size, System.Drawing">
+    <value>113, 16</value>
+  </data>
+  <data name="&gt;&gt;optLengthExisting.Parent" xml:space="preserve">
+    <value>groupLength</value>
+  </data>
+  <data name="pictureBox2.TabIndex" type="System.Int32, mscorlib">
+    <value>38</value>
+  </data>
+  <data name="optLengthExisting.Size" type="System.Drawing.Size, System.Drawing">
+    <value>113, 16</value>
+  </data>
+  <data name="&gt;&gt;txtLengthField.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="txtLengthField.TabIndex" type="System.Int32, mscorlib">
+    <value>4</value>
+  </data>
+  <data name="pictureBox1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>73, 126</value>
+  </data>
+  <data name="&gt;&gt;pictureBox2.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="&gt;&gt;cboAreaUnits.Name" xml:space="preserve">
+    <value>cboAreaUnits</value>
+  </data>
+  <data name="&gt;&gt;label2.Name" xml:space="preserve">
+    <value>label2</value>
+  </data>
+  <data name="btnOk.Location" type="System.Drawing.Point, System.Drawing">
+    <value>197, 343</value>
+  </data>
+  <data name="label2.Location" type="System.Drawing.Point, System.Drawing">
+    <value>20, 127</value>
+  </data>
+  <data name="$this.ClientSize" type="System.Drawing.Size, System.Drawing">
+    <value>380, 371</value>
+  </data>
+  <data name="btnSetDefault.Size" type="System.Drawing.Size, System.Drawing">
+    <value>85, 24</value>
+  </data>
+  <data name="optLengthNew.Size" type="System.Drawing.Size, System.Drawing">
+    <value>89, 16</value>
+  </data>
+  <data name="&gt;&gt;btnCancel.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="optLengthExisting.Location" type="System.Drawing.Point, System.Drawing">
+    <value>23, 57</value>
+  </data>
+  <data name="udAreaPrecision.Size" type="System.Drawing.Size, System.Drawing">
+    <value>32, 21</value>
+  </data>
+  <data name="btnCancel.Size" type="System.Drawing.Size, System.Drawing">
+    <value>85, 24</value>
+  </data>
+  <data name="&gt;&gt;udAreaWidth.ZOrder" xml:space="preserve">
+    <value>4</value>
+  </data>
+  <data name="&gt;&gt;btnSetDefault.Name" xml:space="preserve">
+    <value>btnSetDefault</value>
+  </data>
+  <data name="btnCancel.Location" type="System.Drawing.Point, System.Drawing">
+    <value>287, 343</value>
+  </data>
+  <data name="udLengthWidth.TabIndex" type="System.Int32, mscorlib">
+    <value>6</value>
+  </data>
+  <data name="optAreaNew.Text" xml:space="preserve">
+    <value>New field: </value>
+  </data>
+  <data name="label1.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="&gt;&gt;btnOk.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="udAreaPrecision.Location" type="System.Drawing.Point, System.Drawing">
+    <value>303, 92</value>
+  </data>
+  <data name="cboAreaUnits.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 8.25pt</value>
+  </data>
+  <data name="txtLengthField.Size" type="System.Drawing.Size, System.Drawing">
+    <value>132, 21</value>
+  </data>
+  <data name="optLengthIgnore.Text" xml:space="preserve">
+    <value>Don't calculate</value>
+  </data>
+  <data name="txtLengthField.Text" xml:space="preserve">
+    <value>Length</value>
+  </data>
+  <data name="btnSetDefault.TabIndex" type="System.Int32, mscorlib">
+    <value>37</value>
+  </data>
+  <data name="cboAreaField.Size" type="System.Drawing.Size, System.Drawing">
+    <value>220, 21</value>
+  </data>
+  <data name="groupLength.Size" type="System.Drawing.Size, System.Drawing">
+    <value>364, 164</value>
+  </data>
+  <data name="&gt;&gt;udLengthWidth.Type" xml:space="preserve">
+    <value>System.Windows.Forms.NumericUpDown, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="cboLengthUnits.Location" type="System.Drawing.Point, System.Drawing">
+    <value>116, 125</value>
+  </data>
+  <data name="optLengthExisting.Text" xml:space="preserve">
+    <value>Existing field:</value>
+  </data>
+  <data name="label1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>19, 132</value>
+  </data>
+  <data name="pictureBox2.Size" type="System.Drawing.Size, System.Drawing">
+    <value>24, 24</value>
+  </data>
+  <data name="udAreaPrecision.TabIndex" type="System.Int32, mscorlib">
+    <value>5</value>
+  </data>
+  <data name="groupLength.TabIndex" type="System.Int32, mscorlib">
+    <value>3</value>
+  </data>
+  <metadata name="$this.Localizable" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <metadata name="$this.Language" type="System.Globalization.CultureInfo, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>zh-CN</value>
+  </metadata>
+</root>

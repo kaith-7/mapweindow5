@@ -1,0 +1,603 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="&gt;&gt;chkCreatePyramids.Name" xml:space="preserve">
+    <value>chkCreatePyramids</value>
+  </data>
+  <data name="&gt;&gt;chkUseHistogram.Type" xml:space="preserve">
+    <value>System.Windows.Forms.CheckBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;chkRandomColorScheme.Type" xml:space="preserve">
+    <value>System.Windows.Forms.CheckBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="label11.Text" xml:space="preserve">
+    <value>Upsampling mode</value>
+  </data>
+  <data name="&gt;&gt;configPanelControl1.Name" xml:space="preserve">
+    <value>configPanelControl1</value>
+  </data>
+  <assembly alias="mscorlib" name="mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="label11.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="label12.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="&gt;&gt;chkCreateColorScheme.Type" xml:space="preserve">
+    <value>System.Windows.Forms.CheckBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="label4.TabIndex" type="System.Int32, mscorlib">
+    <value>13</value>
+  </data>
+  <data name="&gt;&gt;configPanelControl1.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;cboDefaultColorScheme.ZOrder" xml:space="preserve">
+    <value>5</value>
+  </data>
+  <data name="&gt;&gt;cboDownsampling.Type" xml:space="preserve">
+    <value>Syncfusion.Windows.Forms.Tools.ComboBoxAdv, Syncfusion.Tools.Windows, Version=18.1460.0.42, Culture=neutral, PublicKeyToken=3d67ed1f87d44c89</value>
+  </data>
+  <assembly alias="System.Drawing" name="System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
+  <data name="cboUpsampling.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 8.25pt</value>
+  </data>
+  <data name="&gt;&gt;cboPyramidCompression.Type" xml:space="preserve">
+    <value>Syncfusion.Windows.Forms.Tools.ComboBoxAdv, Syncfusion.Tools.Windows, Version=18.1460.0.42, Culture=neutral, PublicKeyToken=3d67ed1f87d44c89</value>
+  </data>
+  <data name="&gt;&gt;label1.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;label12.ZOrder" xml:space="preserve">
+    <value>4</value>
+  </data>
+  <data name="&gt;&gt;label2.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;chkCreateColorScheme.Parent" xml:space="preserve">
+    <value>configPanelControl1</value>
+  </data>
+  <data name="label4.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="chkPyramidsDialog.Text" xml:space="preserve">
+    <value>Show pyramid creation dialog</value>
+  </data>
+  <data name="cboDownsampling.Size" type="System.Drawing.Size, System.Drawing">
+    <value>207, 21</value>
+  </data>
+  <data name="&gt;&gt;cboPyramidsSampling.Name" xml:space="preserve">
+    <value>cboPyramidsSampling</value>
+  </data>
+  <data name="chkRandomColorScheme.TabIndex" type="System.Int32, mscorlib">
+    <value>16</value>
+  </data>
+  <data name="cboPyramidsSampling.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 8.25pt</value>
+  </data>
+  <data name="label2.Text" xml:space="preserve">
+    <value>Pyramids compression</value>
+  </data>
+  <data name="&gt;&gt;label1.ZOrder" xml:space="preserve">
+    <value>4</value>
+  </data>
+  <data name="&gt;&gt;cboDefaultColorScheme.Name" xml:space="preserve">
+    <value>cboDefaultColorScheme</value>
+  </data>
+  <data name="&gt;&gt;label1.Name" xml:space="preserve">
+    <value>label1</value>
+  </data>
+  <data name="chkRandomColorScheme.Text" xml:space="preserve">
+    <value>User random color scheme</value>
+  </data>
+  <data name="&gt;&gt;chkCreateColorScheme.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="cboPyramidsSampling.TabIndex" type="System.Int32, mscorlib">
+    <value>14</value>
+  </data>
+  <data name="chkCreatePyramids.Size" type="System.Drawing.Size, System.Drawing">
+    <value>277, 19</value>
+  </data>
+  <data name="chkPyramidsDialog.Location" type="System.Drawing.Point, System.Drawing">
+    <value>21, 42</value>
+  </data>
+  <data name="label12.Size" type="System.Drawing.Size, System.Drawing">
+    <value>107, 12</value>
+  </data>
+  <data name="cboDefaultColorScheme.Location" type="System.Drawing.Point, System.Drawing">
+    <value>164, 102</value>
+  </data>
+  <data name="&gt;&gt;chkPyramidsDialog.Type" xml:space="preserve">
+    <value>System.Windows.Forms.CheckBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="chkPyramidsDialog.TabIndex" type="System.Int32, mscorlib">
+    <value>9</value>
+  </data>
+  <data name="&gt;&gt;label11.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="$this.AutoScaleDimensions" type="System.Drawing.SizeF, System.Drawing">
+    <value>6, 12</value>
+  </data>
+  <data name="&gt;&gt;chkUseHistogram.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="&gt;&gt;configPanelControl1.Type" xml:space="preserve">
+    <value>MW5.UI.Controls.ConfigPanelControl, MW5.UI, Version=5.6.3.33476, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="configPanelControl1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>394, 158</value>
+  </data>
+  <data name="&gt;&gt;label11.Name" xml:space="preserve">
+    <value>label11</value>
+  </data>
+  <data name="label2.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="configPanelControl3.TabIndex" type="System.Int32, mscorlib">
+    <value>15</value>
+  </data>
+  <data name="chkUseHistogram.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="&gt;&gt;cboPyramidCompression.ZOrder" xml:space="preserve">
+    <value>4</value>
+  </data>
+  <data name="chkRandomColorScheme.Size" type="System.Drawing.Size, System.Drawing">
+    <value>168, 16</value>
+  </data>
+  <data name="cboDefaultColorScheme.TabIndex" type="System.Int32, mscorlib">
+    <value>4</value>
+  </data>
+  <data name="cboDefaultColorScheme.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 8.25pt</value>
+  </data>
+  <data name="&gt;&gt;chkRandomColorScheme.Name" xml:space="preserve">
+    <value>chkRandomColorScheme</value>
+  </data>
+  <data name="&gt;&gt;label2.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="chkCreateColorScheme.Text" xml:space="preserve">
+    <value>Use color scheme for new grids (otherwise greyscale rendering)</value>
+  </data>
+  <data name="configPanelControl3.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 0</value>
+  </data>
+  <data name="&gt;&gt;cboDownsampling.Name" xml:space="preserve">
+    <value>cboDownsampling</value>
+  </data>
+  <data name="chkCreateColorScheme.Location" type="System.Drawing.Point, System.Drawing">
+    <value>24, 72</value>
+  </data>
+  <data name="label12.Text" xml:space="preserve">
+    <value>Downsampling mode</value>
+  </data>
+  <data name="&gt;&gt;cboDefaultColorScheme.Parent" xml:space="preserve">
+    <value>configPanelControl1</value>
+  </data>
+  <data name="&gt;&gt;chkPyramidsDialog.Parent" xml:space="preserve">
+    <value>configPanelControl3</value>
+  </data>
+  <data name="configPanelControl2.Size" type="System.Drawing.Size, System.Drawing">
+    <value>394, 132</value>
+  </data>
+  <data name="&gt;&gt;cboUpsampling.Type" xml:space="preserve">
+    <value>Syncfusion.Windows.Forms.Tools.ComboBoxAdv, Syncfusion.Tools.Windows, Version=18.1460.0.42, Culture=neutral, PublicKeyToken=3d67ed1f87d44c89</value>
+  </data>
+  <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="configPanelControl2.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Top</value>
+  </data>
+  <data name="label4.Location" type="System.Drawing.Point, System.Drawing">
+    <value>18, 136</value>
+  </data>
+  <data name="&gt;&gt;chkUseHistogram.Parent" xml:space="preserve">
+    <value>configPanelControl1</value>
+  </data>
+  <data name="label1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>21, 105</value>
+  </data>
+  <data name="chkCreatePyramids.TabIndex" type="System.Int32, mscorlib">
+    <value>10</value>
+  </data>
+  <data name="&gt;&gt;configPanelControl3.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="&gt;&gt;$this.Name" xml:space="preserve">
+    <value>RasterConfigPage</value>
+  </data>
+  <data name="&gt;&gt;label4.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;cboPyramidsSampling.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="&gt;&gt;cboDownsampling.Parent" xml:space="preserve">
+    <value>configPanelControl2</value>
+  </data>
+  <data name="&gt;&gt;cboUpsampling.Name" xml:space="preserve">
+    <value>cboUpsampling</value>
+  </data>
+  <data name="&gt;&gt;chkPyramidsDialog.Name" xml:space="preserve">
+    <value>chkPyramidsDialog</value>
+  </data>
+  <data name="&gt;&gt;label4.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="configPanelControl2.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 331</value>
+  </data>
+  <data name="&gt;&gt;chkUseHistogram.Name" xml:space="preserve">
+    <value>chkUseHistogram</value>
+  </data>
+  <data name="&gt;&gt;configPanelControl2.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="label2.Size" type="System.Drawing.Size, System.Drawing">
+    <value>125, 12</value>
+  </data>
+  <data name="cboUpsampling.Size" type="System.Drawing.Size, System.Drawing">
+    <value>207, 21</value>
+  </data>
+  <data name="configPanelControl2.TabIndex" type="System.Int32, mscorlib">
+    <value>14</value>
+  </data>
+  <data name="&gt;&gt;label2.Parent" xml:space="preserve">
+    <value>configPanelControl3</value>
+  </data>
+  <data name="cboUpsampling.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Top, Left, Right</value>
+  </data>
+  <data name="&gt;&gt;configPanelControl3.Name" xml:space="preserve">
+    <value>configPanelControl3</value>
+  </data>
+  <data name="cboDownsampling.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 8.25pt</value>
+  </data>
+  <data name="chkUseHistogram.TabIndex" type="System.Int32, mscorlib">
+    <value>18</value>
+  </data>
+  <data name="label12.TabIndex" type="System.Int32, mscorlib">
+    <value>49</value>
+  </data>
+  <data name="cboDownsampling.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Top, Left, Right</value>
+  </data>
+  <data name="cboUpsampling.TabIndex" type="System.Int32, mscorlib">
+    <value>48</value>
+  </data>
+  <data name="label11.TabIndex" type="System.Int32, mscorlib">
+    <value>47</value>
+  </data>
+  <data name="chkUseHistogram.Location" type="System.Drawing.Point, System.Drawing">
+    <value>24, 41</value>
+  </data>
+  <data name="cboPyramidCompression.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 8.25pt</value>
+  </data>
+  <data name="&gt;&gt;label4.Name" xml:space="preserve">
+    <value>label4</value>
+  </data>
+  <data name="&gt;&gt;label12.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;configPanelControl3.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;label12.Name" xml:space="preserve">
+    <value>label12</value>
+  </data>
+  <data name="label1.TabIndex" type="System.Int32, mscorlib">
+    <value>15</value>
+  </data>
+  <data name="chkRandomColorScheme.Location" type="System.Drawing.Point, System.Drawing">
+    <value>164, 126</value>
+  </data>
+  <data name="label4.Size" type="System.Drawing.Size, System.Drawing">
+    <value>107, 12</value>
+  </data>
+  <data name="&gt;&gt;chkCreatePyramids.Parent" xml:space="preserve">
+    <value>configPanelControl3</value>
+  </data>
+  <data name="label2.TabIndex" type="System.Int32, mscorlib">
+    <value>12</value>
+  </data>
+  <data name="&gt;&gt;cboPyramidsSampling.Type" xml:space="preserve">
+    <value>Syncfusion.Windows.Forms.Tools.ComboBoxAdv, Syncfusion.Tools.Windows, Version=18.1460.0.42, Culture=neutral, PublicKeyToken=3d67ed1f87d44c89</value>
+  </data>
+  <data name="chkUseHistogram.Text" xml:space="preserve">
+    <value>Use histogram equalization for greyscale rendering</value>
+  </data>
+  <data name="&gt;&gt;configPanelControl2.Name" xml:space="preserve">
+    <value>configPanelControl2</value>
+  </data>
+  <data name="&gt;&gt;label12.Parent" xml:space="preserve">
+    <value>configPanelControl2</value>
+  </data>
+  <data name="&gt;&gt;cboDownsampling.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="&gt;&gt;cboPyramidsSampling.Parent" xml:space="preserve">
+    <value>configPanelControl3</value>
+  </data>
+  <data name="$this.Size" type="System.Drawing.Size, System.Drawing">
+    <value>394, 457</value>
+  </data>
+  <data name="chkCreateColorScheme.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="label11.Location" type="System.Drawing.Point, System.Drawing">
+    <value>21, 48</value>
+  </data>
+  <data name="cboPyramidCompression.TabIndex" type="System.Int32, mscorlib">
+    <value>11</value>
+  </data>
+  <data name="&gt;&gt;chkRandomColorScheme.Parent" xml:space="preserve">
+    <value>configPanelControl1</value>
+  </data>
+  <data name="&gt;&gt;configPanelControl2.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;label11.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="&gt;&gt;label1.Parent" xml:space="preserve">
+    <value>configPanelControl1</value>
+  </data>
+  <data name="&gt;&gt;$this.Type" xml:space="preserve">
+    <value>MW5.UI.Controls.ConfigPageBase, MW5.UI, Version=5.6.3.33476, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="chkCreateColorScheme.Size" type="System.Drawing.Size, System.Drawing">
+    <value>396, 16</value>
+  </data>
+  <data name="cboDownsampling.Location" type="System.Drawing.Point, System.Drawing">
+    <value>146, 84</value>
+  </data>
+  <data name="configPanelControl1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 173</value>
+  </data>
+  <data name="chkUseHistogram.Size" type="System.Drawing.Size, System.Drawing">
+    <value>324, 16</value>
+  </data>
+  <data name="&gt;&gt;chkCreatePyramids.Type" xml:space="preserve">
+    <value>System.Windows.Forms.CheckBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;chkRandomColorScheme.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="&gt;&gt;cboUpsampling.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="label1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>125, 12</value>
+  </data>
+  <data name="&gt;&gt;configPanelControl3.Type" xml:space="preserve">
+    <value>MW5.UI.Controls.ConfigPanelControl, MW5.UI, Version=5.6.3.33476, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="configPanelControl1.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Top</value>
+  </data>
+  <data name="label12.Location" type="System.Drawing.Point, System.Drawing">
+    <value>21, 88</value>
+  </data>
+  <data name="label1.Text" xml:space="preserve">
+    <value>Default color scheme</value>
+  </data>
+  <data name="chkCreateColorScheme.TabIndex" type="System.Int32, mscorlib">
+    <value>17</value>
+  </data>
+  <data name="&gt;&gt;configPanelControl1.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="cboPyramidsSampling.Size" type="System.Drawing.Size, System.Drawing">
+    <value>166, 21</value>
+  </data>
+  <data name="configPanelControl3.Size" type="System.Drawing.Size, System.Drawing">
+    <value>394, 173</value>
+  </data>
+  <data name="cboDownsampling.TabIndex" type="System.Int32, mscorlib">
+    <value>50</value>
+  </data>
+  <data name="&gt;&gt;cboPyramidCompression.Parent" xml:space="preserve">
+    <value>configPanelControl3</value>
+  </data>
+  <data name="&gt;&gt;label2.Name" xml:space="preserve">
+    <value>label2</value>
+  </data>
+  <data name="cboDefaultColorScheme.Size" type="System.Drawing.Size, System.Drawing">
+    <value>212, 21</value>
+  </data>
+  <data name="&gt;&gt;configPanelControl2.Type" xml:space="preserve">
+    <value>MW5.UI.Controls.ConfigPanelControl, MW5.UI, Version=5.6.3.33476, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="chkCreatePyramids.Text" xml:space="preserve">
+    <value>Create pyramids on opening (if they are missing)</value>
+  </data>
+  <data name="label2.Location" type="System.Drawing.Point, System.Drawing">
+    <value>18, 104</value>
+  </data>
+  <data name="chkCreatePyramids.Location" type="System.Drawing.Point, System.Drawing">
+    <value>21, 66</value>
+  </data>
+  <data name="cboPyramidCompression.Size" type="System.Drawing.Size, System.Drawing">
+    <value>166, 21</value>
+  </data>
+  <data name="&gt;&gt;chkCreatePyramids.ZOrder" xml:space="preserve">
+    <value>5</value>
+  </data>
+  <data name="chkRandomColorScheme.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="cboPyramidCompression.Location" type="System.Drawing.Point, System.Drawing">
+    <value>147, 97</value>
+  </data>
+  <data name="cboPyramidsSampling.Location" type="System.Drawing.Point, System.Drawing">
+    <value>147, 128</value>
+  </data>
+  <data name="&gt;&gt;label11.Parent" xml:space="preserve">
+    <value>configPanelControl2</value>
+  </data>
+  <data name="chkPyramidsDialog.Size" type="System.Drawing.Size, System.Drawing">
+    <value>188, 19</value>
+  </data>
+  <data name="&gt;&gt;chkPyramidsDialog.ZOrder" xml:space="preserve">
+    <value>6</value>
+  </data>
+  <data name="label1.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="configPanelControl3.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Top</value>
+  </data>
+  <data name="cboUpsampling.Location" type="System.Drawing.Point, System.Drawing">
+    <value>146, 44</value>
+  </data>
+  <data name="label11.Size" type="System.Drawing.Size, System.Drawing">
+    <value>95, 12</value>
+  </data>
+  <data name="&gt;&gt;cboUpsampling.Parent" xml:space="preserve">
+    <value>configPanelControl2</value>
+  </data>
+  <data name="configPanelControl1.TabIndex" type="System.Int32, mscorlib">
+    <value>12</value>
+  </data>
+  <data name="&gt;&gt;chkCreateColorScheme.Name" xml:space="preserve">
+    <value>chkCreateColorScheme</value>
+  </data>
+  <data name="&gt;&gt;label4.Parent" xml:space="preserve">
+    <value>configPanelControl3</value>
+  </data>
+  <data name="&gt;&gt;cboDefaultColorScheme.Type" xml:space="preserve">
+    <value>Syncfusion.Windows.Forms.Tools.ComboBoxAdv, Syncfusion.Tools.Windows, Version=18.1460.0.42, Culture=neutral, PublicKeyToken=3d67ed1f87d44c89</value>
+  </data>
+  <data name="&gt;&gt;cboPyramidCompression.Name" xml:space="preserve">
+    <value>cboPyramidCompression</value>
+  </data>
+  <data name="label4.Text" xml:space="preserve">
+    <value>Pyramids sampling</value>
+  </data>
+  <metadata name="$this.Localizable" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <metadata name="$this.Language" type="System.Globalization.CultureInfo, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>zh-CN</value>
+  </metadata>
+</root>

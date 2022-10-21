@@ -1,0 +1,1754 @@
+<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="linePatternControl1.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>10, 8, 10, 8</value>
+  </data>
+  <assembly alias="mscorlib" name="mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="cboVerticesType.TabIndex" type="System.Int32, mscorlib">
+    <value>5</value>
+  </data>
+  <data name="&gt;&gt;btnAdd.ZOrder" xml:space="preserve">
+    <value>7</value>
+  </data>
+  <data name="&gt;&gt;groupMarker.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;udMarkerSize.Parent" xml:space="preserve">
+    <value>groupMarker</value>
+  </data>
+  <data name="&gt;&gt;label4.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="dynamicVisibilityControl1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="&gt;&gt;label6.ZOrder" xml:space="preserve">
+    <value>6</value>
+  </data>
+  <data name="&gt;&gt;groupBox1.ZOrder" xml:space="preserve">
+    <value>10</value>
+  </data>
+  <assembly alias="System.Drawing" name="System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
+  <data name="label21.Size" type="System.Drawing.Size, System.Drawing">
+    <value>35, 12</value>
+  </data>
+  <data name="label7.Text" xml:space="preserve">
+    <value>偏移</value>
+  </data>
+  <data name="&gt;&gt;label5.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="btnRemoveStyle.Text" xml:space="preserve">
+    <value>Remove</value>
+  </data>
+  <data name="clpMarkerFill.Size" type="System.Drawing.Size, System.Drawing">
+    <value>74, 22</value>
+  </data>
+  <data name="&gt;&gt;tabPage2.Name" xml:space="preserve">
+    <value>tabPage2</value>
+  </data>
+  <data name="&gt;&gt;cboLineType.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ComboBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="$this.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="btnRemove.Location" type="System.Drawing.Point, System.Drawing">
+    <value>54, 296</value>
+  </data>
+  <data name="&gt;&gt;clpMarkerOutline.ZOrder" xml:space="preserve">
+    <value>5</value>
+  </data>
+  <data name="&gt;&gt;tabVertices.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TabPage, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="label4.TabIndex" type="System.Int32, mscorlib">
+    <value>127</value>
+  </data>
+  <data name="btnRemove.TabIndex" type="System.Int32, mscorlib">
+    <value>11</value>
+  </data>
+  <data name="chkMarkerFlipFirst.Size" type="System.Drawing.Size, System.Drawing">
+    <value>126, 16</value>
+  </data>
+  <data name="&gt;&gt;udVerticesSize.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="groupBox1.TabIndex" type="System.Int32, mscorlib">
+    <value>6</value>
+  </data>
+  <data name="clpMarkerOutline.Size" type="System.Drawing.Size, System.Drawing">
+    <value>74, 22</value>
+  </data>
+  <data name="groupBox1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="tabLine.Location" type="System.Drawing.Point, System.Drawing">
+    <value>4, 22</value>
+  </data>
+  <data name="&gt;&gt;tabVertices.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="chkMarkerAllowOverflow.Size" type="System.Drawing.Size, System.Drawing">
+    <value>150, 16</value>
+  </data>
+  <data name="&gt;&gt;btnRemove.ZOrder" xml:space="preserve">
+    <value>6</value>
+  </data>
+  <data name="cboVerticesType.Location" type="System.Drawing.Point, System.Drawing">
+    <value>61, 70</value>
+  </data>
+  <data name="clpVerticesColor.Location" type="System.Drawing.Point, System.Drawing">
+    <value>61, 29</value>
+  </data>
+  <data name="clpMarkerOutline.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="&gt;&gt;cboVerticesType.Name" xml:space="preserve">
+    <value>cboVerticesType</value>
+  </data>
+  <data name="&gt;&gt;btnOk.Name" xml:space="preserve">
+    <value>btnOk</value>
+  </data>
+  <data name="tabControl1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="&gt;&gt;label22.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="btnMoveDown.Location" type="System.Drawing.Point, System.Drawing">
+    <value>153, 296</value>
+  </data>
+  <data name="&gt;&gt;label5.Parent" xml:space="preserve">
+    <value>tabLine</value>
+  </data>
+  <data name="&gt;&gt;pctPreview.Type" xml:space="preserve">
+    <value>System.Windows.Forms.PictureBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="tabControl1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>194, 11</value>
+  </data>
+  <data name="&gt;&gt;dynamicVisibilityControl1.Parent" xml:space="preserve">
+    <value>tabPage2</value>
+  </data>
+  <data name="&gt;&gt;udMarkerSize.ZOrder" xml:space="preserve">
+    <value>7</value>
+  </data>
+  <data name="groupBox3.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="&gt;&gt;transparencyControl1.Type" xml:space="preserve">
+    <value>MW5.UI.Controls.TransparencyControl, MW5.UI, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;clpMarkerFill.Parent" xml:space="preserve">
+    <value>groupMarker</value>
+  </data>
+  <data name="label1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>178, 59</value>
+  </data>
+  <data name="&gt;&gt;cboLineType.Name" xml:space="preserve">
+    <value>cboLineType</value>
+  </data>
+  <data name="&gt;&gt;dgv.Name" xml:space="preserve">
+    <value>dgv</value>
+  </data>
+  <data name="icbLineWidth.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="&gt;&gt;label27.Parent" xml:space="preserve">
+    <value>groupBox3</value>
+  </data>
+  <data name="&gt;&gt;cboOrientation.Parent" xml:space="preserve">
+    <value>groupMarker</value>
+  </data>
+  <data name="icbLineWidth.Size" type="System.Drawing.Size, System.Drawing">
+    <value>74, 22</value>
+  </data>
+  <data name="&gt;&gt;label23.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="btnOk.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="&gt;&gt;udVerticesSize.Name" xml:space="preserve">
+    <value>udVerticesSize</value>
+  </data>
+  <data name="&gt;&gt;btnCancel.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="udMarkerSize.TabIndex" type="System.Int32, mscorlib">
+    <value>124</value>
+  </data>
+  <data name="&gt;&gt;pointSymbolControl1.Name" xml:space="preserve">
+    <value>pointSymbolControl1</value>
+  </data>
+  <data name="clpMarkerOutline.IntegralHeight" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="&gt;&gt;groupBox3.Name" xml:space="preserve">
+    <value>groupBox3</value>
+  </data>
+  <data name="cboOrientation.TabIndex" type="System.Int32, mscorlib">
+    <value>129</value>
+  </data>
+  <data name="&gt;&gt;cboOrientation.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ComboBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="btnCancel.TabIndex" type="System.Int32, mscorlib">
+    <value>41</value>
+  </data>
+  <data name="btnMoveDown.Size" type="System.Drawing.Size, System.Drawing">
+    <value>32, 30</value>
+  </data>
+  <data name="pointSymbolControl1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="&gt;&gt;label4.Parent" xml:space="preserve">
+    <value>groupMarker</value>
+  </data>
+  <data name="&gt;&gt;cboVerticesType.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="btnRemoveStyle.Location" type="System.Drawing.Point, System.Drawing">
+    <value>326, 44</value>
+  </data>
+  <data name="label2.TabIndex" type="System.Int32, mscorlib">
+    <value>123</value>
+  </data>
+  <data name="label21.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="Column1.HeaderText" xml:space="preserve">
+    <value>Image</value>
+  </data>
+  <data name="groupBox2.Size" type="System.Drawing.Size, System.Drawing">
+    <value>176, 153</value>
+  </data>
+  <data name="groupBox3.TabIndex" type="System.Int32, mscorlib">
+    <value>10</value>
+  </data>
+  <data name="label28.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="&gt;&gt;label21.Name" xml:space="preserve">
+    <value>label21</value>
+  </data>
+  <data name="&gt;&gt;udMarkerSize.Type" xml:space="preserve">
+    <value>MW5.Plugins.Symbology.Controls.NumericUpDownEx, MW5.Symbology, Version=1.0.0.28417, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="btnApply.Text" xml:space="preserve">
+    <value>Apply</value>
+  </data>
+  <data name="&gt;&gt;cboOrientation.ZOrder" xml:space="preserve">
+    <value>8</value>
+  </data>
+  <data name="label27.TabIndex" type="System.Int32, mscorlib">
+    <value>3</value>
+  </data>
+  <data name="&gt;&gt;clpVerticesColor.Name" xml:space="preserve">
+    <value>clpVerticesColor</value>
+  </data>
+  <data name="linePatternControl1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>299, 258</value>
+  </data>
+  <data name="&gt;&gt;label28.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;clpMarkerOutline.Parent" xml:space="preserve">
+    <value>groupMarker</value>
+  </data>
+  <data name="&gt;&gt;chkMarkerAllowOverflow.Name" xml:space="preserve">
+    <value>chkMarkerAllowOverflow</value>
+  </data>
+  <data name="&gt;&gt;btnApply.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="groupLine.Location" type="System.Drawing.Point, System.Drawing">
+    <value>12, 54</value>
+  </data>
+  <data name="transparencyControl1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>210, 19</value>
+  </data>
+  <data name="groupBox2.TabIndex" type="System.Int32, mscorlib">
+    <value>8</value>
+  </data>
+  <data name="tabPage2.TabIndex" type="System.Int32, mscorlib">
+    <value>6</value>
+  </data>
+  <data name="&gt;&gt;btnRemove.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="label22.Text" xml:space="preserve">
+    <value>Width</value>
+  </data>
+  <data name="&gt;&gt;cboOrientation.Name" xml:space="preserve">
+    <value>cboOrientation</value>
+  </data>
+  <data name="dynamicVisibilityControl1.TabIndex" type="System.Int32, mscorlib">
+    <value>180</value>
+  </data>
+  <data name="linePatternControl1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="btnMoveUp.TabIndex" type="System.Int32, mscorlib">
+    <value>12</value>
+  </data>
+  <data name="&gt;&gt;label29.Name" xml:space="preserve">
+    <value>label29</value>
+  </data>
+  <data name="groupBox3.Size" type="System.Drawing.Size, System.Drawing">
+    <value>386, 113</value>
+  </data>
+  <data name="&gt;&gt;tabControl1.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;label29.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="groupMarker.Size" type="System.Drawing.Size, System.Drawing">
+    <value>390, 207</value>
+  </data>
+  <data name="&gt;&gt;groupBox3.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;btnMoveDown.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;udVerticesSize.Parent" xml:space="preserve">
+    <value>groupBox3</value>
+  </data>
+  <data name="&gt;&gt;label7.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;ttOffsetIsRelative.Name" xml:space="preserve">
+    <value>ttOffsetIsRelative</value>
+  </data>
+  <data name="&gt;&gt;groupBox2.ZOrder" xml:space="preserve">
+    <value>9</value>
+  </data>
+  <data name="&gt;&gt;label7.Parent" xml:space="preserve">
+    <value>groupMarker</value>
+  </data>
+  <data name="&gt;&gt;clpMarkerFill.Type" xml:space="preserve">
+    <value>MW5.UI.Controls.Office2007ColorPicker, MW5.UI, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="label1.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="&gt;&gt;icbLineType.Name" xml:space="preserve">
+    <value>icbLineType</value>
+  </data>
+  <data name="clpVerticesColor.Size" type="System.Drawing.Size, System.Drawing">
+    <value>74, 22</value>
+  </data>
+  <data name="&gt;&gt;btnRemoveStyle.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;btnMoveUp.Name" xml:space="preserve">
+    <value>btnMoveUp</value>
+  </data>
+  <data name="&gt;&gt;tabLine.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;clpMarkerOutline.Name" xml:space="preserve">
+    <value>clpMarkerOutline</value>
+  </data>
+  <data name="&gt;&gt;groupLine.Parent" xml:space="preserve">
+    <value>tabLine</value>
+  </data>
+  <data name="&gt;&gt;btnCancel.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="&gt;&gt;label27.Name" xml:space="preserve">
+    <value>label27</value>
+  </data>
+  <data name="transparencyControl1.MinimumSize" type="System.Drawing.Size, System.Drawing">
+    <value>128, 30</value>
+  </data>
+  <data name="label2.Size" type="System.Drawing.Size, System.Drawing">
+    <value>29, 12</value>
+  </data>
+  <data name="tabPage1.TabIndex" type="System.Int32, mscorlib">
+    <value>5</value>
+  </data>
+  <data name="&gt;&gt;label2.ZOrder" xml:space="preserve">
+    <value>9</value>
+  </data>
+  <data name="&gt;&gt;btnRemoveStyle.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="udVerticesSize.Location" type="System.Drawing.Point, System.Drawing">
+    <value>248, 30</value>
+  </data>
+  <data name="label29.Text" xml:space="preserve">
+    <value>Size</value>
+  </data>
+  <data name="&gt;&gt;icbLineType.Parent" xml:space="preserve">
+    <value>groupLine</value>
+  </data>
+  <data name="label23.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="$this.AutoScaleDimensions" type="System.Drawing.SizeF, System.Drawing">
+    <value>6, 12</value>
+  </data>
+  <data name="chkVerticesFillVisible.TabIndex" type="System.Int32, mscorlib">
+    <value>8</value>
+  </data>
+  <data name="&gt;&gt;label30.ZOrder" xml:space="preserve">
+    <value>14</value>
+  </data>
+  <data name="cboLineType.Size" type="System.Drawing.Size, System.Drawing">
+    <value>85, 20</value>
+  </data>
+  <data name="tabPage2.Padding" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>3, 3, 3, 3</value>
+  </data>
+  <data name="btnMoveUp.Size" type="System.Drawing.Size, System.Drawing">
+    <value>32, 30</value>
+  </data>
+  <data name="&gt;&gt;label29.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="linePatternControl1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>19, 15</value>
+  </data>
+  <data name="&gt;&gt;udMarkerOffset.Name" xml:space="preserve">
+    <value>udMarkerOffset</value>
+  </data>
+  <data name="chkVerticesVisible.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;linePatternControl1.Type" xml:space="preserve">
+    <value>MW5.Plugins.Symbology.Controls.ListControls.LinePatternControl, MW5.Symbology, Version=1.0.0.28417, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;chkVerticesFillVisible.Name" xml:space="preserve">
+    <value>chkVerticesFillVisible</value>
+  </data>
+  <data name="dynamicVisibilityControl1.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 4, 4, 4</value>
+  </data>
+  <data name="tabControl1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>419, 315</value>
+  </data>
+  <data name="label2.Location" type="System.Drawing.Point, System.Drawing">
+    <value>19, 25</value>
+  </data>
+  <data name="&gt;&gt;btnMoveDown.ZOrder" xml:space="preserve">
+    <value>4</value>
+  </data>
+  <data name="&gt;&gt;btnMoveDown.Name" xml:space="preserve">
+    <value>btnMoveDown</value>
+  </data>
+  <data name="&gt;&gt;clpOutline.Name" xml:space="preserve">
+    <value>clpOutline</value>
+  </data>
+  <data name="btnOk.Location" type="System.Drawing.Point, System.Drawing">
+    <value>411, 328</value>
+  </data>
+  <data name="&gt;&gt;tabPage1.Parent" xml:space="preserve">
+    <value>tabControl1</value>
+  </data>
+  <data name="label4.Size" type="System.Drawing.Size, System.Drawing">
+    <value>83, 12</value>
+  </data>
+  <data name="chkVerticesVisible.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="&gt;&gt;$this.Type" xml:space="preserve">
+    <value>MW5.UI.Forms.MapWindowForm, MW5.UI, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="chkMarkerFlipFirst.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="&gt;&gt;tabLine.Parent" xml:space="preserve">
+    <value>tabControl1</value>
+  </data>
+  <data name="&gt;&gt;label21.Parent" xml:space="preserve">
+    <value>groupLine</value>
+  </data>
+  <data name="&gt;&gt;label5.Name" xml:space="preserve">
+    <value>label5</value>
+  </data>
+  <data name="chkMarkerFlipFirst.Location" type="System.Drawing.Point, System.Drawing">
+    <value>15, 185</value>
+  </data>
+  <data name="&gt;&gt;label30.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="icbLineWidth.Location" type="System.Drawing.Point, System.Drawing">
+    <value>236, 27</value>
+  </data>
+  <data name="clpMarkerFill.Items" xml:space="preserve">
+    <value>Color</value>
+  </data>
+  <data name="&gt;&gt;btnAddStyle.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="udMarkerInterval.TabIndex" type="System.Int32, mscorlib">
+    <value>12</value>
+  </data>
+  <data name="chkVerticesVisible.Location" type="System.Drawing.Point, System.Drawing">
+    <value>30, 21</value>
+  </data>
+  <data name="&gt;&gt;btnCancel.Name" xml:space="preserve">
+    <value>btnCancel</value>
+  </data>
+  <data name="&gt;&gt;label22.Name" xml:space="preserve">
+    <value>label22</value>
+  </data>
+  <data name="&gt;&gt;ttOffsetIsRelative.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolTip, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="label29.TabIndex" type="System.Int32, mscorlib">
+    <value>6</value>
+  </data>
+  <data name="tabLine.TabIndex" type="System.Int32, mscorlib">
+    <value>4</value>
+  </data>
+  <data name="&gt;&gt;btnAdd.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="label6.Location" type="System.Drawing.Point, System.Drawing">
+    <value>178, 27</value>
+  </data>
+  <data name="chkMarkerFlipFirst.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;cboVerticesType.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ComboBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="label30.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="pointSymbolControl1.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Arial, 25.6pt</value>
+  </data>
+  <data name="clpOutline.IntegralHeight" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="&gt;&gt;tabPage1.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TabPage, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="clpOutline.TabIndex" type="System.Int32, mscorlib">
+    <value>136</value>
+  </data>
+  <data name="&gt;&gt;chkIntervalIsRelative.Name" xml:space="preserve">
+    <value>chkIntervalIsRelative</value>
+  </data>
+  <data name="label4.Text" xml:space="preserve">
+    <value>边界颜色</value>
+  </data>
+  <data name="dgv.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="clpOutline.Location" type="System.Drawing.Point, System.Drawing">
+    <value>60, 27</value>
+  </data>
+  <data name="btnRemove.Size" type="System.Drawing.Size, System.Drawing">
+    <value>32, 30</value>
+  </data>
+  <data name="chkMarkerAllowOverflow.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;label23.Name" xml:space="preserve">
+    <value>label23</value>
+  </data>
+  <data name="label21.Text" xml:space="preserve">
+    <value>Color</value>
+  </data>
+  <data name="&gt;&gt;tabLine.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TabPage, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="tabVertices.Location" type="System.Drawing.Point, System.Drawing">
+    <value>4, 22</value>
+  </data>
+  <data name="&gt;&gt;pointSymbolControl1.ZOrder" xml:space="preserve">
+    <value>11</value>
+  </data>
+  <data name="&gt;&gt;chkMarkerAllowOverflow.Parent" xml:space="preserve">
+    <value>groupMarker</value>
+  </data>
+  <data name="label27.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="label2.Text" xml:space="preserve">
+    <value>大小</value>
+  </data>
+  <data name="chkVerticesFillVisible.Text" xml:space="preserve">
+    <value>Fill visible</value>
+  </data>
+  <data name="&gt;&gt;clpVerticesColor.Parent" xml:space="preserve">
+    <value>groupBox3</value>
+  </data>
+  <data name="&gt;&gt;tabVertices.Parent" xml:space="preserve">
+    <value>tabControl1</value>
+  </data>
+  <data name="label1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>65, 12</value>
+  </data>
+  <data name="cboOrientation.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="pctPreview.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="chkVerticesVisible.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="label28.Location" type="System.Drawing.Point, System.Drawing">
+    <value>15, 73</value>
+  </data>
+  <data name="&gt;&gt;tabPage1.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="label6.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="label1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="&gt;&gt;groupBox1.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;btnMoveUp.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;btnOk.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="&gt;&gt;udMarkerOffset.Parent" xml:space="preserve">
+    <value>groupMarker</value>
+  </data>
+  <data name="chkIntervalIsRelative.Location" type="System.Drawing.Point, System.Drawing">
+    <value>5, 57</value>
+  </data>
+  <data name="&gt;&gt;cboLineType.Parent" xml:space="preserve">
+    <value>tabLine</value>
+  </data>
+  <data name="icbLineType.Location" type="System.Drawing.Point, System.Drawing">
+    <value>60, 61</value>
+  </data>
+  <data name="&gt;&gt;btnCancel.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="btnRemove.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="&gt;&gt;groupBox3.Type" xml:space="preserve">
+    <value>System.Windows.Forms.GroupBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;label1.Name" xml:space="preserve">
+    <value>label1</value>
+  </data>
+  <data name="clpOutline.Size" type="System.Drawing.Size, System.Drawing">
+    <value>74, 22</value>
+  </data>
+  <data name="label7.TabIndex" type="System.Int32, mscorlib">
+    <value>132</value>
+  </data>
+  <data name="&gt;&gt;dynamicVisibilityControl1.Name" xml:space="preserve">
+    <value>dynamicVisibilityControl1</value>
+  </data>
+  <data name="pointSymbolControl1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>13, 130</value>
+  </data>
+  <data name="&gt;&gt;label7.Name" xml:space="preserve">
+    <value>label7</value>
+  </data>
+  <data name="&gt;&gt;pctPreview.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="clpVerticesColor.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="tabLine.Text" xml:space="preserve">
+    <value>Lines</value>
+  </data>
+  <data name="&gt;&gt;btnAddStyle.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="icbLineType.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="&gt;&gt;btnAdd.Name" xml:space="preserve">
+    <value>btnAdd</value>
+  </data>
+  <data name="cboVerticesType.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="&gt;&gt;tabPage2.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TabPage, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;chkVerticesFillVisible.Parent" xml:space="preserve">
+    <value>groupBox3</value>
+  </data>
+  <data name="label1.Text" xml:space="preserve">
+    <value>填充色</value>
+  </data>
+  <data name="&gt;&gt;chkIntervalIsRelative.Parent" xml:space="preserve">
+    <value>groupMarker</value>
+  </data>
+  <data name="btnAdd.Size" type="System.Drawing.Size, System.Drawing">
+    <value>32, 30</value>
+  </data>
+  <data name="label6.Size" type="System.Drawing.Size, System.Drawing">
+    <value>71, 12</value>
+  </data>
+  <data name="btnMoveUp.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="label4.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="udMarkerSize.Size" type="System.Drawing.Size, System.Drawing">
+    <value>57, 21</value>
+  </data>
+  <data name="tabPage1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>4, 22</value>
+  </data>
+  <data name="&gt;&gt;clpVerticesColor.ZOrder" xml:space="preserve">
+    <value>6</value>
+  </data>
+  <data name="&gt;&gt;tabPage2.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="label7.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="btnApply.TabIndex" type="System.Int32, mscorlib">
+    <value>129</value>
+  </data>
+  <data name="&gt;&gt;label22.Parent" xml:space="preserve">
+    <value>groupLine</value>
+  </data>
+  <data name="&gt;&gt;btnRemoveStyle.Name" xml:space="preserve">
+    <value>btnRemoveStyle</value>
+  </data>
+  <data name="label30.Size" type="System.Drawing.Size, System.Drawing">
+    <value>53, 12</value>
+  </data>
+  <data name="label27.Location" type="System.Drawing.Point, System.Drawing">
+    <value>15, 31</value>
+  </data>
+  <data name="&gt;&gt;linePatternControl1.Name" xml:space="preserve">
+    <value>linePatternControl1</value>
+  </data>
+  <data name="groupMarker.Location" type="System.Drawing.Point, System.Drawing">
+    <value>635, 31</value>
+  </data>
+  <data name="label2.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="&gt;&gt;transparencyControl1.Name" xml:space="preserve">
+    <value>transparencyControl1</value>
+  </data>
+  <data name="Column2.HeaderText" xml:space="preserve">
+    <value>Type</value>
+  </data>
+  <data name="label4.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="&gt;&gt;groupBox1.Type" xml:space="preserve">
+    <value>System.Windows.Forms.GroupBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="label5.Location" type="System.Drawing.Point, System.Drawing">
+    <value>22, 22</value>
+  </data>
+  <data name="&gt;&gt;groupLine.Name" xml:space="preserve">
+    <value>groupLine</value>
+  </data>
+  <data name="udMarkerOffset.Size" type="System.Drawing.Size, System.Drawing">
+    <value>57, 21</value>
+  </data>
+  <data name="chkVerticesFillVisible.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="&gt;&gt;label2.Name" xml:space="preserve">
+    <value>label2</value>
+  </data>
+  <data name="&gt;&gt;clpMarkerFill.Name" xml:space="preserve">
+    <value>clpMarkerFill</value>
+  </data>
+  <data name="&gt;&gt;label23.Parent" xml:space="preserve">
+    <value>groupLine</value>
+  </data>
+  <data name="cboLineType.TabIndex" type="System.Int32, mscorlib">
+    <value>126</value>
+  </data>
+  <data name="clpMarkerFill.TabIndex" type="System.Int32, mscorlib">
+    <value>121</value>
+  </data>
+  <data name="dgv.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Fill</value>
+  </data>
+  <data name="&gt;&gt;btnAdd.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;clpOutline.Type" xml:space="preserve">
+    <value>MW5.UI.Controls.Office2007ColorPicker, MW5.UI, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="label30.TabIndex" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="pctPreview.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="&gt;&gt;tabVertices.Name" xml:space="preserve">
+    <value>tabVertices</value>
+  </data>
+  <data name="label21.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="clpVerticesColor.TabIndex" type="System.Int32, mscorlib">
+    <value>2</value>
+  </data>
+  <data name="&gt;&gt;pointSymbolControl1.Parent" xml:space="preserve">
+    <value>groupMarker</value>
+  </data>
+  <data name="udVerticesSize.Size" type="System.Drawing.Size, System.Drawing">
+    <value>57, 21</value>
+  </data>
+  <data name="groupBox1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>176, 131</value>
+  </data>
+  <data name="&gt;&gt;btnAddStyle.Parent" xml:space="preserve">
+    <value>tabPage1</value>
+  </data>
+  <data name="&gt;&gt;label6.Parent" xml:space="preserve">
+    <value>groupMarker</value>
+  </data>
+  <data name="chkVerticesVisible.Size" type="System.Drawing.Size, System.Drawing">
+    <value>72, 16</value>
+  </data>
+  <data name="&gt;&gt;dynamicVisibilityControl1.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;chkMarkerFlipFirst.ZOrder" xml:space="preserve">
+    <value>15</value>
+  </data>
+  <data name="cboOrientation.Location" type="System.Drawing.Point, System.Drawing">
+    <value>259, 23</value>
+  </data>
+  <data name="udMarkerOffset.Location" type="System.Drawing.Point, System.Drawing">
+    <value>93, 86</value>
+  </data>
+  <data name="&gt;&gt;label28.Parent" xml:space="preserve">
+    <value>groupBox3</value>
+  </data>
+  <data name="&gt;&gt;label30.Name" xml:space="preserve">
+    <value>label30</value>
+  </data>
+  <data name="label22.Size" type="System.Drawing.Size, System.Drawing">
+    <value>35, 12</value>
+  </data>
+  <data name="&gt;&gt;groupBox2.Type" xml:space="preserve">
+    <value>System.Windows.Forms.GroupBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="tabVertices.TabIndex" type="System.Int32, mscorlib">
+    <value>3</value>
+  </data>
+  <data name="groupBox3.Location" type="System.Drawing.Point, System.Drawing">
+    <value>12, 54</value>
+  </data>
+  <data name="&gt;&gt;chkMarkerFlipFirst.Type" xml:space="preserve">
+    <value>System.Windows.Forms.CheckBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="chkOffsetIsRelative.Size" type="System.Drawing.Size, System.Drawing">
+    <value>15, 14</value>
+  </data>
+  <data name="&gt;&gt;label21.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="&gt;&gt;chkVerticesVisible.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="chkOffsetIsRelative.ToolTip" xml:space="preserve">
+    <value>If checked, the offset is expressed as a fraction of the total length of the line to be drawn.
+If not checked, the offset is in pixels.</value>
+  </data>
+  <data name="&gt;&gt;clpOutline.Parent" xml:space="preserve">
+    <value>groupLine</value>
+  </data>
+  <data name="tabPage1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="tabPage1.Text" xml:space="preserve">
+    <value>Styles</value>
+  </data>
+  <data name="dgv.Location" type="System.Drawing.Point, System.Drawing">
+    <value>3, 17</value>
+  </data>
+  <data name="&gt;&gt;icbLineWidth.Name" xml:space="preserve">
+    <value>icbLineWidth</value>
+  </data>
+  <data name="pointSymbolControl1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>364, 50</value>
+  </data>
+  <data name="&gt;&gt;btnApply.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="pctPreview.Size" type="System.Drawing.Size, System.Drawing">
+    <value>170, 111</value>
+  </data>
+  <data name="&gt;&gt;groupBox3.Parent" xml:space="preserve">
+    <value>tabVertices</value>
+  </data>
+  <data name="&gt;&gt;groupMarker.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="&gt;&gt;label29.Parent" xml:space="preserve">
+    <value>groupBox3</value>
+  </data>
+  <data name="icbLineType.TabIndex" type="System.Int32, mscorlib">
+    <value>137</value>
+  </data>
+  <data name="&gt;&gt;groupBox2.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="tabVertices.Text" xml:space="preserve">
+    <value>Vertices</value>
+  </data>
+  <data name="label22.TabIndex" type="System.Int32, mscorlib">
+    <value>135</value>
+  </data>
+  <data name="clpMarkerOutline.Items" xml:space="preserve">
+    <value>Color</value>
+  </data>
+  <data name="chkVerticesVisible.Text" xml:space="preserve">
+    <value>Vertices</value>
+  </data>
+  <data name="groupLine.TabIndex" type="System.Int32, mscorlib">
+    <value>140</value>
+  </data>
+  <data name="label4.Location" type="System.Drawing.Point, System.Drawing">
+    <value>178, 90</value>
+  </data>
+  <data name="&gt;&gt;label2.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="transparencyControl1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>190, 30</value>
+  </data>
+  <data name="label7.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="&gt;&gt;clpMarkerOutline.Type" xml:space="preserve">
+    <value>MW5.UI.Controls.Office2007ColorPicker, MW5.UI, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="groupBox2.Location" type="System.Drawing.Point, System.Drawing">
+    <value>12, 138</value>
+  </data>
+  <data name="&gt;&gt;label2.Parent" xml:space="preserve">
+    <value>groupMarker</value>
+  </data>
+  <data name="clpMarkerOutline.TabIndex" type="System.Int32, mscorlib">
+    <value>126</value>
+  </data>
+  <data name="&gt;&gt;groupLine.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="&gt;&gt;tabControl1.Name" xml:space="preserve">
+    <value>tabControl1</value>
+  </data>
+  <data name="&gt;&gt;udMarkerOffset.Type" xml:space="preserve">
+    <value>MW5.Plugins.Symbology.Controls.NumericUpDownEx, MW5.Symbology, Version=1.0.0.28417, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;udMarkerInterval.Type" xml:space="preserve">
+    <value>MW5.Plugins.Symbology.Controls.NumericUpDownEx, MW5.Symbology, Version=1.0.0.28417, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="label23.Location" type="System.Drawing.Point, System.Drawing">
+    <value>20, 64</value>
+  </data>
+  <data name="icbLineType.Size" type="System.Drawing.Size, System.Drawing">
+    <value>74, 22</value>
+  </data>
+  <data name="&gt;&gt;label27.ZOrder" xml:space="preserve">
+    <value>5</value>
+  </data>
+  <data name="chkMarkerFlipFirst.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="chkOffsetIsRelative.TabIndex" type="System.Int32, mscorlib">
+    <value>134</value>
+  </data>
+  <data name="&gt;&gt;icbLineWidth.Type" xml:space="preserve">
+    <value>MW5.UI.Controls.ImageCombo, MW5.UI, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;groupMarker.Name" xml:space="preserve">
+    <value>groupMarker</value>
+  </data>
+  <data name="&gt;&gt;cboLineType.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="dynamicVisibilityControl1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>404, 186</value>
+  </data>
+  <data name="clpVerticesColor.IntegralHeight" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="&gt;&gt;chkOffsetIsRelative.Type" xml:space="preserve">
+    <value>System.Windows.Forms.CheckBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="dgv.TabIndex" type="System.Int32, mscorlib">
+    <value>7</value>
+  </data>
+  <data name="&gt;&gt;tabLine.Name" xml:space="preserve">
+    <value>tabLine</value>
+  </data>
+  <data name="&gt;&gt;tabPage1.Name" xml:space="preserve">
+    <value>tabPage1</value>
+  </data>
+  <data name="&gt;&gt;chkOffsetIsRelative.Name" xml:space="preserve">
+    <value>chkOffsetIsRelative</value>
+  </data>
+  <data name="groupBox1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>12, 1</value>
+  </data>
+  <data name="label29.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="&gt;&gt;chkIntervalIsRelative.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="btnAddStyle.Size" type="System.Drawing.Size, System.Drawing">
+    <value>75, 24</value>
+  </data>
+  <data name="$this.Text" xml:space="preserve">
+    <value>Polyline Style</value>
+  </data>
+  <data name="clpMarkerFill.Location" type="System.Drawing.Point, System.Drawing">
+    <value>259, 54</value>
+  </data>
+  <data name="&gt;&gt;udMarkerSize.Name" xml:space="preserve">
+    <value>udMarkerSize</value>
+  </data>
+  <data name="btnAdd.TabIndex" type="System.Int32, mscorlib">
+    <value>10</value>
+  </data>
+  <data name="label5.Text" xml:space="preserve">
+    <value>Line type</value>
+  </data>
+  <data name="&gt;&gt;tabPage2.Parent" xml:space="preserve">
+    <value>tabControl1</value>
+  </data>
+  <data name="&gt;&gt;pctPreview.Name" xml:space="preserve">
+    <value>pctPreview</value>
+  </data>
+  <data name="&gt;&gt;label30.Parent" xml:space="preserve">
+    <value>groupMarker</value>
+  </data>
+  <data name="cboLineType.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="groupMarker.TabIndex" type="System.Int32, mscorlib">
+    <value>128</value>
+  </data>
+  <data name="clpOutline.Items" xml:space="preserve">
+    <value>Color</value>
+  </data>
+  <data name="btnApply.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="chkMarkerAllowOverflow.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="label30.Text" xml:space="preserve">
+    <value>间距</value>
+  </data>
+  <data name="groupBox1.Text" xml:space="preserve">
+    <value>Preview</value>
+  </data>
+  <data name="btnOk.Text" xml:space="preserve">
+    <value>Ok</value>
+  </data>
+  <data name="icbLineWidth.TabIndex" type="System.Int32, mscorlib">
+    <value>138</value>
+  </data>
+  <data name="&gt;&gt;pointSymbolControl1.Type" xml:space="preserve">
+    <value>MW5.Plugins.Symbology.Controls.ListControls.SymbolControl, MW5.Symbology, Version=1.0.0.28417, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="label5.TabIndex" type="System.Int32, mscorlib">
+    <value>127</value>
+  </data>
+  <data name="label27.Size" type="System.Drawing.Size, System.Drawing">
+    <value>35, 12</value>
+  </data>
+  <data name="chkVerticesFillVisible.Size" type="System.Drawing.Size, System.Drawing">
+    <value>96, 16</value>
+  </data>
+  <data name="btnAdd.Location" type="System.Drawing.Point, System.Drawing">
+    <value>16, 296</value>
+  </data>
+  <data name="chkMarkerAllowOverflow.Text" xml:space="preserve">
+    <value>允许标记溢出</value>
+  </data>
+  <data name="&gt;&gt;tabControl1.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TabControl, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="label5.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="&gt;&gt;groupMarker.Type" xml:space="preserve">
+    <value>System.Windows.Forms.GroupBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="clpOutline.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="btnApply.Location" type="System.Drawing.Point, System.Drawing">
+    <value>310, 328</value>
+  </data>
+  <data name="label7.Size" type="System.Drawing.Size, System.Drawing">
+    <value>41, 12</value>
+  </data>
+  <data name="tabPage1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>411, 289</value>
+  </data>
+  <data name="udMarkerSize.Location" type="System.Drawing.Point, System.Drawing">
+    <value>93, 23</value>
+  </data>
+  <data name="groupBox2.Text" xml:space="preserve">
+    <value>Layers</value>
+  </data>
+  <data name="&gt;&gt;chkVerticesVisible.Name" xml:space="preserve">
+    <value>chkVerticesVisible</value>
+  </data>
+  <data name="clpMarkerFill.IntegralHeight" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="label6.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="dynamicVisibilityControl1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>3, 6</value>
+  </data>
+  <data name="btnRemoveStyle.TabIndex" type="System.Int32, mscorlib">
+    <value>2</value>
+  </data>
+  <data name="&gt;&gt;label22.ZOrder" xml:space="preserve">
+    <value>4</value>
+  </data>
+  <data name="transparencyControl1.TabIndex" type="System.Int32, mscorlib">
+    <value>143</value>
+  </data>
+  <data name="btnCancel.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="chkIntervalIsRelative.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="btnCancel.Text" xml:space="preserve">
+    <value>Cancel</value>
+  </data>
+  <data name="&gt;&gt;chkMarkerFlipFirst.Parent" xml:space="preserve">
+    <value>groupMarker</value>
+  </data>
+  <data name="dgv.Size" type="System.Drawing.Size, System.Drawing">
+    <value>170, 133</value>
+  </data>
+  <data name="transparencyControl1.MaximumSize" type="System.Drawing.Size, System.Drawing">
+    <value>1024, 30</value>
+  </data>
+  <data name="&gt;&gt;chkVerticesVisible.Type" xml:space="preserve">
+    <value>System.Windows.Forms.CheckBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="groupMarker.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="linePatternControl1.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Arial, 25.6pt</value>
+  </data>
+  <data name="label6.Text" xml:space="preserve">
+    <value>方向</value>
+  </data>
+  <data name="&gt;&gt;dgv.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;chkVerticesVisible.Parent" xml:space="preserve">
+    <value>tabVertices</value>
+  </data>
+  <data name="btnOk.TabIndex" type="System.Int32, mscorlib">
+    <value>40</value>
+  </data>
+  <data name="&gt;&gt;label23.ZOrder" xml:space="preserve">
+    <value>5</value>
+  </data>
+  <data name="&gt;&gt;$this.Name" xml:space="preserve">
+    <value>LinesForm</value>
+  </data>
+  <data name="pointSymbolControl1.TabIndex" type="System.Int32, mscorlib">
+    <value>13</value>
+  </data>
+  <data name="&gt;&gt;label7.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="tabPage2.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="&gt;&gt;chkMarkerAllowOverflow.Type" xml:space="preserve">
+    <value>System.Windows.Forms.CheckBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="label28.Size" type="System.Drawing.Size, System.Drawing">
+    <value>29, 12</value>
+  </data>
+  <data name="groupBox2.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="chkVerticesFillVisible.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="label28.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="label23.TabIndex" type="System.Int32, mscorlib">
+    <value>134</value>
+  </data>
+  <data name="&gt;&gt;Column1.Name" xml:space="preserve">
+    <value>Column1</value>
+  </data>
+  <data name="btnCancel.Size" type="System.Drawing.Size, System.Drawing">
+    <value>95, 24</value>
+  </data>
+  <data name="&gt;&gt;groupBox2.Name" xml:space="preserve">
+    <value>groupBox2</value>
+  </data>
+  <data name="tabPage2.Location" type="System.Drawing.Point, System.Drawing">
+    <value>4, 22</value>
+  </data>
+  <data name="&gt;&gt;udMarkerInterval.ZOrder" xml:space="preserve">
+    <value>13</value>
+  </data>
+  <data name="&gt;&gt;btnRemove.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;chkOffsetIsRelative.Parent" xml:space="preserve">
+    <value>groupMarker</value>
+  </data>
+  <data name="&gt;&gt;label5.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="btnOk.Size" type="System.Drawing.Size, System.Drawing">
+    <value>95, 24</value>
+  </data>
+  <data name="tabLine.Size" type="System.Drawing.Size, System.Drawing">
+    <value>411, 289</value>
+  </data>
+  <data name="&gt;&gt;chkMarkerFlipFirst.Name" xml:space="preserve">
+    <value>chkMarkerFlipFirst</value>
+  </data>
+  <data name="pctPreview.Location" type="System.Drawing.Point, System.Drawing">
+    <value>3, 17</value>
+  </data>
+  <data name="label23.Size" type="System.Drawing.Size, System.Drawing">
+    <value>35, 12</value>
+  </data>
+  <data name="btnAddStyle.Location" type="System.Drawing.Point, System.Drawing">
+    <value>326, 15</value>
+  </data>
+  <data name="pointSymbolControl1.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>10, 8, 10, 8</value>
+  </data>
+  <data name="&gt;&gt;label28.ZOrder" xml:space="preserve">
+    <value>4</value>
+  </data>
+  <data name="label30.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="&gt;&gt;transparencyControl1.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;transparencyControl1.Parent" xml:space="preserve">
+    <value>tabLine</value>
+  </data>
+  <data name="&gt;&gt;tabControl1.ZOrder" xml:space="preserve">
+    <value>8</value>
+  </data>
+  <data name="&gt;&gt;clpVerticesColor.Type" xml:space="preserve">
+    <value>MW5.UI.Controls.Office2007ColorPicker, MW5.UI, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;icbLineType.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="&gt;&gt;label1.ZOrder" xml:space="preserve">
+    <value>10</value>
+  </data>
+  <data name="label2.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="btnCancel.Location" type="System.Drawing.Point, System.Drawing">
+    <value>512, 328</value>
+  </data>
+  <data name="&gt;&gt;dgv.Parent" xml:space="preserve">
+    <value>groupBox2</value>
+  </data>
+  <data name="&gt;&gt;chkOffsetIsRelative.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;btnOk.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="btnAddStyle.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="&gt;&gt;clpMarkerFill.ZOrder" xml:space="preserve">
+    <value>12</value>
+  </data>
+  <data name="&gt;&gt;label6.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;linePatternControl1.Parent" xml:space="preserve">
+    <value>tabPage1</value>
+  </data>
+  <data name="&gt;&gt;label4.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;btnRemove.Name" xml:space="preserve">
+    <value>btnRemove</value>
+  </data>
+  <data name="&gt;&gt;pctPreview.Parent" xml:space="preserve">
+    <value>groupBox1</value>
+  </data>
+  <data name="linePatternControl1.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;icbLineWidth.Parent" xml:space="preserve">
+    <value>groupLine</value>
+  </data>
+  <data name="&gt;&gt;Column2.Name" xml:space="preserve">
+    <value>Column2</value>
+  </data>
+  <data name="cboOrientation.Size" type="System.Drawing.Size, System.Drawing">
+    <value>95, 20</value>
+  </data>
+  <data name="tabPage2.Text" xml:space="preserve">
+    <value>可见性</value>
+  </data>
+  <data name="$this.StartPosition" type="System.Windows.Forms.FormStartPosition, System.Windows.Forms">
+    <value>CenterParent</value>
+  </data>
+  <data name="chkMarkerAllowOverflow.Location" type="System.Drawing.Point, System.Drawing">
+    <value>150, 185</value>
+  </data>
+  <data name="&gt;&gt;btnApply.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;Column1.Type" xml:space="preserve">
+    <value>System.Windows.Forms.DataGridViewImageColumn, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;btnMoveUp.ZOrder" xml:space="preserve">
+    <value>5</value>
+  </data>
+  <data name="&gt;&gt;groupBox1.Name" xml:space="preserve">
+    <value>groupBox1</value>
+  </data>
+  <data name="btnAddStyle.Text" xml:space="preserve">
+    <value>Add</value>
+  </data>
+  <data name="udMarkerInterval.Location" type="System.Drawing.Point, System.Drawing">
+    <value>93, 54</value>
+  </data>
+  <data name="btnRemoveStyle.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="pctPreview.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Fill</value>
+  </data>
+  <data name="&gt;&gt;btnMoveDown.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;groupLine.Type" xml:space="preserve">
+    <value>System.Windows.Forms.GroupBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="chkVerticesFillVisible.Location" type="System.Drawing.Point, System.Drawing">
+    <value>199, 72</value>
+  </data>
+  <data name="&gt;&gt;btnRemoveStyle.Parent" xml:space="preserve">
+    <value>tabPage1</value>
+  </data>
+  <data name="&gt;&gt;dgv.Type" xml:space="preserve">
+    <value>System.Windows.Forms.DataGridView, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;label1.Parent" xml:space="preserve">
+    <value>groupMarker</value>
+  </data>
+  <data name="udVerticesSize.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="cboVerticesType.Size" type="System.Drawing.Size, System.Drawing">
+    <value>72, 20</value>
+  </data>
+  <data name="Column2.Width" type="System.Int32, mscorlib">
+    <value>60</value>
+  </data>
+  <data name="label23.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="&gt;&gt;label1.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="udMarkerInterval.Size" type="System.Drawing.Size, System.Drawing">
+    <value>57, 21</value>
+  </data>
+  <data name="label5.Size" type="System.Drawing.Size, System.Drawing">
+    <value>59, 12</value>
+  </data>
+  <data name="tabControl1.TabIndex" type="System.Int32, mscorlib">
+    <value>9</value>
+  </data>
+  <data name="&gt;&gt;btnOk.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="$this.ClientSize" type="System.Drawing.Size, System.Drawing">
+    <value>615, 356</value>
+  </data>
+  <data name="label29.Location" type="System.Drawing.Point, System.Drawing">
+    <value>196, 31</value>
+  </data>
+  <data name="&gt;&gt;label4.Name" xml:space="preserve">
+    <value>label4</value>
+  </data>
+  <data name="label21.TabIndex" type="System.Int32, mscorlib">
+    <value>139</value>
+  </data>
+  <data name="udMarkerInterval.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="&gt;&gt;udVerticesSize.Type" xml:space="preserve">
+    <value>MW5.Plugins.Symbology.Controls.NumericUpDownEx, MW5.Symbology, Version=1.0.0.28417, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="label28.TabIndex" type="System.Int32, mscorlib">
+    <value>4</value>
+  </data>
+  <data name="transparencyControl1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="label5.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="&gt;&gt;label21.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="label29.Size" type="System.Drawing.Size, System.Drawing">
+    <value>29, 12</value>
+  </data>
+  <data name="btnMoveDown.TabIndex" type="System.Int32, mscorlib">
+    <value>13</value>
+  </data>
+  <data name="tabVertices.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="chkOffsetIsRelative.Location" type="System.Drawing.Point, System.Drawing">
+    <value>5, 97</value>
+  </data>
+  <data name="label27.Text" xml:space="preserve">
+    <value>Color</value>
+  </data>
+  <data name="clpMarkerOutline.Location" type="System.Drawing.Point, System.Drawing">
+    <value>259, 86</value>
+  </data>
+  <data name="chkOffsetIsRelative.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="cboLineType.Location" type="System.Drawing.Point, System.Drawing">
+    <value>84, 19</value>
+  </data>
+  <data name="label29.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="&gt;&gt;icbLineWidth.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;btnAddStyle.Name" xml:space="preserve">
+    <value>btnAddStyle</value>
+  </data>
+  <data name="label22.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="&gt;&gt;clpOutline.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="label22.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="label28.Text" xml:space="preserve">
+    <value>Type</value>
+  </data>
+  <data name="&gt;&gt;udMarkerOffset.ZOrder" xml:space="preserve">
+    <value>4</value>
+  </data>
+  <data name="label27.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="&gt;&gt;udMarkerInterval.Name" xml:space="preserve">
+    <value>udMarkerInterval</value>
+  </data>
+  <data name="btnMoveUp.Location" type="System.Drawing.Point, System.Drawing">
+    <value>115, 296</value>
+  </data>
+  <data name="clpMarkerFill.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="&gt;&gt;chkIntervalIsRelative.Type" xml:space="preserve">
+    <value>System.Windows.Forms.CheckBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;icbLineType.Type" xml:space="preserve">
+    <value>MW5.UI.Controls.ImageCombo, MW5.UI, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;btnApply.Name" xml:space="preserve">
+    <value>btnApply</value>
+  </data>
+  <data name="tabLine.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="&gt;&gt;dynamicVisibilityControl1.Type" xml:space="preserve">
+    <value>MW5.Plugins.Symbology.Controls.DynamicVisibilityControl, MW5.Symbology, Version=1.0.0.28417, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="btnAdd.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="chkMarkerAllowOverflow.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="label23.Text" xml:space="preserve">
+    <value>Style</value>
+  </data>
+  <data name="&gt;&gt;chkVerticesFillVisible.Type" xml:space="preserve">
+    <value>System.Windows.Forms.CheckBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="clpVerticesColor.Items" xml:space="preserve">
+    <value>Color</value>
+  </data>
+  <data name="udMarkerSize.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="btnAddStyle.TabIndex" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="chkIntervalIsRelative.TabIndex" type="System.Int32, mscorlib">
+    <value>133</value>
+  </data>
+  <data name="label22.Location" type="System.Drawing.Point, System.Drawing">
+    <value>184, 30</value>
+  </data>
+  <data name="&gt;&gt;udMarkerInterval.Parent" xml:space="preserve">
+    <value>groupMarker</value>
+  </data>
+  <data name="udVerticesSize.TabIndex" type="System.Int32, mscorlib">
+    <value>9</value>
+  </data>
+  <data name="&gt;&gt;label28.Name" xml:space="preserve">
+    <value>label28</value>
+  </data>
+  <data name="label21.Location" type="System.Drawing.Point, System.Drawing">
+    <value>19, 31</value>
+  </data>
+  <data name="&gt;&gt;Column2.Type" xml:space="preserve">
+    <value>System.Windows.Forms.DataGridViewTextBoxColumn, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;btnMoveUp.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="udMarkerOffset.TabIndex" type="System.Int32, mscorlib">
+    <value>131</value>
+  </data>
+  <data name="&gt;&gt;cboVerticesType.Parent" xml:space="preserve">
+    <value>groupBox3</value>
+  </data>
+  <data name="&gt;&gt;chkMarkerAllowOverflow.ZOrder" xml:space="preserve">
+    <value>16</value>
+  </data>
+  <data name="&gt;&gt;label27.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="groupLine.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="chkIntervalIsRelative.Size" type="System.Drawing.Size, System.Drawing">
+    <value>15, 14</value>
+  </data>
+  <data name="label7.Location" type="System.Drawing.Point, System.Drawing">
+    <value>19, 91</value>
+  </data>
+  <data name="tabPage2.Size" type="System.Drawing.Size, System.Drawing">
+    <value>411, 289</value>
+  </data>
+  <data name="udMarkerOffset.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="btnMoveDown.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="label1.TabIndex" type="System.Int32, mscorlib">
+    <value>122</value>
+  </data>
+  <data name="chkMarkerFlipFirst.Text" xml:space="preserve">
+    <value>翻转第一个标记</value>
+  </data>
+  <data name="tabVertices.Size" type="System.Drawing.Size, System.Drawing">
+    <value>411, 289</value>
+  </data>
+  <data name="btnApply.Size" type="System.Drawing.Size, System.Drawing">
+    <value>95, 24</value>
+  </data>
+  <data name="btnRemoveStyle.Size" type="System.Drawing.Size, System.Drawing">
+    <value>75, 24</value>
+  </data>
+  <data name="&gt;&gt;label6.Name" xml:space="preserve">
+    <value>label6</value>
+  </data>
+  <data name="chkIntervalIsRelative.ToolTip" xml:space="preserve">
+    <value>If checked, the interval is expressed as a fraction of the total length of the line to be drawn.
+If not checked, the interval is in pixels.</value>
+  </data>
+  <data name="btnApply.Enabled" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="groupLine.Size" type="System.Drawing.Size, System.Drawing">
+    <value>390, 101</value>
+  </data>
+  <data name="label6.TabIndex" type="System.Int32, mscorlib">
+    <value>130</value>
+  </data>
+  <data name="&gt;&gt;chkVerticesFillVisible.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="label30.Location" type="System.Drawing.Point, System.Drawing">
+    <value>19, 58</value>
+  </data>
+  <data name="&gt;&gt;linePatternControl1.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="ttOffsetIsRelative.TrayLocation" type="System.Drawing.Point, System.Drawing">
+    <value>17, 17</value>
+  </data>
+  <data name="$this.Language" type="System.Globalization.CultureInfo, mscorlib">
+    <value>zh-CN</value>
+  </data>
+  <data name="$this.Localizable" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="Column2.UserAddedColumn" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="Column1.UserAddedColumn" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+</root>

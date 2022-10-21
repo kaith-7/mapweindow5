@@ -1,0 +1,341 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <assembly alias="mscorlib" name="mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="lblConnection.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="&gt;&gt;btnOk.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;chkSelectAll.Type" xml:space="preserve">
+    <value>System.Windows.Forms.CheckBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;btnOk.Name" xml:space="preserve">
+    <value>btnOk</value>
+  </data>
+  <data name="&gt;&gt;lblConnection.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <assembly alias="System.Drawing" name="System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
+  <data name="chkSelectAll.Location" type="System.Drawing.Point, System.Drawing">
+    <value>15, 270</value>
+  </data>
+  <data name="&gt;&gt;databaseLayersGrid1.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="btnCancel.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Bottom, Right</value>
+  </data>
+  <data name="btnCancel.Location" type="System.Drawing.Point, System.Drawing">
+    <value>417, 266</value>
+  </data>
+  <data name="&gt;&gt;imageList1.Name" xml:space="preserve">
+    <value>imageList1</value>
+  </data>
+  <data name="databaseLayersGrid1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>490, 233</value>
+  </data>
+  <data name="&gt;&gt;databaseLayersGrid1.Type" xml:space="preserve">
+    <value>MW5.Data.Controls.DatabaseLayersGrid, MW5.Data, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;$this.Type" xml:space="preserve">
+    <value>MW5.Data.Views.DatabaseLayersViewBase, MW5.Data, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="btnCancel.Size" type="System.Drawing.Size, System.Drawing">
+    <value>85, 27</value>
+  </data>
+  <data name="btnOk.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Bottom, Right</value>
+  </data>
+  <data name="chkSelectAll.Text" xml:space="preserve">
+    <value>Select All/None</value>
+  </data>
+  <data name="&gt;&gt;imageList1.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ImageList, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;btnCancel.Type" xml:space="preserve">
+    <value>Syncfusion.Windows.Forms.ButtonAdv, Syncfusion.Shared.Base, Version=18.1460.0.42, Culture=neutral, PublicKeyToken=3d67ed1f87d44c89</value>
+  </data>
+  <data name="lblConnection.Size" type="System.Drawing.Size, System.Drawing">
+    <value>269, 12</value>
+  </data>
+  <data name="btnCancel.TabIndex" type="System.Int32, mscorlib">
+    <value>34</value>
+  </data>
+  <data name="btnOk.Location" type="System.Drawing.Point, System.Drawing">
+    <value>326, 266</value>
+  </data>
+  <data name="&gt;&gt;lblConnection.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="$this.ClientSize" type="System.Drawing.Size, System.Drawing">
+    <value>514, 299</value>
+  </data>
+  <data name="&gt;&gt;databaseLayersGrid1.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;btnOk.ZOrder" xml:space="preserve">
+    <value>4</value>
+  </data>
+  <data name="lblConnection.TabIndex" type="System.Int32, mscorlib">
+    <value>36</value>
+  </data>
+  <data name="&gt;&gt;chkSelectAll.Name" xml:space="preserve">
+    <value>chkSelectAll</value>
+  </data>
+  <data name="&gt;&gt;btnOk.Type" xml:space="preserve">
+    <value>Syncfusion.Windows.Forms.ButtonAdv, Syncfusion.Shared.Base, Version=18.1460.0.42, Culture=neutral, PublicKeyToken=3d67ed1f87d44c89</value>
+  </data>
+  <data name="&gt;&gt;lblConnection.Name" xml:space="preserve">
+    <value>lblConnection</value>
+  </data>
+  <data name="&gt;&gt;btnCancel.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="&gt;&gt;$this.Name" xml:space="preserve">
+    <value>DatabaseLayersView</value>
+  </data>
+  <data name="databaseLayersGrid1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>12, 28</value>
+  </data>
+  <data name="lblConnection.Location" type="System.Drawing.Point, System.Drawing">
+    <value>12, 9</value>
+  </data>
+  <data name="chkSelectAll.TabIndex" type="System.Int32, mscorlib">
+    <value>37</value>
+  </data>
+  <data name="&gt;&gt;databaseLayersGrid1.Name" xml:space="preserve">
+    <value>databaseLayersGrid1</value>
+  </data>
+  <data name="chkSelectAll.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Bottom, Left</value>
+  </data>
+  <data name="btnCancel.Text" xml:space="preserve">
+    <value>Cancel</value>
+  </data>
+  <data name="&gt;&gt;chkSelectAll.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;lblConnection.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="databaseLayersGrid1.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Top, Bottom, Left, Right</value>
+  </data>
+  <data name="&gt;&gt;btnCancel.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="lblConnection.Text" xml:space="preserve">
+    <value>Please select layers to be added to the map:</value>
+  </data>
+  <data name="chkSelectAll.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="btnOk.TabIndex" type="System.Int32, mscorlib">
+    <value>33</value>
+  </data>
+  <data name="imageList1.ImageStream" mimetype="application/x-microsoft.net.object.binary.base64">
+    <value>
+        AAEAAAD/////AQAAAAAAAAAMAgAAAFdTeXN0ZW0uV2luZG93cy5Gb3JtcywgVmVyc2lvbj00LjAuMC4w
+        LCBDdWx0dXJlPW5ldXRyYWwsIFB1YmxpY0tleVRva2VuPWI3N2E1YzU2MTkzNGUwODkFAQAAACZTeXN0
+        ZW0uV2luZG93cy5Gb3Jtcy5JbWFnZUxpc3RTdHJlYW1lcgEAAAAERGF0YQcCAgAAAAkDAAAADwMAAACQ
+        CgAAAk1TRnQBSQFMAgEBBAEAATgBAAFIAQABEAEAARABAAT/ASEBEAj/AUIBTQE2BwABNgMAASgDAAFA
+        AwABIAMAAQEBAAEgBgABIP8A/wD/AP8A/wD/AP8A/wD/AP8A/wD/AP8A/wD/AP8A5gADMAFLAU0BTgFN
+        AY8BVwFZAVcBqQFZAV0BWgGyA0wBjAMkATUDAAEB4AADHgErAWkBfQFqAfoBjwHCAY8B/wGNAb8BjQH/
+        AYwBvgGMAf8BiAG2AYgB/wFdAWYBXgH0Ay0BRuAAAzUBVgF6AZwBewH6AZIBxgGSAf8BjgHBAY4B/wGM
+        Ab4BjAH/AYwBvgGMAf8BigG6AYoB/wFYAVsBWAGv4wABAQFpAXwBagHuAZQByQGUAf8BkQHEAZEB/wGN
+        Ab8BjQH/AYwBvgGMAf8BjAG+AYwB/wFpAXwBagHwIAADEAEWA0sBjgNSAaMDLgFItAADOwFiAWsBiAFs
+        AfsBkQHEAZEB/wGPAcIBjwH/AY0BvwGNAf8BjAG+AYwB/wFqAX0BagHuIAADUwGqAXwBlQF8Af4BjAG+
+        AYwB/wFfAWABXwHUNAADCAELA0wBkwNGAX94AANAAW0BcgGLAXMB+gGSAcYBkgH/AY4BwQGOAf8BjAG+
+        AYwB/wFmAXYBZgHjIAADWQHPAYIBrAGCAf8BjAG+AYwB/wNkAec0AAM2AVgBYwFtAWMB9wFkAWYBZAHn
+        AxIBGXgAAz8BawFnAX0BaQH2AYEBqAGBAf0BfQGlAX0B/wFQAVEBUAGYIAADHwEsAVIBWgFSAfABWQFb
+        AVkB8gNKAY00AAMDAQQDWAHmAW8BlwFvAf8DWgHKOAADAgEDAwQBBhgAAxoBJQM/AW0DGQEjFAADAgED
+        AxEBFwFNAk4BkgFSAVQBUwGkAxIBGQwAAxoBJQE/AkABbQMZASMMAAMQARYDHQEqAwABATgAAxoBJQFi
+        AWoBYgHrAV4BdgFeAfoDMQFOLAADEgEYA0wBkAFiAXUBYgH2AWsBfQFsAfwDWwHDA0gBgwMvAUkDBwEK
+        AxgBIgNCAXYBYwFrAWQB6wFmAZMBZgH7AWIBdwFiAfYDUwGoAxQBGwQAAxIBGAFNAU4BTQGQAXYBeQF4
+        AfYBfAF+AX0B/AFgAmMBwwNJAYMDLwFJAwcBCgMYASIDQwF2AXABcwFwAesBigGLAYoB+wF5AXsBegH2
+        A1UBqAMUARtMAANKAYsBhAGwAYQB/wNVAbAsAANFAXwBjAG4AYwB/wGXAc0BlwH/AZMByAGTAf8BkAHD
+        AZAB/wGJAbkBiQH/AWoBggFqAfkBVAFZAVYB+wFeAl8B8wF2AYoBdwH+AYwBvgGMAf8BjAG+AYwB/wGM
+        Ab4BjAH/AYQBrwGEAf8DSgGJBAABRQFGAUUBfAGiAaMBogH/A7IB/wOuAf8DqgH/A6EB/wF1AnYB+QFU
+        AVgBVgH7AV8BYgFhAfMBgwKEAf4DpQH/A6UB/wOlAf8DmQH/AUoCSwGJEAADEAEWAz0BaAM1AVUDCAEL
+        DAADCAELAzUBVQM9AWgDEAEWEAADGAEiA10B7QFmAXoBZgH6AzEBTigAA1gBuwGdAdUBnQH/AZoB0AGa
+        Af8BlgHLAZYB/wGSAccBkgH/AY8BwQGPAf8BjQG/AY0B/wGMAb4BjAH/AYwBvgGMAf8BjAG+AYwB/wGM
+        Ab4BjAH/AYwBvgGMAf8BjAG+AYwB/wGMAb4BjAH/A1YBswQAA2ABuwO5Af8DtQH/A7EB/wOtAf8DqAH/
+        A6YB/wOlAf8DpQH/A6UB/wOlAf8DpQH/A6UB/wOlAf8DWwGzDAADAQECAVQBVQFUAe4BeQGPAXkB/gFh
+        AYkBYQH9A0QBeQwAA0QBeQFhAYkBYQH9AXkBjwF5Af4BVAFVAVQB7gMBAQIQAAMvAUkBZwF6AWcB+gFM
+        AVYBTAH5A0kB/wNJAf8DSQH/A0kB/wNJAf8DSQH/A0IBdAwAA14B0AGfAdgBnwH/AZwB0wGcAf8BmAHO
+        AZgB/wGVAcoBlQH/AZEBxQGRAf8BjQHAAY0B/wGMAb4BjAH/AYwBvgGMAf8BjAG+AYwB/wGMAb4BjAH/
+        AYwBvgGMAf8BjAG+AYwB/wGMAb4BjAH/A1cBtwQAAWoCbQHQA7wB/wO4Af8DswH/A7AB/wOrAf8DpwH/
+        A6UB/wOlAf8DpQH/A6UB/wOlAf8DpQH/A6UB/wFdAV8BXQG3DAADHQEqAVkBZwFZAfIBjAG+AYwB/wGM
+        Ab4BjAH/A1IBowwAA1IBowGMAb4BjAH/AYwBvgGMAf8BWQFnAVkB8gMdASoUAANWAbMBZwGHAWcB/wFn
+        AYcBZwH/AWcBhwFnAf8BZwGHAWcB/wFnAYcBZwH/AWcBhwFnAf8BZwGHAWcB/wNEAXoMAANVAbABngHW
+        AZ4B/wGeAdcBngH/AZsB0gGbAf8BlwHNAZcB/wGTAcgBkwH/AZABwwGQAf8BjQG/AY0B/wGMAb4BjAH/
+        AYwBvgGMAf8BjAG+AYwB/wGMAb4BjAH/AYwBvgGMAf8BjAG9AYwB/wNSAaEEAAFaAVsBWgGwA7sB/wO7
+        Af8DtgH/A7IB/wOuAf8DqgH/A6YB/wOlAf8DpQH/A6UB/wOlAf8DpQH/A6QB/wNUAaEMAAMBAQIBVAFV
+        AVQB7gF5AY8BeQH+AWEBiQFhAf0DRAF5DAADRAF5AWEBiQFhAf0BeQGPAXkB/gFUAVUBVAHuAwEBAkQA
+        AzMBUgFnAXsBaQH4AaAB2QGgAf8BnQHVAZ0B/wGZAdABmQH/AZYBywGWAf8BkgHHAZIB/wGOAcEBjgH/
+        AYwBvgGMAf8BjAG+AYwB/wGJAbgBiQH/AYsBvAGLAf8BjAG+AYwB/wFsAZIBbQH/Az0BZwQAAzMBUgF6
+        AXwBewH4A70B/wO5Af8DtQH/A7EB/wOtAf8DqAH/A6UB/wOlAf8DoAH/A6QB/wOlAf8BggGDAYIB/wM9
+        AWcQAAMQARYDPQFoAzUBVQMIAQsMAAMIAQsDNQFVAz0BaAMQARZIAAMDAQQDSgGMAWgBcQFoAesBfwGp
+        AX8B/gGQAcABkQH/AY4BvQGOAf8BeQGUAXkB/AFrAX0BbAH8AV0BYAFdAdcDTgGZA0UBfQNGAX8DSgGN
+        A0ABbgMKAQ0EAAMDAQQDTAGMAXkBewF6AesBnQKeAf4DqAH/AaUBpgGlAf8BjwGRAZAB/AF9AX4BfQH8
+        AWkCagHXAVABUQFQAZkDRgF9AUYCRwF/A0wBjQNAAW4DCgENjAADDQESA08BlwNYAbwBWQJbAcQDRgF/
+        Aw4BEygAAw0BEgNQAZcDWAG8A1sBxANHAX8DDgETHAABQgFNAT4HAAE+AwABKAMAAUADAAEgAwABAQEA
+        AQEGAAEBFgAD/4EABv8BgAf/AQAH/wEAB/8BAAH/AQ8F/wGAAf8BDwH/AY8D/wHAAf8BDwH/AYcD/wHg
+        Af8BDwH/AYcB/wHnAeMB4AHjAY8B/wHDAf8BgAEAAYABAAL/AeMB/wGAAQABgAEAAfAC4QH/AYABAAGA
+        AQAC4AHwAQMBgAEAAYABAALgAfgBAwGAAQABgAEAAuAC/wGAAQABgAEAAfAB4QL/AYABAAGAAQAE/wHg
+        AX8B4AF/FgAL
+</value>
+  </data>
+  <data name="&gt;&gt;btnCancel.Name" xml:space="preserve">
+    <value>btnCancel</value>
+  </data>
+  <data name="btnOk.Size" type="System.Drawing.Size, System.Drawing">
+    <value>85, 27</value>
+  </data>
+  <data name="btnOk.Text" xml:space="preserve">
+    <value>Ok</value>
+  </data>
+  <data name="$this.AutoScaleDimensions" type="System.Drawing.SizeF, System.Drawing">
+    <value>6, 12</value>
+  </data>
+  <data name="&gt;&gt;chkSelectAll.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="$this.Text" xml:space="preserve">
+    <value>Database layers</value>
+  </data>
+  <data name="databaseLayersGrid1.TabIndex" type="System.Int32, mscorlib">
+    <value>35</value>
+  </data>
+  <data name="chkSelectAll.Size" type="System.Drawing.Size, System.Drawing">
+    <value>114, 16</value>
+  </data>
+  <metadata name="$this.Localizable" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <metadata name="imageList1.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>17, 17</value>
+  </metadata>
+  <metadata name="$this.Language" type="System.Globalization.CultureInfo, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>zh-CN</value>
+  </metadata>
+</root>

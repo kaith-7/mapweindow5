@@ -1,0 +1,810 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="&gt;&gt;btnCalculateMinMax.Parent" xml:space="preserve">
+    <value>groupMinMax</value>
+  </data>
+  <data name="&gt;&gt;chkUseHistogram.Type" xml:space="preserve">
+    <value>System.Windows.Forms.CheckBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <assembly alias="System.Drawing" name="System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
+  <data name="chkGradientWithinCategory.Location" type="System.Drawing.Point, System.Drawing">
+    <value>15, 78</value>
+  </data>
+  <data name="colorSchemeCombo1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>144, 22</value>
+  </data>
+  <assembly alias="mscorlib" name="mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="label15.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="&gt;&gt;colorSchemeCombo1.Parent" xml:space="preserve">
+    <value>groupBuildColorScheme</value>
+  </data>
+  <data name="&gt;&gt;cboSelectedBand.Parent" xml:space="preserve">
+    <value>groupMinMax</value>
+  </data>
+  <data name="btnDefaultMinMax.TabIndex" type="System.Int32, mscorlib">
+    <value>11</value>
+  </data>
+  <data name="label14.Text" xml:space="preserve">
+    <value>Minimum</value>
+  </data>
+  <data name="panelColorScheme.Size" type="System.Drawing.Size, System.Drawing">
+    <value>272, 355</value>
+  </data>
+  <data name="btnEditColorSchemeList.Location" type="System.Drawing.Point, System.Drawing">
+    <value>165, 51</value>
+  </data>
+  <data name="chkReverseColorScheme.Size" type="System.Drawing.Size, System.Drawing">
+    <value>77, 19</value>
+  </data>
+  <data name="&gt;&gt;chkReverse.Name" xml:space="preserve">
+    <value>chkReverse</value>
+  </data>
+  <data name="&gt;&gt;colorSchemeGrid.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="groupMinMax.Text" xml:space="preserve">
+    <value>Selected band</value>
+  </data>
+  <data name="groupBuildColorScheme.Location" type="System.Drawing.Point, System.Drawing">
+    <value>296, 198</value>
+  </data>
+  <data name="cboClassification.Location" type="System.Drawing.Point, System.Drawing">
+    <value>15, 28</value>
+  </data>
+  <data name="&gt;&gt;btnDefaultMinMax.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;panelSingleBand.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;txtMaximum.Parent" xml:space="preserve">
+    <value>groupMinMax</value>
+  </data>
+  <data name="chkReverseColorScheme.TabIndex" type="System.Int32, mscorlib">
+    <value>48</value>
+  </data>
+  <data name="&gt;&gt;cboGradientModel.Parent" xml:space="preserve">
+    <value>groupBuildColorScheme</value>
+  </data>
+  <data name="&gt;&gt;btnDefaultMinMax.Type" xml:space="preserve">
+    <value>Syncfusion.Windows.Forms.ButtonAdv, Syncfusion.Shared.Base, Version=19.4460.0.38, Culture=neutral, PublicKeyToken=3d67ed1f87d44c89</value>
+  </data>
+  <data name="label14.Location" type="System.Drawing.Point, System.Drawing">
+    <value>17, 64</value>
+  </data>
+  <data name="colorSchemeGrid.TabIndex" type="System.Int32, mscorlib">
+    <value>17</value>
+  </data>
+  <data name="&gt;&gt;btnCalculateMinMax.Type" xml:space="preserve">
+    <value>Syncfusion.Windows.Forms.ButtonAdv, Syncfusion.Shared.Base, Version=19.4460.0.38, Culture=neutral, PublicKeyToken=3d67ed1f87d44c89</value>
+  </data>
+  <data name="&gt;&gt;label1.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;groupBuildColorScheme.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="chkAlphaRendering.Size" type="System.Drawing.Size, System.Drawing">
+    <value>107, 19</value>
+  </data>
+  <data name="&gt;&gt;colorSchemeGrid.Parent" xml:space="preserve">
+    <value>panelColorScheme</value>
+  </data>
+  <data name="&gt;&gt;cboSelectedBand.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="&gt;&gt;panelColorScheme.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;colorSchemeGrid.Type" xml:space="preserve">
+    <value>MW5.Plugins.Symbology.Controls.RasterColorSchemeGrid, MW5.Symbology, Version=1.0.0.24398, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;txtMaximum.Name" xml:space="preserve">
+    <value>txtMaximum</value>
+  </data>
+  <data name="udBreakCount.TabIndex" type="System.Int32, mscorlib">
+    <value>20</value>
+  </data>
+  <data name="&gt;&gt;chkHillshade.Type" xml:space="preserve">
+    <value>System.Windows.Forms.CheckBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="txtMinimum.Location" type="System.Drawing.Point, System.Drawing">
+    <value>94, 57</value>
+  </data>
+  <data name="&gt;&gt;txtMinimum.Name" xml:space="preserve">
+    <value>txtMinimum</value>
+  </data>
+  <data name="&gt;&gt;btnEditColorSchemeList.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="rgbBandControl1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>493, 210</value>
+  </data>
+  <data name="udBreakCount.Location" type="System.Drawing.Point, System.Drawing">
+    <value>156, 28</value>
+  </data>
+  <data name="&gt;&gt;txtMaximum.Type" xml:space="preserve">
+    <value>Syncfusion.Windows.Forms.Tools.DoubleTextBox, Syncfusion.Shared.Base, Version=19.4460.0.38, Culture=neutral, PublicKeyToken=3d67ed1f87d44c89</value>
+  </data>
+  <data name="&gt;&gt;btnGenerateColorScheme.Name" xml:space="preserve">
+    <value>btnGenerateColorScheme</value>
+  </data>
+  <data name="chkHillshade.Text" xml:space="preserve">
+    <value>Hill shade</value>
+  </data>
+  <data name="panelSingleBand.Size" type="System.Drawing.Size, System.Drawing">
+    <value>212, 61</value>
+  </data>
+  <data name="&gt;&gt;chkReverseColorScheme.Type" xml:space="preserve">
+    <value>System.Windows.Forms.CheckBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;btnEditColorScheme.Name" xml:space="preserve">
+    <value>btnEditColorScheme</value>
+  </data>
+  <data name="&gt;&gt;label1.Name" xml:space="preserve">
+    <value>label1</value>
+  </data>
+  <data name="&gt;&gt;chkReverseColorScheme.Name" xml:space="preserve">
+    <value>chkReverseColorScheme</value>
+  </data>
+  <data name="cboSelectedBand.TabIndex" type="System.Int32, mscorlib">
+    <value>4</value>
+  </data>
+  <data name="&gt;&gt;colorSchemeCombo1.Type" xml:space="preserve">
+    <value>MW5.Plugins.Symbology.Controls.ImageCombo.ColorSchemeCombo, MW5.Symbology, Version=1.0.0.24398, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;groupMinMax.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;btnGenerateColorScheme.Parent" xml:space="preserve">
+    <value>groupBuildColorScheme</value>
+  </data>
+  <data name="groupBuildColorScheme.TabIndex" type="System.Int32, mscorlib">
+    <value>24</value>
+  </data>
+  <data name="&gt;&gt;udBreakCount.ZOrder" xml:space="preserve">
+    <value>7</value>
+  </data>
+  <data name="$this.AutoScaleDimensions" type="System.Drawing.SizeF, System.Drawing">
+    <value>6, 12</value>
+  </data>
+  <data name="&gt;&gt;panelColorScheme.Name" xml:space="preserve">
+    <value>panelColorScheme</value>
+  </data>
+  <data name="chkReverseColorScheme.Location" type="System.Drawing.Point, System.Drawing">
+    <value>120, 78</value>
+  </data>
+  <data name="cboGradientModel.TabIndex" type="System.Int32, mscorlib">
+    <value>47</value>
+  </data>
+  <data name="&gt;&gt;label15.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="cboSelectedBand.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 8.25pt</value>
+  </data>
+  <data name="btnCalculateMinMax.Location" type="System.Drawing.Point, System.Drawing">
+    <value>120, 122</value>
+  </data>
+  <data name="cboSelectedBand.Size" type="System.Drawing.Size, System.Drawing">
+    <value>180, 21</value>
+  </data>
+  <data name="groupBuildColorScheme.Text" xml:space="preserve">
+    <value>Color scheme</value>
+  </data>
+  <data name="&gt;&gt;btnEditColorScheme.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="&gt;&gt;cboClassification.Name" xml:space="preserve">
+    <value>cboClassification</value>
+  </data>
+  <data name="&gt;&gt;rgbBandControl1.Type" xml:space="preserve">
+    <value>MW5.Plugins.Symbology.Controls.RgbBandControl, MW5.Symbology, Version=1.0.0.24398, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="chkReverseColorScheme.Text" xml:space="preserve">
+    <value>反向</value>
+  </data>
+  <data name="panelColorScheme.Location" type="System.Drawing.Point, System.Drawing">
+    <value>15, 45</value>
+  </data>
+  <data name="colorSchemeGrid.Size" type="System.Drawing.Size, System.Drawing">
+    <value>272, 330</value>
+  </data>
+  <data name="btnEditColorScheme.Location" type="System.Drawing.Point, System.Drawing">
+    <value>3, 334</value>
+  </data>
+  <data name="cboClassification.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 8.25pt</value>
+  </data>
+  <data name="colorSchemeCombo1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>15, 53</value>
+  </data>
+  <data name="&gt;&gt;label14.ZOrder" xml:space="preserve">
+    <value>4</value>
+  </data>
+  <data name="chkAlphaRendering.TabIndex" type="System.Int32, mscorlib">
+    <value>22</value>
+  </data>
+  <data name="chkAlphaRendering.Location" type="System.Drawing.Point, System.Drawing">
+    <value>15, 32</value>
+  </data>
+  <data name="&gt;&gt;cboRasterRendering.Name" xml:space="preserve">
+    <value>cboRasterRendering</value>
+  </data>
+  <data name="cboSelectedBand.Location" type="System.Drawing.Point, System.Drawing">
+    <value>15, 29</value>
+  </data>
+  <data name="groupMinMax.Location" type="System.Drawing.Point, System.Drawing">
+    <value>296, 40</value>
+  </data>
+  <data name="btnGenerateColorScheme.Text" xml:space="preserve">
+    <value>Generate</value>
+  </data>
+  <data name="colorSchemeCombo1.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="chkUseHistogram.Text" xml:space="preserve">
+    <value>使用直方图</value>
+  </data>
+  <data name="groupMinMax.TabIndex" type="System.Int32, mscorlib">
+    <value>18</value>
+  </data>
+  <data name="&gt;&gt;btnCalculateMinMax.Name" xml:space="preserve">
+    <value>btnCalculateMinMax</value>
+  </data>
+  <data name="btnCalculateMinMax.TabIndex" type="System.Int32, mscorlib">
+    <value>10</value>
+  </data>
+  <data name="label1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>12, 17</value>
+  </data>
+  <data name="btnGenerateColorScheme.TabIndex" type="System.Int32, mscorlib">
+    <value>13</value>
+  </data>
+  <data name="btnEditColorScheme.Text" xml:space="preserve">
+    <value>Edit</value>
+  </data>
+  <data name="chkGradientWithinCategory.Size" type="System.Drawing.Size, System.Drawing">
+    <value>99, 19</value>
+  </data>
+  <data name="chkReverse.TabIndex" type="System.Int32, mscorlib">
+    <value>25</value>
+  </data>
+  <data name="&gt;&gt;cboSelectedBand.Type" xml:space="preserve">
+    <value>Syncfusion.Windows.Forms.Tools.ComboBoxAdv, Syncfusion.Tools.Windows, Version=19.4460.0.38, Culture=neutral, PublicKeyToken=3d67ed1f87d44c89</value>
+  </data>
+  <data name="label1.TabIndex" type="System.Int32, mscorlib">
+    <value>16</value>
+  </data>
+  <data name="&gt;&gt;label15.ZOrder" xml:space="preserve">
+    <value>6</value>
+  </data>
+  <data name="cboGradientModel.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 8.25pt</value>
+  </data>
+  <data name="&gt;&gt;chkAlphaRendering.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="&gt;&gt;chkGradientWithinCategory.Parent" xml:space="preserve">
+    <value>groupBuildColorScheme</value>
+  </data>
+  <data name="cboClassification.Size" type="System.Drawing.Size, System.Drawing">
+    <value>135, 21</value>
+  </data>
+  <data name="&gt;&gt;groupBuildColorScheme.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="btnDefaultMinMax.Location" type="System.Drawing.Point, System.Drawing">
+    <value>39, 122</value>
+  </data>
+  <data name="&gt;&gt;chkUseHistogram.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="groupMinMax.Size" type="System.Drawing.Size, System.Drawing">
+    <value>212, 153</value>
+  </data>
+  <data name="&gt;&gt;chkHillshade.Parent" xml:space="preserve">
+    <value>groupBuildColorScheme</value>
+  </data>
+  <data name="chkReverse.Text" xml:space="preserve">
+    <value>反向</value>
+  </data>
+  <data name="&gt;&gt;panelColorScheme.Type" xml:space="preserve">
+    <value>Syncfusion.Windows.Forms.Tools.GradientPanel, Syncfusion.Shared.Base, Version=19.4460.0.38, Culture=neutral, PublicKeyToken=3d67ed1f87d44c89</value>
+  </data>
+  <data name="&gt;&gt;txtMinimum.Parent" xml:space="preserve">
+    <value>groupMinMax</value>
+  </data>
+  <data name="&gt;&gt;chkUseHistogram.Name" xml:space="preserve">
+    <value>chkUseHistogram</value>
+  </data>
+  <data name="colorSchemeGrid.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 0</value>
+  </data>
+  <data name="&gt;&gt;chkAlphaRendering.Parent" xml:space="preserve">
+    <value>panelSingleBand</value>
+  </data>
+  <data name="&gt;&gt;txtMinimum.ZOrder" xml:space="preserve">
+    <value>5</value>
+  </data>
+  <data name="txtMaximum.Location" type="System.Drawing.Point, System.Drawing">
+    <value>94, 88</value>
+  </data>
+  <data name="&gt;&gt;chkHillshade.ZOrder" xml:space="preserve">
+    <value>4</value>
+  </data>
+  <data name="&gt;&gt;groupBuildColorScheme.Type" xml:space="preserve">
+    <value>System.Windows.Forms.GroupBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="txtMinimum.TabIndex" type="System.Int32, mscorlib">
+    <value>8</value>
+  </data>
+  <data name="cboRasterRendering.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 8.25pt</value>
+  </data>
+  <data name="&gt;&gt;label14.Parent" xml:space="preserve">
+    <value>groupMinMax</value>
+  </data>
+  <data name="chkUseHistogram.TabIndex" type="System.Int32, mscorlib">
+    <value>14</value>
+  </data>
+  <data name="groupBuildColorScheme.Size" type="System.Drawing.Size, System.Drawing">
+    <value>212, 161</value>
+  </data>
+  <data name="&gt;&gt;btnCalculateMinMax.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="&gt;&gt;rgbBandControl1.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="btnDefaultMinMax.Size" type="System.Drawing.Size, System.Drawing">
+    <value>75, 21</value>
+  </data>
+  <data name="&gt;&gt;chkHillshade.Name" xml:space="preserve">
+    <value>chkHillshade</value>
+  </data>
+  <data name="label15.Text" xml:space="preserve">
+    <value>Maximum</value>
+  </data>
+  <data name="panelColorScheme.TabIndex" type="System.Int32, mscorlib">
+    <value>50</value>
+  </data>
+  <data name="txtMaximum.Size" type="System.Drawing.Size, System.Drawing">
+    <value>101, 21</value>
+  </data>
+  <data name="&gt;&gt;cboGradientModel.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="&gt;&gt;panelSingleBand.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="chkUseHistogram.Location" type="System.Drawing.Point, System.Drawing">
+    <value>15, 7</value>
+  </data>
+  <data name="&gt;&gt;btnEditColorSchemeList.Parent" xml:space="preserve">
+    <value>groupBuildColorScheme</value>
+  </data>
+  <data name="txtMinimum.Size" type="System.Drawing.Size, System.Drawing">
+    <value>101, 21</value>
+  </data>
+  <data name="&gt;&gt;btnEditColorSchemeList.Name" xml:space="preserve">
+    <value>btnEditColorSchemeList</value>
+  </data>
+  <data name="&gt;&gt;txtMinimum.Type" xml:space="preserve">
+    <value>Syncfusion.Windows.Forms.Tools.DoubleTextBox, Syncfusion.Shared.Base, Version=19.4460.0.38, Culture=neutral, PublicKeyToken=3d67ed1f87d44c89</value>
+  </data>
+  <data name="&gt;&gt;chkReverseColorScheme.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="&gt;&gt;cboRasterRendering.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;panelSingleBand.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Panel, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="label15.Location" type="System.Drawing.Point, System.Drawing">
+    <value>17, 94</value>
+  </data>
+  <data name="btnEditColorScheme.Size" type="System.Drawing.Size, System.Drawing">
+    <value>68, 21</value>
+  </data>
+  <data name="cboRasterRendering.Size" type="System.Drawing.Size, System.Drawing">
+    <value>254, 21</value>
+  </data>
+  <data name="panelSingleBand.TabIndex" type="System.Int32, mscorlib">
+    <value>49</value>
+  </data>
+  <data name="cboRasterRendering.TabIndex" type="System.Int32, mscorlib">
+    <value>15</value>
+  </data>
+  <data name="chkGradientWithinCategory.TabIndex" type="System.Int32, mscorlib">
+    <value>27</value>
+  </data>
+  <data name="txtMaximum.Text" xml:space="preserve">
+    <value>1.00</value>
+  </data>
+  <data name="&gt;&gt;cboRasterRendering.Type" xml:space="preserve">
+    <value>Syncfusion.Windows.Forms.Tools.ComboBoxAdv, Syncfusion.Tools.Windows, Version=19.4460.0.38, Culture=neutral, PublicKeyToken=3d67ed1f87d44c89</value>
+  </data>
+  <data name="chkGradientWithinCategory.Text" xml:space="preserve">
+    <value>Gradient</value>
+  </data>
+  <data name="&gt;&gt;btnEditColorScheme.Type" xml:space="preserve">
+    <value>Syncfusion.Windows.Forms.ButtonAdv, Syncfusion.Shared.Base, Version=19.4460.0.38, Culture=neutral, PublicKeyToken=3d67ed1f87d44c89</value>
+  </data>
+  <data name="&gt;&gt;colorSchemeCombo1.Name" xml:space="preserve">
+    <value>colorSchemeCombo1</value>
+  </data>
+  <data name="&gt;&gt;chkReverse.Parent" xml:space="preserve">
+    <value>panelSingleBand</value>
+  </data>
+  <data name="btnEditColorScheme.TabIndex" type="System.Int32, mscorlib">
+    <value>26</value>
+  </data>
+  <data name="$this.Size" type="System.Drawing.Size, System.Drawing">
+    <value>514, 409</value>
+  </data>
+  <data name="&gt;&gt;chkAlphaRendering.Name" xml:space="preserve">
+    <value>chkAlphaRendering</value>
+  </data>
+  <data name="&gt;&gt;chkAlphaRendering.Type" xml:space="preserve">
+    <value>System.Windows.Forms.CheckBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;udBreakCount.Name" xml:space="preserve">
+    <value>udBreakCount</value>
+  </data>
+  <data name="&gt;&gt;groupMinMax.Type" xml:space="preserve">
+    <value>System.Windows.Forms.GroupBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="panelSingleBand.Location" type="System.Drawing.Point, System.Drawing">
+    <value>296, 622</value>
+  </data>
+  <data name="&gt;&gt;chkReverse.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="chkHillshade.Size" type="System.Drawing.Size, System.Drawing">
+    <value>88, 19</value>
+  </data>
+  <data name="cboGradientModel.Size" type="System.Drawing.Size, System.Drawing">
+    <value>180, 21</value>
+  </data>
+  <data name="&gt;&gt;udBreakCount.Parent" xml:space="preserve">
+    <value>groupBuildColorScheme</value>
+  </data>
+  <data name="rgbBandControl1.TabIndex" type="System.Int32, mscorlib">
+    <value>20</value>
+  </data>
+  <data name="&gt;&gt;label1.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;$this.Type" xml:space="preserve">
+    <value>MW5.Plugins.Symbology.Views.RasterRenderingSubViewBase, MW5.Symbology, Version=1.0.0.24398, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="txtMinimum.Text" xml:space="preserve">
+    <value>1.00</value>
+  </data>
+  <data name="&gt;&gt;btnDefaultMinMax.Name" xml:space="preserve">
+    <value>btnDefaultMinMax</value>
+  </data>
+  <data name="&gt;&gt;label15.Parent" xml:space="preserve">
+    <value>groupMinMax</value>
+  </data>
+  <data name="&gt;&gt;panelSingleBand.Name" xml:space="preserve">
+    <value>panelSingleBand</value>
+  </data>
+  <data name="chkHillshade.Location" type="System.Drawing.Point, System.Drawing">
+    <value>15, 127</value>
+  </data>
+  <data name="chkReverse.Location" type="System.Drawing.Point, System.Drawing">
+    <value>128, 7</value>
+  </data>
+  <data name="chkUseHistogram.Size" type="System.Drawing.Size, System.Drawing">
+    <value>107, 19</value>
+  </data>
+  <data name="btnCalculateMinMax.Size" type="System.Drawing.Size, System.Drawing">
+    <value>75, 21</value>
+  </data>
+  <data name="&gt;&gt;panelColorScheme.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="&gt;&gt;rgbBandControl1.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="udBreakCount.Size" type="System.Drawing.Size, System.Drawing">
+    <value>39, 21</value>
+  </data>
+  <data name="txtMaximum.TabIndex" type="System.Int32, mscorlib">
+    <value>9</value>
+  </data>
+  <data name="label1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>89, 12</value>
+  </data>
+  <data name="btnEditColorSchemeList.Size" type="System.Drawing.Size, System.Drawing">
+    <value>30, 21</value>
+  </data>
+  <data name="&gt;&gt;chkGradientWithinCategory.Type" xml:space="preserve">
+    <value>System.Windows.Forms.CheckBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;chkUseHistogram.Parent" xml:space="preserve">
+    <value>panelSingleBand</value>
+  </data>
+  <data name="label14.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="label1.Text" xml:space="preserve">
+    <value>Rendering mode</value>
+  </data>
+  <data name="chkReverse.Size" type="System.Drawing.Size, System.Drawing">
+    <value>67, 19</value>
+  </data>
+  <data name="&gt;&gt;colorSchemeCombo1.ZOrder" xml:space="preserve">
+    <value>5</value>
+  </data>
+  <data name="cboGradientModel.Location" type="System.Drawing.Point, System.Drawing">
+    <value>15, 102</value>
+  </data>
+  <data name="cboClassification.TabIndex" type="System.Int32, mscorlib">
+    <value>19</value>
+  </data>
+  <data name="&gt;&gt;groupMinMax.Name" xml:space="preserve">
+    <value>groupMinMax</value>
+  </data>
+  <data name="&gt;&gt;groupMinMax.ZOrder" xml:space="preserve">
+    <value>4</value>
+  </data>
+  <data name="&gt;&gt;cboClassification.Type" xml:space="preserve">
+    <value>Syncfusion.Windows.Forms.Tools.ComboBoxAdv, Syncfusion.Tools.Windows, Version=19.4460.0.38, Culture=neutral, PublicKeyToken=3d67ed1f87d44c89</value>
+  </data>
+  <data name="&gt;&gt;cboClassification.Parent" xml:space="preserve">
+    <value>groupBuildColorScheme</value>
+  </data>
+  <data name="&gt;&gt;rgbBandControl1.Name" xml:space="preserve">
+    <value>rgbBandControl1</value>
+  </data>
+  <data name="btnDefaultMinMax.Text" xml:space="preserve">
+    <value>Default</value>
+  </data>
+  <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="btnEditColorScheme.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Bottom, Left</value>
+  </data>
+  <data name="&gt;&gt;cboSelectedBand.Name" xml:space="preserve">
+    <value>cboSelectedBand</value>
+  </data>
+  <data name="chkAlphaRendering.Text" xml:space="preserve">
+    <value>Alpha rendering</value>
+  </data>
+  <data name="&gt;&gt;cboClassification.ZOrder" xml:space="preserve">
+    <value>8</value>
+  </data>
+  <data name="&gt;&gt;label14.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;label1.ZOrder" xml:space="preserve">
+    <value>5</value>
+  </data>
+  <data name="&gt;&gt;groupBuildColorScheme.Name" xml:space="preserve">
+    <value>groupBuildColorScheme</value>
+  </data>
+  <data name="btnEditColorSchemeList.Text" xml:space="preserve">
+    <value>...</value>
+  </data>
+  <data name="colorSchemeGrid.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Top</value>
+  </data>
+  <data name="rgbBandControl1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>3, 406</value>
+  </data>
+  <data name="btnEditColorSchemeList.TabIndex" type="System.Int32, mscorlib">
+    <value>49</value>
+  </data>
+  <data name="&gt;&gt;chkReverse.Type" xml:space="preserve">
+    <value>System.Windows.Forms.CheckBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;btnGenerateColorScheme.Type" xml:space="preserve">
+    <value>Syncfusion.Windows.Forms.ButtonAdv, Syncfusion.Shared.Base, Version=19.4460.0.38, Culture=neutral, PublicKeyToken=3d67ed1f87d44c89</value>
+  </data>
+  <data name="&gt;&gt;chkGradientWithinCategory.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="label1.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="&gt;&gt;chkGradientWithinCategory.Name" xml:space="preserve">
+    <value>chkGradientWithinCategory</value>
+  </data>
+  <data name="btnCalculateMinMax.Text" xml:space="preserve">
+    <value>Custom...</value>
+  </data>
+  <data name="&gt;&gt;btnEditColorScheme.Parent" xml:space="preserve">
+    <value>panelColorScheme</value>
+  </data>
+  <data name="chkHillshade.TabIndex" type="System.Int32, mscorlib">
+    <value>23</value>
+  </data>
+  <data name="btnGenerateColorScheme.Size" type="System.Drawing.Size, System.Drawing">
+    <value>75, 21</value>
+  </data>
+  <data name="btnGenerateColorScheme.Location" type="System.Drawing.Point, System.Drawing">
+    <value>120, 127</value>
+  </data>
+  <data name="&gt;&gt;label14.Name" xml:space="preserve">
+    <value>label14</value>
+  </data>
+  <data name="label14.TabIndex" type="System.Int32, mscorlib">
+    <value>6</value>
+  </data>
+  <data name="&gt;&gt;cboGradientModel.Name" xml:space="preserve">
+    <value>cboGradientModel</value>
+  </data>
+  <data name="label14.Size" type="System.Drawing.Size, System.Drawing">
+    <value>47, 12</value>
+  </data>
+  <data name="&gt;&gt;cboRasterRendering.ZOrder" xml:space="preserve">
+    <value>6</value>
+  </data>
+  <data name="&gt;&gt;chkReverseColorScheme.Parent" xml:space="preserve">
+    <value>groupBuildColorScheme</value>
+  </data>
+  <data name="&gt;&gt;btnEditColorSchemeList.Type" xml:space="preserve">
+    <value>Syncfusion.Windows.Forms.ButtonAdv, Syncfusion.Shared.Base, Version=19.4460.0.38, Culture=neutral, PublicKeyToken=3d67ed1f87d44c89</value>
+  </data>
+  <data name="&gt;&gt;cboGradientModel.Type" xml:space="preserve">
+    <value>Syncfusion.Windows.Forms.Tools.ComboBoxAdv, Syncfusion.Tools.Windows, Version=19.4460.0.38, Culture=neutral, PublicKeyToken=3d67ed1f87d44c89</value>
+  </data>
+  <data name="&gt;&gt;txtMaximum.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="&gt;&gt;$this.Name" xml:space="preserve">
+    <value>RasterRenderingSubView</value>
+  </data>
+  <data name="label15.Size" type="System.Drawing.Size, System.Drawing">
+    <value>47, 12</value>
+  </data>
+  <data name="label15.TabIndex" type="System.Int32, mscorlib">
+    <value>7</value>
+  </data>
+  <data name="&gt;&gt;btnDefaultMinMax.Parent" xml:space="preserve">
+    <value>groupMinMax</value>
+  </data>
+  <data name="&gt;&gt;label15.Name" xml:space="preserve">
+    <value>label15</value>
+  </data>
+  <data name="&gt;&gt;btnGenerateColorScheme.ZOrder" xml:space="preserve">
+    <value>6</value>
+  </data>
+  <data name="&gt;&gt;colorSchemeGrid.Name" xml:space="preserve">
+    <value>colorSchemeGrid</value>
+  </data>
+  <data name="cboRasterRendering.Location" type="System.Drawing.Point, System.Drawing">
+    <value>103, 12</value>
+  </data>
+  <data name="&gt;&gt;udBreakCount.Type" xml:space="preserve">
+    <value>MW5.Plugins.Symbology.Controls.NumericUpDownEx, MW5.Symbology, Version=1.0.0.24398, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <metadata name="$this.Localizable" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <metadata name="$this.Language" type="System.Globalization.CultureInfo, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>zh-CN</value>
+  </metadata>
+</root>

@@ -1,0 +1,1725 @@
+<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <assembly alias="System.Drawing" name="System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
+  <data name="pnlFillGradient.Location" type="System.Drawing.Point, System.Drawing">
+    <value>630, 22</value>
+  </data>
+  <assembly alias="mscorlib" name="mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="label35.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="$this.StartPosition" type="System.Windows.Forms.FormStartPosition, System.Windows.Forms">
+    <value>CenterParent</value>
+  </data>
+  <data name="tabCharacter.Text" xml:space="preserve">
+    <value>Characters</value>
+  </data>
+  <data name="&gt;&gt;label4.ZOrder" xml:space="preserve">
+    <value>4</value>
+  </data>
+  <data name="pointIconControl1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>10, 11</value>
+  </data>
+  <data name="btnChooseTexture.Text" xml:space="preserve">
+    <value>Choose texture...</value>
+  </data>
+  <data name="&gt;&gt;label6.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="label19.Text" xml:space="preserve">
+    <value>Side ratio</value>
+  </data>
+  <data name="tabSymbol.Size" type="System.Drawing.Size, System.Drawing">
+    <value>415, 288</value>
+  </data>
+  <data name="label21.Size" type="System.Drawing.Size, System.Drawing">
+    <value>35, 12</value>
+  </data>
+  <data name="udGradientRotation.Location" type="System.Drawing.Point, System.Drawing">
+    <value>292, 10</value>
+  </data>
+  <data name="&gt;&gt;label5.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;pnlFillHatch.Parent" xml:space="preserve">
+    <value>groupBox3</value>
+  </data>
+  <data name="pctPreview.Location" type="System.Drawing.Point, System.Drawing">
+    <value>3, 17</value>
+  </data>
+  <data name="label35.Location" type="System.Drawing.Point, System.Drawing">
+    <value>25, 26</value>
+  </data>
+  <data name="label22.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="&gt;&gt;chkShowAllFonts.Parent" xml:space="preserve">
+    <value>tabCharacter</value>
+  </data>
+  <data name="&gt;&gt;clpGradient2.ZOrder" xml:space="preserve">
+    <value>4</value>
+  </data>
+  <data name="&gt;&gt;label3.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="label4.TabIndex" type="System.Int32, mscorlib">
+    <value>84</value>
+  </data>
+  <data name="clpGradient2.Size" type="System.Drawing.Size, System.Drawing">
+    <value>72, 22</value>
+  </data>
+  <data name="&gt;&gt;udRotation.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="panel1.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Fill</value>
+  </data>
+  <data name="label34.TabIndex" type="System.Int32, mscorlib">
+    <value>29</value>
+  </data>
+  <data name="&gt;&gt;characterControl1.Type" xml:space="preserve">
+    <value>MW5.Plugins.Symbology.Controls.ListControls.CharacterControl, MW5.Symbology, Version=1.0.0.26879, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="groupBox1.TabIndex" type="System.Int32, mscorlib">
+    <value>40</value>
+  </data>
+  <data name="&gt;&gt;icbPointShape.Type" xml:space="preserve">
+    <value>MW5.UI.Controls.ImageCombo, MW5.UI, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;udSideRatio.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="clpFillColor.Size" type="System.Drawing.Size, System.Drawing">
+    <value>59, 22</value>
+  </data>
+  <data name="cboFontName.Location" type="System.Drawing.Point, System.Drawing">
+    <value>72, 23</value>
+  </data>
+  <data name="&gt;&gt;udRotation.Name" xml:space="preserve">
+    <value>udRotation</value>
+  </data>
+  <data name="&gt;&gt;label8.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;btnOk.Name" xml:space="preserve">
+    <value>btnOk</value>
+  </data>
+  <data name="chkOutlineVisible.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="&gt;&gt;label22.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="pnlFillHatch.Location" type="System.Drawing.Point, System.Drawing">
+    <value>6, 51</value>
+  </data>
+  <data name="label33.TabIndex" type="System.Int32, mscorlib">
+    <value>26</value>
+  </data>
+  <data name="&gt;&gt;pctPreview.Type" xml:space="preserve">
+    <value>System.Windows.Forms.PictureBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="tabControl1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>191, 11</value>
+  </data>
+  <data name="&gt;&gt;chkShowAllFonts.Name" xml:space="preserve">
+    <value>chkShowAllFonts</value>
+  </data>
+  <data name="&gt;&gt;dynamicVisibilityControl1.Parent" xml:space="preserve">
+    <value>tabPage1</value>
+  </data>
+  <data name="label19.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="btnChooseTexture.Location" type="System.Drawing.Point, System.Drawing">
+    <value>85, 6</value>
+  </data>
+  <data name="&gt;&gt;clpFillColor.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="&gt;&gt;label34.ZOrder" xml:space="preserve">
+    <value>4</value>
+  </data>
+  <data name="&gt;&gt;label5.Name" xml:space="preserve">
+    <value>label5</value>
+  </data>
+  <data name="&gt;&gt;groupBox5.Name" xml:space="preserve">
+    <value>groupBox5</value>
+  </data>
+  <data name="label17.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="groupBox1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>176, 151</value>
+  </data>
+  <data name="label3.Location" type="System.Drawing.Point, System.Drawing">
+    <value>27, 222</value>
+  </data>
+  <data name="&gt;&gt;udPointNumSides.Type" xml:space="preserve">
+    <value>MW5.Plugins.Symbology.Controls.NumericUpDownEx, MW5.Symbology, Version=1.0.0.26879, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="icbLineWidth.Size" type="System.Drawing.Size, System.Drawing">
+    <value>74, 22</value>
+  </data>
+  <data name="&gt;&gt;label23.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;btnCancel.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;label17.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;icbHatchStyle.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;groupBox3.Name" xml:space="preserve">
+    <value>groupBox3</value>
+  </data>
+  <data name="label23.Text" xml:space="preserve">
+    <value>Style</value>
+  </data>
+  <data name="label26.TabIndex" type="System.Int32, mscorlib">
+    <value>95</value>
+  </data>
+  <data name="&gt;&gt;pnlFillGradient.Name" xml:space="preserve">
+    <value>pnlFillGradient</value>
+  </data>
+  <data name="label33.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="&gt;&gt;label4.Parent" xml:space="preserve">
+    <value>pnlFillHatch</value>
+  </data>
+  <data name="&gt;&gt;chkOutlineVisible.Name" xml:space="preserve">
+    <value>chkOutlineVisible</value>
+  </data>
+  <data name="label6.Location" type="System.Drawing.Point, System.Drawing">
+    <value>11, 13</value>
+  </data>
+  <data name="&gt;&gt;label35.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="groupBox2.Size" type="System.Drawing.Size, System.Drawing">
+    <value>386, 129</value>
+  </data>
+  <data name="groupBox3.TabIndex" type="System.Int32, mscorlib">
+    <value>133</value>
+  </data>
+  <data name="&gt;&gt;label5.Parent" xml:space="preserve">
+    <value>pnlFillGradient</value>
+  </data>
+  <data name="&gt;&gt;label21.Name" xml:space="preserve">
+    <value>label21</value>
+  </data>
+  <data name="chkFillBgTransparent.Size" type="System.Drawing.Size, System.Drawing">
+    <value>90, 16</value>
+  </data>
+  <data name="&gt;&gt;label34.Name" xml:space="preserve">
+    <value>label34</value>
+  </data>
+  <data name="&gt;&gt;lblNoOptions.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="clpFillColor.Location" type="System.Drawing.Point, System.Drawing">
+    <value>96, 110</value>
+  </data>
+  <data name="label33.Location" type="System.Drawing.Point, System.Drawing">
+    <value>18, 53</value>
+  </data>
+  <data name="chkShowAllFonts.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="&gt;&gt;label34.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;label19.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="&gt;&gt;clpFillColor.Parent" xml:space="preserve">
+    <value>panel1</value>
+  </data>
+  <data name="&gt;&gt;btnApply.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="transparencyControl1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>116, 222</value>
+  </data>
+  <data name="groupBox2.TabIndex" type="System.Int32, mscorlib">
+    <value>132</value>
+  </data>
+  <data name="&gt;&gt;icbHatchStyle.Type" xml:space="preserve">
+    <value>MW5.UI.Controls.ImageCombo, MW5.UI, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="symbolControl1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>10, 136</value>
+  </data>
+  <data name="chkShowAllFonts.Text" xml:space="preserve">
+    <value>Show All</value>
+  </data>
+  <data name="&gt;&gt;tabOptions.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TabPage, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="icbHatchStyle.Size" type="System.Drawing.Size, System.Drawing">
+    <value>197, 22</value>
+  </data>
+  <data name="cboFillType.Size" type="System.Drawing.Size, System.Drawing">
+    <value>136, 20</value>
+  </data>
+  <data name="groupBox1.Text" xml:space="preserve">
+    <value>Preview</value>
+  </data>
+  <data name="&gt;&gt;label26.Name" xml:space="preserve">
+    <value>label26</value>
+  </data>
+  <data name="pnlFillGradient.Size" type="System.Drawing.Size, System.Drawing">
+    <value>362, 77</value>
+  </data>
+  <data name="&gt;&gt;cboFontName.Name" xml:space="preserve">
+    <value>cboFontName</value>
+  </data>
+  <data name="groupBox3.Size" type="System.Drawing.Size, System.Drawing">
+    <value>386, 136</value>
+  </data>
+  <data name="&gt;&gt;tabControl1.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;label35.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="groupBox5.Size" type="System.Drawing.Size, System.Drawing">
+    <value>389, 63</value>
+  </data>
+  <data name="&gt;&gt;groupBox3.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;chkFillVisible.Name" xml:space="preserve">
+    <value>chkFillVisible</value>
+  </data>
+  <data name="&gt;&gt;groupBox2.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="&gt;&gt;pnlFillHatch.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="&gt;&gt;tabControl1.ZOrder" xml:space="preserve">
+    <value>4</value>
+  </data>
+  <data name="&gt;&gt;tabOptions.Name" xml:space="preserve">
+    <value>tabOptions</value>
+  </data>
+  <data name="label1.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="&gt;&gt;icbLineType.Name" xml:space="preserve">
+    <value>icbLineType</value>
+  </data>
+  <data name="&gt;&gt;transparencyControl1.Parent" xml:space="preserve">
+    <value>tabSymbol</value>
+  </data>
+  <data name="&gt;&gt;udSideRatio.Parent" xml:space="preserve">
+    <value>groupBox5</value>
+  </data>
+  <data name="&gt;&gt;btnCancel.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="groupBox4.Size" type="System.Drawing.Size, System.Drawing">
+    <value>176, 163</value>
+  </data>
+  <data name="&gt;&gt;tabCharacter.Name" xml:space="preserve">
+    <value>tabCharacter</value>
+  </data>
+  <data name="&gt;&gt;groupBox5.Type" xml:space="preserve">
+    <value>System.Windows.Forms.GroupBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;btnCancel.ZOrder" xml:space="preserve">
+    <value>6</value>
+  </data>
+  <data name="udRotation.TabIndex" type="System.Int32, mscorlib">
+    <value>25</value>
+  </data>
+  <data name="groupBox5.Location" type="System.Drawing.Point, System.Drawing">
+    <value>10, 62</value>
+  </data>
+  <data name="transparencyControl1.MinimumSize" type="System.Drawing.Size, System.Drawing">
+    <value>128, 30</value>
+  </data>
+  <data name="characterControl1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>388, 224</value>
+  </data>
+  <data name="tabIcon.TabIndex" type="System.Int32, mscorlib">
+    <value>4</value>
+  </data>
+  <data name="label18.Text" xml:space="preserve">
+    <value>Side count</value>
+  </data>
+  <data name="tabPage1.TabIndex" type="System.Int32, mscorlib">
+    <value>5</value>
+  </data>
+  <data name="tabOptions.Padding" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>3, 3, 3, 3</value>
+  </data>
+  <data name="label19.Size" type="System.Drawing.Size, System.Drawing">
+    <value>65, 12</value>
+  </data>
+  <data name="symbolControl1.TabIndex" type="System.Int32, mscorlib">
+    <value>26</value>
+  </data>
+  <data name="&gt;&gt;chkFillBgTransparent.Type" xml:space="preserve">
+    <value>System.Windows.Forms.CheckBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="label22.Text" xml:space="preserve">
+    <value>Width</value>
+  </data>
+  <data name="&gt;&gt;icbLineType.Parent" xml:space="preserve">
+    <value>groupBox2</value>
+  </data>
+  <data name="$this.AutoScaleDimensions" type="System.Drawing.SizeF, System.Drawing">
+    <value>6, 12</value>
+  </data>
+  <data name="&gt;&gt;tabSymbol.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="chkFillVisible.Size" type="System.Drawing.Size, System.Drawing">
+    <value>78, 16</value>
+  </data>
+  <data name="&gt;&gt;label17.Name" xml:space="preserve">
+    <value>label17</value>
+  </data>
+  <data name="&gt;&gt;udPointNumSides.Parent" xml:space="preserve">
+    <value>groupBox5</value>
+  </data>
+  <data name="label32.TabIndex" type="System.Int32, mscorlib">
+    <value>16</value>
+  </data>
+  <data name="&gt;&gt;groupBox5.Parent" xml:space="preserve">
+    <value>tabSymbol</value>
+  </data>
+  <data name="dynamicVisibilityControl1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>5, 6</value>
+  </data>
+  <data name="icbLineWidth.Location" type="System.Drawing.Point, System.Drawing">
+    <value>277, 65</value>
+  </data>
+  <data name="lblNoOptions.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="&gt;&gt;clpHatchBack.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="label21.Location" type="System.Drawing.Point, System.Drawing">
+    <value>24, 30</value>
+  </data>
+  <data name="tabPage1.Padding" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>3, 3, 3, 3</value>
+  </data>
+  <data name="clpHatchBack.TabIndex" type="System.Int32, mscorlib">
+    <value>87</value>
+  </data>
+  <data name="&gt;&gt;label33.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="dynamicVisibilityControl1.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 4, 4, 4</value>
+  </data>
+  <data name="tabControl1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>423, 314</value>
+  </data>
+  <data name="characterControl1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>17, 53</value>
+  </data>
+  <data name="&gt;&gt;clpOutline.Name" xml:space="preserve">
+    <value>clpOutline</value>
+  </data>
+  <data name="&gt;&gt;label32.Name" xml:space="preserve">
+    <value>label32</value>
+  </data>
+  <data name="&gt;&gt;tabPage1.Parent" xml:space="preserve">
+    <value>tabControl1</value>
+  </data>
+  <data name="label19.Location" type="System.Drawing.Point, System.Drawing">
+    <value>177, 25</value>
+  </data>
+  <data name="label4.Size" type="System.Drawing.Size, System.Drawing">
+    <value>65, 12</value>
+  </data>
+  <data name="&gt;&gt;characterControl1.Name" xml:space="preserve">
+    <value>characterControl1</value>
+  </data>
+  <data name="clpHatchBack.Items" xml:space="preserve">
+    <value>Color</value>
+  </data>
+  <data name="&gt;&gt;label21.Parent" xml:space="preserve">
+    <value>groupBox2</value>
+  </data>
+  <data name="&gt;&gt;clpHatchBack.Type" xml:space="preserve">
+    <value>MW5.UI.Controls.Office2007ColorPicker, MW5.UI, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;pointIconControl1.Parent" xml:space="preserve">
+    <value>tabIcon</value>
+  </data>
+  <data name="chkFillVisible.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="characterControl1.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="clpOutline.Location" type="System.Drawing.Point, System.Drawing">
+    <value>65, 27</value>
+  </data>
+  <data name="&gt;&gt;$this.Type" xml:space="preserve">
+    <value>MW5.UI.Forms.MapWindowForm, MW5.UI, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="chkShowAllFonts.TabIndex" type="System.Int32, mscorlib">
+    <value>70</value>
+  </data>
+  <data name="chkFillVisible.Location" type="System.Drawing.Point, System.Drawing">
+    <value>267, 30</value>
+  </data>
+  <data name="&gt;&gt;btnCancel.Name" xml:space="preserve">
+    <value>btnCancel</value>
+  </data>
+  <data name="&gt;&gt;label22.Name" xml:space="preserve">
+    <value>label22</value>
+  </data>
+  <data name="label35.Size" type="System.Drawing.Size, System.Drawing">
+    <value>29, 12</value>
+  </data>
+  <data name="button1.Text" xml:space="preserve">
+    <value>Expression</value>
+  </data>
+  <data name="&gt;&gt;groupBox1.Name" xml:space="preserve">
+    <value>groupBox1</value>
+  </data>
+  <data name="label18.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="pnlFillPicture.Size" type="System.Drawing.Size, System.Drawing">
+    <value>362, 58</value>
+  </data>
+  <data name="&gt;&gt;label26.Parent" xml:space="preserve">
+    <value>pnlFillGradient</value>
+  </data>
+  <data name="pointIconControl1.TabIndex" type="System.Int32, mscorlib">
+    <value>74</value>
+  </data>
+  <data name="&gt;&gt;pnlFillPicture.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;udRotation.Parent" xml:space="preserve">
+    <value>panel1</value>
+  </data>
+  <data name="clpOutline.IntegralHeight" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="&gt;&gt;tabPage1.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TabPage, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;tabCharacter.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="clpGradient2.Location" type="System.Drawing.Point, System.Drawing">
+    <value>85, 47</value>
+  </data>
+  <data name="label4.Text" xml:space="preserve">
+    <value>Background</value>
+  </data>
+  <data name="label8.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="&gt;&gt;groupBox4.Type" xml:space="preserve">
+    <value>System.Windows.Forms.GroupBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="udSize.Location" type="System.Drawing.Point, System.Drawing">
+    <value>106, 20</value>
+  </data>
+  <data name="&gt;&gt;clpGradient2.Name" xml:space="preserve">
+    <value>clpGradient2</value>
+  </data>
+  <data name="label17.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;label23.Name" xml:space="preserve">
+    <value>label23</value>
+  </data>
+  <data name="&gt;&gt;label1.Parent" xml:space="preserve">
+    <value>groupBox3</value>
+  </data>
+  <data name="&gt;&gt;characterControl1.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="&gt;&gt;groupBox1.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;groupBox1.Type" xml:space="preserve">
+    <value>System.Windows.Forms.GroupBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;icbHatchStyle.Parent" xml:space="preserve">
+    <value>pnlFillHatch</value>
+  </data>
+  <data name="&gt;&gt;pointIconControl1.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;chkFillBgTransparent.Name" xml:space="preserve">
+    <value>chkFillBgTransparent</value>
+  </data>
+  <data name="label1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>59, 12</value>
+  </data>
+  <data name="&gt;&gt;tabSymbol.Parent" xml:space="preserve">
+    <value>tabControl1</value>
+  </data>
+  <data name="chkOutlineVisible.Location" type="System.Drawing.Point, System.Drawing">
+    <value>225, 29</value>
+  </data>
+  <data name="&gt;&gt;label8.Name" xml:space="preserve">
+    <value>label8</value>
+  </data>
+  <data name="icbPointShape.TabIndex" type="System.Int32, mscorlib">
+    <value>3</value>
+  </data>
+  <data name="icbLineType.TabIndex" type="System.Int32, mscorlib">
+    <value>128</value>
+  </data>
+  <data name="chkFillBgTransparent.Text" xml:space="preserve">
+    <value>Transparent</value>
+  </data>
+  <data name="&gt;&gt;tabSymbol.Name" xml:space="preserve">
+    <value>tabSymbol</value>
+  </data>
+  <data name="&gt;&gt;udPointNumSides.Name" xml:space="preserve">
+    <value>udPointNumSides</value>
+  </data>
+  <data name="lblNoOptions.Location" type="System.Drawing.Point, System.Drawing">
+    <value>74, 77</value>
+  </data>
+  <data name="btnChooseTexture.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="clpHatchBack.IntegralHeight" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="&gt;&gt;transparencyControl1.Type" xml:space="preserve">
+    <value>MW5.UI.Controls.TransparencyControl, MW5.UI, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="label32.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="button1.TabIndex" type="System.Int32, mscorlib">
+    <value>87</value>
+  </data>
+  <data name="&gt;&gt;btnOk.ZOrder" xml:space="preserve">
+    <value>7</value>
+  </data>
+  <data name="tabSymbol.TabIndex" type="System.Int32, mscorlib">
+    <value>2</value>
+  </data>
+  <data name="pnlFillGradient.TabIndex" type="System.Int32, mscorlib">
+    <value>42</value>
+  </data>
+  <data name="icbLineType.Location" type="System.Drawing.Point, System.Drawing">
+    <value>65, 62</value>
+  </data>
+  <data name="&gt;&gt;label18.Name" xml:space="preserve">
+    <value>label18</value>
+  </data>
+  <data name="&gt;&gt;cboGradientType.ZOrder" xml:space="preserve">
+    <value>5</value>
+  </data>
+  <data name="&gt;&gt;groupBox3.Type" xml:space="preserve">
+    <value>System.Windows.Forms.GroupBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;label3.Parent" xml:space="preserve">
+    <value>tabSymbol</value>
+  </data>
+  <data name="&gt;&gt;dynamicVisibilityControl1.Name" xml:space="preserve">
+    <value>dynamicVisibilityControl1</value>
+  </data>
+  <data name="clpOutline.Size" type="System.Drawing.Size, System.Drawing">
+    <value>74, 22</value>
+  </data>
+  <data name="&gt;&gt;udSideRatio.Type" xml:space="preserve">
+    <value>MW5.Plugins.Symbology.Controls.NumericUpDownEx, MW5.Symbology, Version=1.0.0.26879, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="symbolControl1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>389, 67</value>
+  </data>
+  <data name="&gt;&gt;icbLineType.ZOrder" xml:space="preserve">
+    <value>5</value>
+  </data>
+  <data name="label23.TabIndex" type="System.Int32, mscorlib">
+    <value>125</value>
+  </data>
+  <data name="clpFillColor.Items" xml:space="preserve">
+    <value>Color</value>
+  </data>
+  <data name="&gt;&gt;pctPreview.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="btnApply.Text" xml:space="preserve">
+    <value>Apply</value>
+  </data>
+  <data name="btnApply.TabIndex" type="System.Int32, mscorlib">
+    <value>44</value>
+  </data>
+  <data name="udSize.Size" type="System.Drawing.Size, System.Drawing">
+    <value>49, 21</value>
+  </data>
+  <data name="&gt;&gt;pnlFillHatch.Name" xml:space="preserve">
+    <value>pnlFillHatch</value>
+  </data>
+  <data name="&gt;&gt;pnlFillGradient.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="label4.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="cboFillType.TabIndex" type="System.Int32, mscorlib">
+    <value>2</value>
+  </data>
+  <data name="&gt;&gt;icbHatchStyle.Name" xml:space="preserve">
+    <value>icbHatchStyle</value>
+  </data>
+  <data name="label1.Text" xml:space="preserve">
+    <value>Fill type</value>
+  </data>
+  <data name="&gt;&gt;label35.Name" xml:space="preserve">
+    <value>label35</value>
+  </data>
+  <data name="&gt;&gt;label19.Name" xml:space="preserve">
+    <value>label19</value>
+  </data>
+  <data name="udSize.TabIndex" type="System.Int32, mscorlib">
+    <value>15</value>
+  </data>
+  <data name="label6.Size" type="System.Drawing.Size, System.Drawing">
+    <value>29, 12</value>
+  </data>
+  <data name="&gt;&gt;symbolControl1.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="tabIcon.Text" xml:space="preserve">
+    <value>Icons</value>
+  </data>
+  <data name="&gt;&gt;label6.Parent" xml:space="preserve">
+    <value>pnlFillHatch</value>
+  </data>
+  <data name="&gt;&gt;chkFillBgTransparent.Parent" xml:space="preserve">
+    <value>pnlFillHatch</value>
+  </data>
+  <data name="udSideRatio.Location" type="System.Drawing.Point, System.Drawing">
+    <value>285, 23</value>
+  </data>
+  <data name="characterControl1.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Webdings, 26.25pt</value>
+  </data>
+  <data name="&gt;&gt;label32.ZOrder" xml:space="preserve">
+    <value>6</value>
+  </data>
+  <data name="chkShowAllFonts.Size" type="System.Drawing.Size, System.Drawing">
+    <value>72, 16</value>
+  </data>
+  <data name="&gt;&gt;chkShowAllFonts.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;icbLineWidth.Type" xml:space="preserve">
+    <value>MW5.UI.Controls.ImageCombo, MW5.UI, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="cboFontName.TabIndex" type="System.Int32, mscorlib">
+    <value>68</value>
+  </data>
+  <data name="&gt;&gt;button1.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;udGradientRotation.Name" xml:space="preserve">
+    <value>udGradientRotation</value>
+  </data>
+  <data name="&gt;&gt;label22.Parent" xml:space="preserve">
+    <value>groupBox2</value>
+  </data>
+  <data name="label34.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="tabCharacter.Size" type="System.Drawing.Size, System.Drawing">
+    <value>415, 288</value>
+  </data>
+  <data name="&gt;&gt;clpGradient2.Type" xml:space="preserve">
+    <value>MW5.UI.Controls.Office2007ColorPicker, MW5.UI, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="udGradientRotation.Size" type="System.Drawing.Size, System.Drawing">
+    <value>56, 21</value>
+  </data>
+  <data name="&gt;&gt;chkFillVisible.Type" xml:space="preserve">
+    <value>System.Windows.Forms.CheckBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;transparencyControl1.Name" xml:space="preserve">
+    <value>transparencyControl1</value>
+  </data>
+  <data name="label32.Size" type="System.Drawing.Size, System.Drawing">
+    <value>29, 12</value>
+  </data>
+  <data name="label32.Location" type="System.Drawing.Point, System.Drawing">
+    <value>19, 22</value>
+  </data>
+  <data name="label26.Location" type="System.Drawing.Point, System.Drawing">
+    <value>252, 12</value>
+  </data>
+  <data name="&gt;&gt;label33.ZOrder" xml:space="preserve">
+    <value>5</value>
+  </data>
+  <data name="label3.Size" type="System.Drawing.Size, System.Drawing">
+    <value>77, 12</value>
+  </data>
+  <data name="label5.Location" type="System.Drawing.Point, System.Drawing">
+    <value>11, 50</value>
+  </data>
+  <data name="icbPointShape.Location" type="System.Drawing.Point, System.Drawing">
+    <value>116, 27</value>
+  </data>
+  <data name="&gt;&gt;label18.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;label23.Parent" xml:space="preserve">
+    <value>groupBox2</value>
+  </data>
+  <data name="&gt;&gt;pointIconControl1.Type" xml:space="preserve">
+    <value>MW5.Plugins.Symbology.Controls.PointIconControl, MW5.Symbology, Version=1.0.0.26879, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;cboFontName.Parent" xml:space="preserve">
+    <value>tabCharacter</value>
+  </data>
+  <data name="&gt;&gt;tabOptions.Parent" xml:space="preserve">
+    <value>tabControl1</value>
+  </data>
+  <data name="udRotation.Size" type="System.Drawing.Size, System.Drawing">
+    <value>59, 21</value>
+  </data>
+  <data name="label8.Size" type="System.Drawing.Size, System.Drawing">
+    <value>83, 12</value>
+  </data>
+  <data name="&gt;&gt;clpOutline.Type" xml:space="preserve">
+    <value>MW5.UI.Controls.Office2007ColorPicker, MW5.UI, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;label32.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="label21.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="&gt;&gt;icbPointShape.Name" xml:space="preserve">
+    <value>icbPointShape</value>
+  </data>
+  <data name="&gt;&gt;groupBox4.Name" xml:space="preserve">
+    <value>groupBox4</value>
+  </data>
+  <data name="label19.TabIndex" type="System.Int32, mscorlib">
+    <value>2</value>
+  </data>
+  <data name="btnApply.Size" type="System.Drawing.Size, System.Drawing">
+    <value>95, 24</value>
+  </data>
+  <data name="&gt;&gt;label34.Parent" xml:space="preserve">
+    <value>panel1</value>
+  </data>
+  <data name="btnCancel.TabIndex" type="System.Int32, mscorlib">
+    <value>39</value>
+  </data>
+  <data name="&gt;&gt;dynamicVisibilityControl1.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;label19.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="chkFillBgTransparent.Location" type="System.Drawing.Point, System.Drawing">
+    <value>173, 49</value>
+  </data>
+  <data name="pctPreview.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Fill</value>
+  </data>
+  <data name="label34.Location" type="System.Drawing.Point, System.Drawing">
+    <value>19, 117</value>
+  </data>
+  <data name="&gt;&gt;pnlFillPicture.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="&gt;&gt;tabIcon.Name" xml:space="preserve">
+    <value>tabIcon</value>
+  </data>
+  <data name="icbPointShape.Size" type="System.Drawing.Size, System.Drawing">
+    <value>124, 22</value>
+  </data>
+  <data name="groupBox4.TabIndex" type="System.Int32, mscorlib">
+    <value>41</value>
+  </data>
+  <data name="&gt;&gt;groupBox2.Type" xml:space="preserve">
+    <value>System.Windows.Forms.GroupBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;dynamicVisibilityControl1.Type" xml:space="preserve">
+    <value>MW5.Plugins.Symbology.Controls.DynamicVisibilityControl, MW5.Symbology, Version=1.0.0.26879, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="label3.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="groupBox3.Location" type="System.Drawing.Point, System.Drawing">
+    <value>12, 6</value>
+  </data>
+  <data name="udRotation.Location" type="System.Drawing.Point, System.Drawing">
+    <value>96, 51</value>
+  </data>
+  <data name="label18.TabIndex" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="clpGradient2.Items" xml:space="preserve">
+    <value>Color</value>
+  </data>
+  <data name="label3.TabIndex" type="System.Int32, mscorlib">
+    <value>137</value>
+  </data>
+  <data name="&gt;&gt;clpOutline.Parent" xml:space="preserve">
+    <value>groupBox2</value>
+  </data>
+  <data name="&gt;&gt;button1.Name" xml:space="preserve">
+    <value>button1</value>
+  </data>
+  <data name="chkOutlineVisible.TabIndex" type="System.Int32, mscorlib">
+    <value>131</value>
+  </data>
+  <data name="&gt;&gt;label35.Parent" xml:space="preserve">
+    <value>tabCharacter</value>
+  </data>
+  <data name="label8.Text" xml:space="preserve">
+    <value>渐变类型</value>
+  </data>
+  <data name="&gt;&gt;icbLineWidth.Name" xml:space="preserve">
+    <value>icbLineWidth</value>
+  </data>
+  <data name="&gt;&gt;btnApply.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="pctPreview.Size" type="System.Drawing.Size, System.Drawing">
+    <value>170, 131</value>
+  </data>
+  <data name="&gt;&gt;groupBox3.Parent" xml:space="preserve">
+    <value>tabOptions</value>
+  </data>
+  <data name="&gt;&gt;chkFillVisible.Parent" xml:space="preserve">
+    <value>groupBox3</value>
+  </data>
+  <data name="&gt;&gt;symbolControl1.Type" xml:space="preserve">
+    <value>MW5.Plugins.Symbology.Controls.ListControls.SymbolControl, MW5.Symbology, Version=1.0.0.26879, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="label1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>17, 30</value>
+  </data>
+  <data name="label33.Text" xml:space="preserve">
+    <value>Rotation</value>
+  </data>
+  <data name="&gt;&gt;button1.Parent" xml:space="preserve">
+    <value>panel1</value>
+  </data>
+  <data name="label22.TabIndex" type="System.Int32, mscorlib">
+    <value>126</value>
+  </data>
+  <data name="&gt;&gt;label26.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="&gt;&gt;cboFontName.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ComboBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="pnlFillHatch.Size" type="System.Drawing.Size, System.Drawing">
+    <value>362, 78</value>
+  </data>
+  <data name="cboFillType.Location" type="System.Drawing.Point, System.Drawing">
+    <value>91, 26</value>
+  </data>
+  <data name="characterControl1.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>17, 7, 17, 7</value>
+  </data>
+  <data name="&gt;&gt;label17.ZOrder" xml:space="preserve">
+    <value>5</value>
+  </data>
+  <data name="tabIcon.Size" type="System.Drawing.Size, System.Drawing">
+    <value>415, 288</value>
+  </data>
+  <data name="transparencyControl1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>283, 30</value>
+  </data>
+  <data name="symbolControl1.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>10, 8, 10, 8</value>
+  </data>
+  <data name="&gt;&gt;clpFillColor.Type" xml:space="preserve">
+    <value>MW5.UI.Controls.Office2007ColorPicker, MW5.UI, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="label5.Size" type="System.Drawing.Size, System.Drawing">
+    <value>47, 12</value>
+  </data>
+  <data name="udPointNumSides.Size" type="System.Drawing.Size, System.Drawing">
+    <value>56, 21</value>
+  </data>
+  <data name="clpGradient2.IntegralHeight" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="&gt;&gt;tabControl1.Name" xml:space="preserve">
+    <value>tabControl1</value>
+  </data>
+  <data name="panel1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>170, 143</value>
+  </data>
+  <data name="chkShowAllFonts.Location" type="System.Drawing.Point, System.Drawing">
+    <value>295, 25</value>
+  </data>
+  <data name="label23.Location" type="System.Drawing.Point, System.Drawing">
+    <value>25, 65</value>
+  </data>
+  <data name="icbLineType.Size" type="System.Drawing.Size, System.Drawing">
+    <value>74, 22</value>
+  </data>
+  <data name="&gt;&gt;button1.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;chkFillVisible.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="&gt;&gt;udSize.Name" xml:space="preserve">
+    <value>udSize</value>
+  </data>
+  <data name="tabSymbol.Location" type="System.Drawing.Point, System.Drawing">
+    <value>4, 22</value>
+  </data>
+  <data name="label34.Size" type="System.Drawing.Size, System.Drawing">
+    <value>35, 12</value>
+  </data>
+  <data name="label8.TabIndex" type="System.Int32, mscorlib">
+    <value>89</value>
+  </data>
+  <data name="&gt;&gt;udSize.Parent" xml:space="preserve">
+    <value>panel1</value>
+  </data>
+  <data name="udPointNumSides.Location" type="System.Drawing.Point, System.Drawing">
+    <value>106, 23</value>
+  </data>
+  <data name="dynamicVisibilityControl1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>404, 187</value>
+  </data>
+  <data name="&gt;&gt;panel1.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="chkOutlineVisible.Text" xml:space="preserve">
+    <value>Show outline</value>
+  </data>
+  <data name="&gt;&gt;symbolControl1.Name" xml:space="preserve">
+    <value>symbolControl1</value>
+  </data>
+  <data name="&gt;&gt;tabPage1.Name" xml:space="preserve">
+    <value>tabPage1</value>
+  </data>
+  <data name="&gt;&gt;btnChooseTexture.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="groupBox1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>9, 7</value>
+  </data>
+  <data name="&gt;&gt;udSize.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="&gt;&gt;tabSymbol.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TabPage, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;characterControl1.Parent" xml:space="preserve">
+    <value>tabCharacter</value>
+  </data>
+  <data name="&gt;&gt;symbolControl1.Parent" xml:space="preserve">
+    <value>tabSymbol</value>
+  </data>
+  <data name="chkOutlineVisible.Size" type="System.Drawing.Size, System.Drawing">
+    <value>96, 16</value>
+  </data>
+  <data name="label35.Text" xml:space="preserve">
+    <value>Font</value>
+  </data>
+  <data name="pnlFillPicture.Location" type="System.Drawing.Point, System.Drawing">
+    <value>630, 135</value>
+  </data>
+  <data name="&gt;&gt;udSideRatio.Name" xml:space="preserve">
+    <value>udSideRatio</value>
+  </data>
+  <data name="label5.Text" xml:space="preserve">
+    <value>第二种颜色</value>
+  </data>
+  <data name="&gt;&gt;pctPreview.Name" xml:space="preserve">
+    <value>pctPreview</value>
+  </data>
+  <data name="&gt;&gt;cboFillType.Parent" xml:space="preserve">
+    <value>groupBox3</value>
+  </data>
+  <data name="&gt;&gt;$this.Name" xml:space="preserve">
+    <value>PointsForm</value>
+  </data>
+  <data name="&gt;&gt;clpHatchBack.Name" xml:space="preserve">
+    <value>clpHatchBack</value>
+  </data>
+  <data name="lblNoOptions.Visible" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="&gt;&gt;pnlFillPicture.Name" xml:space="preserve">
+    <value>pnlFillPicture</value>
+  </data>
+  <data name="clpOutline.Items" xml:space="preserve">
+    <value>Color</value>
+  </data>
+  <data name="&gt;&gt;transparencyControl1.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="button1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>63, 75</value>
+  </data>
+  <data name="pnlFillPicture.TabIndex" type="System.Int32, mscorlib">
+    <value>43</value>
+  </data>
+  <data name="btnOk.Text" xml:space="preserve">
+    <value>Ok</value>
+  </data>
+  <data name="&gt;&gt;chkFillBgTransparent.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="label17.Text" xml:space="preserve">
+    <value>Point type</value>
+  </data>
+  <data name="icbHatchStyle.TabIndex" type="System.Int32, mscorlib">
+    <value>90</value>
+  </data>
+  <data name="udSideRatio.TabIndex" type="System.Int32, mscorlib">
+    <value>23</value>
+  </data>
+  <data name="&gt;&gt;chkShowAllFonts.Type" xml:space="preserve">
+    <value>System.Windows.Forms.CheckBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="panel1.TabIndex" type="System.Int32, mscorlib">
+    <value>35</value>
+  </data>
+  <data name="&gt;&gt;clpHatchBack.Parent" xml:space="preserve">
+    <value>pnlFillHatch</value>
+  </data>
+  <data name="tabOptions.Location" type="System.Drawing.Point, System.Drawing">
+    <value>4, 22</value>
+  </data>
+  <data name="&gt;&gt;tabControl1.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TabControl, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="btnCancel.Location" type="System.Drawing.Point, System.Drawing">
+    <value>515, 327</value>
+  </data>
+  <data name="label5.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="groupBox2.Location" type="System.Drawing.Point, System.Drawing">
+    <value>12, 147</value>
+  </data>
+  <data name="&gt;&gt;udGradientRotation.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="btnApply.Location" type="System.Drawing.Point, System.Drawing">
+    <value>313, 327</value>
+  </data>
+  <data name="label26.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="&gt;&gt;lblNoOptions.Parent" xml:space="preserve">
+    <value>groupBox3</value>
+  </data>
+  <data name="groupBox2.Text" xml:space="preserve">
+    <value>Outline</value>
+  </data>
+  <data name="&gt;&gt;label18.Parent" xml:space="preserve">
+    <value>groupBox5</value>
+  </data>
+  <data name="&gt;&gt;pnlFillHatch.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Panel, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="tabOptions.Text" xml:space="preserve">
+    <value>Options</value>
+  </data>
+  <data name="label6.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="&gt;&gt;icbPointShape.Parent" xml:space="preserve">
+    <value>tabSymbol</value>
+  </data>
+  <data name="btnOk.Location" type="System.Drawing.Point, System.Drawing">
+    <value>414, 327</value>
+  </data>
+  <data name="&gt;&gt;label22.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="&gt;&gt;udSize.Type" xml:space="preserve">
+    <value>MW5.Plugins.Symbology.Controls.NumericUpDownEx, MW5.Symbology, Version=1.0.0.26879, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="transparencyControl1.TabIndex" type="System.Int32, mscorlib">
+    <value>136</value>
+  </data>
+  <data name="pnlFillHatch.TabIndex" type="System.Int32, mscorlib">
+    <value>43</value>
+  </data>
+  <data name="&gt;&gt;btnChooseTexture.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;pointIconControl1.Name" xml:space="preserve">
+    <value>pointIconControl1</value>
+  </data>
+  <data name="btnCancel.Text" xml:space="preserve">
+    <value>Cancel</value>
+  </data>
+  <data name="chkFillVisible.TabIndex" type="System.Int32, mscorlib">
+    <value>85</value>
+  </data>
+  <data name="&gt;&gt;btnOk.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="cboGradientType.Size" type="System.Drawing.Size, System.Drawing">
+    <value>136, 20</value>
+  </data>
+  <data name="transparencyControl1.MaximumSize" type="System.Drawing.Size, System.Drawing">
+    <value>1024, 30</value>
+  </data>
+  <data name="&gt;&gt;pnlFillGradient.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Panel, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="icbLineWidth.TabIndex" type="System.Int32, mscorlib">
+    <value>129</value>
+  </data>
+  <data name="label6.Text" xml:space="preserve">
+    <value>Type</value>
+  </data>
+  <data name="&gt;&gt;label19.Parent" xml:space="preserve">
+    <value>groupBox5</value>
+  </data>
+  <data name="btnOk.TabIndex" type="System.Int32, mscorlib">
+    <value>38</value>
+  </data>
+  <data name="&gt;&gt;label23.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="tabOptions.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="icbHatchStyle.Location" type="System.Drawing.Point, System.Drawing">
+    <value>85, 10</value>
+  </data>
+  <data name="&gt;&gt;cboFontName.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="cboGradientType.TabIndex" type="System.Int32, mscorlib">
+    <value>90</value>
+  </data>
+  <data name="&gt;&gt;clpGradient2.Parent" xml:space="preserve">
+    <value>pnlFillGradient</value>
+  </data>
+  <data name="tabOptions.Size" type="System.Drawing.Size, System.Drawing">
+    <value>415, 288</value>
+  </data>
+  <data name="&gt;&gt;btnChooseTexture.Name" xml:space="preserve">
+    <value>btnChooseTexture</value>
+  </data>
+  <data name="&gt;&gt;label1.Name" xml:space="preserve">
+    <value>label1</value>
+  </data>
+  <data name="label35.TabIndex" type="System.Int32, mscorlib">
+    <value>69</value>
+  </data>
+  <data name="label18.Location" type="System.Drawing.Point, System.Drawing">
+    <value>17, 25</value>
+  </data>
+  <data name="&gt;&gt;label18.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="&gt;&gt;cboGradientType.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ComboBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="clpHatchBack.Size" type="System.Drawing.Size, System.Drawing">
+    <value>74, 22</value>
+  </data>
+  <data name="&gt;&gt;groupBox2.Name" xml:space="preserve">
+    <value>groupBox2</value>
+  </data>
+  <data name="&gt;&gt;label33.Name" xml:space="preserve">
+    <value>label33</value>
+  </data>
+  <data name="udPointNumSides.TabIndex" type="System.Int32, mscorlib">
+    <value>24</value>
+  </data>
+  <data name="button1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>95, 21</value>
+  </data>
+  <data name="&gt;&gt;udRotation.Type" xml:space="preserve">
+    <value>MW5.Plugins.Symbology.Controls.NumericUpDownEx, MW5.Symbology, Version=1.0.0.26879, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;cboFillType.Name" xml:space="preserve">
+    <value>cboFillType</value>
+  </data>
+  <data name="btnOk.Size" type="System.Drawing.Size, System.Drawing">
+    <value>95, 24</value>
+  </data>
+  <data name="&gt;&gt;label8.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="label3.Text" xml:space="preserve">
+    <value>Transparency</value>
+  </data>
+  <data name="&gt;&gt;btnApply.Name" xml:space="preserve">
+    <value>btnApply</value>
+  </data>
+  <data name="label26.Text" xml:space="preserve">
+    <value>角度</value>
+  </data>
+  <data name="&gt;&gt;udPointNumSides.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="label26.Size" type="System.Drawing.Size, System.Drawing">
+    <value>35, 12</value>
+  </data>
+  <data name="&gt;&gt;panel1.Parent" xml:space="preserve">
+    <value>groupBox4</value>
+  </data>
+  <data name="&gt;&gt;icbLineWidth.ZOrder" xml:space="preserve">
+    <value>4</value>
+  </data>
+  <data name="&gt;&gt;label1.ZOrder" xml:space="preserve">
+    <value>4</value>
+  </data>
+  <data name="label32.Text" xml:space="preserve">
+    <value>Size</value>
+  </data>
+  <data name="tabIcon.Location" type="System.Drawing.Point, System.Drawing">
+    <value>4, 22</value>
+  </data>
+  <data name="&gt;&gt;tabIcon.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="clpOutline.TabIndex" type="System.Int32, mscorlib">
+    <value>127</value>
+  </data>
+  <data name="&gt;&gt;udGradientRotation.Type" xml:space="preserve">
+    <value>MW5.Plugins.Symbology.Controls.NumericUpDownEx, MW5.Symbology, Version=1.0.0.26879, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="btnCancel.Size" type="System.Drawing.Size, System.Drawing">
+    <value>95, 24</value>
+  </data>
+  <data name="label1.TabIndex" type="System.Int32, mscorlib">
+    <value>3</value>
+  </data>
+  <data name="&gt;&gt;panel1.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Panel, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="tabSymbol.Text" xml:space="preserve">
+    <value>Points</value>
+  </data>
+  <data name="&gt;&gt;pnlFillPicture.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Panel, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="clpHatchBack.Location" type="System.Drawing.Point, System.Drawing">
+    <value>85, 47</value>
+  </data>
+  <data name="&gt;&gt;pnlFillGradient.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="label34.Text" xml:space="preserve">
+    <value>Color</value>
+  </data>
+  <data name="&gt;&gt;label4.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;clpFillColor.Name" xml:space="preserve">
+    <value>clpFillColor</value>
+  </data>
+  <data name="&gt;&gt;pctPreview.Parent" xml:space="preserve">
+    <value>groupBox1</value>
+  </data>
+  <data name="&gt;&gt;icbLineWidth.Parent" xml:space="preserve">
+    <value>groupBox2</value>
+  </data>
+  <data name="groupBox3.Text" xml:space="preserve">
+    <value>Fill</value>
+  </data>
+  <data name="&gt;&gt;cboGradientType.Parent" xml:space="preserve">
+    <value>pnlFillGradient</value>
+  </data>
+  <data name="&gt;&gt;btnApply.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;tabOptions.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="label5.TabIndex" type="System.Int32, mscorlib">
+    <value>100</value>
+  </data>
+  <data name="cboFontName.Size" type="System.Drawing.Size, System.Drawing">
+    <value>210, 20</value>
+  </data>
+  <data name="tabPage1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>4, 22</value>
+  </data>
+  <data name="&gt;&gt;cboFillType.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ComboBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="label17.Location" type="System.Drawing.Point, System.Drawing">
+    <value>27, 30</value>
+  </data>
+  <data name="lblNoOptions.Size" type="System.Drawing.Size, System.Drawing">
+    <value>155, 12</value>
+  </data>
+  <data name="&gt;&gt;label3.Name" xml:space="preserve">
+    <value>label3</value>
+  </data>
+  <data name="tabPage1.Text" xml:space="preserve">
+    <value>可见性</value>
+  </data>
+  <data name="&gt;&gt;groupBox5.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="label23.Size" type="System.Drawing.Size, System.Drawing">
+    <value>35, 12</value>
+  </data>
+  <data name="label23.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="&gt;&gt;label1.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;label17.Parent" xml:space="preserve">
+    <value>tabSymbol</value>
+  </data>
+  <data name="tabControl1.TabIndex" type="System.Int32, mscorlib">
+    <value>37</value>
+  </data>
+  <data name="clpFillColor.IntegralHeight" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="&gt;&gt;btnOk.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="tabCharacter.Location" type="System.Drawing.Point, System.Drawing">
+    <value>4, 22</value>
+  </data>
+  <data name="$this.ClientSize" type="System.Drawing.Size, System.Drawing">
+    <value>619, 356</value>
+  </data>
+  <data name="&gt;&gt;label32.Parent" xml:space="preserve">
+    <value>panel1</value>
+  </data>
+  <data name="&gt;&gt;label4.Name" xml:space="preserve">
+    <value>label4</value>
+  </data>
+  <data name="chkFillBgTransparent.TabIndex" type="System.Int32, mscorlib">
+    <value>89</value>
+  </data>
+  <data name="label21.TabIndex" type="System.Int32, mscorlib">
+    <value>130</value>
+  </data>
+  <data name="udGradientRotation.TabIndex" type="System.Int32, mscorlib">
+    <value>99</value>
+  </data>
+  <data name="&gt;&gt;tabIcon.Parent" xml:space="preserve">
+    <value>tabControl1</value>
+  </data>
+  <data name="label8.Location" type="System.Drawing.Point, System.Drawing">
+    <value>11, 13</value>
+  </data>
+  <data name="groupBox4.Location" type="System.Drawing.Point, System.Drawing">
+    <value>9, 162</value>
+  </data>
+  <data name="$this.Text" xml:space="preserve">
+    <value>Point Style</value>
+  </data>
+  <data name="&gt;&gt;label21.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;groupBox4.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;tabCharacter.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TabPage, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="symbolControl1.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Arial, 25.6pt</value>
+  </data>
+  <data name="&gt;&gt;clpOutline.ZOrder" xml:space="preserve">
+    <value>6</value>
+  </data>
+  <data name="pctPreview.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;label33.Parent" xml:space="preserve">
+    <value>panel1</value>
+  </data>
+  <data name="&gt;&gt;groupBox4.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="&gt;&gt;label8.Parent" xml:space="preserve">
+    <value>pnlFillGradient</value>
+  </data>
+  <data name="label33.Size" type="System.Drawing.Size, System.Drawing">
+    <value>53, 12</value>
+  </data>
+  <data name="&gt;&gt;label21.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="btnApply.Enabled" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="&gt;&gt;tabIcon.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TabPage, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;icbPointShape.ZOrder" xml:space="preserve">
+    <value>4</value>
+  </data>
+  <data name="tabPage1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>415, 288</value>
+  </data>
+  <data name="&gt;&gt;icbLineType.Type" xml:space="preserve">
+    <value>MW5.UI.Controls.ImageCombo, MW5.UI, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;udGradientRotation.Parent" xml:space="preserve">
+    <value>pnlFillGradient</value>
+  </data>
+  <data name="clpGradient2.TabIndex" type="System.Int32, mscorlib">
+    <value>88</value>
+  </data>
+  <data name="&gt;&gt;label26.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="label4.Location" type="System.Drawing.Point, System.Drawing">
+    <value>11, 50</value>
+  </data>
+  <data name="btnChooseTexture.Size" type="System.Drawing.Size, System.Drawing">
+    <value>113, 21</value>
+  </data>
+  <data name="&gt;&gt;cboGradientType.Name" xml:space="preserve">
+    <value>cboGradientType</value>
+  </data>
+  <data name="&gt;&gt;lblNoOptions.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="panel1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>3, 17</value>
+  </data>
+  <data name="chkFillVisible.Text" xml:space="preserve">
+    <value>Show fill</value>
+  </data>
+  <data name="&gt;&gt;chkOutlineVisible.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;lblNoOptions.Name" xml:space="preserve">
+    <value>lblNoOptions</value>
+  </data>
+  <data name="label22.Location" type="System.Drawing.Point, System.Drawing">
+    <value>222, 66</value>
+  </data>
+  <data name="label22.Size" type="System.Drawing.Size, System.Drawing">
+    <value>35, 12</value>
+  </data>
+  <data name="chkFillBgTransparent.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="lblNoOptions.Text" xml:space="preserve">
+    <value>No settings are available</value>
+  </data>
+  <data name="udSideRatio.Size" type="System.Drawing.Size, System.Drawing">
+    <value>58, 21</value>
+  </data>
+  <data name="&gt;&gt;groupBox1.ZOrder" xml:space="preserve">
+    <value>5</value>
+  </data>
+  <data name="&gt;&gt;label5.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;cboFillType.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="&gt;&gt;tabPage1.ZOrder" xml:space="preserve">
+    <value>4</value>
+  </data>
+  <data name="&gt;&gt;chkOutlineVisible.Parent" xml:space="preserve">
+    <value>groupBox2</value>
+  </data>
+  <data name="&gt;&gt;groupBox2.Parent" xml:space="preserve">
+    <value>tabOptions</value>
+  </data>
+  <data name="label21.Text" xml:space="preserve">
+    <value>Color</value>
+  </data>
+  <data name="pointIconControl1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>397, 276</value>
+  </data>
+  <data name="label17.Size" type="System.Drawing.Size, System.Drawing">
+    <value>65, 12</value>
+  </data>
+  <data name="tabCharacter.TabIndex" type="System.Int32, mscorlib">
+    <value>3</value>
+  </data>
+  <data name="dynamicVisibilityControl1.TabIndex" type="System.Int32, mscorlib">
+    <value>180</value>
+  </data>
+  <data name="&gt;&gt;label3.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="cboGradientType.Location" type="System.Drawing.Point, System.Drawing">
+    <value>98, 10</value>
+  </data>
+  <data name="&gt;&gt;label6.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="groupBox5.TabIndex" type="System.Int32, mscorlib">
+    <value>27</value>
+  </data>
+  <data name="lblNoOptions.TabIndex" type="System.Int32, mscorlib">
+    <value>86</value>
+  </data>
+  <data name="&gt;&gt;label6.Name" xml:space="preserve">
+    <value>label6</value>
+  </data>
+  <data name="label18.Size" type="System.Drawing.Size, System.Drawing">
+    <value>65, 12</value>
+  </data>
+  <data name="&gt;&gt;btnChooseTexture.Parent" xml:space="preserve">
+    <value>pnlFillPicture</value>
+  </data>
+  <data name="label6.TabIndex" type="System.Int32, mscorlib">
+    <value>82</value>
+  </data>
+  <data name="&gt;&gt;tabCharacter.Parent" xml:space="preserve">
+    <value>tabControl1</value>
+  </data>
+  <data name="&gt;&gt;chkOutlineVisible.Type" xml:space="preserve">
+    <value>System.Windows.Forms.CheckBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;panel1.Name" xml:space="preserve">
+    <value>panel1</value>
+  </data>
+  <data name="clpFillColor.TabIndex" type="System.Int32, mscorlib">
+    <value>86</value>
+  </data>
+  <data name="$this.Localizable" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="$this.Language" type="System.Globalization.CultureInfo, mscorlib">
+    <value>zh-CN</value>
+  </data>
+</root>

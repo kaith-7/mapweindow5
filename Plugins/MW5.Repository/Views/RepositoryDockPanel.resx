@@ -1,0 +1,633 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="&gt;&gt;richTextBox1.Parent" xml:space="preserve">
+    <value>splitContainerAdv1.Panel2</value>
+  </data>
+  <data name="mnuRemoveFolder.Text" xml:space="preserve">
+    <value>移除文件夹连接</value>
+  </data>
+  <data name="&gt;&gt;contextMenuStripEx1.Name" xml:space="preserve">
+    <value>contextMenuStripEx1</value>
+  </data>
+  <data name="treeViewAdv1.ToolTipControl.Text" xml:space="preserve">
+    <value>toolTip</value>
+  </data>
+  <assembly alias="System.Drawing" name="System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
+  <data name="mnuRemoveLayer.Size" type="System.Drawing.Size, System.Drawing">
+    <value>160, 22</value>
+  </data>
+  <data name="toolAddTms.Text" xml:space="preserve">
+    <value>添加TMS向导</value>
+  </data>
+  <data name="&gt;&gt;mnuRemoveFile.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;toolRemoveTms.Name" xml:space="preserve">
+    <value>toolRemoveTms</value>
+  </data>
+  <data name="&gt;&gt;contextMenuStripEx1.Type" xml:space="preserve">
+    <value>Syncfusion.Windows.Forms.Tools.ContextMenuStripEx, Syncfusion.Tools.Windows, Version=19.3460.0.43, Culture=neutral, PublicKeyToken=3d67ed1f87d44c89</value>
+  </data>
+  <data name="mnuOpenLocation.Text" xml:space="preserve">
+    <value>打开文件位置</value>
+  </data>
+  <data name="&gt;&gt;toolHelp.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="treeViewAdv1.ToolTipControl.Size" type="System.Drawing.Size, System.Drawing">
+    <value>49, 14</value>
+  </data>
+  <data name="&gt;&gt;toolClearTms.Name" xml:space="preserve">
+    <value>toolClearTms</value>
+  </data>
+  <data name="&gt;&gt;splitContainerAdv1.Type" xml:space="preserve">
+    <value>Syncfusion.Windows.Forms.Tools.SplitContainerAdv, Syncfusion.Tools.Windows, Version=19.3460.0.43, Culture=neutral, PublicKeyToken=3d67ed1f87d44c89</value>
+  </data>
+  <data name="&gt;&gt;treeViewAdv1.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;mnuRefresh.Name" xml:space="preserve">
+    <value>mnuRefresh</value>
+  </data>
+  <data name="mnuOpenLocation.Size" type="System.Drawing.Size, System.Drawing">
+    <value>160, 22</value>
+  </data>
+  <data name="&gt;&gt;toolProperties.Name" xml:space="preserve">
+    <value>toolProperties</value>
+  </data>
+  <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="treeViewAdv1.ToolTipControl.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>None</value>
+  </data>
+  <data name="mnuAddConnection.Text" xml:space="preserve">
+    <value>添加连接</value>
+  </data>
+  <assembly alias="mscorlib" name="mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="treeViewAdv1.HelpTextControl.Visible" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="mnuAddToMap.Text" xml:space="preserve">
+    <value>添加</value>
+  </data>
+  <data name="treeViewAdv1.HelpTextControl.AutoScroll" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="toolRemoveTms.Size" type="System.Drawing.Size, System.Drawing">
+    <value>160, 22</value>
+  </data>
+  <data name="&gt;&gt;splitContainerAdv1.Panel2.Name" xml:space="preserve">
+    <value>splitContainerAdv1.Panel2</value>
+  </data>
+  <data name="&gt;&gt;richTextBox1.Name" xml:space="preserve">
+    <value>richTextBox1</value>
+  </data>
+  <data name="toolAddFolder.Size" type="System.Drawing.Size, System.Drawing">
+    <value>34, 34</value>
+  </data>
+  <data name="&gt;&gt;toolAddTms.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="splitContainerAdv1.TabIndex" type="System.Int32, mscorlib">
+    <value>2</value>
+  </data>
+  <data name="&gt;&gt;toolAddFolder.Name" xml:space="preserve">
+    <value>toolAddFolder</value>
+  </data>
+  <data name="mnuAddFolder.Size" type="System.Drawing.Size, System.Drawing">
+    <value>160, 22</value>
+  </data>
+  <data name="toolStripEx1.TabIndex" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="mnuGdalInfo.Size" type="System.Drawing.Size, System.Drawing">
+    <value>160, 22</value>
+  </data>
+  <data name="treeViewAdv1.HelpTextControl.AutoSizeMode" type="System.Windows.Forms.AutoSizeMode, System.Windows.Forms">
+    <value>GrowOnly</value>
+  </data>
+  <data name="treeViewAdv1.ToolTipControl.AccessibleDescription" type="System.Resources.ResXNullRef, System.Windows.Forms">
+    <value />
+  </data>
+  <data name="toolHelp.Text" xml:space="preserve">
+    <value>帮助</value>
+  </data>
+  <data name="treeViewAdv1.HelpTextControl.Font" type="System.Resources.ResXNullRef, System.Windows.Forms">
+    <value />
+  </data>
+  <data name="toolStripEx1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>330, 37</value>
+  </data>
+  <data name="&gt;&gt;toolHelp.Name" xml:space="preserve">
+    <value>toolHelp</value>
+  </data>
+  <data name="&gt;&gt;mnuGdalInfo.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="treeViewAdv1.HelpTextControl.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="treeViewAdv1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>330, 500</value>
+  </data>
+  <data name="treeViewAdv1.HelpTextControl.AccessibleName" type="System.Resources.ResXNullRef, System.Windows.Forms">
+    <value />
+  </data>
+  <data name="&gt;&gt;toolProperties.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="toolRemoveFolder.ImageTransparentColor" type="System.Drawing.Color, System.Drawing">
+    <value>Magenta</value>
+  </data>
+  <data name="toolRemoveFolder.Size" type="System.Drawing.Size, System.Drawing">
+    <value>34, 34</value>
+  </data>
+  <data name="&gt;&gt;splitContainerAdv1.Panel2.Parent" xml:space="preserve">
+    <value>splitContainerAdv1</value>
+  </data>
+  <data name="&gt;&gt;toolImportTms.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;splitContainerAdv1.Panel1.Type" xml:space="preserve">
+    <value>Syncfusion.Windows.Forms.Tools.SplitPanelAdv, Syncfusion.Tools.Windows, Version=19.3460.0.43, Culture=neutral, PublicKeyToken=3d67ed1f87d44c89</value>
+  </data>
+  <data name="mnuRemoveLayer.Text" xml:space="preserve">
+    <value>移除图层</value>
+  </data>
+  <data name="treeViewAdv1.HelpTextControl.Size" type="System.Drawing.Size, System.Drawing">
+    <value>61, 14</value>
+  </data>
+  <data name="mnuRemoveFile.Size" type="System.Drawing.Size, System.Drawing">
+    <value>160, 22</value>
+  </data>
+  <data name="toolProperties.Size" type="System.Drawing.Size, System.Drawing">
+    <value>160, 22</value>
+  </data>
+  <data name="&gt;&gt;mnuRemoveFolder.Name" xml:space="preserve">
+    <value>mnuRemoveFolder</value>
+  </data>
+  <data name="mnuGdalInfo.Text" xml:space="preserve">
+    <value>GDAL信息</value>
+  </data>
+  <data name="mnuRemoveConnection.Text" xml:space="preserve">
+    <value>移除连接</value>
+  </data>
+  <data name="&gt;&gt;splitContainerAdv1.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;treeViewAdv1.Name" xml:space="preserve">
+    <value>treeViewAdv1</value>
+  </data>
+  <data name="mnuRefresh.Size" type="System.Drawing.Size, System.Drawing">
+    <value>160, 22</value>
+  </data>
+  <data name="mnuAddFolder.Text" xml:space="preserve">
+    <value>添加文件夹连接</value>
+  </data>
+  <data name="&gt;&gt;toolRemoveFolder.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripButton, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="treeViewAdv1.ToolTipControl.BackgroundImage" type="System.Resources.ResXNullRef, System.Windows.Forms">
+    <value />
+  </data>
+  <data name="toolAddFolder.Text" xml:space="preserve">
+    <value>添加文件夹连接</value>
+  </data>
+  <data name="treeViewAdv1.HelpTextControl.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Top, Left</value>
+  </data>
+  <data name="toolRemoveTms.Text" xml:space="preserve">
+    <value>移除TMS向导</value>
+  </data>
+  <data name="&gt;&gt;$this.Name" xml:space="preserve">
+    <value>RepositoryDockPanel</value>
+  </data>
+  <data name="treeViewAdv1.ToolTipControl.BackgroundImageLayout" type="System.Windows.Forms.ImageLayout, System.Windows.Forms">
+    <value>Tile</value>
+  </data>
+  <data name="&gt;&gt;toolRemoveFolder.Name" xml:space="preserve">
+    <value>toolRemoveFolder</value>
+  </data>
+  <data name="&gt;&gt;mnuAddFolder.Name" xml:space="preserve">
+    <value>mnuAddFolder</value>
+  </data>
+  <data name="&gt;&gt;richTextBox1.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="treeViewAdv1.ToolTipControl.RightToLeft" type="System.Windows.Forms.RightToLeft, System.Windows.Forms">
+    <value>Inherit</value>
+  </data>
+  <data name="splitContainerAdv1.Text" xml:space="preserve">
+    <value>splitContainerAdv1</value>
+  </data>
+  <data name="treeViewAdv1.ToolTipControl.AccessibleName" type="System.Resources.ResXNullRef, System.Windows.Forms">
+    <value />
+  </data>
+  <data name="&gt;&gt;toolAddTms.Name" xml:space="preserve">
+    <value>toolAddTms</value>
+  </data>
+  <data name="&gt;&gt;toolStripEx1.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="treeViewAdv1.ToolTipControl.AutoSizeMode" type="System.Windows.Forms.AutoSizeMode, System.Windows.Forms">
+    <value>GrowOnly</value>
+  </data>
+  <data name="toolClearTms.Text" xml:space="preserve">
+    <value>清除TMS服务</value>
+  </data>
+  <data name="&gt;&gt;splitContainerAdv1.Panel2.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="&gt;&gt;splitContainerAdv1.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="treeViewAdv1.HelpTextControl.AutoSize" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="&gt;&gt;richTextBox1.Type" xml:space="preserve">
+    <value>System.Windows.Forms.RichTextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="treeViewAdv1.ToolTipControl.AutoSize" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="&gt;&gt;mnuRemoveLayer.Name" xml:space="preserve">
+    <value>mnuRemoveLayer</value>
+  </data>
+  <data name="&gt;&gt;mnuRemoveLayer.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="treeViewAdv1.HelpTextControl.RightToLeft" type="System.Windows.Forms.RightToLeft, System.Windows.Forms">
+    <value>Inherit</value>
+  </data>
+  <data name="richTextBox1.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="toolImportTms.Size" type="System.Drawing.Size, System.Drawing">
+    <value>160, 22</value>
+  </data>
+  <data name="contextMenuStripEx1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>161, 378</value>
+  </data>
+  <data name="mnuAddToMap.Size" type="System.Drawing.Size, System.Drawing">
+    <value>160, 22</value>
+  </data>
+  <data name="&gt;&gt;mnuRemoveFile.Name" xml:space="preserve">
+    <value>mnuRemoveFile</value>
+  </data>
+  <data name="toolAddFolder.ImageScaling" type="System.Windows.Forms.ToolStripItemImageScaling, System.Windows.Forms">
+    <value>None</value>
+  </data>
+  <data name="richTextBox1.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;mnuAddConnection.Name" xml:space="preserve">
+    <value>mnuAddConnection</value>
+  </data>
+  <data name="&gt;&gt;mnuAddFolder.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;mnuRemoveFolder.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="mnuAddConnection.Size" type="System.Drawing.Size, System.Drawing">
+    <value>160, 22</value>
+  </data>
+  <data name="&gt;&gt;toolStripEx1.Name" xml:space="preserve">
+    <value>toolStripEx1</value>
+  </data>
+  <data name="&gt;&gt;toolRemoveTms.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;splitContainerAdv1.Panel1.Name" xml:space="preserve">
+    <value>splitContainerAdv1.Panel1</value>
+  </data>
+  <data name="&gt;&gt;splitContainerAdv1.Panel2.Type" xml:space="preserve">
+    <value>Syncfusion.Windows.Forms.Tools.SplitPanelAdv, Syncfusion.Tools.Windows, Version=19.3460.0.43, Culture=neutral, PublicKeyToken=3d67ed1f87d44c89</value>
+  </data>
+  <data name="toolHelp.Size" type="System.Drawing.Size, System.Drawing">
+    <value>160, 22</value>
+  </data>
+  <data name="&gt;&gt;mnuGdalInfo.Name" xml:space="preserve">
+    <value>mnuGdalInfo</value>
+  </data>
+  <data name="treeViewAdv1.ToolTipControl.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>Inherit</value>
+  </data>
+  <data name="treeViewAdv1.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="$this.Size" type="System.Drawing.Size, System.Drawing">
+    <value>330, 672</value>
+  </data>
+  <data name="toolImportTms.Text" xml:space="preserve">
+    <value>导入TMS服务</value>
+  </data>
+  <data name="&gt;&gt;splitContainerAdv1.Panel1.Parent" xml:space="preserve">
+    <value>splitContainerAdv1</value>
+  </data>
+  <data name="toolAddTms.Size" type="System.Drawing.Size, System.Drawing">
+    <value>160, 22</value>
+  </data>
+  <data name="treeViewAdv1.HelpTextControl.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 0</value>
+  </data>
+  <data name="mnuAddFolderToMap.Text" xml:space="preserve">
+    <value>添加文件夹</value>
+  </data>
+  <data name="treeViewAdv1.ToolTipControl.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Top, Left</value>
+  </data>
+  <data name="&gt;&gt;treeViewAdv1.Parent" xml:space="preserve">
+    <value>splitContainerAdv1.Panel1</value>
+  </data>
+  <data name="toolClearTms.Size" type="System.Drawing.Size, System.Drawing">
+    <value>160, 22</value>
+  </data>
+  <data name="&gt;&gt;$this.Type" xml:space="preserve">
+    <value>MW5.UI.Controls.DockPanelControlBase, MW5.UI, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;mnuAddFolderToMap.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;mnuRefresh.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="treeViewAdv1.Text" xml:space="preserve">
+    <value>treeViewAdv1</value>
+  </data>
+  <data name="richTextBox1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 0</value>
+  </data>
+  <data name="treeViewAdv1.HelpTextControl.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>Inherit</value>
+  </data>
+  <data name="richTextBox1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>330, 128</value>
+  </data>
+  <data name="toolRemoveFolder.Text" xml:space="preserve">
+    <value>移除文件夹连接</value>
+  </data>
+  <data name="treeViewAdv1.ToolTipControl.TabIndex" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="toolAddFolder.ImageTransparentColor" type="System.Drawing.Color, System.Drawing">
+    <value>Magenta</value>
+  </data>
+  <data name="mnuRemoveConnection.Size" type="System.Drawing.Size, System.Drawing">
+    <value>160, 22</value>
+  </data>
+  <data name="&gt;&gt;mnuRemoveConnection.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="toolStripEx1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 0</value>
+  </data>
+  <data name="treeViewAdv1.HelpTextControl.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>None</value>
+  </data>
+  <data name="treeViewAdv1.HelpTextControl.MaximumSize" type="System.Drawing.Size, System.Drawing">
+    <value>0, 0</value>
+  </data>
+  <data name="treeViewAdv1.ToolTipControl.Visible" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="&gt;&gt;mnuAddToMap.Name" xml:space="preserve">
+    <value>mnuAddToMap</value>
+  </data>
+  <data name="mnuRemoveFile.Text" xml:space="preserve">
+    <value>移除文件</value>
+  </data>
+  <data name="toolRemoveFolder.ImageScaling" type="System.Windows.Forms.ToolStripItemImageScaling, System.Windows.Forms">
+    <value>None</value>
+  </data>
+  <data name="&gt;&gt;splitContainerAdv1.Name" xml:space="preserve">
+    <value>splitContainerAdv1</value>
+  </data>
+  <data name="&gt;&gt;toolStripEx1.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="treeViewAdv1.HelpTextControl.AccessibleDescription" type="System.Resources.ResXNullRef, System.Windows.Forms">
+    <value />
+  </data>
+  <data name="splitContainerAdv1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 37</value>
+  </data>
+  <data name="mnuRefresh.Text" xml:space="preserve">
+    <value>刷新</value>
+  </data>
+  <data name="treeViewAdv1.ToolTipControl.AutoScroll" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="&gt;&gt;toolStripEx1.Type" xml:space="preserve">
+    <value>Syncfusion.Windows.Forms.Tools.ToolStripEx, Syncfusion.Tools.Windows, Version=19.3460.0.43, Culture=neutral, PublicKeyToken=3d67ed1f87d44c89</value>
+  </data>
+  <data name="&gt;&gt;treeViewAdv1.Type" xml:space="preserve">
+    <value>MW5.Data.Repository.RepositoryTreeView, MW5.Data, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="splitContainerAdv1.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Fill</value>
+  </data>
+  <data name="mnuRemoveFolder.Size" type="System.Drawing.Size, System.Drawing">
+    <value>160, 22</value>
+  </data>
+  <data name="&gt;&gt;splitContainerAdv1.Panel1.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;toolClearTms.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="richTextBox1.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Fill</value>
+  </data>
+  <data name="treeViewAdv1.HelpTextControl.Text" xml:space="preserve">
+    <value>help text</value>
+  </data>
+  <data name="mnuAddFolderToMap.Size" type="System.Drawing.Size, System.Drawing">
+    <value>160, 22</value>
+  </data>
+  <data name="treeViewAdv1.ToolTipControl.Font" type="System.Resources.ResXNullRef, System.Windows.Forms">
+    <value />
+  </data>
+  <data name="treeViewAdv1.HelpTextControl.BackgroundImage" type="System.Resources.ResXNullRef, System.Windows.Forms">
+    <value />
+  </data>
+  <data name="&gt;&gt;mnuOpenLocation.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="treeViewAdv1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 0</value>
+  </data>
+  <data name="treeViewAdv1.HelpTextControl.BackgroundImageLayout" type="System.Windows.Forms.ImageLayout, System.Windows.Forms">
+    <value>Tile</value>
+  </data>
+  <data name="toolProperties.Text" xml:space="preserve">
+    <value>属性</value>
+  </data>
+  <data name="&gt;&gt;toolImportTms.Name" xml:space="preserve">
+    <value>toolImportTms</value>
+  </data>
+  <data name="&gt;&gt;mnuRemoveConnection.Name" xml:space="preserve">
+    <value>mnuRemoveConnection</value>
+  </data>
+  <data name="splitContainerAdv1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>330, 635</value>
+  </data>
+  <data name="treeViewAdv1.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Fill</value>
+  </data>
+  <data name="&gt;&gt;mnuAddFolderToMap.Name" xml:space="preserve">
+    <value>mnuAddFolderToMap</value>
+  </data>
+  <data name="&gt;&gt;mnuAddToMap.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;mnuOpenLocation.Name" xml:space="preserve">
+    <value>mnuOpenLocation</value>
+  </data>
+  <data name="&gt;&gt;toolAddFolder.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripButton, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="treeViewAdv1.ToolTipControl.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 0</value>
+  </data>
+  <data name="toolStripEx1.Text" xml:space="preserve">
+    <value>toolStripEx1</value>
+  </data>
+  <data name="&gt;&gt;mnuAddConnection.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="treeViewAdv1.ToolTipControl.MaximumSize" type="System.Drawing.Size, System.Drawing">
+    <value>0, 0</value>
+  </data>
+  <metadata name="$this.Language" type="System.Globalization.CultureInfo, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>zh-CN</value>
+  </metadata>
+  <metadata name="$this.Localizable" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <metadata name="contextMenuStripEx1.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>17, 17</value>
+  </metadata>
+  <metadata name="toolStripEx1.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>195, 17</value>
+  </metadata>
+  <metadata name="$this.TrayHeight" type="System.Int32, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>62</value>
+  </metadata>
+</root>

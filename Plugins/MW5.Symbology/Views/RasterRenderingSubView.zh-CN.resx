@@ -1,0 +1,426 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <assembly alias="System.Drawing" name="System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
+  <data name="btnDefaultMinMax.Location" type="System.Drawing.Point, System.Drawing">
+    <value>52, 152</value>
+  </data>
+  <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="btnDefaultMinMax.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 4, 4, 4</value>
+  </data>
+  <data name="btnDefaultMinMax.Size" type="System.Drawing.Size, System.Drawing">
+    <value>100, 26</value>
+  </data>
+  <data name="btnDefaultMinMax.Text" xml:space="preserve">
+    <value>默认</value>
+  </data>
+  <data name="btnCalculateMinMax.Location" type="System.Drawing.Point, System.Drawing">
+    <value>160, 152</value>
+  </data>
+  <data name="btnCalculateMinMax.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 4, 4, 4</value>
+  </data>
+  <data name="btnCalculateMinMax.Size" type="System.Drawing.Size, System.Drawing">
+    <value>100, 26</value>
+  </data>
+  <data name="btnCalculateMinMax.Text" xml:space="preserve">
+    <value>自定义</value>
+  </data>
+  <data name="cboSelectedBand.Location" type="System.Drawing.Point, System.Drawing">
+    <value>20, 36</value>
+  </data>
+  <data name="cboSelectedBand.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 4, 4, 4</value>
+  </data>
+  <data name="cboSelectedBand.Size" type="System.Drawing.Size, System.Drawing">
+    <value>239, 25</value>
+  </data>
+  <data name="txtMaximum.Location" type="System.Drawing.Point, System.Drawing">
+    <value>125, 110</value>
+  </data>
+  <data name="txtMaximum.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 4, 4, 4</value>
+  </data>
+  <data name="txtMaximum.Size" type="System.Drawing.Size, System.Drawing">
+    <value>133, 25</value>
+  </data>
+  <data name="label14.Location" type="System.Drawing.Point, System.Drawing">
+    <value>23, 80</value>
+  </data>
+  <data name="label14.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 0, 4, 0</value>
+  </data>
+  <data name="label14.Size" type="System.Drawing.Size, System.Drawing">
+    <value>52, 15</value>
+  </data>
+  <data name="label14.Text" xml:space="preserve">
+    <value>最小值</value>
+  </data>
+  <data name="txtMinimum.Location" type="System.Drawing.Point, System.Drawing">
+    <value>125, 71</value>
+  </data>
+  <data name="txtMinimum.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 4, 4, 4</value>
+  </data>
+  <data name="txtMinimum.Size" type="System.Drawing.Size, System.Drawing">
+    <value>133, 25</value>
+  </data>
+  <data name="label15.Location" type="System.Drawing.Point, System.Drawing">
+    <value>23, 118</value>
+  </data>
+  <data name="label15.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 0, 4, 0</value>
+  </data>
+  <data name="label15.Size" type="System.Drawing.Size, System.Drawing">
+    <value>52, 15</value>
+  </data>
+  <data name="label15.Text" xml:space="preserve">
+    <value>最大值</value>
+  </data>
+  <data name="groupMinMax.Location" type="System.Drawing.Point, System.Drawing">
+    <value>395, 50</value>
+  </data>
+  <data name="groupMinMax.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 4, 4, 4</value>
+  </data>
+  <data name="groupMinMax.Padding" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 4, 4, 4</value>
+  </data>
+  <data name="groupMinMax.Size" type="System.Drawing.Size, System.Drawing">
+    <value>283, 191</value>
+  </data>
+  <data name="groupMinMax.Text" xml:space="preserve">
+    <value>选定波段</value>
+  </data>
+  <data name="cboClassification.Location" type="System.Drawing.Point, System.Drawing">
+    <value>20, 35</value>
+  </data>
+  <data name="cboClassification.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 4, 4, 4</value>
+  </data>
+  <data name="cboClassification.Size" type="System.Drawing.Size, System.Drawing">
+    <value>179, 25</value>
+  </data>
+  <data name="btnGenerateColorScheme.Location" type="System.Drawing.Point, System.Drawing">
+    <value>160, 159</value>
+  </data>
+  <data name="btnGenerateColorScheme.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 4, 4, 4</value>
+  </data>
+  <data name="btnGenerateColorScheme.Size" type="System.Drawing.Size, System.Drawing">
+    <value>100, 26</value>
+  </data>
+  <data name="btnGenerateColorScheme.Text" xml:space="preserve">
+    <value>生成</value>
+  </data>
+  <data name="label1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>16, 21</value>
+  </data>
+  <data name="label1.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 0, 4, 0</value>
+  </data>
+  <data name="label1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>67, 15</value>
+  </data>
+  <data name="label1.Text" xml:space="preserve">
+    <value>渲染模式</value>
+  </data>
+  <data name="cboRasterRendering.Location" type="System.Drawing.Point, System.Drawing">
+    <value>137, 15</value>
+  </data>
+  <data name="cboRasterRendering.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 4, 4, 4</value>
+  </data>
+  <data name="cboRasterRendering.Size" type="System.Drawing.Size, System.Drawing">
+    <value>337, 25</value>
+  </data>
+  <data name="chkUseHistogram.Location" type="System.Drawing.Point, System.Drawing">
+    <value>20, 9</value>
+  </data>
+  <data name="chkUseHistogram.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 4, 4, 4</value>
+  </data>
+  <data name="chkUseHistogram.Size" type="System.Drawing.Size, System.Drawing">
+    <value>143, 24</value>
+  </data>
+  <data name="chkAlphaRendering.Location" type="System.Drawing.Point, System.Drawing">
+    <value>20, 40</value>
+  </data>
+  <data name="chkAlphaRendering.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 4, 4, 4</value>
+  </data>
+  <data name="chkAlphaRendering.Size" type="System.Drawing.Size, System.Drawing">
+    <value>143, 24</value>
+  </data>
+  <data name="chkHillshade.Location" type="System.Drawing.Point, System.Drawing">
+    <value>20, 159</value>
+  </data>
+  <data name="chkHillshade.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 4, 4, 4</value>
+  </data>
+  <data name="chkHillshade.Size" type="System.Drawing.Size, System.Drawing">
+    <value>117, 24</value>
+  </data>
+  <data name="chkHillshade.Text" xml:space="preserve">
+    <value>山阴</value>
+  </data>
+  <data name="groupBuildColorScheme.Location" type="System.Drawing.Point, System.Drawing">
+    <value>395, 248</value>
+  </data>
+  <data name="groupBuildColorScheme.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 4, 4, 4</value>
+  </data>
+  <data name="groupBuildColorScheme.Padding" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 4, 4, 4</value>
+  </data>
+  <data name="groupBuildColorScheme.Size" type="System.Drawing.Size, System.Drawing">
+    <value>283, 201</value>
+  </data>
+  <data name="groupBuildColorScheme.Text" xml:space="preserve">
+    <value>配色方案</value>
+  </data>
+  <data name="btnEditColorSchemeList.Location" type="System.Drawing.Point, System.Drawing">
+    <value>220, 64</value>
+  </data>
+  <data name="btnEditColorSchemeList.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 4, 4, 4</value>
+  </data>
+  <data name="btnEditColorSchemeList.Size" type="System.Drawing.Size, System.Drawing">
+    <value>40, 26</value>
+  </data>
+  <data name="chkReverseColorScheme.Location" type="System.Drawing.Point, System.Drawing">
+    <value>160, 98</value>
+  </data>
+  <data name="chkReverseColorScheme.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 4, 4, 4</value>
+  </data>
+  <data name="chkReverseColorScheme.Size" type="System.Drawing.Size, System.Drawing">
+    <value>103, 24</value>
+  </data>
+  <data name="chkReverseColorScheme.Text" xml:space="preserve">
+    <value>反转</value>
+  </data>
+  <data name="cboGradientModel.Location" type="System.Drawing.Point, System.Drawing">
+    <value>20, 128</value>
+  </data>
+  <data name="cboGradientModel.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 4, 4, 4</value>
+  </data>
+  <data name="cboGradientModel.Size" type="System.Drawing.Size, System.Drawing">
+    <value>239, 25</value>
+  </data>
+  <data name="chkGradientWithinCategory.Location" type="System.Drawing.Point, System.Drawing">
+    <value>20, 98</value>
+  </data>
+  <data name="chkGradientWithinCategory.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 4, 4, 4</value>
+  </data>
+  <data name="chkGradientWithinCategory.Size" type="System.Drawing.Size, System.Drawing">
+    <value>132, 24</value>
+  </data>
+  <data name="chkGradientWithinCategory.Text" xml:space="preserve">
+    <value>梯度</value>
+  </data>
+  <data name="colorSchemeCombo1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>20, 66</value>
+  </data>
+  <data name="colorSchemeCombo1.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 4, 4, 4</value>
+  </data>
+  <data name="colorSchemeCombo1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>191, 26</value>
+  </data>
+  <data name="udBreakCount.Location" type="System.Drawing.Point, System.Drawing">
+    <value>208, 35</value>
+  </data>
+  <data name="udBreakCount.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 4, 4, 4</value>
+  </data>
+  <data name="udBreakCount.Size" type="System.Drawing.Size, System.Drawing">
+    <value>52, 25</value>
+  </data>
+  <data name="chkReverse.Location" type="System.Drawing.Point, System.Drawing">
+    <value>171, 9</value>
+  </data>
+  <data name="chkReverse.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 4, 4, 4</value>
+  </data>
+  <data name="chkReverse.Size" type="System.Drawing.Size, System.Drawing">
+    <value>89, 24</value>
+  </data>
+  <data name="rgbBandControl1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>4, 508</value>
+  </data>
+  <data name="rgbBandControl1.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>5, 2, 5, 2</value>
+  </data>
+  <data name="rgbBandControl1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>657, 262</value>
+  </data>
+  <data name="colorSchemeGrid.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 4, 4, 4</value>
+  </data>
+  <data name="colorSchemeGrid.Size" type="System.Drawing.Size, System.Drawing">
+    <value>363, 410</value>
+  </data>
+  <data name="btnEditColorScheme.Location" type="System.Drawing.Point, System.Drawing">
+    <value>4, 418</value>
+  </data>
+  <data name="btnEditColorScheme.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 4, 4, 4</value>
+  </data>
+  <data name="btnEditColorScheme.Size" type="System.Drawing.Size, System.Drawing">
+    <value>91, 28</value>
+  </data>
+  <assembly alias="mscorlib" name="mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="btnEditColorScheme.TabIndex" type="System.Int32, mscorlib">
+    <value>28</value>
+  </data>
+  <data name="btnEditColorScheme.Text" xml:space="preserve">
+    <value>编辑</value>
+  </data>
+  <data name="panelSingleBand.Location" type="System.Drawing.Point, System.Drawing">
+    <value>395, 778</value>
+  </data>
+  <data name="panelSingleBand.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 4, 4, 4</value>
+  </data>
+  <data name="panelSingleBand.Size" type="System.Drawing.Size, System.Drawing">
+    <value>283, 76</value>
+  </data>
+  <data name="panelColorScheme.Location" type="System.Drawing.Point, System.Drawing">
+    <value>20, 56</value>
+  </data>
+  <data name="panelColorScheme.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 4, 4, 4</value>
+  </data>
+  <data name="panelColorScheme.Size" type="System.Drawing.Size, System.Drawing">
+    <value>363, 451</value>
+  </data>
+  <data name="$this.AutoScaleDimensions" type="System.Drawing.SizeF, System.Drawing">
+    <value>8, 15</value>
+  </data>
+  <data name="$this.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 4, 4, 4</value>
+  </data>
+  <data name="$this.Size" type="System.Drawing.Size, System.Drawing">
+    <value>685, 511</value>
+  </data>
+</root>

@@ -1,0 +1,560 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="&gt;&gt;toolOpenLog.Name" xml:space="preserve">
+    <value>toolOpenLog</value>
+  </data>
+  <data name="mnuOpenLocation.Text" xml:space="preserve">
+    <value>打开输出位置</value>
+  </data>
+  <data name="toolClear.Text" xml:space="preserve">
+    <value>全部清除</value>
+  </data>
+  <assembly alias="mscorlib" name="mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="tasksTreeView1.ToolTipControl.Visible" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="&gt;&gt;splitContainerAdv1.Panel1.Name" xml:space="preserve">
+    <value>splitContainerAdv1.Panel1</value>
+  </data>
+  <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="tasksTreeView1.ToolTipControl.BackgroundImageLayout" type="System.Windows.Forms.ImageLayout, System.Windows.Forms">
+    <value>Tile</value>
+  </data>
+  <assembly alias="System.Drawing" name="System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
+  <data name="tasksTreeView1.ToolTipControl.MaximumSize" type="System.Drawing.Size, System.Drawing">
+    <value>0, 0</value>
+  </data>
+  <data name="&gt;&gt;contextMenuStripEx1.Name" xml:space="preserve">
+    <value>contextMenuStripEx1</value>
+  </data>
+  <data name="tasksTreeView1.ToolTipControl.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Top, Left</value>
+  </data>
+  <data name="toolStripSeparator3.Size" type="System.Drawing.Size, System.Drawing">
+    <value>221, 6</value>
+  </data>
+  <data name="tasksTreeView1.HelpTextControl.AutoSizeMode" type="System.Windows.Forms.AutoSizeMode, System.Windows.Forms">
+    <value>GrowOnly</value>
+  </data>
+  <data name="&gt;&gt;toolRerun.Name" xml:space="preserve">
+    <value>toolRerun</value>
+  </data>
+  <data name="&gt;&gt;toolClear.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripButton, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;tasksTreeView1.Name" xml:space="preserve">
+    <value>tasksTreeView1</value>
+  </data>
+  <data name="&gt;&gt;splitContainerAdv1.Panel2.Name" xml:space="preserve">
+    <value>splitContainerAdv1.Panel2</value>
+  </data>
+  <data name="toolCancelTask.Text" xml:space="preserve">
+    <value>取消</value>
+  </data>
+  <data name="tasksTreeView1.ToolTipControl.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 0</value>
+  </data>
+  <data name="tasksTreeView1.HelpTextControl.Size" type="System.Drawing.Size, System.Drawing">
+    <value>61, 14</value>
+  </data>
+  <data name="&gt;&gt;$this.Name" xml:space="preserve">
+    <value>TasksDockPanel</value>
+  </data>
+  <data name="&gt;&gt;richTextBox1.Parent" xml:space="preserve">
+    <value>splitContainerAdv1.Panel2</value>
+  </data>
+  <data name="&gt;&gt;splitContainerAdv1.Panel2.Type" xml:space="preserve">
+    <value>Syncfusion.Windows.Forms.Tools.SplitPanelAdv, Syncfusion.Tools.Windows, Version=18.1460.0.42, Culture=neutral, PublicKeyToken=3d67ed1f87d44c89</value>
+  </data>
+  <data name="richTextBox1.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="tasksTreeView1.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Fill</value>
+  </data>
+  <data name="richTextBox1.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Fill</value>
+  </data>
+  <data name="tasksTreeView1.ToolTipControl.RightToLeft" type="System.Windows.Forms.RightToLeft, System.Windows.Forms">
+    <value>Inherit</value>
+  </data>
+  <data name="tasksTreeView1.HelpTextControl.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>Inherit</value>
+  </data>
+  <data name="$this.AutoScaleDimensions" type="System.Drawing.SizeF, System.Drawing">
+    <value>6, 12</value>
+  </data>
+  <data name="mnuOpenLocation.Size" type="System.Drawing.Size, System.Drawing">
+    <value>224, 22</value>
+  </data>
+  <data name="tasksTreeView1.HelpTextControl.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Top, Left</value>
+  </data>
+  <data name="tasksTreeView1.HelpTextControl.AccessibleDescription" type="System.Resources.ResXNullRef, System.Windows.Forms">
+    <value />
+  </data>
+  <data name="toolRunAnother.Size" type="System.Drawing.Size, System.Drawing">
+    <value>224, 22</value>
+  </data>
+  <data name="&gt;&gt;splitContainerAdv1.Type" xml:space="preserve">
+    <value>Syncfusion.Windows.Forms.Tools.SplitContainerAdv, Syncfusion.Tools.Windows, Version=18.1460.0.42, Culture=neutral, PublicKeyToken=3d67ed1f87d44c89</value>
+  </data>
+  <data name="&gt;&gt;richTextBox1.Name" xml:space="preserve">
+    <value>richTextBox1</value>
+  </data>
+  <data name="toolOpenLog.Text" xml:space="preserve">
+    <value>打开运行日志</value>
+  </data>
+  <data name="tasksTreeView1.HelpTextControl.BackgroundImage" type="System.Resources.ResXNullRef, System.Windows.Forms">
+    <value />
+  </data>
+  <data name="&gt;&gt;toolStripEx1.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;toolRemoveTask.Name" xml:space="preserve">
+    <value>toolRemoveTask</value>
+  </data>
+  <data name="tasksTreeView1.ToolTipControl.Text" xml:space="preserve">
+    <value>toolTip</value>
+  </data>
+  <data name="mnuRemoveOutput.Text" xml:space="preserve">
+    <value>删除任务和输出</value>
+  </data>
+  <data name="&gt;&gt;toolStripSeparator3.Name" xml:space="preserve">
+    <value>toolStripSeparator3</value>
+  </data>
+  <data name="tasksTreeView1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>329, 217</value>
+  </data>
+  <data name="tasksTreeView1.ToolTipControl.AutoScroll" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="tasksTreeView1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 0</value>
+  </data>
+  <data name="tasksTreeView1.ToolTipControl.AutoSizeMode" type="System.Windows.Forms.AutoSizeMode, System.Windows.Forms">
+    <value>GrowOnly</value>
+  </data>
+  <data name="&gt;&gt;tasksTreeView1.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="tasksTreeView1.TabIndex" type="System.Int32, mscorlib">
+    <value>3</value>
+  </data>
+  <data name="splitContainerAdv1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 37</value>
+  </data>
+  <data name="&gt;&gt;splitContainerAdv1.Panel1.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="tasksTreeView1.HelpTextControl.AccessibleName" type="System.Resources.ResXNullRef, System.Windows.Forms">
+    <value />
+  </data>
+  <data name="toolStripEx1.Text" xml:space="preserve">
+    <value>toolStripEx1</value>
+  </data>
+  <data name="&gt;&gt;mnuRemoveOutput.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="contextMenuStripEx1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>225, 198</value>
+  </data>
+  <data name="splitContainerAdv1.TabIndex" type="System.Int32, mscorlib">
+    <value>4</value>
+  </data>
+  <data name="&gt;&gt;toolOpenLog.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;mnuOpenLocation.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;splitContainerAdv1.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="tasksTreeView1.ToolTipControl.Font" type="System.Resources.ResXNullRef, System.Windows.Forms">
+    <value />
+  </data>
+  <data name="toolPauseTask.Text" xml:space="preserve">
+    <value>暂停</value>
+  </data>
+  <data name="&gt;&gt;toolCancelTask.Name" xml:space="preserve">
+    <value>toolCancelTask</value>
+  </data>
+  <data name="&gt;&gt;$this.Type" xml:space="preserve">
+    <value>MW5.UI.Controls.DockPanelControlBase, MW5.UI, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="toolRemoveTask.Text" xml:space="preserve">
+    <value>删除</value>
+  </data>
+  <data name="&gt;&gt;tasksTreeView1.Parent" xml:space="preserve">
+    <value>splitContainerAdv1.Panel1</value>
+  </data>
+  <data name="&gt;&gt;toolRerun.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;toolStripEx1.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="tasksTreeView1.ToolTipControl.BackgroundImage" type="System.Resources.ResXNullRef, System.Windows.Forms">
+    <value />
+  </data>
+  <data name="toolStripEx1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 0</value>
+  </data>
+  <data name="&gt;&gt;splitContainerAdv1.Panel1.Type" xml:space="preserve">
+    <value>Syncfusion.Windows.Forms.Tools.SplitPanelAdv, Syncfusion.Tools.Windows, Version=18.1460.0.42, Culture=neutral, PublicKeyToken=3d67ed1f87d44c89</value>
+  </data>
+  <data name="toolRerun.Size" type="System.Drawing.Size, System.Drawing">
+    <value>224, 22</value>
+  </data>
+  <data name="tasksTreeView1.ToolTipControl.TabIndex" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="tasksTreeView1.ToolTipControl.AccessibleDescription" type="System.Resources.ResXNullRef, System.Windows.Forms">
+    <value />
+  </data>
+  <data name="richTextBox1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 0</value>
+  </data>
+  <data name="&gt;&gt;toolStripEx1.Type" xml:space="preserve">
+    <value>Syncfusion.Windows.Forms.Tools.ToolStripEx, Syncfusion.Tools.Windows, Version=18.1460.0.42, Culture=neutral, PublicKeyToken=3d67ed1f87d44c89</value>
+  </data>
+  <data name="toolCancelTask.Size" type="System.Drawing.Size, System.Drawing">
+    <value>224, 22</value>
+  </data>
+  <data name="tasksTreeView1.HelpTextControl.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="tasksTreeView1.ToolTipControl.AutoSize" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="tasksTreeView1.HelpTextControl.MaximumSize" type="System.Drawing.Size, System.Drawing">
+    <value>0, 0</value>
+  </data>
+  <data name="contextMenuStripEx1.TrayLocation" type="System.Drawing.Point, System.Drawing">
+    <value>134, 17</value>
+  </data>
+  <data name="tasksTreeView1.HelpTextControl.Text" xml:space="preserve">
+    <value>help text</value>
+  </data>
+  <data name="tasksTreeView1.Nodes" mimetype="application/x-microsoft.net.object.binary.base64">
+    <value>
+        AAEAAAD/////AQAAAAAAAAAMAgAAAGBTeW5jZnVzaW9uLlRvb2xzLldpbmRvd3MsIFZlcnNpb249MTgu
+        MTQ2MC4wLjQyLCBDdWx0dXJlPW5ldXRyYWwsIFB1YmxpY0tleVRva2VuPTNkNjdlZDFmODdkNDRjODkF
+        AQAAACpTeW5jZnVzaW9uLldpbmRvd3MuRm9ybXMuVG9vbHMuVHJlZU5vZGVBZHYCAAAACU5vZGVTdHls
+        ZQpDaGlsZFN0eWxlBAQ4U3luY2Z1c2lvbi5XaW5kb3dzLkZvcm1zLlRvb2xzLlRyZWVOb2RlQWR2U3R5
+        bGVJbmZvU3RvcmUCAAAAOFN5bmNmdXNpb24uV2luZG93cy5Gb3Jtcy5Ub29scy5UcmVlTm9kZUFkdlN0
+        eWxlSW5mb1N0b3JlAgAAAAIAAAAJAwAAAAkEAAAADAUAAABRU3lzdGVtLkRyYXdpbmcsIFZlcnNpb249
+        NC4wLjAuMCwgQ3VsdHVyZT1uZXV0cmFsLCBQdWJsaWNLZXlUb2tlbj1iMDNmNWY3ZjExZDUwYTNhBQMA
+        AAA4U3luY2Z1c2lvbi5XaW5kb3dzLkZvcm1zLlRvb2xzLlRyZWVOb2RlQWR2U3R5bGVJbmZvU3RvcmUG
+        AAAABFRleHQQQWN0aXZlQ2hlY2tDb2xvchJJbkFjdGl2ZUNoZWNrQ29sb3IZU2VsZWN0ZWRPcHRpb25C
+        dXR0b25Db2xvchFPcHRpb25CdXR0b25Db2xvchpFbnN1cmVEZWZhdWx0T3B0aW9uZWRDaGlsZAEEBAQE
+        ABRTeXN0ZW0uRHJhd2luZy5Db2xvcgUAAAAUU3lzdGVtLkRyYXdpbmcuQ29sb3IFAAAAFFN5c3RlbS5E
+        cmF3aW5nLkNvbG9yBQAAABRTeXN0ZW0uRHJhd2luZy5Db2xvcgUAAAABAgAAAAYGAAAACUFsbCB0YXNr
+        cwX5////FFN5c3RlbS5EcmF3aW5nLkNvbG9yBAAAAARuYW1lBXZhbHVlCmtub3duQ29sb3IFc3RhdGUB
+        AAAACQcHBQAAAAoAAAAAAAAAAAoAAQAB+P////n///8KAAAAAAAAAAAGAAEAAff////5////CgAAAAAA
+        AAAAIwABAAH2////+f///woAAAAAAAAAAKQAAQABBQQAAAA4U3luY2Z1c2lvbi5XaW5kb3dzLkZvcm1z
+        LlRvb2xzLlRyZWVOb2RlQWR2U3R5bGVJbmZvU3RvcmUGAAAAEEFjdGl2ZUNoZWNrQ29sb3IVQ2hlY2tC
+        b3hUaWNrVGhpY2tuZXNzEkluQWN0aXZlQ2hlY2tDb2xvchlTZWxlY3RlZE9wdGlvbkJ1dHRvbkNvbG9y
+        EU9wdGlvbkJ1dHRvbkNvbG9yGkVuc3VyZURlZmF1bHRPcHRpb25lZENoaWxkBAAEBAQAFFN5c3RlbS5E
+        cmF3aW5nLkNvbG9yBQAAAAgUU3lzdGVtLkRyYXdpbmcuQ29sb3IFAAAAFFN5c3RlbS5EcmF3aW5nLkNv
+        bG9yBQAAABRTeXN0ZW0uRHJhd2luZy5Db2xvcgUAAAABAgAAAAH1////+f///woAAAAAAAAAAAoAAQAA
+        AAAAAfT////5////CgAAAAAAAAAABgABAAHz////+f///woAAAAAAAAAACMAAQAB8v////n///8KAAAA
+        AAAAAACkAAEAAQs=
+</value>
+  </data>
+  <data name="tasksTreeView1.ToolTipControl.AccessibleName" type="System.Resources.ResXNullRef, System.Windows.Forms">
+    <value />
+  </data>
+  <data name="&gt;&gt;toolRunAnother.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;toolClear.Name" xml:space="preserve">
+    <value>toolClear</value>
+  </data>
+  <data name="&gt;&gt;richTextBox1.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="toolRunAnother.Text" xml:space="preserve">
+    <value>另运行此任务</value>
+  </data>
+  <data name="toolStripSeparator1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>221, 6</value>
+  </data>
+  <data name="&gt;&gt;contextMenuStripEx1.Type" xml:space="preserve">
+    <value>Syncfusion.Windows.Forms.Tools.ContextMenuStripEx, Syncfusion.Tools.Windows, Version=18.1460.0.42, Culture=neutral, PublicKeyToken=3d67ed1f87d44c89</value>
+  </data>
+  <data name="toolStripEx1.TabIndex" type="System.Int32, mscorlib">
+    <value>2</value>
+  </data>
+  <data name="richTextBox1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>329, 86</value>
+  </data>
+  <data name="tasksTreeView1.HelpTextControl.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>None</value>
+  </data>
+  <data name="toolStripEx1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>329, 37</value>
+  </data>
+  <data name="tasksTreeView1.HelpTextControl.Font" type="System.Resources.ResXNullRef, System.Windows.Forms">
+    <value />
+  </data>
+  <data name="&gt;&gt;toolStripEx1.Name" xml:space="preserve">
+    <value>toolStripEx1</value>
+  </data>
+  <data name="&gt;&gt;toolRemoveTask.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="tasksTreeView1.HelpTextControl.Visible" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="splitContainerAdv1.Text" xml:space="preserve">
+    <value>splitContainerAdv1</value>
+  </data>
+  <data name="splitContainerAdv1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>329, 310</value>
+  </data>
+  <data name="splitContainerAdv1.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Fill</value>
+  </data>
+  <data name="&gt;&gt;toolRunAnother.Name" xml:space="preserve">
+    <value>toolRunAnother</value>
+  </data>
+  <data name="toolClear.ImageScaling" type="System.Windows.Forms.ToolStripItemImageScaling, System.Windows.Forms">
+    <value>None</value>
+  </data>
+  <data name="tasksTreeView1.ToolTipControl.Size" type="System.Drawing.Size, System.Drawing">
+    <value>49, 14</value>
+  </data>
+  <data name="$this.Size" type="System.Drawing.Size, System.Drawing">
+    <value>329, 347</value>
+  </data>
+  <data name="&gt;&gt;splitContainerAdv1.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="richTextBox1.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="mnuRemoveOutput.Size" type="System.Drawing.Size, System.Drawing">
+    <value>224, 22</value>
+  </data>
+  <data name="toolRemoveTask.Size" type="System.Drawing.Size, System.Drawing">
+    <value>224, 22</value>
+  </data>
+  <data name="&gt;&gt;splitContainerAdv1.Name" xml:space="preserve">
+    <value>splitContainerAdv1</value>
+  </data>
+  <data name="toolClear.Size" type="System.Drawing.Size, System.Drawing">
+    <value>34, 34</value>
+  </data>
+  <data name="tasksTreeView1.Text" xml:space="preserve">
+    <value>_gisResultsTreeView1</value>
+  </data>
+  <data name="toolOpenLog.Size" type="System.Drawing.Size, System.Drawing">
+    <value>224, 22</value>
+  </data>
+  <data name="toolStripSeparator2.Size" type="System.Drawing.Size, System.Drawing">
+    <value>221, 6</value>
+  </data>
+  <data name="&gt;&gt;splitContainerAdv1.Panel2.Parent" xml:space="preserve">
+    <value>splitContainerAdv1</value>
+  </data>
+  <data name="&gt;&gt;mnuRemoveOutput.Name" xml:space="preserve">
+    <value>mnuRemoveOutput</value>
+  </data>
+  <data name="&gt;&gt;toolStripSeparator2.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripSeparator, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;toolStripSeparator1.Name" xml:space="preserve">
+    <value>toolStripSeparator1</value>
+  </data>
+  <data name="tasksTreeView1.HelpTextControl.AutoSize" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="&gt;&gt;richTextBox1.Type" xml:space="preserve">
+    <value>System.Windows.Forms.RichTextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="tasksTreeView1.ToolTipControl.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>None</value>
+  </data>
+  <data name="tasksTreeView1.HelpTextControl.AutoScroll" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="&gt;&gt;toolStripSeparator3.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripSeparator, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;toolCancelTask.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;toolPauseTask.Name" xml:space="preserve">
+    <value>toolPauseTask</value>
+  </data>
+  <data name="&gt;&gt;toolStripSeparator1.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripSeparator, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;mnuOpenLocation.Name" xml:space="preserve">
+    <value>mnuOpenLocation</value>
+  </data>
+  <data name="&gt;&gt;toolStripSeparator2.Name" xml:space="preserve">
+    <value>toolStripSeparator2</value>
+  </data>
+  <data name="tasksTreeView1.HelpTextControl.RightToLeft" type="System.Windows.Forms.RightToLeft, System.Windows.Forms">
+    <value>Inherit</value>
+  </data>
+  <data name="toolClear.ImageTransparentColor" type="System.Drawing.Color, System.Drawing">
+    <value>Magenta</value>
+  </data>
+  <data name="tasksTreeView1.HelpTextControl.BackgroundImageLayout" type="System.Windows.Forms.ImageLayout, System.Windows.Forms">
+    <value>Tile</value>
+  </data>
+  <data name="&gt;&gt;splitContainerAdv1.Panel1.Parent" xml:space="preserve">
+    <value>splitContainerAdv1</value>
+  </data>
+  <data name="&gt;&gt;toolPauseTask.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;tasksTreeView1.Type" xml:space="preserve">
+    <value>MW5.Tools.Views.TasksTreeView, MW5.Tools, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="toolRerun.Text" xml:space="preserve">
+    <value>重新运行</value>
+  </data>
+  <data name="&gt;&gt;splitContainerAdv1.Panel2.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="tasksTreeView1.HelpTextControl.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 0</value>
+  </data>
+  <data name="tasksTreeView1.ToolTipControl.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>Inherit</value>
+  </data>
+  <data name="toolPauseTask.Size" type="System.Drawing.Size, System.Drawing">
+    <value>224, 22</value>
+  </data>
+  <metadata name="$this.Language" type="System.Globalization.CultureInfo, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>zh-CN</value>
+  </metadata>
+  <metadata name="$this.Localizable" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <metadata name="toolStripEx1.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>17, 17</value>
+  </metadata>
+</root>

@@ -1,0 +1,528 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="&gt;&gt;chkCacheRenderingData.Parent" xml:space="preserve">
+    <value>configPanelControl1</value>
+  </data>
+  <data name="label1.Text" xml:space="preserve">
+    <value>Maximum number of features allowed to be loaded from the source:</value>
+  </data>
+  <assembly alias="System.Drawing" name="System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
+  <data name="udSpatialIndexCount.Size" type="System.Drawing.Size, System.Drawing">
+    <value>74, 21</value>
+  </data>
+  <data name="&gt;&gt;label3.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <assembly alias="mscorlib" name="mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="configPanelControl3.TabIndex" type="System.Int32, mscorlib">
+    <value>13</value>
+  </data>
+  <data name="chkCreateSpatialIndex.Size" type="System.Drawing.Size, System.Drawing">
+    <value>277, 19</value>
+  </data>
+  <data name="txtMaxOgrCount.Location" type="System.Drawing.Point, System.Drawing">
+    <value>21, 56</value>
+  </data>
+  <data name="&gt;&gt;udSpatialIndexCount.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="&gt;&gt;configPanelControl2.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="chkCacheRenderingData.TabIndex" type="System.Int32, mscorlib">
+    <value>10</value>
+  </data>
+  <data name="chkCacheRenderingData.Location" type="System.Drawing.Point, System.Drawing">
+    <value>21, 31</value>
+  </data>
+  <data name="&gt;&gt;chkFastMode.Name" xml:space="preserve">
+    <value>chkFastMode</value>
+  </data>
+  <data name="label3.Location" type="System.Drawing.Point, System.Drawing">
+    <value>18, 80</value>
+  </data>
+  <data name="chkFastMode.Enabled" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="&gt;&gt;udSpatialIndexCount.Name" xml:space="preserve">
+    <value>udSpatialIndexCount</value>
+  </data>
+  <data name="&gt;&gt;configPanelControl1.Type" xml:space="preserve">
+    <value>MW5.UI.Controls.ConfigPanelControl, MW5.UI, Version=5.6.3.33476, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;label1.Name" xml:space="preserve">
+    <value>label1</value>
+  </data>
+  <data name="&gt;&gt;txtMaxOgrCount.Name" xml:space="preserve">
+    <value>txtMaxOgrCount</value>
+  </data>
+  <data name="&gt;&gt;configPanelControl3.Type" xml:space="preserve">
+    <value>MW5.UI.Controls.ConfigPanelControl, MW5.UI, Version=5.6.3.33476, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;chkFastMode.Type" xml:space="preserve">
+    <value>System.Windows.Forms.CheckBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;$this.Name" xml:space="preserve">
+    <value>VectorConfigPage</value>
+  </data>
+  <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="label3.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Top, Left, Right</value>
+  </data>
+  <data name="&gt;&gt;cboProjectionMismatch.Type" xml:space="preserve">
+    <value>Syncfusion.Windows.Forms.Tools.ComboBoxAdv, Syncfusion.Tools.Windows, Version=18.1460.0.42, Culture=neutral, PublicKeyToken=3d67ed1f87d44c89</value>
+  </data>
+  <data name="configPanelControl2.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Top</value>
+  </data>
+  <data name="&gt;&gt;chkShareConnection.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="&gt;&gt;txtMaxOgrCount.ZOrder" xml:space="preserve">
+    <value>4</value>
+  </data>
+  <data name="&gt;&gt;chkCacheDbfRecords.Name" xml:space="preserve">
+    <value>chkCacheDbfRecords</value>
+  </data>
+  <data name="cboProjectionAbsence.TabIndex" type="System.Int32, mscorlib">
+    <value>18</value>
+  </data>
+  <data name="&gt;&gt;label3.Parent" xml:space="preserve">
+    <value>configPanelControl2</value>
+  </data>
+  <data name="&gt;&gt;cboProjectionMismatch.Name" xml:space="preserve">
+    <value>cboProjectionMismatch</value>
+  </data>
+  <data name="label2.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="label3.Size" type="System.Drawing.Size, System.Drawing">
+    <value>358, 53</value>
+  </data>
+  <data name="&gt;&gt;cboProjectionAbsence.Type" xml:space="preserve">
+    <value>Syncfusion.Windows.Forms.Tools.ComboBoxAdv, Syncfusion.Tools.Windows, Version=18.1460.0.42, Culture=neutral, PublicKeyToken=3d67ed1f87d44c89</value>
+  </data>
+  <data name="&gt;&gt;chkFastMode.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="$this.AutoScaleDimensions" type="System.Drawing.SizeF, System.Drawing">
+    <value>6, 12</value>
+  </data>
+  <data name="&gt;&gt;chkShareConnection.Type" xml:space="preserve">
+    <value>System.Windows.Forms.CheckBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="cboProjectionMismatch.TabIndex" type="System.Int32, mscorlib">
+    <value>15</value>
+  </data>
+  <data name="&gt;&gt;chkSpatialIndexDialog.Type" xml:space="preserve">
+    <value>System.Windows.Forms.CheckBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="configPanelControl2.TabIndex" type="System.Int32, mscorlib">
+    <value>15</value>
+  </data>
+  <data name="&gt;&gt;chkCacheDbfRecords.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="cboProjectionAbsence.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 8.25pt</value>
+  </data>
+  <data name="&gt;&gt;configPanelControl2.Type" xml:space="preserve">
+    <value>MW5.UI.Controls.ConfigPanelControl, MW5.UI, Version=5.6.3.33476, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;label1.Parent" xml:space="preserve">
+    <value>configPanelControl2</value>
+  </data>
+  <data name="txtMaxOgrCount.Size" type="System.Drawing.Size, System.Drawing">
+    <value>100, 21</value>
+  </data>
+  <data name="chkShareConnection.Location" type="System.Drawing.Point, System.Drawing">
+    <value>21, 136</value>
+  </data>
+  <data name="cboProjectionMismatch.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 8.25pt</value>
+  </data>
+  <data name="&gt;&gt;chkShareConnection.Name" xml:space="preserve">
+    <value>chkShareConnection</value>
+  </data>
+  <data name="label2.TabIndex" type="System.Int32, mscorlib">
+    <value>12</value>
+  </data>
+  <data name="cboProjectionAbsence.Size" type="System.Drawing.Size, System.Drawing">
+    <value>166, 21</value>
+  </data>
+  <data name="label1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>329, 17</value>
+  </data>
+  <data name="&gt;&gt;udSpatialIndexCount.Type" xml:space="preserve">
+    <value>System.Windows.Forms.NumericUpDown, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="label3.TabIndex" type="System.Int32, mscorlib">
+    <value>3</value>
+  </data>
+  <data name="txtMaxOgrCount.TabIndex" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="&gt;&gt;txtMaxOgrCount.Parent" xml:space="preserve">
+    <value>configPanelControl2</value>
+  </data>
+  <data name="&gt;&gt;cboProjectionAbsence.Name" xml:space="preserve">
+    <value>cboProjectionAbsence</value>
+  </data>
+  <data name="cboProjectionAbsence.Location" type="System.Drawing.Point, System.Drawing">
+    <value>147, 143</value>
+  </data>
+  <data name="&gt;&gt;label2.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="configPanelControl1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>394, 83</value>
+  </data>
+  <data name="chkCreateSpatialIndex.Text" xml:space="preserve">
+    <value>Create spatial index on opening (if it is missing)</value>
+  </data>
+  <data name="&gt;&gt;label2.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="label2.Size" type="System.Drawing.Size, System.Drawing">
+    <value>221, 12</value>
+  </data>
+  <data name="chkCacheDbfRecords.Location" type="System.Drawing.Point, System.Drawing">
+    <value>21, 56</value>
+  </data>
+  <data name="configPanelControl3.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 0</value>
+  </data>
+  <data name="chkFastMode.Size" type="System.Drawing.Size, System.Drawing">
+    <value>207, 19</value>
+  </data>
+  <data name="configPanelControl1.TabIndex" type="System.Int32, mscorlib">
+    <value>14</value>
+  </data>
+  <data name="chkCacheDbfRecords.TabIndex" type="System.Int32, mscorlib">
+    <value>11</value>
+  </data>
+  <data name="label1.TabIndex" type="System.Int32, mscorlib">
+    <value>2</value>
+  </data>
+  <data name="&gt;&gt;configPanelControl3.Name" xml:space="preserve">
+    <value>configPanelControl3</value>
+  </data>
+  <data name="&gt;&gt;chkCacheDbfRecords.Type" xml:space="preserve">
+    <value>System.Windows.Forms.CheckBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;chkCreateSpatialIndex.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="&gt;&gt;chkCacheDbfRecords.Parent" xml:space="preserve">
+    <value>configPanelControl1</value>
+  </data>
+  <data name="configPanelControl2.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 215</value>
+  </data>
+  <data name="label3.Text" xml:space="preserve">
+    <value>If the layer has more features than specified here, an attempt will be made to load them dynamically for particular map extents as you zoom in. But for the time being no features will be displayed as the map is zoomed to the full extents of this layer.</value>
+  </data>
+  <data name="configPanelControl3.Size" type="System.Drawing.Size, System.Drawing">
+    <value>394, 132</value>
+  </data>
+  <data name="chkCreateSpatialIndex.Location" type="System.Drawing.Point, System.Drawing">
+    <value>21, 66</value>
+  </data>
+  <data name="chkCacheDbfRecords.Text" xml:space="preserve">
+    <value>Cache attribute table records</value>
+  </data>
+  <data name="chkFastMode.Text" xml:space="preserve">
+    <value>Fast mode (don't use COM points)</value>
+  </data>
+  <data name="&gt;&gt;txtMaxOgrCount.Type" xml:space="preserve">
+    <value>Syncfusion.Windows.Forms.Tools.IntegerTextBox, Syncfusion.Shared.Base, Version=18.1460.0.42, Culture=neutral, PublicKeyToken=3d67ed1f87d44c89</value>
+  </data>
+  <data name="configPanelControl1.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Top</value>
+  </data>
+  <data name="chkSpatialIndexDialog.Location" type="System.Drawing.Point, System.Drawing">
+    <value>21, 42</value>
+  </data>
+  <data name="&gt;&gt;chkShareConnection.Parent" xml:space="preserve">
+    <value>configPanelControl2</value>
+  </data>
+  <data name="&gt;&gt;configPanelControl3.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="&gt;&gt;label2.Parent" xml:space="preserve">
+    <value>configPanelControl3</value>
+  </data>
+  <data name="&gt;&gt;chkFastMode.Parent" xml:space="preserve">
+    <value>configPanelControl1</value>
+  </data>
+  <data name="chkSpatialIndexDialog.Size" type="System.Drawing.Size, System.Drawing">
+    <value>292, 19</value>
+  </data>
+  <data name="&gt;&gt;configPanelControl1.Name" xml:space="preserve">
+    <value>configPanelControl1</value>
+  </data>
+  <data name="label1.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Top, Left, Right</value>
+  </data>
+  <data name="&gt;&gt;chkSpatialIndexDialog.Name" xml:space="preserve">
+    <value>chkSpatialIndexDialog</value>
+  </data>
+  <data name="chkFastMode.TabIndex" type="System.Int32, mscorlib">
+    <value>12</value>
+  </data>
+  <data name="&gt;&gt;udSpatialIndexCount.Parent" xml:space="preserve">
+    <value>configPanelControl3</value>
+  </data>
+  <data name="&gt;&gt;chkCreateSpatialIndex.Type" xml:space="preserve">
+    <value>System.Windows.Forms.CheckBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;label2.Name" xml:space="preserve">
+    <value>label2</value>
+  </data>
+  <data name="&gt;&gt;label3.Name" xml:space="preserve">
+    <value>label3</value>
+  </data>
+  <data name="&gt;&gt;chkCacheRenderingData.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="chkFastMode.Location" type="System.Drawing.Point, System.Drawing">
+    <value>313, 31</value>
+  </data>
+  <data name="&gt;&gt;$this.Type" xml:space="preserve">
+    <value>MW5.UI.Controls.ConfigPageBase, MW5.UI, Version=5.6.3.33476, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="udSpatialIndexCount.Location" type="System.Drawing.Point, System.Drawing">
+    <value>236, 98</value>
+  </data>
+  <data name="chkCacheRenderingData.Size" type="System.Drawing.Size, System.Drawing">
+    <value>292, 19</value>
+  </data>
+  <data name="&gt;&gt;configPanelControl1.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="chkShareConnection.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="configPanelControl3.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Top</value>
+  </data>
+  <data name="$this.Size" type="System.Drawing.Size, System.Drawing">
+    <value>394, 387</value>
+  </data>
+  <data name="chkCacheRenderingData.Text" xml:space="preserve">
+    <value>Cache rendering data (disk based mode)</value>
+  </data>
+  <data name="&gt;&gt;configPanelControl2.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="label2.Text" xml:space="preserve">
+    <value>Number of geometries to create index</value>
+  </data>
+  <data name="&gt;&gt;configPanelControl3.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="configPanelControl2.Size" type="System.Drawing.Size, System.Drawing">
+    <value>394, 161</value>
+  </data>
+  <data name="chkCacheDbfRecords.Size" type="System.Drawing.Size, System.Drawing">
+    <value>292, 19</value>
+  </data>
+  <data name="&gt;&gt;chkSpatialIndexDialog.ZOrder" xml:space="preserve">
+    <value>4</value>
+  </data>
+  <data name="label1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>18, 37</value>
+  </data>
+  <data name="label2.Location" type="System.Drawing.Point, System.Drawing">
+    <value>18, 100</value>
+  </data>
+  <data name="&gt;&gt;configPanelControl2.Name" xml:space="preserve">
+    <value>configPanelControl2</value>
+  </data>
+  <data name="cboProjectionMismatch.Location" type="System.Drawing.Point, System.Drawing">
+    <value>144, 72</value>
+  </data>
+  <data name="&gt;&gt;chkCacheRenderingData.Name" xml:space="preserve">
+    <value>chkCacheRenderingData</value>
+  </data>
+  <data name="chkShareConnection.Size" type="System.Drawing.Size, System.Drawing">
+    <value>318, 16</value>
+  </data>
+  <data name="chkFastMode.Visible" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="txtMaxOgrCount.Text" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="chkSpatialIndexDialog.TabIndex" type="System.Int32, mscorlib">
+    <value>9</value>
+  </data>
+  <data name="udSpatialIndexCount.TabIndex" type="System.Int32, mscorlib">
+    <value>13</value>
+  </data>
+  <data name="&gt;&gt;chkSpatialIndexDialog.Parent" xml:space="preserve">
+    <value>configPanelControl3</value>
+  </data>
+  <data name="chkShareConnection.TabIndex" type="System.Int32, mscorlib">
+    <value>4</value>
+  </data>
+  <data name="chkSpatialIndexDialog.Text" xml:space="preserve">
+    <value>Show spatial index creation dialog</value>
+  </data>
+  <data name="&gt;&gt;chkCreateSpatialIndex.Name" xml:space="preserve">
+    <value>chkCreateSpatialIndex</value>
+  </data>
+  <data name="&gt;&gt;chkCacheRenderingData.Type" xml:space="preserve">
+    <value>System.Windows.Forms.CheckBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="configPanelControl1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 132</value>
+  </data>
+  <data name="&gt;&gt;configPanelControl1.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="&gt;&gt;label1.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="chkShareConnection.Text" xml:space="preserve">
+    <value>Share connection between layers (may be unstable)</value>
+  </data>
+  <data name="&gt;&gt;label1.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="cboProjectionMismatch.Size" type="System.Drawing.Size, System.Drawing">
+    <value>166, 21</value>
+  </data>
+  <data name="chkCreateSpatialIndex.TabIndex" type="System.Int32, mscorlib">
+    <value>10</value>
+  </data>
+  <data name="&gt;&gt;chkCreateSpatialIndex.Parent" xml:space="preserve">
+    <value>configPanelControl3</value>
+  </data>
+  <data name="&gt;&gt;label3.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <metadata name="$this.Localizable" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <metadata name="$this.Language" type="System.Globalization.CultureInfo, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>zh-CN</value>
+  </metadata>
+</root>

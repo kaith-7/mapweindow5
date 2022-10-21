@@ -1,0 +1,902 @@
+<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <assembly alias="mscorlib" name="mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="btnZoomToProjection.ImageIndex" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="&gt;&gt;btnProperties.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="txtScope.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Top, Left, Right</value>
+  </data>
+  <data name="&gt;&gt;txtName.Parent" xml:space="preserve">
+    <value>panel1</value>
+  </data>
+  <data name="splitContainer2.Orientation" type="System.Windows.Forms.Orientation, System.Windows.Forms">
+    <value>Horizontal</value>
+  </data>
+  <data name="_projectionTreeView1.HelpTextControl.RightToLeft" type="System.Windows.Forms.RightToLeft, System.Windows.Forms">
+    <value>Inherit</value>
+  </data>
+  <data name="_projectionTreeView1.ToolTipControl.Font" type="System.Resources.ResXNullRef, System.Windows.Forms">
+    <value />
+  </data>
+  <data name="&gt;&gt;btnZoomToProjection.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <assembly alias="System.Drawing" name="System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
+  <data name="btnZoomToProjection.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleRight</value>
+  </data>
+  <data name="&gt;&gt;lblX.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripStatusLabel, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="txtRemarks.TabIndex" type="System.Int32, mscorlib">
+    <value>14</value>
+  </data>
+  <data name="projectionMap1.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Fill</value>
+  </data>
+  <data name="&gt;&gt;linkLabel1.Name" xml:space="preserve">
+    <value>linkLabel1</value>
+  </data>
+  <data name="btnZoomToMaxExtents.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleRight</value>
+  </data>
+  <data name="lblX.Size" type="System.Drawing.Size, System.Drawing">
+    <value>61, 21</value>
+  </data>
+  <data name="_projectionTreeView1.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="_projectionTreeView1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>326, 410</value>
+  </data>
+  <data name="_projectionTreeView1.HelpTextControl.MaximumSize" type="System.Drawing.Size, System.Drawing">
+    <value>0, 0</value>
+  </data>
+  <data name="txtCode.Location" type="System.Drawing.Point, System.Drawing">
+    <value>49, 15</value>
+  </data>
+  <data name="&gt;&gt;projectionMap1.Name" xml:space="preserve">
+    <value>projectionMap1</value>
+  </data>
+  <data name="&gt;&gt;label1.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="panel1.TabIndex" type="System.Int32, mscorlib">
+    <value>10</value>
+  </data>
+  <data name="&gt;&gt;imageList1.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ImageList, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="_projectionTreeView1.HelpTextControl.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 0</value>
+  </data>
+  <data name="btnZoomToProjection.Location" type="System.Drawing.Point, System.Drawing">
+    <value>112, 144</value>
+  </data>
+  <data name="&gt;&gt;splitContainer2.Type" xml:space="preserve">
+    <value>System.Windows.Forms.SplitContainer, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;btnZoomToProjection.Parent" xml:space="preserve">
+    <value>panel1</value>
+  </data>
+  <data name="txtScope.Location" type="System.Drawing.Point, System.Drawing">
+    <value>14, 75</value>
+  </data>
+  <data name="&gt;&gt;lblPcsCount.Name" xml:space="preserve">
+    <value>lblPcsCount</value>
+  </data>
+  <data name="txtCode.Size" type="System.Drawing.Size, System.Drawing">
+    <value>63, 21</value>
+  </data>
+  <data name="&gt;&gt;splitContainer2.Panel1.Parent" xml:space="preserve">
+    <value>splitContainer2</value>
+  </data>
+  <data name="&gt;&gt;lblGcsCount.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripStatusLabel, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="_projectionTreeView1.HelpTextControl.Font" type="System.Resources.ResXNullRef, System.Windows.Forms">
+    <value />
+  </data>
+  <data name="&gt;&gt;statusStrip1.Name" xml:space="preserve">
+    <value>statusStrip1</value>
+  </data>
+  <data name="$this.Text" xml:space="preserve">
+    <value>Projection Viewer</value>
+  </data>
+  <data name="btnProperties.ImageAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleLeft</value>
+  </data>
+  <data name="txtScope.TabIndex" type="System.Int32, mscorlib">
+    <value>13</value>
+  </data>
+  <data name="btnProperties.Size" type="System.Drawing.Size, System.Drawing">
+    <value>84, 26</value>
+  </data>
+  <data name="&gt;&gt;label1.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="_projectionTreeView1.HelpTextControl.AccessibleDescription" type="System.Resources.ResXNullRef, System.Windows.Forms">
+    <value />
+  </data>
+  <data name="&gt;&gt;label1.Name" xml:space="preserve">
+    <value>label1</value>
+  </data>
+  <data name="_projectionTreeView1.HelpTextControl.AutoSizeMode" type="System.Windows.Forms.AutoSizeMode, System.Windows.Forms">
+    <value>GrowOnly</value>
+  </data>
+  <data name="&gt;&gt;panel1.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Panel, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="splitContainer2.TabIndex" type="System.Int32, mscorlib">
+    <value>13</value>
+  </data>
+  <data name="_projectionTreeView1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 0</value>
+  </data>
+  <data name="lblPcsCount.Size" type="System.Drawing.Size, System.Drawing">
+    <value>89, 21</value>
+  </data>
+  <data name="&gt;&gt;txtRemarks.Name" xml:space="preserve">
+    <value>txtRemarks</value>
+  </data>
+  <data name="&gt;&gt;splitContainer1.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="txtName.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Top, Left, Right</value>
+  </data>
+  <data name="_projectionTreeView1.ToolTipControl.BackgroundImage" type="System.Resources.ResXNullRef, System.Windows.Forms">
+    <value />
+  </data>
+  <data name="_projectionTreeView1.HelpTextControl.AutoScroll" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="$this.AutoScaleDimensions" type="System.Drawing.SizeF, System.Drawing">
+    <value>6, 12</value>
+  </data>
+  <data name="&gt;&gt;_projectionTreeView1.Parent" xml:space="preserve">
+    <value>splitContainer1.Panel1</value>
+  </data>
+  <data name="_projectionTreeView1.ToolTipControl.BackgroundImageLayout" type="System.Windows.Forms.ImageLayout, System.Windows.Forms">
+    <value>Tile</value>
+  </data>
+  <data name="&gt;&gt;_projectionTreeView1.Type" xml:space="preserve">
+    <value>MW5.Projections.Controls.ProjectionTreeView, MW5.Projections, Version=5.6.3.32874, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;linkLabel1.Parent" xml:space="preserve">
+    <value>panel1</value>
+  </data>
+  <data name="_projectionTreeView1.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Fill</value>
+  </data>
+  <data name="_projectionTreeView1.HelpTextControl.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;splitContainer1.Panel1.Parent" xml:space="preserve">
+    <value>splitContainer1</value>
+  </data>
+  <data name="btnZoomToMaxExtents.Location" type="System.Drawing.Point, System.Drawing">
+    <value>12, 144</value>
+  </data>
+  <data name="panel1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 0</value>
+  </data>
+  <data name="btnZoomToProjection.ImageAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleLeft</value>
+  </data>
+  <data name="&gt;&gt;txtName.Name" xml:space="preserve">
+    <value>txtName</value>
+  </data>
+  <data name="&gt;&gt;txtRemarks.Parent" xml:space="preserve">
+    <value>panel1</value>
+  </data>
+  <data name="label2.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="&gt;&gt;btnZoomToProjection.Name" xml:space="preserve">
+    <value>btnZoomToProjection</value>
+  </data>
+  <data name="&gt;&gt;splitContainer2.Panel2.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="&gt;&gt;txtScope.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;label2.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;splitContainer1.Panel2.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="&gt;&gt;label2.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="statusStrip1.TabIndex" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="&gt;&gt;panel1.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="_projectionTreeView1.ToolTipControl.AutoSize" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="btnProperties.Location" type="System.Drawing.Point, System.Drawing">
+    <value>245, 144</value>
+  </data>
+  <data name="&gt;&gt;linkLabel1.ZOrder" xml:space="preserve">
+    <value>8</value>
+  </data>
+  <data name="projectionMap1.TabIndex" type="System.Int32, mscorlib">
+    <value>12</value>
+  </data>
+  <data name="&gt;&gt;statusStrip1.Type" xml:space="preserve">
+    <value>System.Windows.Forms.StatusStrip, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;lblPcsCount.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripStatusLabel, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="btnZoomToProjection.Size" type="System.Drawing.Size, System.Drawing">
+    <value>123, 26</value>
+  </data>
+  <data name="statusStrip1.Text" xml:space="preserve">
+    <value>statusStrip1</value>
+  </data>
+  <data name="btnZoomToMaxExtents.Size" type="System.Drawing.Size, System.Drawing">
+    <value>90, 26</value>
+  </data>
+  <data name="projectionMap1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 0</value>
+  </data>
+  <data name="lblPcsCount.Text" xml:space="preserve">
+    <value>Projected CS:</value>
+  </data>
+  <data name="label1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>11, 18</value>
+  </data>
+  <data name="&gt;&gt;splitContainer2.Panel2.Parent" xml:space="preserve">
+    <value>splitContainer2</value>
+  </data>
+  <data name="&gt;&gt;$this.Name" xml:space="preserve">
+    <value>ProjectionManagerForm</value>
+  </data>
+  <data name="txtRemarks.Size" type="System.Drawing.Size, System.Drawing">
+    <value>317, 30</value>
+  </data>
+  <data name="&gt;&gt;btnZoomToProjection.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="splitContainer2.Size" type="System.Drawing.Size, System.Drawing">
+    <value>344, 410</value>
+  </data>
+  <data name="&gt;&gt;splitContainer1.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="_projectionTreeView1.ToolTipControl.TabIndex" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="_projectionTreeView1.HelpTextControl.AutoSize" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="_projectionTreeView1.ToolTipControl.RightToLeft" type="System.Windows.Forms.RightToLeft, System.Windows.Forms">
+    <value>Inherit</value>
+  </data>
+  <data name="lblY.Text" xml:space="preserve">
+    <value>Lat: 0.0</value>
+  </data>
+  <data name="splitContainer2.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Fill</value>
+  </data>
+  <data name="&gt;&gt;txtCode.Parent" xml:space="preserve">
+    <value>panel1</value>
+  </data>
+  <data name="&gt;&gt;splitContainer2.Panel1.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;btnProperties.Name" xml:space="preserve">
+    <value>btnProperties</value>
+  </data>
+  <data name="lblGcsCount.Size" type="System.Drawing.Size, System.Drawing">
+    <value>108, 21</value>
+  </data>
+  <data name="statusStrip1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 410</value>
+  </data>
+  <data name="&gt;&gt;btnProperties.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="label2.Size" type="System.Drawing.Size, System.Drawing">
+    <value>29, 12</value>
+  </data>
+  <data name="_projectionTreeView1.HelpTextControl.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Top, Left</value>
+  </data>
+  <data name="_projectionTreeView1.ToolTipControl.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Top, Left</value>
+  </data>
+  <data name="projectionMap1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>342, 213</value>
+  </data>
+  <data name="&gt;&gt;splitContainer1.Name" xml:space="preserve">
+    <value>splitContainer1</value>
+  </data>
+  <data name="&gt;&gt;panel1.Parent" xml:space="preserve">
+    <value>splitContainer2.Panel1</value>
+  </data>
+  <data name="&gt;&gt;splitContainer2.Name" xml:space="preserve">
+    <value>splitContainer2</value>
+  </data>
+  <data name="$this.StartPosition" type="System.Windows.Forms.FormStartPosition, System.Windows.Forms">
+    <value>CenterParent</value>
+  </data>
+  <data name="splitContainer1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 0</value>
+  </data>
+  <data name="&gt;&gt;splitContainer1.Panel2.Parent" xml:space="preserve">
+    <value>splitContainer1</value>
+  </data>
+  <data name="&gt;&gt;label2.Parent" xml:space="preserve">
+    <value>panel1</value>
+  </data>
+  <data name="imageList1.ImageStream" mimetype="application/x-microsoft.net.object.binary.base64">
+    <value>
+        AAEAAAD/////AQAAAAAAAAAMAgAAAFdTeXN0ZW0uV2luZG93cy5Gb3JtcywgVmVyc2lvbj00LjAuMC4w
+        LCBDdWx0dXJlPW5ldXRyYWwsIFB1YmxpY0tleVRva2VuPWI3N2E1YzU2MTkzNGUwODkFAQAAACZTeXN0
+        ZW0uV2luZG93cy5Gb3Jtcy5JbWFnZUxpc3RTdHJlYW1lcgEAAAAERGF0YQcCAgAAAAkDAAAADwMAAAAy
+        FQAAAk1TRnQBSQFMAgEBAwEAAXABAAF0AQABFAEAARQBAAT/ASEBEAj/AUIBTQE2BwABNgMAASgDAAFQ
+        AwABFAMAAQEBAAEgBgABGR0AAQEDGAEiAyoBQAMCAQOMAAMNARIDGAEiAx0BKgMeASsDHgErAx4BKwMe
+        ASsDHgErAx4BKwMeASsDHgErAx4BKwMeASsDHgErAx4BKwM1AVYDUAGdA1sByAFQAlIBo1cAAQEDHQEp
+        AVUCUwGtAV0BXAFbAeIDOAFdAwQBBUQAAwsBDwMbASY8AAMYASIDQgF2A1MBqgNUAa4DVAGvA1QBrwNU
+        Aa8DVAGvA1QBrwNUAa8DVAGvA1QBrwNUAa8DVAGvA1QBrgNbAcMBZAFmAW0B5wFfAY0BnQH7A1kBx1QA
+        AwoBDgNKAYoBbQFMAT8B9wFZASABFQH/AVkBVwFVAewBPgI9AWoDBAEFFAADCAELAkABPwFvA04BmQNO
+        AZkBTgJNAZYDNQFWAwcBCgwAAw0BEQFJAkgBhwNXAb8DIAEuOAADHQEqA1MBqgO/AfoD5gH+A/wB/wP8
+        Af8D/AH/AfsC+gH/AfoB9gH0Af8B9gHvAegB/wH0AegB3gH/AfMB5gHbAf8B8gHkAdkB/wHlAdoB0QH/
+        AaABpQGsAf4BfwGXAbcB/gFnAagBugH9AVwBYAFiAd8BTAJNAZFUAAMDAQQDOwFjAWcCTgHwAW4BLAEg
+        Af8BWAEgARUB/wNYAeYDPgFrAwQBBRAAAxMBGgFcAlkBzwGOATgBLAH/AXEBMQElAf8BbgE1ASwB/gFU
+        AlMBrAMSARgIAAMLAQ8BSQJIAYcBZwFRAU4B8gFSARwBEgH/A1cBwgMgAS4zAAEBAx4BKwNUAa4D5gH+
+        A/wB/wP8Af8D/AH/A/wB/wH5AfYB8gH/AfMB6QHgAf8B7wHbAcsB/wHrAc8BtwH/AekBywGxAf8B5wHI
+        AawB/wHeAb4BpAH/AcIBrAGdAf8BpwGyAb8B/wFjAWsBdAHrAVECUgGhAyYBOFgAAwQBBgNHAYIBbQFG
+        AUIB9QFuASwBIAH/AVgBIAEVAf8DWAHmAzEBTgMAAQEDKgFAAkcBRgGAAz8BbQMdASoDHQEqA0ABcAFx
+        ATEBJQH/AWIBKAEfAf8DVgGzAxMBGggAAwQBBgNHAYIBbAFGAUIB9QFqASoBHgH/AVIBHAESAf8DVwG/
+        AxsBJi8AAQEDHgErA1QBrgP8Af8D/AH/A/wB/wP8Af8D/AH/AfQB7AHkAf8B6QHVAcMB/wHyAdwByQH/
+        AfcB4gHNAf8B9wHhAcoB/wH3AeEByQH/AfcB3wHGAf8B8wHRAbMB/wG/AawBngH/A1YBtAMxAU4DAAEB
+        XAADBQEHAkkBSAGIAW0BRgFCAfUBbgEsASAB/wFbASQBFgH/AWECWwHhAWUBYwFcAeoB0gG+AZAB/wHd
+        AcoBowH/AdoByQGgAf8ByAG1AYQB/wJZAVcBwgFsAVkBUQHyAWYCTAHzAWQCUwHxA1YBswMTARoMAAMF
+        AQcCSQFIAYgBbAFGAUIB9QFqASoBHgH/AVIBGwESAf8DVgGzAykBPgM2AVkDTgGVA0wBkwNKAY0DNgFZ
+        AxoBJAMBAQIPAAEBAx4BKwNUAa4D/AH/A/wB/wP8Af8D/AH/A/sB/wHyAeYB3AH/AegBzQG1Af8B9AHj
+        AdMB/wH1Ad0BxwH/AfQB2wHBAf8B9AHaAb8B/wH1AdsBwQH/AfcB3wHHAf8B2QG7AaMB/wNMAZADHQEq
+        AwABAWAAAwUBBwJHAUYBgQFnAk4B8AGUAVcBNAH/AckBsQGEAf8B7wHcAb0B/wH3AeYBzQH/AfcB5wHR
+        Af8B9wHqAdUB/wH2AeoB1QH/AegB3AG9Af8BvgGlAWcB/wJaAVgBwAFWAlUBtANUAa8DEgEZEAADBQEH
+        AkcBRgGBAWYCTgHwAWwBLgEeAf8BbQFBASIB/wFkAWIBXAHqAWYBZQFiAeoDYQHaA1wB0QNeAdUDZQHl
+        A1wByQM2AVgDCAELCwABAQMeASsDVAGuA/wB/wP8Af8D/AH/A/wB/wP7Af8B8QHjAdgB/wHmAcgBrQH/
+        AfcB6AHaAf8B9QHeAcgB/wH0AdsBwwH/AfQB2QG/Af8B9AHaAcAB/wH4AeIBzQH/AeQBxAGpAf8DSQGH
+        AxgBIQMAAQFkAAMEAQYCUAFPAZsBxgGqAW0B/wHwAdwBvAH/AfcB5AHJAf8B9wHmAc0B/wH3AecB0QH/
+        AfcB6gHVAf8B9wHsAdkB/wH3Ae4B3AH/AfAB5gHOAf8DXQHTA0QBegMzAVIDBwEJFAADBAEGA0IBdgFl
+        AWABVAHuAYABcwFgAfUDXwHbA1kBxwNaAcADWAG7A1cBtwNXAbgDXQHKA2EB2gM3AVoDAwEEBwABAQMe
+        ASsDVAGuA/wB/wP8Af8D/AH/A/wB/wP7Af8B8QHkAdgB/wHnAcgBrgH/AfYB6AHaAf8B9QHgAcsB/wH0
+        Ad0BxgH/AfQB3AHDAf8B9QHcAcMB/wH4AeQBzwH/AecByAGuAf8DSQGHAxgBIQMAAQFoAANTAaUB6QHU
+        Aa4B/wH2AeEBxQH/AfcB5AHJAf8B9wHmAc0B/wH3AecB0QH/AfcB6gHVAf8B9wHsAdkB/wH3Ae4B3QH/
+        AfgB8AHhAf8BigGDAXkB9ANGAX4DBAEFEAADRAF6AVwCWQHMAwABAQMjATMBjQGDAWAB+QJiAWEB5ANd
+        AcoBhAF+AXMB8wFoAWcBZgHoA1gBuwNXAbcDVQGyA1QBrgNbAcYDVQG1AxoBJQcAAQEDHgErA1QBrgP8
+        Af8D/AH/A/wB/wP8Af8D/AH/AfMB5wHdAf8B6AHNAbUB/wHxAd8BzwH/AfUB4QHNAf8B9QHhAcwB/wH1
+        AeAByQH/AfUB3wHIAf8B9QHiAc4B/wHlAcoBswH/A0kBhwMYASEDAAEBaAADXgHZAfMB3gG+Af8B9gHh
+        AcUB/wH3AeQByQH/AfcB5gHNAf8B9wHnAdEB/wH3AeoB1QH/AfcB7AHZAf8B9wHuAd0B/wH4AfAB4gH/
+        AewB4wHLAf8DVAGmAwkBDAwAATwCPQFnAQoBmQHiAf8BGgGQAc8B/wEAAaYC/wEnAaEBywH/AcYBtgGG
+        Af8BywHUAcoB/wHCAdYB0gH/AccB0QHMAf8BwgHSAdEB/wG1AdcB3gH/AcwByAHCAf8DWAHBA1UBrQNV
+        AbIDXAHRAzMBUwcAAQEDHgErA1QBrgP8Af8D/AH/A/wB/wP8Af8D/AH/AfEB6wHlAf8B4wHRAb8B/wHp
+        Ac0BtAH/AfMB4gHTAf8B9wHqAd0B/wH2AeYB1gH/AfEB2gHGAf8B6wHQAbgB/wHkAc8BvAH/A0kBhwMY
+        ASEDAAEBaAAByQGwAWUB/wH0Ad4BvwH/AfYB4QHFAf8B9wHkAckB/wH3AeYBzQH/AfcB5wHRAf8B9wHq
+        AdUB/wH3AewB2QH/AfcB7gHdAf8B+AHwAeIB/wHxAegB1AH/A1YBswMSARkIAAMjATMBUgFkAY0B/wEA
+        AaYC/wEAAaYC/wEAAaYC/wFCAaIBtQH/AcsBxQGiAf8BxwHVAc4B/wHCAdYB0gH/Ab4B1gHXAf8BugHX
+        AdsB/wG1AdcB3gH/ApUBkwH4A1kBvwNVAa0DVAGsA10B0gM9AWkDAAEBAwABAQMeASsDVAGuA/wB/wP8
+        Af8D/AH/A/wB/wP8Af8B+gH5AfcB/wHyAe0B5gH/AeMB0gG+Af8B4QHOAbcB/wHjAcoBsAH/AecByAGt
+        Af8B5wHKAbAB/wHlAc4BtgH/Ae4B6QHiAf8DSQGHAxgBIQMAAQFoAAGEAX4BYAH1AfQB3wG/Af8B9gHh
+        AcUB/wH3AeQByQH/AfcB5gHNAf8B9wHnAdEB/wH3AeoB1QH/AfcB7AHZAf8B9wHuAd0B/wH4AfAB4gH/
+        AfEB6AHTAf8DVQGwAxEBFwgAAxoBJAFYAlwB0QEAAaYC/wEAAaYC/wEAAaYC/wFSAaIBqAH/Ac0ByQGp
+        Af8BxwHVAc4B/wHCAdYB0gH/Ab4B1gHXAf8BugHXAdsB/wG1AdcB3gH/A2EB2gNWAbQDVQGtA1MBqgNc
+        AcwDPwFsAwEBAgMAAQEDHgErA1QBrgP8Af8D/AH/A/wB/wP8Af8D/AH/A/wB/wL4AfYB/wHvAekB4gH/
+        AewB5AHaAf8B6wHfAdQB/wHrAd4B0gH/AesB3wHUAf8B6QHgAdcB/wH2AfUB9AH/A0kBhwMYASEDAAEB
+        aAADWwHGAfAB3AG5Af8B9gHhAcUB/wH3AeQByQH/AfcB5wHRAf8B+AHsAdwB/wH4Ae4B3wH/AfcB7QHc
+        Af8B9wHuAd0B/wH4AfAB4gH/AcUBvQG0Af0DUAGbAwYBCAgAAwQBBQNCAXUBAAGmAv8BAAGmAv8BAAGm
+        Av8BOAGkAcEB/wHMAcIBmAH/AcgB1QHNAf8BwgHWAdIB/wG+AdYB1wH/AbsB1wHbAf8BtwHYAd8B/wNu
+        Ae0DWAG7A1UBrQNUAa4DXgHVAzsBYwcAAQEDHgErA1QBrgP8Af8D/AH/A/wB/wP8Af8D/AH/A/sB/wP5
+        Af8D9wH/A/QB/wPxAf8D7wH/A+0B/wPqAf8D+QH/A0kBhwMYASEDAAEBXAADBQEHAx0BKgMJAQwDQgF0
+        AeIBzAGcAf8B9QHhAcQB/wH4AekB1QH/AfoB9wHzAf8B+gH5AfYB/wH7AfkB9wH/AfkB9wHyAf8B+AHw
+        AeIB/wHuAd8B0QH/AWwBaQFkAeoCQAE/AW4DFAEbAwEBAgQAAx0BKQFbAmEB4QEAAaYC/wEAAaYC/wEA
+        AaYC/wEZAaQB2QH/AbwBtQGGAf8BywHVAcoB/wHCAdYB0gH/AcgC3AH/AdMB5AHnAf8B0gHmAeoB/wHe
+        AdsB1gH/A1oBxQNVAa0DVgG2A1wB0QMtAUYHAAEBAx4BKwNUAa4D/AH/A/sB/wP7Af8D+wH/A/oB/wP5
+        Af8D9wH/A/QB/wPxAf8D7wH/A+4B/wPtAf8D6gH/A/kB/wNJAYcDGAEhAwABAVwAAzABTAFlAl4B5QFH
+        AkYBgAM2AVkBvgGcAVUB/wHtAdkBtQH/AfkB8QHmAf8D+wH/A/sB/wP7Af8D+wH/AckBnwGTAf8BlAFC
+        ATMB/wJeAVsB2QNVAbIDVgGzAxMBGgQAAyMBMwFSAWQBjQH/AQABpgL/AQABpgL/AQABpgL/AQABpQHy
+        Af8BZwGpAaEB/wHOAckBpgH/AcMB1gHRAf8B1QLkAf8B2wHpAesB/wHYAekB7AH/A3YB7gNdAdIDVQGt
+        A2EB2gNRAZwDCQEMBwABAQMeASsDVAGuA/sB/wP5Af8D+QH/A/kB/wP4Af8D9wH/A/UB/wPyAf8D7AH/
+        A/UB/wP8Af8D/AH/A/wB/wP8Af8DSQGHAxgBIQMAAQFcAAMwAUwBZQJeAeUDVgGzAWUBTAFGAfQBYwFV
+        AVQB7gFjAWIBYQHiAawBpAGPAfoB9QHvAeIB/wH4AfYB8AH/AfgB9QHuAf8B8AHmAdUB/wGAAWoBWQH1
+        AXcBNQEsAfwBYQJXAegBXgJbAdkDVgGzAxMBGgQAAwcBCgNIAYQBAAGmAv8BAAGmAv8BAAGmAv8BAAGm
+        Av8BFwGjAdcB/wGVAa4BkAH/AcsByQGpAf8BzQHaAdEB/wHXAeQB4wH/AdUB5gHnAf8CcgFxAe0DXAHN
+        AWABXwFeAd8DWQG/Ax8BLQsAAQEDHgErA1QBrgP6Af8D9wH/A/kB/wP3Af8D9wH/A/UB/wPzAf8D8AH/
+        A+sB/wP1Af8D+gH/A/cB/wP2Af8DWAG5AzYBWQMQARZgAAMwAUwBZQJeAeUBigE2ASoB/wFnAVEBTQHy
+        A0oBigMwAUwDTgGVA1oBxQNcAcwDXAHMA1cBuAJRAU8BnAFeAloB1QFyATEBJQH/AWMBKAEfAf8DVgGz
+        AxMBGgQAAxABFQFQAlIBpAEAAaYC/wEAAaYC/wEAAaYC/wEAAaYC/wEAAaYC/wETAaQB2wH/AWYBpwGe
+        Af8BrAG6AZkB/wG8AcMBowH/AccByAGmAf8BzAG6AZEB/wNcAcwDTgGVAxsBJhAAAx4BKwNVAa0D4wH+
+        A/UB/wP3Af8D9gH/A/YB/wP0Af8D8QH/A+8B/wPqAf8D9AH/A/YB/wOMAfIDWgG9AzsBZAMcAScDBgEI
+        YAADMAFMAWUCXgHlAYoBNgEqAf8BZAJMAfMBWQJWAb4DOAFeAw0BEgMfASwDIwEzAyMBMwMkATYBUgJQ
+        AaQBXQJXAd8BcgExASUB/wFjASgBHwH/A1YBswMTARoEAAMjATMBhwFQAVEB/wFVAlcBugNKAYwBYAFy
+        AX8B/gFXAV8BZAHoA0oBjAFYAlwB0QFaAWMBhQH/A0oBjANRAaIBrQFmAT8B/wJXAVUBugMqAUADBAEG
+        FAADHQEqA1IBqQO9AfoD4QH+A/gB/wP4Af8D+AH/A/cB/wP1Af8D9AH/A/EB/wP2Af8DfgHtA1gBvAM7
+        AWQDGgEkAwcBCQMAAQFgAAMkATUBVgJVAbQBXAJZAcwBXAJZAcwDWQHHAzcBWwMEAQUMAAMLAQ8DUAGe
+        AVwCWQHMAVwCWQHMAVwCWQHMAUkCSAGHAw0BEgQAAxABFQM7AWUDIQEwAwoBDQM7AWUDMwFTAwoBDQMr
+        AUIDOwFlAwoBDQMWAR8DOwFlAyEBMAMCAQMYAAMaASUDSgGLA14BzgNhAdUDYAHWA2AB1gNgAdYDYAHW
+        A2AB1gNgAdYDYAHWA2AB1gNWAbEDPQFnAxMBGgMEAQYDAAEB/AADEAEWAx0BKgMjATQDJAE2AyQBNgMk
+        ATYDJAE2AyQBNgMkATYDJAE2AyQBNgMkATYDHwEtAxMBGgMBAQJgAAFCAU0BPgcAAT4DAAEoAwABUAMA
+        ARQDAAEBAQABAQUAAfAXAAP/AQABwwT/AYAGAAGBAv8BPwH/AYAGAAGAAfgBDgEfAf8BgAYAAYABeAEM
+        AQ8B/wcAAcABAAEMAQcB/wcAAeABAAEOAQABBwcAAfABAAEPAQABAwcAAfgBAAEPAYABAQcAAfwBAAEe
+        AQABAQcAAfwBAAEcAQABAQcAAfwBAAEYCQAB/AEAARgJAAH8AQABGAEAAQEHAAHgAQABCAEAAQEHAAHg
+        AQABCAEAAQEHAAHgAQABCAEAAQMCAAEQBAAB4AEAAQgBAAEHAYABAAEQBAAB4AEAAQgBAAEPAYABAAEQ
+        BAAB4AE4AQgBAAEfAYABAAEwBAAF/wGAAQAB8BoACw==
+</value>
+  </data>
+  <data name="txtRemarks.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Top, Left, Right</value>
+  </data>
+  <data name="linkLabel1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>118, 18</value>
+  </data>
+  <data name="btnZoomToMaxExtents.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>5, 5, 5, 5</value>
+  </data>
+  <data name="&gt;&gt;splitContainer2.Panel1.Name" xml:space="preserve">
+    <value>splitContainer2.Panel1</value>
+  </data>
+  <data name="panel1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>342, 189</value>
+  </data>
+  <data name="_projectionTreeView1.ToolTipControl.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 0</value>
+  </data>
+  <data name="&gt;&gt;imageList1.Name" xml:space="preserve">
+    <value>imageList1</value>
+  </data>
+  <data name="&gt;&gt;txtScope.ZOrder" xml:space="preserve">
+    <value>6</value>
+  </data>
+  <data name="&gt;&gt;splitContainer2.Parent" xml:space="preserve">
+    <value>splitContainer1.Panel2</value>
+  </data>
+  <data name="lblGcsCount.Text" xml:space="preserve">
+    <value>Geopraphical CS:</value>
+  </data>
+  <data name="&gt;&gt;splitContainer1.Panel1.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="btnZoomToMaxExtents.ImageAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleLeft</value>
+  </data>
+  <data name="linkLabel1.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="&gt;&gt;btnZoomToMaxExtents.Parent" xml:space="preserve">
+    <value>panel1</value>
+  </data>
+  <data name="&gt;&gt;lblX.Name" xml:space="preserve">
+    <value>lblX</value>
+  </data>
+  <data name="btnZoomToMaxExtents.ImageIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;txtScope.Parent" xml:space="preserve">
+    <value>panel1</value>
+  </data>
+  <data name="_projectionTreeView1.ToolTipControl.MaximumSize" type="System.Drawing.Size, System.Drawing">
+    <value>0, 0</value>
+  </data>
+  <data name="label1.TabIndex" type="System.Int32, mscorlib">
+    <value>17</value>
+  </data>
+  <data name="&gt;&gt;lblY.Name" xml:space="preserve">
+    <value>lblY</value>
+  </data>
+  <data name="&gt;&gt;txtName.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;statusStrip1.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="label2.TabIndex" type="System.Int32, mscorlib">
+    <value>18</value>
+  </data>
+  <data name="&gt;&gt;btnZoomToMaxExtents.Name" xml:space="preserve">
+    <value>btnZoomToMaxExtents</value>
+  </data>
+  <data name="_projectionTreeView1.HelpTextControl.AccessibleName" type="System.Resources.ResXNullRef, System.Windows.Forms">
+    <value />
+  </data>
+  <data name="_projectionTreeView1.ToolTipControl.AccessibleName" type="System.Resources.ResXNullRef, System.Windows.Forms">
+    <value />
+  </data>
+  <data name="btnProperties.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>5, 5, 5, 5</value>
+  </data>
+  <data name="splitContainer2.Panel1MinSize" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="btnProperties.Text" xml:space="preserve">
+    <value>Properties</value>
+  </data>
+  <data name="_projectionTreeView1.ToolTipControl.AutoSizeMode" type="System.Windows.Forms.AutoSizeMode, System.Windows.Forms">
+    <value>GrowOnly</value>
+  </data>
+  <data name="&gt;&gt;splitContainer1.Panel2.Name" xml:space="preserve">
+    <value>splitContainer1.Panel2</value>
+  </data>
+  <data name="&gt;&gt;splitContainer1.Panel2.Type" xml:space="preserve">
+    <value>System.Windows.Forms.SplitterPanel, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;splitContainer1.Panel1.Name" xml:space="preserve">
+    <value>splitContainer1.Panel1</value>
+  </data>
+  <data name="&gt;&gt;btnZoomToMaxExtents.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="txtRemarks.Location" type="System.Drawing.Point, System.Drawing">
+    <value>13, 108</value>
+  </data>
+  <data name="btnZoomToProjection.TabIndex" type="System.Int32, mscorlib">
+    <value>20</value>
+  </data>
+  <data name="_projectionTreeView1.ToolTipControl.Visible" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="btnProperties.TabIndex" type="System.Int32, mscorlib">
+    <value>19</value>
+  </data>
+  <data name="btnProperties.ImageIndex" type="System.Int32, mscorlib">
+    <value>2</value>
+  </data>
+  <data name="&gt;&gt;statusStrip1.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="linkLabel1.Text" xml:space="preserve">
+    <value>See online...</value>
+  </data>
+  <data name="&gt;&gt;label1.Parent" xml:space="preserve">
+    <value>panel1</value>
+  </data>
+  <data name="&gt;&gt;$this.Type" xml:space="preserve">
+    <value>MW5.UI.Forms.MapWindowForm, MW5.UI, Version=5.6.3.32873, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="txtRemarks.Multiline" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="label2.Text" xml:space="preserve">
+    <value>Name</value>
+  </data>
+  <data name="_projectionTreeView1.HelpTextControl.BackgroundImageLayout" type="System.Windows.Forms.ImageLayout, System.Windows.Forms">
+    <value>Tile</value>
+  </data>
+  <data name="panel1.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Fill</value>
+  </data>
+  <data name="_projectionTreeView1.HelpTextControl.BackgroundImage" type="System.Resources.ResXNullRef, System.Windows.Forms">
+    <value />
+  </data>
+  <data name="&gt;&gt;btnProperties.Parent" xml:space="preserve">
+    <value>panel1</value>
+  </data>
+  <data name="splitContainer2.SplitterDistance" type="System.Int32, mscorlib">
+    <value>191</value>
+  </data>
+  <data name="&gt;&gt;splitContainer1.Type" xml:space="preserve">
+    <value>System.Windows.Forms.SplitContainer, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="_projectionTreeView1.ToolTipControl.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>None</value>
+  </data>
+  <data name="&gt;&gt;lblY.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripStatusLabel, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="btnZoomToMaxExtents.Text" xml:space="preserve">
+    <value>Zoom to All</value>
+  </data>
+  <data name="label1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>29, 12</value>
+  </data>
+  <data name="btnZoomToProjection.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>5, 5, 5, 5</value>
+  </data>
+  <data name="&gt;&gt;splitContainer2.Panel2.Name" xml:space="preserve">
+    <value>splitContainer2.Panel2</value>
+  </data>
+  <data name="&gt;&gt;txtCode.ZOrder" xml:space="preserve">
+    <value>9</value>
+  </data>
+  <data name="&gt;&gt;txtName.ZOrder" xml:space="preserve">
+    <value>7</value>
+  </data>
+  <data name="&gt;&gt;lblGcsCount.Name" xml:space="preserve">
+    <value>lblGcsCount</value>
+  </data>
+  <data name="btnZoomToProjection.RightToLeft" type="System.Windows.Forms.RightToLeft, System.Windows.Forms">
+    <value>No</value>
+  </data>
+  <data name="statusStrip1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>674, 26</value>
+  </data>
+  <data name="_projectionTreeView1.ToolTipControl.AutoScroll" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="label1.Text" xml:space="preserve">
+    <value>Code</value>
+  </data>
+  <data name="&gt;&gt;splitContainer1.Panel1.Type" xml:space="preserve">
+    <value>System.Windows.Forms.SplitterPanel, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="linkLabel1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>83, 12</value>
+  </data>
+  <data name="_projectionTreeView1.ToolTipControl.AccessibleDescription" type="System.Resources.ResXNullRef, System.Windows.Forms">
+    <value />
+  </data>
+  <data name="lblX.Text" xml:space="preserve">
+    <value>Long: 0.0</value>
+  </data>
+  <data name="txtScope.Multiline" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="&gt;&gt;_projectionTreeView1.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="txtName.TabIndex" type="System.Int32, mscorlib">
+    <value>10</value>
+  </data>
+  <data name="btnZoomToMaxExtents.TabIndex" type="System.Int32, mscorlib">
+    <value>16</value>
+  </data>
+  <data name="&gt;&gt;txtCode.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="txtCode.TabIndex" type="System.Int32, mscorlib">
+    <value>7</value>
+  </data>
+  <data name="splitContainer1.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Fill</value>
+  </data>
+  <data name="&gt;&gt;projectionMap1.Type" xml:space="preserve">
+    <value>MW5.Projections.Controls.ProjectionMap, MW5.Projections, Version=5.6.3.32874, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="txtScope.Size" type="System.Drawing.Size, System.Drawing">
+    <value>316, 28</value>
+  </data>
+  <data name="&gt;&gt;label2.Name" xml:space="preserve">
+    <value>label2</value>
+  </data>
+  <data name="&gt;&gt;btnZoomToMaxExtents.ZOrder" xml:space="preserve">
+    <value>4</value>
+  </data>
+  <data name="&gt;&gt;panel1.Name" xml:space="preserve">
+    <value>panel1</value>
+  </data>
+  <data name="label2.Location" type="System.Drawing.Point, System.Drawing">
+    <value>11, 45</value>
+  </data>
+  <data name="$this.ClientSize" type="System.Drawing.Size, System.Drawing">
+    <value>674, 436</value>
+  </data>
+  <data name="btnProperties.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleRight</value>
+  </data>
+  <data name="&gt;&gt;_projectionTreeView1.Name" xml:space="preserve">
+    <value>_projectionTreeView1</value>
+  </data>
+  <data name="_projectionTreeView1.HelpTextControl.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>Inherit</value>
+  </data>
+  <data name="&gt;&gt;splitContainer2.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="splitContainer1.SplitterDistance" type="System.Int32, mscorlib">
+    <value>326</value>
+  </data>
+  <data name="splitContainer1.TabIndex" type="System.Int32, mscorlib">
+    <value>3</value>
+  </data>
+  <data name="&gt;&gt;splitContainer2.Panel2.Type" xml:space="preserve">
+    <value>System.Windows.Forms.SplitterPanel, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;linkLabel1.Type" xml:space="preserve">
+    <value>System.Windows.Forms.LinkLabel, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;txtCode.Name" xml:space="preserve">
+    <value>txtCode</value>
+  </data>
+  <data name="&gt;&gt;splitContainer2.Panel1.Type" xml:space="preserve">
+    <value>System.Windows.Forms.SplitterPanel, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;txtRemarks.ZOrder" xml:space="preserve">
+    <value>5</value>
+  </data>
+  <data name="linkLabel1.TabIndex" type="System.Int32, mscorlib">
+    <value>8</value>
+  </data>
+  <data name="_projectionTreeView1.HelpTextControl.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>None</value>
+  </data>
+  <data name="lblY.Size" type="System.Drawing.Size, System.Drawing">
+    <value>49, 21</value>
+  </data>
+  <data name="txtName.Location" type="System.Drawing.Point, System.Drawing">
+    <value>49, 42</value>
+  </data>
+  <data name="btnZoomToProjection.Text" xml:space="preserve">
+    <value>Zoom to projection</value>
+  </data>
+  <data name="_projectionTreeView1.ToolTipControl.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>Inherit</value>
+  </data>
+  <data name="_projectionTreeView1.HelpTextControl.Visible" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="splitContainer2.IsSplitterFixed" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="splitContainer1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>674, 410</value>
+  </data>
+  <data name="&gt;&gt;txtRemarks.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="splitContainer2.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 0</value>
+  </data>
+  <data name="label1.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="&gt;&gt;projectionMap1.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;txtScope.Name" xml:space="preserve">
+    <value>txtScope</value>
+  </data>
+  <data name="txtName.Size" type="System.Drawing.Size, System.Drawing">
+    <value>281, 21</value>
+  </data>
+  <data name="&gt;&gt;projectionMap1.Parent" xml:space="preserve">
+    <value>splitContainer2.Panel2</value>
+  </data>
+  <metadata name="imageList1.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>17, 17</value>
+  </metadata>
+  <metadata name="$this.Language" type="System.Globalization.CultureInfo, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>zh-CN</value>
+  </metadata>
+  <metadata name="$this.Localizable" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <metadata name="$this.TrayHeight" type="System.Int32, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>94</value>
+  </metadata>
+  <metadata name="statusStrip1.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>127, 17</value>
+  </metadata>
+</root>

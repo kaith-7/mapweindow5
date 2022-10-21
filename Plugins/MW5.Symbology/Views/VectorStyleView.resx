@@ -1,0 +1,2905 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="btnOk.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="pctLabelPreview.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Fill</value>
+  </data>
+  <data name="&gt;&gt;btnClearCharts.Parent" xml:space="preserve">
+    <value>tabCharts</value>
+  </data>
+  <assembly alias="System.Drawing" name="System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
+  <data name="toolStripSeparator1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>151, 6</value>
+  </data>
+  <data name="&gt;&gt;pctCharts.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <assembly alias="mscorlib" name="mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="btnLabelAppearance.TabIndex" type="System.Int32, mscorlib">
+    <value>125</value>
+  </data>
+  <data name="&gt;&gt;label9.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="tabInfo.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="btnCancel.Size" type="System.Drawing.Size, System.Drawing">
+    <value>93, 24</value>
+  </data>
+  <data name="chkShowLabels.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 8.25pt</value>
+  </data>
+  <data name="btnChartAppearance.Location" type="System.Drawing.Point, System.Drawing">
+    <value>268, 78</value>
+  </data>
+  <data name="&gt;&gt;txtComments.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;optChartsPie.Type" xml:space="preserve">
+    <value>System.Windows.Forms.RadioButton, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="panelLabels.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="tabLabels.TabIndex" type="System.Int32, mscorlib">
+    <value>5</value>
+  </data>
+  <data name="&gt;&gt;chkShowLabels.Name" xml:space="preserve">
+    <value>chkShowLabels</value>
+  </data>
+  <data name="joinControl1.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="dynamicVisibilityControl1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>228, 194</value>
+  </data>
+  <data name="&gt;&gt;btnChartsEditColorScheme.Parent" xml:space="preserve">
+    <value>groupChartAppearance</value>
+  </data>
+  <data name="clpLabelFrame.Size" type="System.Drawing.Size, System.Drawing">
+    <value>53, 22</value>
+  </data>
+  <data name="toolStyle.Size" type="System.Drawing.Size, System.Drawing">
+    <value>64, 22</value>
+  </data>
+  <data name="label6.Text" xml:space="preserve">
+    <value>to draw:</value>
+  </data>
+  <data name="&gt;&gt;dynamicVisibilityControl1.Name" xml:space="preserve">
+    <value>dynamicVisibilityControl1</value>
+  </data>
+  <data name="&gt;&gt;label4.Name" xml:space="preserve">
+    <value>label4</value>
+  </data>
+  <data name="groupCharts.Text" xml:space="preserve">
+    <value>Preview</value>
+  </data>
+  <data name="groupBox5.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="panelLabels.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Fill</value>
+  </data>
+  <data name="btnChangeVisibilityExpression.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Top, Right</value>
+  </data>
+  <data name="&gt;&gt;groupBox21.Parent" xml:space="preserve">
+    <value>tabDefault</value>
+  </data>
+  <data name="&gt;&gt;btnProjectionDetails.ZOrder" xml:space="preserve">
+    <value>5</value>
+  </data>
+  <data name="label4.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="btnClearVisibilityExpression.Location" type="System.Drawing.Point, System.Drawing">
+    <value>399, 47</value>
+  </data>
+  <data name="&gt;&gt;scaleControl2.Type" xml:space="preserve">
+    <value>MW5.Plugins.Symbology.Controls.ScaleControl, MW5.Symbology, Version=1.0.0.16794, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="chkShowLabels.TabIndex" type="System.Int32, mscorlib">
+    <value>137</value>
+  </data>
+  <data name="&gt;&gt;txtLayerName.Parent" xml:space="preserve">
+    <value>tabGeneral</value>
+  </data>
+  <data name="chkChartsVisible.TabIndex" type="System.Int32, mscorlib">
+    <value>127</value>
+  </data>
+  <data name="&gt;&gt;label12.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;btnClearVisibilityExpression.Name" xml:space="preserve">
+    <value>btnClearVisibilityExpression</value>
+  </data>
+  <data name="tabCategories.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="&gt;&gt;clpLabelFrame.Type" xml:space="preserve">
+    <value>MW5.UI.Controls.Office2007ColorPicker, MW5.UI, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="cboMinScale.Size" type="System.Drawing.Size, System.Drawing">
+    <value>141, 21</value>
+  </data>
+  <data name="&gt;&gt;btnClearVisibilityExpression.Parent" xml:space="preserve">
+    <value>groupBox13</value>
+  </data>
+  <data name="&gt;&gt;btnLabelAppearance.ZOrder" xml:space="preserve">
+    <value>4</value>
+  </data>
+  <data name="&gt;&gt;label4.Parent" xml:space="preserve">
+    <value>tabCharts</value>
+  </data>
+  <data name="comboBoxAdv1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>11, 28</value>
+  </data>
+  <data name="&gt;&gt;label7.Parent" xml:space="preserve">
+    <value>groupChartAppearance</value>
+  </data>
+  <data name="&gt;&gt;groupLabelStyle.Type" xml:space="preserve">
+    <value>System.Windows.Forms.GroupBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="optChartsPie.TabIndex" type="System.Int32, mscorlib">
+    <value>164</value>
+  </data>
+  <data name="udMinDrawingSize.TabIndex" type="System.Int32, mscorlib">
+    <value>176</value>
+  </data>
+  <data name="chkLabelFrame.TabIndex" type="System.Int32, mscorlib">
+    <value>155</value>
+  </data>
+  <data name="btnChangeVisibilityExpression.Location" type="System.Drawing.Point, System.Drawing">
+    <value>398, 18</value>
+  </data>
+  <data name="&gt;&gt;btnChartAppearance.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="pictureBox1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="&gt;&gt;tabControl1.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="infoGrid1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>15, 14</value>
+  </data>
+  <data name="&gt;&gt;tabCategories.Name" xml:space="preserve">
+    <value>tabCategories</value>
+  </data>
+  <data name="&gt;&gt;groupBox5.Name" xml:space="preserve">
+    <value>groupBox5</value>
+  </data>
+  <data name="&gt;&gt;pctCharts.Name" xml:space="preserve">
+    <value>pctCharts</value>
+  </data>
+  <data name="&gt;&gt;udMinLabelingSize.Type" xml:space="preserve">
+    <value>MW5.Plugins.Symbology.Controls.NumericUpDownEx, MW5.Symbology, Version=1.0.0.16794, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="label2.TabIndex" type="System.Int32, mscorlib">
+    <value>169</value>
+  </data>
+  <data name="comboBoxAdv1.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 8.25pt</value>
+  </data>
+  <data name="&gt;&gt;btnLabelAppearance.Name" xml:space="preserve">
+    <value>btnLabelAppearance</value>
+  </data>
+  <data name="&gt;&gt;label18.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="label1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>478, 35</value>
+  </data>
+  <data name="cboCollisionMode.Location" type="System.Drawing.Point, System.Drawing">
+    <value>20, 26</value>
+  </data>
+  <data name="&gt;&gt;udMinDrawingSize.Parent" xml:space="preserve">
+    <value>groupBox19</value>
+  </data>
+  <data name="&gt;&gt;btnCancel.Type" xml:space="preserve">
+    <value>Syncfusion.Windows.Forms.ButtonAdv, Syncfusion.Shared.Base, Version=19.4460.0.38, Culture=neutral, PublicKeyToken=3d67ed1f87d44c89</value>
+  </data>
+  <data name="label8.Text" xml:space="preserve">
+    <value>Datasource name</value>
+  </data>
+  <data name="&gt;&gt;joinControl1.Name" xml:space="preserve">
+    <value>joinControl1</value>
+  </data>
+  <data name="txtComments.ScrollBars" type="System.Windows.Forms.RichTextBoxScrollBars, System.Windows.Forms">
+    <value>ForcedVertical</value>
+  </data>
+  <data name="&gt;&gt;btnChangeVisibilityExpression.Type" xml:space="preserve">
+    <value>Syncfusion.Windows.Forms.ButtonAdv, Syncfusion.Shared.Base, Version=19.4460.0.38, Culture=neutral, PublicKeyToken=3d67ed1f87d44c89</value>
+  </data>
+  <data name="&gt;&gt;groupLabelAppearance.Parent" xml:space="preserve">
+    <value>tabLabels</value>
+  </data>
+  <data name="btnOk.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="panelLabels.Location" type="System.Drawing.Point, System.Drawing">
+    <value>3, 17</value>
+  </data>
+  <data name="&gt;&gt;pictureBox1.Name" xml:space="preserve">
+    <value>pictureBox1</value>
+  </data>
+  <data name="dynamicVisibilityControl1.TabIndex" type="System.Int32, mscorlib">
+    <value>171</value>
+  </data>
+  <data name="&gt;&gt;toolTip1.Name" xml:space="preserve">
+    <value>toolTip1</value>
+  </data>
+  <data name="&gt;&gt;icbChartColorScheme.Type" xml:space="preserve">
+    <value>MW5.Plugins.Symbology.Controls.ImageCombo.ColorSchemeCombo, MW5.Symbology, Version=1.0.0.16794, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="pictureBox1.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Fill</value>
+  </data>
+  <data name="label2.Text" xml:space="preserve">
+    <value>Information</value>
+  </data>
+  <data name="&gt;&gt;pictureBox1.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="label6.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="panelLabels.TabIndex" type="System.Int32, mscorlib">
+    <value>161</value>
+  </data>
+  <data name="&gt;&gt;groupBox19.Name" xml:space="preserve">
+    <value>groupBox19</value>
+  </data>
+  <data name="tabControl1.TextLineAlignment" type="System.Drawing.StringAlignment, System.Drawing">
+    <value>Near</value>
+  </data>
+  <data name="btnProjectionDetails.TabIndex" type="System.Int32, mscorlib">
+    <value>168</value>
+  </data>
+  <data name="&gt;&gt;txtLayerExpression.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="&gt;&gt;label18.Parent" xml:space="preserve">
+    <value>tabGeneral</value>
+  </data>
+  <data name="chkChartsVisible.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="label5.Location" type="System.Drawing.Point, System.Drawing">
+    <value>13, 16</value>
+  </data>
+  <data name="label2.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="&gt;&gt;cboCollisionMode.Type" xml:space="preserve">
+    <value>Syncfusion.Windows.Forms.Tools.ComboBoxAdv, Syncfusion.Tools.Windows, Version=19.4460.0.38, Culture=neutral, PublicKeyToken=3d67ed1f87d44c89</value>
+  </data>
+  <data name="btnClearVisibilityExpression.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Top, Right</value>
+  </data>
+  <data name="tabCategories.Text" xml:space="preserve">
+    <value>Categories</value>
+  </data>
+  <data name="label3.Location" type="System.Drawing.Point, System.Drawing">
+    <value>28, 107</value>
+  </data>
+  <data name="toolOpenLocation.Size" type="System.Drawing.Size, System.Drawing">
+    <value>154, 22</value>
+  </data>
+  <data name="label9.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="pctLabelPreview.Location" type="System.Drawing.Point, System.Drawing">
+    <value>3, 17</value>
+  </data>
+  <data name="txtLayerName.Size" type="System.Drawing.Size, System.Drawing">
+    <value>291, 20</value>
+  </data>
+  <data name="label8.Location" type="System.Drawing.Point, System.Drawing">
+    <value>28, 68</value>
+  </data>
+  <data name="&gt;&gt;label4.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;imageList1.Name" xml:space="preserve">
+    <value>imageList1</value>
+  </data>
+  <data name="&gt;&gt;dynamicVisibilityControl1.ZOrder" xml:space="preserve">
+    <value>14</value>
+  </data>
+  <data name="&gt;&gt;chkEditMode.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;tabCategories.Parent" xml:space="preserve">
+    <value>tabControl1</value>
+  </data>
+  <data name="&gt;&gt;groupBox7.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="chkLabelFrame.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="&gt;&gt;chkLabelFrame.Name" xml:space="preserve">
+    <value>chkLabelFrame</value>
+  </data>
+  <data name="toolStyle.ImageTransparentColor" type="System.Drawing.Color, System.Drawing">
+    <value>Magenta</value>
+  </data>
+  <data name="chkShowLabels.Location" type="System.Drawing.Point, System.Drawing">
+    <value>19, 18</value>
+  </data>
+  <data name="&gt;&gt;txtBriefInfo.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="btnLabelAppearance.Size" type="System.Drawing.Size, System.Drawing">
+    <value>93, 24</value>
+  </data>
+  <data name="chkShowLabels.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="label18.TabIndex" type="System.Int32, mscorlib">
+    <value>21</value>
+  </data>
+  <data name="attributesControl1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>514, 387</value>
+  </data>
+  <data name="&gt;&gt;toolStripEx1.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="label7.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="groupCharts.TabIndex" type="System.Int32, mscorlib">
+    <value>170</value>
+  </data>
+  <data name="&gt;&gt;$this.Name" xml:space="preserve">
+    <value>VectorStyleView</value>
+  </data>
+  <data name="&gt;&gt;label15.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="&gt;&gt;panelLabels.Name" xml:space="preserve">
+    <value>panelLabels</value>
+  </data>
+  <data name="udMinLabelingSize.Location" type="System.Drawing.Point, System.Drawing">
+    <value>89, 62</value>
+  </data>
+  <data name="btnApply.Text" xml:space="preserve">
+    <value>Apply</value>
+  </data>
+  <data name="btnChartsEditColorScheme.TabIndex" type="System.Int32, mscorlib">
+    <value>164</value>
+  </data>
+  <data name="optChartBars.Location" type="System.Drawing.Point, System.Drawing">
+    <value>145, 30</value>
+  </data>
+  <data name="scaleControl2.Location" type="System.Drawing.Point, System.Drawing">
+    <value>3, 16</value>
+  </data>
+  <data name="chkChartsVisible.Size" type="System.Drawing.Size, System.Drawing">
+    <value>95, 18</value>
+  </data>
+  <data name="groupCharts.Size" type="System.Drawing.Size, System.Drawing">
+    <value>235, 118</value>
+  </data>
+  <data name="joinControl1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>514, 387</value>
+  </data>
+  <data name="chkLayerVisible.Text" xml:space="preserve">
+    <value>Visible</value>
+  </data>
+  <data name="&gt;&gt;label15.Name" xml:space="preserve">
+    <value>label15</value>
+  </data>
+  <data name="label15.TabIndex" type="System.Int32, mscorlib">
+    <value>159</value>
+  </data>
+  <data name="groupBox7.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="cboMaxScale.Location" type="System.Drawing.Point, System.Drawing">
+    <value>11, 126</value>
+  </data>
+  <data name="btnCancel.Text" xml:space="preserve">
+    <value>Cancel</value>
+  </data>
+  <data name="&gt;&gt;optChartBars.ZOrder" xml:space="preserve">
+    <value>5</value>
+  </data>
+  <data name="&gt;&gt;txtComments.Parent" xml:space="preserve">
+    <value>groupBox7</value>
+  </data>
+  <data name="chkChartsVisible.Text" xml:space="preserve">
+    <value>Charts visible</value>
+  </data>
+  <data name="tabDefault.Location" type="System.Drawing.Point, System.Drawing">
+    <value>119, 0</value>
+  </data>
+  <data name="&gt;&gt;joinControl1.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;udMinDrawingSize.Name" xml:space="preserve">
+    <value>udMinDrawingSize</value>
+  </data>
+  <data name="axMap1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="chkSpatialIndex.Text" xml:space="preserve">
+    <value>Spatial index</value>
+  </data>
+  <data name="label1.TabIndex" type="System.Int32, mscorlib">
+    <value>171</value>
+  </data>
+  <data name="&gt;&gt;tabInfo.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="chkEditMode.TabIndex" type="System.Int32, mscorlib">
+    <value>174</value>
+  </data>
+  <data name="groupLabelAppearance.Size" type="System.Drawing.Size, System.Drawing">
+    <value>235, 118</value>
+  </data>
+  <data name="tabControl1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>639, 402</value>
+  </data>
+  <data name="&gt;&gt;groupCharts.ZOrder" xml:space="preserve">
+    <value>4</value>
+  </data>
+  <data name="comboBoxAdv1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>199, 21</value>
+  </data>
+  <data name="&gt;&gt;panelLabels.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="label3.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="&gt;&gt;txtLayerExpression.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="optChartBars.Size" type="System.Drawing.Size, System.Drawing">
+    <value>83, 16</value>
+  </data>
+  <data name="scaleControl2.TabIndex" type="System.Int32, mscorlib">
+    <value>162</value>
+  </data>
+  <data name="&gt;&gt;txtLayerName.ZOrder" xml:space="preserve">
+    <value>12</value>
+  </data>
+  <data name="&gt;&gt;btnClearCharts.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="cboCollisionMode.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 8.25pt</value>
+  </data>
+  <data name="cboMinScale.Location" type="System.Drawing.Point, System.Drawing">
+    <value>12, 77</value>
+  </data>
+  <data name="&gt;&gt;clpLabelFrame.Parent" xml:space="preserve">
+    <value>panelLabels</value>
+  </data>
+  <data name="axMap1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>3, 17</value>
+  </data>
+  <data name="udLabelFontSize.Location" type="System.Drawing.Point, System.Drawing">
+    <value>19, 55</value>
+  </data>
+  <data name="btnOpenLocation.TabIndex" type="System.Int32, mscorlib">
+    <value>172</value>
+  </data>
+  <data name="toolOpenLocation.Text" xml:space="preserve">
+    <value>Open Folder</value>
+  </data>
+  <data name="clpLabelFrame.IntegralHeight" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="&gt;&gt;dynamicVisibilityControl1.Parent" xml:space="preserve">
+    <value>tabGeneral</value>
+  </data>
+  <data name="&gt;&gt;txtProjection.Type" xml:space="preserve">
+    <value>Syncfusion.Windows.Forms.Tools.TextBoxExt, Syncfusion.Shared.Base, Version=19.4460.0.38, Culture=neutral, PublicKeyToken=3d67ed1f87d44c89</value>
+  </data>
+  <data name="btnChartAppearance.Text" xml:space="preserve">
+    <value>Setup...</value>
+  </data>
+  <data name="txtLayerExpression.ToolTip" xml:space="preserve">
+    <value>Only shapes which agree with the following expression will be visible</value>
+  </data>
+  <data name="&gt;&gt;panelLabels.Parent" xml:space="preserve">
+    <value>groupLabelAppearance</value>
+  </data>
+  <data name="&gt;&gt;txtDatasourceName.ZOrder" xml:space="preserve">
+    <value>8</value>
+  </data>
+  <data name="label3.TabIndex" type="System.Int32, mscorlib">
+    <value>166</value>
+  </data>
+  <data name="toolRemoveStyle.Size" type="System.Drawing.Size, System.Drawing">
+    <value>154, 22</value>
+  </data>
+  <data name="label9.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="label7.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="txtLayerName.TabIndex" type="System.Int32, mscorlib">
+    <value>39</value>
+  </data>
+  <data name="&gt;&gt;btnCancel.Name" xml:space="preserve">
+    <value>btnCancel</value>
+  </data>
+  <data name="groupBox21.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="pctLabelPreview.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;groupCharts.Name" xml:space="preserve">
+    <value>groupCharts</value>
+  </data>
+  <data name="label8.TabIndex" type="System.Int32, mscorlib">
+    <value>164</value>
+  </data>
+  <data name="btnCancel.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="&gt;&gt;optChartBars.Parent" xml:space="preserve">
+    <value>groupChartAppearance</value>
+  </data>
+  <data name="&gt;&gt;label5.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="toolRemoveStyle.Text" xml:space="preserve">
+    <value>Remove Style</value>
+  </data>
+  <data name="&gt;&gt;dynamicVisibilityControl1.Type" xml:space="preserve">
+    <value>MW5.Plugins.Symbology.Controls.DynamicVisibilityControl, MW5.Symbology, Version=1.0.0.16794, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="udLabelFontSize.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="&gt;&gt;tabControl1.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="cboMaxScale.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Top, Left, Right</value>
+  </data>
+  <data name="&gt;&gt;groupLabelStyle.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="tabFields.Location" type="System.Drawing.Point, System.Drawing">
+    <value>119, 0</value>
+  </data>
+  <data name="tabJoins.Size" type="System.Drawing.Size, System.Drawing">
+    <value>520, 402</value>
+  </data>
+  <data name="&gt;&gt;groupBox10.Type" xml:space="preserve">
+    <value>System.Windows.Forms.GroupBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;icbChartColorScheme.Name" xml:space="preserve">
+    <value>icbChartColorScheme</value>
+  </data>
+  <data name="chkLayerVisible.Location" type="System.Drawing.Point, System.Drawing">
+    <value>438, 32</value>
+  </data>
+  <data name="$this.AutoScaleDimensions" type="System.Drawing.SizeF, System.Drawing">
+    <value>6, 12</value>
+  </data>
+  <data name="&gt;&gt;label15.Parent" xml:space="preserve">
+    <value>panelLabels</value>
+  </data>
+  <data name="&gt;&gt;chkChartsVisible.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="&gt;&gt;label3.ZOrder" xml:space="preserve">
+    <value>7</value>
+  </data>
+  <data name="btnProjectionDetails.Text" xml:space="preserve">
+    <value>Details</value>
+  </data>
+  <data name="groupBox7.TabIndex" type="System.Int32, mscorlib">
+    <value>166</value>
+  </data>
+  <data name="&gt;&gt;toolStripSeparator2.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripSeparator, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="clpLabelFrame.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="toolSaveStyle.Size" type="System.Drawing.Size, System.Drawing">
+    <value>154, 22</value>
+  </data>
+  <data name="txtDatasourceName.TabIndex" type="System.Int32, mscorlib">
+    <value>165</value>
+  </data>
+  <data name="&gt;&gt;cboMinScale.Name" xml:space="preserve">
+    <value>cboMinScale</value>
+  </data>
+  <data name="txtBriefInfo.Size" type="System.Drawing.Size, System.Drawing">
+    <value>364, 21</value>
+  </data>
+  <data name="chkEditMode.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="tabCharts.Text" xml:space="preserve">
+    <value>Charts</value>
+  </data>
+  <data name="groupLabelAppearance.Location" type="System.Drawing.Point, System.Drawing">
+    <value>18, 187</value>
+  </data>
+  <data name="label9.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="groupBox5.TabIndex" type="System.Int32, mscorlib">
+    <value>35</value>
+  </data>
+  <data name="&gt;&gt;pictureBox1.Type" xml:space="preserve">
+    <value>System.Windows.Forms.PictureBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;btnOk.Type" xml:space="preserve">
+    <value>Syncfusion.Windows.Forms.ButtonAdv, Syncfusion.Shared.Base, Version=19.4460.0.38, Culture=neutral, PublicKeyToken=3d67ed1f87d44c89</value>
+  </data>
+  <data name="&gt;&gt;chkSpatialIndex.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="&gt;&gt;label8.Name" xml:space="preserve">
+    <value>label8</value>
+  </data>
+  <data name="&gt;&gt;udMinDrawingSize.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="btnApply.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="&gt;&gt;toolStripEx1.Type" xml:space="preserve">
+    <value>Syncfusion.Windows.Forms.Tools.ToolStripEx, Syncfusion.Tools.Windows, Version=19.4460.0.38, Culture=neutral, PublicKeyToken=3d67ed1f87d44c89</value>
+  </data>
+  <data name="&gt;&gt;tabInfo.Name" xml:space="preserve">
+    <value>tabInfo</value>
+  </data>
+  <data name="&gt;&gt;cboMinScale.Type" xml:space="preserve">
+    <value>Syncfusion.Windows.Forms.Tools.ComboBoxAdv, Syncfusion.Tools.Windows, Version=19.4460.0.38, Culture=neutral, PublicKeyToken=3d67ed1f87d44c89</value>
+  </data>
+  <data name="comboBoxAdv1.TabIndex" type="System.Int32, mscorlib">
+    <value>7</value>
+  </data>
+  <data name="&gt;&gt;txtDatasourceName.Type" xml:space="preserve">
+    <value>Syncfusion.Windows.Forms.Tools.TextBoxExt, Syncfusion.Shared.Base, Version=19.4460.0.38, Culture=neutral, PublicKeyToken=3d67ed1f87d44c89</value>
+  </data>
+  <data name="&gt;&gt;chkLabelFrame.ZOrder" xml:space="preserve">
+    <value>4</value>
+  </data>
+  <data name="&gt;&gt;clpLabelFrame.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="&gt;&gt;tabInfo.Type" xml:space="preserve">
+    <value>Syncfusion.Windows.Forms.Tools.TabPageAdv, Syncfusion.Tools.Windows, Version=19.4460.0.38, Culture=neutral, PublicKeyToken=3d67ed1f87d44c89</value>
+  </data>
+  <data name="label7.Text" xml:space="preserve">
+    <value>Color scheme</value>
+  </data>
+  <data name="&gt;&gt;chkChartsVisible.Name" xml:space="preserve">
+    <value>chkChartsVisible</value>
+  </data>
+  <data name="tabControl1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>12, 2</value>
+  </data>
+  <data name="scaleControl1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>3, 16</value>
+  </data>
+  <data name="btnCopyInfo.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="joinControl1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="&gt;&gt;btnProjectionDetails.Name" xml:space="preserve">
+    <value>btnProjectionDetails</value>
+  </data>
+  <data name="cboMinScale.TabIndex" type="System.Int32, mscorlib">
+    <value>3</value>
+  </data>
+  <data name="&gt;&gt;pctCharts.Parent" xml:space="preserve">
+    <value>groupCharts</value>
+  </data>
+  <data name="&gt;&gt;label12.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="tabGeneral.Location" type="System.Drawing.Point, System.Drawing">
+    <value>119, 0</value>
+  </data>
+  <data name="&gt;&gt;chkEditMode.Type" xml:space="preserve">
+    <value>System.Windows.Forms.CheckBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;btnLabelAppearance.Parent" xml:space="preserve">
+    <value>tabLabels</value>
+  </data>
+  <data name="icbChartColorScheme.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="&gt;&gt;btnApply.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="&gt;&gt;chkChartsVisible.Parent" xml:space="preserve">
+    <value>groupChartAppearance</value>
+  </data>
+  <data name="label12.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="label9.Size" type="System.Drawing.Size, System.Drawing">
+    <value>323, 12</value>
+  </data>
+  <data name="&gt;&gt;label12.Name" xml:space="preserve">
+    <value>label12</value>
+  </data>
+  <data name="&gt;&gt;groupChartAppearance.Parent" xml:space="preserve">
+    <value>tabCharts</value>
+  </data>
+  <data name="chkSpatialIndex.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="&gt;&gt;label2.Name" xml:space="preserve">
+    <value>label2</value>
+  </data>
+  <data name="&gt;&gt;groupBox13.Name" xml:space="preserve">
+    <value>groupBox13</value>
+  </data>
+  <data name="&gt;&gt;label6.Name" xml:space="preserve">
+    <value>label6</value>
+  </data>
+  <data name="txtComments.Location" type="System.Drawing.Point, System.Drawing">
+    <value>3, 17</value>
+  </data>
+  <data name="&gt;&gt;tabCharts.Parent" xml:space="preserve">
+    <value>tabControl1</value>
+  </data>
+  <data name="label5.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="&gt;&gt;label8.Parent" xml:space="preserve">
+    <value>tabGeneral</value>
+  </data>
+  <data name="btnLabelAppearance.Location" type="System.Drawing.Point, System.Drawing">
+    <value>268, 78</value>
+  </data>
+  <data name="groupBox21.Location" type="System.Drawing.Point, System.Drawing">
+    <value>269, 66</value>
+  </data>
+  <data name="&gt;&gt;btnCopyInfo.Type" xml:space="preserve">
+    <value>Syncfusion.Windows.Forms.ButtonAdv, Syncfusion.Shared.Base, Version=19.4460.0.38, Culture=neutral, PublicKeyToken=3d67ed1f87d44c89</value>
+  </data>
+  <data name="chkEditMode.Enabled" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="txtBriefInfo.Location" type="System.Drawing.Point, System.Drawing">
+    <value>137, 141</value>
+  </data>
+  <data name="&gt;&gt;btnClearCharts.Type" xml:space="preserve">
+    <value>Syncfusion.Windows.Forms.ButtonAdv, Syncfusion.Shared.Base, Version=19.4460.0.38, Culture=neutral, PublicKeyToken=3d67ed1f87d44c89</value>
+  </data>
+  <data name="&gt;&gt;infoGrid1.Name" xml:space="preserve">
+    <value>infoGrid1</value>
+  </data>
+  <data name="&gt;&gt;btnCopyInfo.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;tabFields.Name" xml:space="preserve">
+    <value>tabFields</value>
+  </data>
+  <data name="&gt;&gt;pctLabelPreview.Type" xml:space="preserve">
+    <value>System.Windows.Forms.PictureBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="chkLayerPreview.Location" type="System.Drawing.Point, System.Drawing">
+    <value>6, 0</value>
+  </data>
+  <data name="&gt;&gt;scaleControl1.Type" xml:space="preserve">
+    <value>MW5.Plugins.Symbology.Controls.ScaleControl, MW5.Symbology, Version=1.0.0.16794, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;optChartsPie.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="&gt;&gt;groupBox5.ZOrder" xml:space="preserve">
+    <value>4</value>
+  </data>
+  <data name="btnLabelAppearance.Text" xml:space="preserve">
+    <value>Setup...</value>
+  </data>
+  <data name="label3.Text" xml:space="preserve">
+    <value>Coordinate system</value>
+  </data>
+  <data name="label4.Text" xml:space="preserve">
+    <value>Pie or bar charts generated from attribute values of features. Any number of numeric fields can be charted.</value>
+  </data>
+  <data name="btnClearCharts.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="btnOpenLocation.Text" xml:space="preserve">
+    <value>Open</value>
+  </data>
+  <data name="&gt;&gt;toolStripSeparator1.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripSeparator, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;tabCategories.ZOrder" xml:space="preserve">
+    <value>4</value>
+  </data>
+  <data name="btnClearLabels.Size" type="System.Drawing.Size, System.Drawing">
+    <value>93, 24</value>
+  </data>
+  <data name="label7.Size" type="System.Drawing.Size, System.Drawing">
+    <value>77, 12</value>
+  </data>
+  <data name="btnLabelAppearance.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="&gt;&gt;chkEditMode.Name" xml:space="preserve">
+    <value>chkEditMode</value>
+  </data>
+  <data name="cboMaxScale.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 8.25pt</value>
+  </data>
+  <data name="btnOpenLocation.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="&gt;&gt;btnCancel.ZOrder" xml:space="preserve">
+    <value>4</value>
+  </data>
+  <data name="btnClearLabels.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="label15.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="btnClearVisibilityExpression.Size" type="System.Drawing.Size, System.Drawing">
+    <value>74, 24</value>
+  </data>
+  <data name="dynamicVisibilityControl1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="&gt;&gt;toolRemoveStyle.Name" xml:space="preserve">
+    <value>toolRemoveStyle</value>
+  </data>
+  <data name="groupLabelStyle.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="label5.Size" type="System.Drawing.Size, System.Drawing">
+    <value>493, 35</value>
+  </data>
+  <data name="&gt;&gt;label1.Parent" xml:space="preserve">
+    <value>tabLabels</value>
+  </data>
+  <data name="label1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="txtComments.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="&gt;&gt;cboMaxScale.Type" xml:space="preserve">
+    <value>Syncfusion.Windows.Forms.Tools.ComboBoxAdv, Syncfusion.Tools.Windows, Version=19.4460.0.38, Culture=neutral, PublicKeyToken=3d67ed1f87d44c89</value>
+  </data>
+  <data name="pctCharts.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="groupBox19.Text" xml:space="preserve">
+    <value>Minimal geometry size, pixels</value>
+  </data>
+  <data name="groupCharts.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="chkSpatialIndex.TabIndex" type="System.Int32, mscorlib">
+    <value>173</value>
+  </data>
+  <data name="clpLabelFrame.TabIndex" type="System.Int32, mscorlib">
+    <value>157</value>
+  </data>
+  <data name="&gt;&gt;label8.ZOrder" xml:space="preserve">
+    <value>9</value>
+  </data>
+  <data name="&gt;&gt;chkLayerPreview.Name" xml:space="preserve">
+    <value>chkLayerPreview</value>
+  </data>
+  <data name="&gt;&gt;tabJoins.Name" xml:space="preserve">
+    <value>tabJoins</value>
+  </data>
+  <data name="btnClearCharts.TabIndex" type="System.Int32, mscorlib">
+    <value>172</value>
+  </data>
+  <data name="&gt;&gt;groupCharts.Type" xml:space="preserve">
+    <value>System.Windows.Forms.GroupBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;groupBox7.Name" xml:space="preserve">
+    <value>groupBox7</value>
+  </data>
+  <data name="label6.TabIndex" type="System.Int32, mscorlib">
+    <value>175</value>
+  </data>
+  <data name="&gt;&gt;txtLayerExpression.Parent" xml:space="preserve">
+    <value>groupBox13</value>
+  </data>
+  <data name="&gt;&gt;btnOk.ZOrder" xml:space="preserve">
+    <value>5</value>
+  </data>
+  <data name="&gt;&gt;axMap1.Name" xml:space="preserve">
+    <value>axMap1</value>
+  </data>
+  <data name="&gt;&gt;label12.Parent" xml:space="preserve">
+    <value>groupBox19</value>
+  </data>
+  <data name="tabControl1.ItemSize" type="System.Drawing.Size, System.Drawing">
+    <value>120, 50</value>
+  </data>
+  <data name="pctLabelPreview.Size" type="System.Drawing.Size, System.Drawing">
+    <value>229, 98</value>
+  </data>
+  <data name="chkShowLabels.Size" type="System.Drawing.Size, System.Drawing">
+    <value>89, 17</value>
+  </data>
+  <data name="&gt;&gt;chkSpatialIndex.Type" xml:space="preserve">
+    <value>System.Windows.Forms.CheckBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="tabJoins.Location" type="System.Drawing.Point, System.Drawing">
+    <value>119, 0</value>
+  </data>
+  <data name="$this.ClientSize" type="System.Drawing.Size, System.Drawing">
+    <value>661, 438</value>
+  </data>
+  <data name="chkLabelFrame.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="cboMinScale.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 8.25pt</value>
+  </data>
+  <data name="btnProjectionDetails.Location" type="System.Drawing.Point, System.Drawing">
+    <value>438, 101</value>
+  </data>
+  <data name="label6.Location" type="System.Drawing.Point, System.Drawing">
+    <value>17, 32</value>
+  </data>
+  <data name="label8.Size" type="System.Drawing.Size, System.Drawing">
+    <value>95, 12</value>
+  </data>
+  <data name="&gt;&gt;groupLabelAppearance.Type" xml:space="preserve">
+    <value>System.Windows.Forms.GroupBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="label7.Location" type="System.Drawing.Point, System.Drawing">
+    <value>19, 60</value>
+  </data>
+  <data name="&gt;&gt;btnLabelAppearance.Type" xml:space="preserve">
+    <value>Syncfusion.Windows.Forms.ButtonAdv, Syncfusion.Shared.Base, Version=19.4460.0.38, Culture=neutral, PublicKeyToken=3d67ed1f87d44c89</value>
+  </data>
+  <data name="chkLabelFrame.Size" type="System.Drawing.Size, System.Drawing">
+    <value>102, 16</value>
+  </data>
+  <data name="label5.TabIndex" type="System.Int32, mscorlib">
+    <value>188</value>
+  </data>
+  <data name="&gt;&gt;btnOk.Name" xml:space="preserve">
+    <value>btnOk</value>
+  </data>
+  <data name="&gt;&gt;optChartBars.Name" xml:space="preserve">
+    <value>optChartBars</value>
+  </data>
+  <data name="txtLayerName.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="btnChartsEditColorScheme.Size" type="System.Drawing.Size, System.Drawing">
+    <value>29, 20</value>
+  </data>
+  <data name="&gt;&gt;tabCharts.Type" xml:space="preserve">
+    <value>Syncfusion.Windows.Forms.Tools.TabPageAdv, Syncfusion.Tools.Windows, Version=19.4460.0.38, Culture=neutral, PublicKeyToken=3d67ed1f87d44c89</value>
+  </data>
+  <data name="txtProjection.TabIndex" type="System.Int32, mscorlib">
+    <value>167</value>
+  </data>
+  <data name="&gt;&gt;chkShowLabels.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="&gt;&gt;tabDefault.Name" xml:space="preserve">
+    <value>tabDefault</value>
+  </data>
+  <data name="groupBox10.Location" type="System.Drawing.Point, System.Drawing">
+    <value>263, 187</value>
+  </data>
+  <data name="cboMinScale.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="&gt;&gt;groupBox13.Parent" xml:space="preserve">
+    <value>tabDefault</value>
+  </data>
+  <data name="tabControl1.Padding" type="System.Drawing.Point, System.Drawing">
+    <value>5, 10</value>
+  </data>
+  <data name="btnProjectionDetails.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="groupLabelStyle.Size" type="System.Drawing.Size, System.Drawing">
+    <value>235, 118</value>
+  </data>
+  <data name="infoGrid1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>490, 351</value>
+  </data>
+  <data name="&gt;&gt;groupCharts.Parent" xml:space="preserve">
+    <value>tabCharts</value>
+  </data>
+  <data name="btnClearCharts.Location" type="System.Drawing.Point, System.Drawing">
+    <value>268, 108</value>
+  </data>
+  <data name="scaleControl1.TabIndex" type="System.Int32, mscorlib">
+    <value>162</value>
+  </data>
+  <data name="&gt;&gt;toolStyle.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripDropDownButton, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;chkLayerVisible.ZOrder" xml:space="preserve">
+    <value>11</value>
+  </data>
+  <data name="optChartsPie.Size" type="System.Drawing.Size, System.Drawing">
+    <value>83, 16</value>
+  </data>
+  <data name="groupLabelStyle.Location" type="System.Drawing.Point, System.Drawing">
+    <value>18, 64</value>
+  </data>
+  <data name="optChartsPie.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="&gt;&gt;groupBox13.Type" xml:space="preserve">
+    <value>System.Windows.Forms.GroupBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;groupBox21.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="&gt;&gt;clpLabelFrame.Name" xml:space="preserve">
+    <value>clpLabelFrame</value>
+  </data>
+  <data name="&gt;&gt;btnChartAppearance.Type" xml:space="preserve">
+    <value>Syncfusion.Windows.Forms.ButtonAdv, Syncfusion.Shared.Base, Version=19.4460.0.38, Culture=neutral, PublicKeyToken=3d67ed1f87d44c89</value>
+  </data>
+  <data name="txtComments.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 8.25pt</value>
+  </data>
+  <data name="&gt;&gt;groupLabelStyle.Parent" xml:space="preserve">
+    <value>tabLabels</value>
+  </data>
+  <data name="groupBox13.TabIndex" type="System.Int32, mscorlib">
+    <value>185</value>
+  </data>
+  <data name="&gt;&gt;label18.ZOrder" xml:space="preserve">
+    <value>13</value>
+  </data>
+  <data name="&gt;&gt;tabGeneral.Name" xml:space="preserve">
+    <value>tabGeneral</value>
+  </data>
+  <data name="optChartsPie.Location" type="System.Drawing.Point, System.Drawing">
+    <value>145, 53</value>
+  </data>
+  <data name="txtDatasourceName.Location" type="System.Drawing.Point, System.Drawing">
+    <value>137, 66</value>
+  </data>
+  <data name="tabInfo.Text" xml:space="preserve">
+    <value>信息</value>
+  </data>
+  <data name="btnClearVisibilityExpression.TabIndex" type="System.Int32, mscorlib">
+    <value>168</value>
+  </data>
+  <data name="btnCopyInfo.Text" xml:space="preserve">
+    <value>Copy</value>
+  </data>
+  <data name="groupLabelAppearance.TabIndex" type="System.Int32, mscorlib">
+    <value>162</value>
+  </data>
+  <data name="txtProjection.Location" type="System.Drawing.Point, System.Drawing">
+    <value>137, 103</value>
+  </data>
+  <data name="label8.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="&gt;&gt;imageList1.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ImageList, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;toolSaveStyle.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="tabCategories.Size" type="System.Drawing.Size, System.Drawing">
+    <value>520, 402</value>
+  </data>
+  <data name="btnChangeVisibilityExpression.Size" type="System.Drawing.Size, System.Drawing">
+    <value>75, 24</value>
+  </data>
+  <data name="&gt;&gt;label1.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="btnClearVisibilityExpression.Text" xml:space="preserve">
+    <value>Clear</value>
+  </data>
+  <data name="label12.Location" type="System.Drawing.Point, System.Drawing">
+    <value>18, 64</value>
+  </data>
+  <data name="label4.Size" type="System.Drawing.Size, System.Drawing">
+    <value>478, 35</value>
+  </data>
+  <data name="btnClearVisibilityExpression.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="&gt;&gt;btnChangeVisibilityExpression.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="&gt;&gt;scaleControl1.Name" xml:space="preserve">
+    <value>scaleControl1</value>
+  </data>
+  <data name="&gt;&gt;comboBoxAdv1.Type" xml:space="preserve">
+    <value>Syncfusion.Windows.Forms.Tools.ComboBoxAdv, Syncfusion.Tools.Windows, Version=19.4460.0.38, Culture=neutral, PublicKeyToken=3d67ed1f87d44c89</value>
+  </data>
+  <data name="btnCancel.TabIndex" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="groupBox5.Text" xml:space="preserve">
+    <value>Appearance (click to edit)</value>
+  </data>
+  <data name="&gt;&gt;tabJoins.Parent" xml:space="preserve">
+    <value>tabControl1</value>
+  </data>
+  <data name="btnChartsEditColorScheme.Location" type="System.Drawing.Point, System.Drawing">
+    <value>137, 77</value>
+  </data>
+  <data name="chkSpatialIndex.Location" type="System.Drawing.Point, System.Drawing">
+    <value>269, 366</value>
+  </data>
+  <data name="tabControl1.TabGap" type="System.Int32, mscorlib">
+    <value>10</value>
+  </data>
+  <data name="label18.Size" type="System.Drawing.Size, System.Drawing">
+    <value>65, 12</value>
+  </data>
+  <data name="groupBox13.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="&gt;&gt;pctCharts.Type" xml:space="preserve">
+    <value>System.Windows.Forms.PictureBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="groupCharts.Location" type="System.Drawing.Point, System.Drawing">
+    <value>18, 64</value>
+  </data>
+  <data name="chkLayerVisible.TabIndex" type="System.Int32, mscorlib">
+    <value>160</value>
+  </data>
+  <data name="$this.StartPosition" type="System.Windows.Forms.FormStartPosition, System.Windows.Forms">
+    <value>CenterScreen</value>
+  </data>
+  <data name="cboMaxScale.TabIndex" type="System.Int32, mscorlib">
+    <value>4</value>
+  </data>
+  <data name="tabJoins.TabIndex" type="System.Int32, mscorlib">
+    <value>13</value>
+  </data>
+  <data name="&gt;&gt;groupBox10.Name" xml:space="preserve">
+    <value>groupBox10</value>
+  </data>
+  <data name="&gt;&gt;groupBox13.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="udMinLabelingSize.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="&gt;&gt;chkLayerPreview.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="&gt;&gt;toolSaveStyle.Name" xml:space="preserve">
+    <value>toolSaveStyle</value>
+  </data>
+  <data name="btnProjectionDetails.Size" type="System.Drawing.Size, System.Drawing">
+    <value>63, 21</value>
+  </data>
+  <data name="tabControl1.TabIndex" type="System.Int32, mscorlib">
+    <value>6</value>
+  </data>
+  <data name="btnApply.Enabled" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="&gt;&gt;toolRemoveStyle.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;label6.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;groupLabelAppearance.Name" xml:space="preserve">
+    <value>groupLabelAppearance</value>
+  </data>
+  <data name="&gt;&gt;groupBox7.Type" xml:space="preserve">
+    <value>System.Windows.Forms.GroupBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="groupBox7.Text" xml:space="preserve">
+    <value>Description</value>
+  </data>
+  <data name="&gt;&gt;tabInfo.Parent" xml:space="preserve">
+    <value>tabControl1</value>
+  </data>
+  <data name="label5.Text" xml:space="preserve">
+    <value>Default appearance for features of current datasource. Changes  made here will also be selectively applied to any existing categories.</value>
+  </data>
+  <data name="attributesControl1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>3, 3</value>
+  </data>
+  <data name="&gt;&gt;label7.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="btnChangeVisibilityExpression.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="chkLabelFrame.Text" xml:space="preserve">
+    <value>Frame visible</value>
+  </data>
+  <data name="txtProjection.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="pctLabelPreview.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="infoGrid1.Text" xml:space="preserve">
+    <value>infoGrid1</value>
+  </data>
+  <data name="label1.Text" xml:space="preserve">
+    <value>Labels generated from attribute values of features. Any field or an expression including several fields can be used.</value>
+  </data>
+  <data name="&gt;&gt;optChartsPie.Name" xml:space="preserve">
+    <value>optChartsPie</value>
+  </data>
+  <data name="udMinLabelingSize.TabIndex" type="System.Int32, mscorlib">
+    <value>178</value>
+  </data>
+  <data name="txtLayerExpression.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Top, Bottom, Left, Right</value>
+  </data>
+  <data name="&gt;&gt;pictureBox1.Parent" xml:space="preserve">
+    <value>groupBox5</value>
+  </data>
+  <data name="&gt;&gt;icbChartColorScheme.ZOrder" xml:space="preserve">
+    <value>4</value>
+  </data>
+  <data name="&gt;&gt;btnChartsEditColorScheme.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="udMinLabelingSize.Size" type="System.Drawing.Size, System.Drawing">
+    <value>53, 21</value>
+  </data>
+  <data name="&gt;&gt;txtComments.Type" xml:space="preserve">
+    <value>System.Windows.Forms.RichTextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="tabDefault.TabIndex" type="System.Int32, mscorlib">
+    <value>6</value>
+  </data>
+  <data name="tabCharts.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="label8.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="btnOk.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Bottom, Right</value>
+  </data>
+  <data name="&gt;&gt;infoGrid1.Parent" xml:space="preserve">
+    <value>tabInfo</value>
+  </data>
+  <data name="&gt;&gt;btnClearCharts.Name" xml:space="preserve">
+    <value>btnClearCharts</value>
+  </data>
+  <data name="scaleControl1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>110, 273</value>
+  </data>
+  <data name="&gt;&gt;scaleControl2.Name" xml:space="preserve">
+    <value>scaleControl2</value>
+  </data>
+  <data name="groupLabelStyle.TabIndex" type="System.Int32, mscorlib">
+    <value>130</value>
+  </data>
+  <data name="txtBriefInfo.TabIndex" type="System.Int32, mscorlib">
+    <value>170</value>
+  </data>
+  <data name="label7.TabIndex" type="System.Int32, mscorlib">
+    <value>23</value>
+  </data>
+  <data name="btnApply.Location" type="System.Drawing.Point, System.Drawing">
+    <value>362, 411</value>
+  </data>
+  <data name="&gt;&gt;pctLabelPreview.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;btnOpenLocation.Type" xml:space="preserve">
+    <value>Syncfusion.Windows.Forms.ButtonAdv, Syncfusion.Shared.Base, Version=19.4460.0.38, Culture=neutral, PublicKeyToken=3d67ed1f87d44c89</value>
+  </data>
+  <data name="&gt;&gt;chkSpatialIndex.Name" xml:space="preserve">
+    <value>chkSpatialIndex</value>
+  </data>
+  <data name="btnOk.Size" type="System.Drawing.Size, System.Drawing">
+    <value>93, 24</value>
+  </data>
+  <data name="&gt;&gt;btnCancel.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="tabInfo.Location" type="System.Drawing.Point, System.Drawing">
+    <value>119, 0</value>
+  </data>
+  <data name="groupChartAppearance.Size" type="System.Drawing.Size, System.Drawing">
+    <value>235, 118</value>
+  </data>
+  <data name="&gt;&gt;label3.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;tabFields.ZOrder" xml:space="preserve">
+    <value>5</value>
+  </data>
+  <data name="&gt;&gt;chkShowLabels.Type" xml:space="preserve">
+    <value>System.Windows.Forms.CheckBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="groupBox13.Size" type="System.Drawing.Size, System.Drawing">
+    <value>490, 118</value>
+  </data>
+  <data name="&gt;&gt;tabLabels.ZOrder" xml:space="preserve">
+    <value>7</value>
+  </data>
+  <data name="btnChartsEditColorScheme.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="&gt;&gt;btnChartAppearance.Parent" xml:space="preserve">
+    <value>tabCharts</value>
+  </data>
+  <data name="chkLayerPreview.Text" xml:space="preserve">
+    <value>Show preview</value>
+  </data>
+  <data name="clpLabelFrame.Location" type="System.Drawing.Point, System.Drawing">
+    <value>128, 54</value>
+  </data>
+  <data name="icbChartColorScheme.Size" type="System.Drawing.Size, System.Drawing">
+    <value>114, 22</value>
+  </data>
+  <data name="tabGeneral.Text" xml:space="preserve">
+    <value>常规</value>
+  </data>
+  <data name="tabFields.TabIndex" type="System.Int32, mscorlib">
+    <value>16</value>
+  </data>
+  <data name="txtDatasourceName.Size" type="System.Drawing.Size, System.Drawing">
+    <value>292, 21</value>
+  </data>
+  <data name="tabDefault.Text" xml:space="preserve">
+    <value>Appearance</value>
+  </data>
+  <data name="&gt;&gt;toolStyle.Name" xml:space="preserve">
+    <value>toolStyle</value>
+  </data>
+  <data name="tabGeneral.Size" type="System.Drawing.Size, System.Drawing">
+    <value>520, 402</value>
+  </data>
+  <data name="&gt;&gt;btnCopyInfo.Parent" xml:space="preserve">
+    <value>tabInfo</value>
+  </data>
+  <data name="&gt;&gt;toolTip1.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolTip, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;label4.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="txtProjection.Size" type="System.Drawing.Size, System.Drawing">
+    <value>291, 21</value>
+  </data>
+  <data name="&gt;&gt;btnChangeVisibilityExpression.Parent" xml:space="preserve">
+    <value>groupBox13</value>
+  </data>
+  <data name="&gt;&gt;txtComments.Name" xml:space="preserve">
+    <value>txtComments</value>
+  </data>
+  <data name="label3.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="scaleControl2.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="label6.Size" type="System.Drawing.Size, System.Drawing">
+    <value>53, 12</value>
+  </data>
+  <data name="&gt;&gt;btnClearVisibilityExpression.Type" xml:space="preserve">
+    <value>Syncfusion.Windows.Forms.ButtonAdv, Syncfusion.Shared.Base, Version=19.4460.0.38, Culture=neutral, PublicKeyToken=3d67ed1f87d44c89</value>
+  </data>
+  <data name="udLabelFontSize.TabIndex" type="System.Int32, mscorlib">
+    <value>160</value>
+  </data>
+  <data name="tabLabels.Location" type="System.Drawing.Point, System.Drawing">
+    <value>119, 0</value>
+  </data>
+  <data name="tabGeneral.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="&gt;&gt;optChartBars.Type" xml:space="preserve">
+    <value>System.Windows.Forms.RadioButton, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;attributesControl1.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;groupLabelAppearance.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="&gt;&gt;tabCharts.ZOrder" xml:space="preserve">
+    <value>8</value>
+  </data>
+  <data name="&gt;&gt;joinControl1.Parent" xml:space="preserve">
+    <value>tabJoins</value>
+  </data>
+  <data name="label12.Size" type="System.Drawing.Size, System.Drawing">
+    <value>59, 12</value>
+  </data>
+  <data name="btnClearLabels.Location" type="System.Drawing.Point, System.Drawing">
+    <value>268, 108</value>
+  </data>
+  <data name="&gt;&gt;tabJoins.Type" xml:space="preserve">
+    <value>Syncfusion.Windows.Forms.Tools.TabPageAdv, Syncfusion.Tools.Windows, Version=19.4460.0.38, Culture=neutral, PublicKeyToken=3d67ed1f87d44c89</value>
+  </data>
+  <data name="&gt;&gt;tabControl1.Type" xml:space="preserve">
+    <value>MW5.UI.Controls.TabPropertiesControl, MW5.UI, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="axMap1.Visible" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="&gt;&gt;label9.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;pctLabelPreview.Name" xml:space="preserve">
+    <value>pctLabelPreview</value>
+  </data>
+  <data name="chkSpatialIndex.Size" type="System.Drawing.Size, System.Drawing">
+    <value>102, 16</value>
+  </data>
+  <data name="&gt;&gt;tabLabels.Type" xml:space="preserve">
+    <value>Syncfusion.Windows.Forms.Tools.TabPageAdv, Syncfusion.Tools.Windows, Version=19.4460.0.38, Culture=neutral, PublicKeyToken=3d67ed1f87d44c89</value>
+  </data>
+  <data name="dynamicVisibilityControl1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>21, 187</value>
+  </data>
+  <data name="&gt;&gt;txtLayerExpression.Name" xml:space="preserve">
+    <value>txtLayerExpression</value>
+  </data>
+  <data name="chkLayerVisible.Size" type="System.Drawing.Size, System.Drawing">
+    <value>66, 16</value>
+  </data>
+  <data name="chkEditMode.Text" xml:space="preserve">
+    <value>Editing mode</value>
+  </data>
+  <data name="&gt;&gt;comboBoxAdv1.Name" xml:space="preserve">
+    <value>comboBoxAdv1</value>
+  </data>
+  <data name="btnCopyInfo.TabIndex" type="System.Int32, mscorlib">
+    <value>5</value>
+  </data>
+  <data name="&gt;&gt;udLabelFontSize.Type" xml:space="preserve">
+    <value>MW5.Plugins.Symbology.Controls.NumericUpDownEx, MW5.Symbology, Version=1.0.0.16794, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="tabInfo.Size" type="System.Drawing.Size, System.Drawing">
+    <value>520, 402</value>
+  </data>
+  <data name="groupChartAppearance.TabIndex" type="System.Int32, mscorlib">
+    <value>171</value>
+  </data>
+  <data name="btnOpenLocation.Location" type="System.Drawing.Point, System.Drawing">
+    <value>438, 63</value>
+  </data>
+  <data name="optChartBars.TabIndex" type="System.Int32, mscorlib">
+    <value>163</value>
+  </data>
+  <data name="cboCollisionMode.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="&gt;&gt;txtLayerName.Name" xml:space="preserve">
+    <value>txtLayerName</value>
+  </data>
+  <data name="groupBox13.Text" xml:space="preserve">
+    <value>Visibility expression</value>
+  </data>
+  <data name="&gt;&gt;groupBox19.Parent" xml:space="preserve">
+    <value>tabDefault</value>
+  </data>
+  <data name="toolStripEx1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>12, 413</value>
+  </data>
+  <data name="infoGrid1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="&gt;&gt;btnClearLabels.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="&gt;&gt;btnChartsEditColorScheme.Type" xml:space="preserve">
+    <value>Syncfusion.Windows.Forms.ButtonAdv, Syncfusion.Shared.Base, Version=19.4460.0.38, Culture=neutral, PublicKeyToken=3d67ed1f87d44c89</value>
+  </data>
+  <data name="&gt;&gt;txtLayerName.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="btnChartsEditColorScheme.Text" xml:space="preserve">
+    <value>...</value>
+  </data>
+  <data name="label2.Location" type="System.Drawing.Point, System.Drawing">
+    <value>28, 144</value>
+  </data>
+  <data name="groupBox7.Location" type="System.Drawing.Point, System.Drawing">
+    <value>720, 66</value>
+  </data>
+  <data name="groupChartAppearance.Text" xml:space="preserve">
+    <value>Appearance</value>
+  </data>
+  <data name="chkShowLabels.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="&gt;&gt;label8.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;udLabelFontSize.Name" xml:space="preserve">
+    <value>udLabelFontSize</value>
+  </data>
+  <data name="&gt;&gt;btnChangeVisibilityExpression.Name" xml:space="preserve">
+    <value>btnChangeVisibilityExpression</value>
+  </data>
+  <data name="&gt;&gt;label6.Parent" xml:space="preserve">
+    <value>groupBox19</value>
+  </data>
+  <data name="&gt;&gt;tabFields.Parent" xml:space="preserve">
+    <value>tabControl1</value>
+  </data>
+  <data name="groupBox5.Location" type="System.Drawing.Point, System.Drawing">
+    <value>16, 66</value>
+  </data>
+  <data name="axMap1.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Fill</value>
+  </data>
+  <data name="&gt;&gt;chkLayerVisible.Name" xml:space="preserve">
+    <value>chkLayerVisible</value>
+  </data>
+  <data name="&gt;&gt;chkEditMode.Parent" xml:space="preserve">
+    <value>tabGeneral</value>
+  </data>
+  <data name="pctCharts.Size" type="System.Drawing.Size, System.Drawing">
+    <value>229, 98</value>
+  </data>
+  <data name="tabGeneral.TabIndex" type="System.Int32, mscorlib">
+    <value>10</value>
+  </data>
+  <data name="label2.Size" type="System.Drawing.Size, System.Drawing">
+    <value>71, 12</value>
+  </data>
+  <data name="toolStripEx1.Text" xml:space="preserve">
+    <value>Style</value>
+  </data>
+  <data name="&gt;&gt;txtBriefInfo.Type" xml:space="preserve">
+    <value>Syncfusion.Windows.Forms.Tools.TextBoxExt, Syncfusion.Shared.Base, Version=19.4460.0.38, Culture=neutral, PublicKeyToken=3d67ed1f87d44c89</value>
+  </data>
+  <data name="&gt;&gt;optChartsPie.Parent" xml:space="preserve">
+    <value>groupChartAppearance</value>
+  </data>
+  <data name="&gt;&gt;chkLayerVisible.Parent" xml:space="preserve">
+    <value>tabGeneral</value>
+  </data>
+  <data name="&gt;&gt;label5.Parent" xml:space="preserve">
+    <value>tabDefault</value>
+  </data>
+  <data name="&gt;&gt;btnChartAppearance.Name" xml:space="preserve">
+    <value>btnChartAppearance</value>
+  </data>
+  <data name="&gt;&gt;tabGeneral.Parent" xml:space="preserve">
+    <value>tabControl1</value>
+  </data>
+  <data name="&gt;&gt;tabDefault.Parent" xml:space="preserve">
+    <value>tabControl1</value>
+  </data>
+  <data name="icbChartColorScheme.Location" type="System.Drawing.Point, System.Drawing">
+    <value>17, 77</value>
+  </data>
+  <data name="&gt;&gt;cboCollisionMode.Parent" xml:space="preserve">
+    <value>groupBox21</value>
+  </data>
+  <data name="&gt;&gt;btnClearVisibilityExpression.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;btnClearLabels.Name" xml:space="preserve">
+    <value>btnClearLabels</value>
+  </data>
+  <data name="toolSaveStyle.Text" xml:space="preserve">
+    <value>Save Style...</value>
+  </data>
+  <data name="&gt;&gt;chkShowLabels.Parent" xml:space="preserve">
+    <value>panelLabels</value>
+  </data>
+  <data name="&gt;&gt;tabJoins.ZOrder" xml:space="preserve">
+    <value>6</value>
+  </data>
+  <data name="&gt;&gt;groupChartAppearance.Type" xml:space="preserve">
+    <value>System.Windows.Forms.GroupBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="cboMaxScale.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="tabFields.Size" type="System.Drawing.Size, System.Drawing">
+    <value>520, 402</value>
+  </data>
+  <data name="optChartBars.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="toolStripSeparator2.Size" type="System.Drawing.Size, System.Drawing">
+    <value>151, 6</value>
+  </data>
+  <data name="btnCopyInfo.Location" type="System.Drawing.Point, System.Drawing">
+    <value>15, 370</value>
+  </data>
+  <data name="groupLabelStyle.Text" xml:space="preserve">
+    <value>Preview</value>
+  </data>
+  <data name="label18.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="tabControl1.ActiveTabFont" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 8.25pt</value>
+  </data>
+  <data name="toolStripEx1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>67, 25</value>
+  </data>
+  <data name="&gt;&gt;axMap1.Type" xml:space="preserve">
+    <value>MW5.Api.Map.MapControl, MW5.Api, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="tabFields.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="&gt;&gt;groupBox10.Parent" xml:space="preserve">
+    <value>tabGeneral</value>
+  </data>
+  <data name="tabGeneral.ImageIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;groupLabelStyle.Name" xml:space="preserve">
+    <value>groupLabelStyle</value>
+  </data>
+  <data name="&gt;&gt;groupBox7.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="&gt;&gt;groupBox21.Name" xml:space="preserve">
+    <value>groupBox21</value>
+  </data>
+  <data name="udMinDrawingSize.Size" type="System.Drawing.Size, System.Drawing">
+    <value>53, 21</value>
+  </data>
+  <data name="&gt;&gt;panelLabels.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Panel, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;tabLabels.Parent" xml:space="preserve">
+    <value>tabControl1</value>
+  </data>
+  <data name="chkLayerVisible.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="chkShowLabels.Text" xml:space="preserve">
+    <value>Labels visible</value>
+  </data>
+  <data name="&gt;&gt;btnProjectionDetails.Parent" xml:space="preserve">
+    <value>tabGeneral</value>
+  </data>
+  <data name="toolStyle.Text" xml:space="preserve">
+    <value>Style</value>
+  </data>
+  <data name="comboBoxAdv1.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Top, Left, Right</value>
+  </data>
+  <data name="&gt;&gt;tabCharts.Name" xml:space="preserve">
+    <value>tabCharts</value>
+  </data>
+  <data name="&gt;&gt;chkLayerPreview.Parent" xml:space="preserve">
+    <value>groupBox10</value>
+  </data>
+  <data name="&gt;&gt;groupBox19.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="label4.TabIndex" type="System.Int32, mscorlib">
+    <value>174</value>
+  </data>
+  <data name="groupChartAppearance.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="txtLayerExpression.Size" type="System.Drawing.Size, System.Drawing">
+    <value>382, 95</value>
+  </data>
+  <data name="btnApply.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Bottom, Right</value>
+  </data>
+  <data name="txtLayerExpression.TabIndex" type="System.Int32, mscorlib">
+    <value>162</value>
+  </data>
+  <data name="&gt;&gt;tabDefault.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="&gt;&gt;chkLayerVisible.Type" xml:space="preserve">
+    <value>System.Windows.Forms.CheckBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="groupChartAppearance.Location" type="System.Drawing.Point, System.Drawing">
+    <value>18, 187</value>
+  </data>
+  <data name="groupBox19.Location" type="System.Drawing.Point, System.Drawing">
+    <value>269, 148</value>
+  </data>
+  <data name="axMap1.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;axMap1.Parent" xml:space="preserve">
+    <value>groupBox10</value>
+  </data>
+  <data name="tabJoins.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="optChartBars.Text" xml:space="preserve">
+    <value>Bar charts</value>
+  </data>
+  <data name="optChartsPie.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="txtComments.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Fill</value>
+  </data>
+  <data name="label6.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="&gt;&gt;toolStripEx1.Name" xml:space="preserve">
+    <value>toolStripEx1</value>
+  </data>
+  <data name="&gt;&gt;btnClearLabels.Type" xml:space="preserve">
+    <value>Syncfusion.Windows.Forms.ButtonAdv, Syncfusion.Shared.Base, Version=19.4460.0.38, Culture=neutral, PublicKeyToken=3d67ed1f87d44c89</value>
+  </data>
+  <data name="scaleControl2.MaximumSize" type="System.Drawing.Size, System.Drawing">
+    <value>130, 1000</value>
+  </data>
+  <data name="&gt;&gt;label18.Name" xml:space="preserve">
+    <value>label18</value>
+  </data>
+  <data name="tabInfo.TabIndex" type="System.Int32, mscorlib">
+    <value>15</value>
+  </data>
+  <data name="&gt;&gt;txtProjection.Name" xml:space="preserve">
+    <value>txtProjection</value>
+  </data>
+  <data name="btnApply.TabIndex" type="System.Int32, mscorlib">
+    <value>134</value>
+  </data>
+  <data name="attributesControl1.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;groupBox5.Parent" xml:space="preserve">
+    <value>tabDefault</value>
+  </data>
+  <data name="&gt;&gt;txtProjection.Parent" xml:space="preserve">
+    <value>tabGeneral</value>
+  </data>
+  <data name="chkSpatialIndex.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="&gt;&gt;groupBox10.ZOrder" xml:space="preserve">
+    <value>10</value>
+  </data>
+  <data name="&gt;&gt;axMap1.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="btnClearCharts.Size" type="System.Drawing.Size, System.Drawing">
+    <value>93, 24</value>
+  </data>
+  <data name="pctCharts.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;groupChartAppearance.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="groupBox19.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="label2.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="tabLabels.Text" xml:space="preserve">
+    <value>Labels</value>
+  </data>
+  <data name="groupLabelAppearance.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="&gt;&gt;udMinDrawingSize.Type" xml:space="preserve">
+    <value>MW5.Plugins.Symbology.Controls.NumericUpDownEx, MW5.Symbology, Version=1.0.0.16794, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;btnClearLabels.Parent" xml:space="preserve">
+    <value>tabLabels</value>
+  </data>
+  <data name="&gt;&gt;label1.Name" xml:space="preserve">
+    <value>label1</value>
+  </data>
+  <data name="scaleControl2.Size" type="System.Drawing.Size, System.Drawing">
+    <value>110, 273</value>
+  </data>
+  <data name="&gt;&gt;txtDatasourceName.Parent" xml:space="preserve">
+    <value>tabGeneral</value>
+  </data>
+  <data name="pictureBox1.TabIndex" type="System.Int32, mscorlib">
+    <value>34</value>
+  </data>
+  <data name="comboBoxAdv1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="btnChartAppearance.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="&gt;&gt;label5.Name" xml:space="preserve">
+    <value>label5</value>
+  </data>
+  <data name="tabFields.Text" xml:space="preserve">
+    <value>Fields</value>
+  </data>
+  <data name="chkLayerVisible.ToolTip" xml:space="preserve">
+    <value>Toggles the visibility of the layer</value>
+  </data>
+  <data name="chkLabelFrame.Location" type="System.Drawing.Point, System.Drawing">
+    <value>128, 18</value>
+  </data>
+  <data name="&gt;&gt;tabGeneral.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="&gt;&gt;label9.Name" xml:space="preserve">
+    <value>label9</value>
+  </data>
+  <data name="tabCategories.TabIndex" type="System.Int32, mscorlib">
+    <value>8</value>
+  </data>
+  <data name="pictureBox1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>3, 17</value>
+  </data>
+  <data name="&gt;&gt;label3.Parent" xml:space="preserve">
+    <value>tabGeneral</value>
+  </data>
+  <data name="&gt;&gt;groupBox19.Type" xml:space="preserve">
+    <value>System.Windows.Forms.GroupBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;infoGrid1.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="tabCharts.TabIndex" type="System.Int32, mscorlib">
+    <value>14</value>
+  </data>
+  <data name="groupBox21.Text" xml:space="preserve">
+    <value>Prevent overlaps</value>
+  </data>
+  <data name="&gt;&gt;cboMaxScale.Name" xml:space="preserve">
+    <value>cboMaxScale</value>
+  </data>
+  <data name="btnClearLabels.Text" xml:space="preserve">
+    <value>Clear</value>
+  </data>
+  <data name="&gt;&gt;label2.Parent" xml:space="preserve">
+    <value>tabGeneral</value>
+  </data>
+  <data name="&gt;&gt;chkChartsVisible.Type" xml:space="preserve">
+    <value>System.Windows.Forms.CheckBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="clpLabelFrame.Items" xml:space="preserve">
+    <value>Color</value>
+  </data>
+  <data name="txtComments.Size" type="System.Drawing.Size, System.Drawing">
+    <value>283, 55</value>
+  </data>
+  <data name="groupBox19.Size" type="System.Drawing.Size, System.Drawing">
+    <value>240, 96</value>
+  </data>
+  <data name="pctCharts.Location" type="System.Drawing.Point, System.Drawing">
+    <value>3, 17</value>
+  </data>
+  <data name="infoGrid1.TabIndex" type="System.Int32, mscorlib">
+    <value>4</value>
+  </data>
+  <data name="&gt;&gt;icbChartColorScheme.Parent" xml:space="preserve">
+    <value>groupChartAppearance</value>
+  </data>
+  <data name="&gt;&gt;tabFields.Type" xml:space="preserve">
+    <value>Syncfusion.Windows.Forms.Tools.TabPageAdv, Syncfusion.Tools.Windows, Version=19.4460.0.38, Culture=neutral, PublicKeyToken=3d67ed1f87d44c89</value>
+  </data>
+  <data name="label12.TabIndex" type="System.Int32, mscorlib">
+    <value>177</value>
+  </data>
+  <data name="&gt;&gt;udMinLabelingSize.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="label1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>18, 15</value>
+  </data>
+  <data name="label15.Text" xml:space="preserve">
+    <value>Size</value>
+  </data>
+  <data name="&gt;&gt;toolOpenLocation.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="btnOk.Location" type="System.Drawing.Point, System.Drawing">
+    <value>461, 411</value>
+  </data>
+  <data name="chkEditMode.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="label4.Location" type="System.Drawing.Point, System.Drawing">
+    <value>18, 15</value>
+  </data>
+  <data name="pctCharts.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Fill</value>
+  </data>
+  <data name="&gt;&gt;toolStripSeparator2.Name" xml:space="preserve">
+    <value>toolStripSeparator2</value>
+  </data>
+  <data name="icbChartColorScheme.TabIndex" type="System.Int32, mscorlib">
+    <value>22</value>
+  </data>
+  <data name="btnClearLabels.TabIndex" type="System.Int32, mscorlib">
+    <value>170</value>
+  </data>
+  <data name="tabLabels.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="panelLabels.Size" type="System.Drawing.Size, System.Drawing">
+    <value>229, 98</value>
+  </data>
+  <data name="chkChartsVisible.Location" type="System.Drawing.Point, System.Drawing">
+    <value>17, 30</value>
+  </data>
+  <data name="groupBox13.Location" type="System.Drawing.Point, System.Drawing">
+    <value>19, 258</value>
+  </data>
+  <data name="&gt;&gt;txtProjection.ZOrder" xml:space="preserve">
+    <value>6</value>
+  </data>
+  <data name="toolStripEx1.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>None</value>
+  </data>
+  <data name="btnChangeVisibilityExpression.Text" xml:space="preserve">
+    <value>Change...</value>
+  </data>
+  <data name="&gt;&gt;chkSpatialIndex.Parent" xml:space="preserve">
+    <value>tabGeneral</value>
+  </data>
+  <data name="&gt;&gt;btnApply.Name" xml:space="preserve">
+    <value>btnApply</value>
+  </data>
+  <data name="label18.Location" type="System.Drawing.Point, System.Drawing">
+    <value>29, 33</value>
+  </data>
+  <data name="tabCharts.Location" type="System.Drawing.Point, System.Drawing">
+    <value>119, 0</value>
+  </data>
+  <data name="&gt;&gt;chkLabelFrame.Parent" xml:space="preserve">
+    <value>panelLabels</value>
+  </data>
+  <data name="chkLayerPreview.TabIndex" type="System.Int32, mscorlib">
+    <value>162</value>
+  </data>
+  <data name="txtDatasourceName.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="&gt;&gt;label7.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="chkLayerPreview.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="cboMaxScale.Size" type="System.Drawing.Size, System.Drawing">
+    <value>142, 21</value>
+  </data>
+  <data name="&gt;&gt;groupBox21.Type" xml:space="preserve">
+    <value>System.Windows.Forms.GroupBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="txtLayerName.Location" type="System.Drawing.Point, System.Drawing">
+    <value>137, 30</value>
+  </data>
+  <data name="tabLabels.Size" type="System.Drawing.Size, System.Drawing">
+    <value>520, 402</value>
+  </data>
+  <data name="&gt;&gt;label2.ZOrder" xml:space="preserve">
+    <value>4</value>
+  </data>
+  <data name="groupBox10.Size" type="System.Drawing.Size, System.Drawing">
+    <value>238, 173</value>
+  </data>
+  <data name="&gt;&gt;label3.Name" xml:space="preserve">
+    <value>label3</value>
+  </data>
+  <data name="axMap1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>232, 153</value>
+  </data>
+  <data name="btnChartAppearance.Size" type="System.Drawing.Size, System.Drawing">
+    <value>93, 24</value>
+  </data>
+  <data name="label18.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="&gt;&gt;label7.Name" xml:space="preserve">
+    <value>label7</value>
+  </data>
+  <data name="&gt;&gt;groupChartAppearance.Name" xml:space="preserve">
+    <value>groupChartAppearance</value>
+  </data>
+  <data name="&gt;&gt;label2.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;tabCategories.Type" xml:space="preserve">
+    <value>Syncfusion.Windows.Forms.Tools.TabPageAdv, Syncfusion.Tools.Windows, Version=19.4460.0.38, Culture=neutral, PublicKeyToken=3d67ed1f87d44c89</value>
+  </data>
+  <data name="&gt;&gt;txtBriefInfo.Name" xml:space="preserve">
+    <value>txtBriefInfo</value>
+  </data>
+  <data name="&gt;&gt;tabLabels.Name" xml:space="preserve">
+    <value>tabLabels</value>
+  </data>
+  <data name="&gt;&gt;label1.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="label12.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="txtBriefInfo.Text" xml:space="preserve">
+    <value>Number of features: 143; geometry type: polygon</value>
+  </data>
+  <data name="chkLayerPreview.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="&gt;&gt;udLabelFontSize.Parent" xml:space="preserve">
+    <value>panelLabels</value>
+  </data>
+  <data name="&gt;&gt;label6.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="btnOk.Text" xml:space="preserve">
+    <value>Ok</value>
+  </data>
+  <data name="&gt;&gt;$this.Type" xml:space="preserve">
+    <value>MW5.Plugins.Symbology.Views.VectorStyleViewBase, MW5.Symbology, Version=1.0.0.16794, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;joinControl1.Type" xml:space="preserve">
+    <value>MW5.Plugins.Symbology.Controls.JoinControl, MW5.Symbology, Version=1.0.0.16794, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;udLabelFontSize.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;btnChartsEditColorScheme.Name" xml:space="preserve">
+    <value>btnChartsEditColorScheme</value>
+  </data>
+  <data name="toolStripEx1.TabIndex" type="System.Int32, mscorlib">
+    <value>167</value>
+  </data>
+  <data name="groupBox5.Size" type="System.Drawing.Size, System.Drawing">
+    <value>238, 177</value>
+  </data>
+  <data name="tabControl1.Alignment" type="System.Windows.Forms.TabAlignment, System.Windows.Forms">
+    <value>Left</value>
+  </data>
+  <data name="tabDefault.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="&gt;&gt;label5.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;btnApply.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="label15.Location" type="System.Drawing.Point, System.Drawing">
+    <value>76, 57</value>
+  </data>
+  <data name="btnChartAppearance.TabIndex" type="System.Int32, mscorlib">
+    <value>173</value>
+  </data>
+  <data name="&gt;&gt;label15.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;btnApply.Type" xml:space="preserve">
+    <value>Syncfusion.Windows.Forms.ButtonAdv, Syncfusion.Shared.Base, Version=19.4460.0.38, Culture=neutral, PublicKeyToken=3d67ed1f87d44c89</value>
+  </data>
+  <data name="&gt;&gt;udMinLabelingSize.Name" xml:space="preserve">
+    <value>udMinLabelingSize</value>
+  </data>
+  <data name="cboCollisionMode.Size" type="System.Drawing.Size, System.Drawing">
+    <value>203, 21</value>
+  </data>
+  <data name="btnApply.Size" type="System.Drawing.Size, System.Drawing">
+    <value>93, 24</value>
+  </data>
+  <data name="txtComments.TabIndex" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="cboMinScale.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Top, Left, Right</value>
+  </data>
+  <data name="groupBox10.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="&gt;&gt;btnOpenLocation.Parent" xml:space="preserve">
+    <value>tabGeneral</value>
+  </data>
+  <data name="&gt;&gt;tabControl1.Name" xml:space="preserve">
+    <value>tabControl1</value>
+  </data>
+  <data name="scaleControl1.MinimumSize" type="System.Drawing.Size, System.Drawing">
+    <value>80, 200</value>
+  </data>
+  <data name="&gt;&gt;btnOk.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="txtLayerName.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 8.25pt</value>
+  </data>
+  <data name="groupBox7.Size" type="System.Drawing.Size, System.Drawing">
+    <value>289, 75</value>
+  </data>
+  <data name="toolStripEx1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="&gt;&gt;toolOpenLocation.Name" xml:space="preserve">
+    <value>toolOpenLocation</value>
+  </data>
+  <data name="label3.Size" type="System.Drawing.Size, System.Drawing">
+    <value>107, 12</value>
+  </data>
+  <data name="&gt;&gt;toolStripSeparator1.Name" xml:space="preserve">
+    <value>toolStripSeparator1</value>
+  </data>
+  <data name="chkEditMode.Location" type="System.Drawing.Point, System.Drawing">
+    <value>361, 366</value>
+  </data>
+  <data name="&gt;&gt;attributesControl1.Type" xml:space="preserve">
+    <value>MW5.Plugins.Symbology.Controls.AttributesControl, MW5.Symbology, Version=1.0.0.16794, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="optChartsPie.Text" xml:space="preserve">
+    <value>Pie charts</value>
+  </data>
+  <data name="btnCancel.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Bottom, Right</value>
+  </data>
+  <data name="udLabelFontSize.Size" type="System.Drawing.Size, System.Drawing">
+    <value>51, 21</value>
+  </data>
+  <data name="&gt;&gt;attributesControl1.Name" xml:space="preserve">
+    <value>attributesControl1</value>
+  </data>
+  <data name="udMinDrawingSize.Location" type="System.Drawing.Point, System.Drawing">
+    <value>89, 30</value>
+  </data>
+  <data name="&gt;&gt;udMinLabelingSize.Parent" xml:space="preserve">
+    <value>groupBox19</value>
+  </data>
+  <data name="groupBox19.TabIndex" type="System.Int32, mscorlib">
+    <value>186</value>
+  </data>
+  <data name="&gt;&gt;chkLayerPreview.Type" xml:space="preserve">
+    <value>System.Windows.Forms.CheckBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="cboCollisionMode.TabIndex" type="System.Int32, mscorlib">
+    <value>184</value>
+  </data>
+  <data name="tabCharts.Size" type="System.Drawing.Size, System.Drawing">
+    <value>520, 402</value>
+  </data>
+  <data name="groupBox21.TabIndex" type="System.Int32, mscorlib">
+    <value>187</value>
+  </data>
+  <data name="optChartBars.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="attributesControl1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="label15.Size" type="System.Drawing.Size, System.Drawing">
+    <value>29, 12</value>
+  </data>
+  <data name="groupBox10.TabIndex" type="System.Int32, mscorlib">
+    <value>163</value>
+  </data>
+  <data name="tabCategories.Location" type="System.Drawing.Point, System.Drawing">
+    <value>119, 0</value>
+  </data>
+  <data name="scaleControl2.MinimumSize" type="System.Drawing.Size, System.Drawing">
+    <value>80, 200</value>
+  </data>
+  <data name="&gt;&gt;label9.Parent" xml:space="preserve">
+    <value>tabCategories</value>
+  </data>
+  <data name="scaleControl1.MaximumSize" type="System.Drawing.Size, System.Drawing">
+    <value>130, 1000</value>
+  </data>
+  <data name="&gt;&gt;groupBox5.Type" xml:space="preserve">
+    <value>System.Windows.Forms.GroupBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="chkLayerPreview.Size" type="System.Drawing.Size, System.Drawing">
+    <value>96, 16</value>
+  </data>
+  <data name="&gt;&gt;cboCollisionMode.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="tabJoins.Text" xml:space="preserve">
+    <value>Joins</value>
+  </data>
+  <data name="&gt;&gt;tabGeneral.Type" xml:space="preserve">
+    <value>Syncfusion.Windows.Forms.Tools.TabPageAdv, Syncfusion.Tools.Windows, Version=19.4460.0.38, Culture=neutral, PublicKeyToken=3d67ed1f87d44c89</value>
+  </data>
+  <data name="&gt;&gt;infoGrid1.Type" xml:space="preserve">
+    <value>MW5.Plugins.Symbology.Controls.InfoGrid, MW5.Symbology, Version=1.0.0.16794, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="txtComments.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="btnClearCharts.Text" xml:space="preserve">
+    <value>Clear</value>
+  </data>
+  <data name="groupLabelAppearance.Text" xml:space="preserve">
+    <value>Appearance</value>
+  </data>
+  <data name="&gt;&gt;txtBriefInfo.Parent" xml:space="preserve">
+    <value>tabGeneral</value>
+  </data>
+  <data name="tabControl1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="&gt;&gt;btnCopyInfo.Name" xml:space="preserve">
+    <value>btnCopyInfo</value>
+  </data>
+  <data name="btnOpenLocation.Size" type="System.Drawing.Size, System.Drawing">
+    <value>63, 21</value>
+  </data>
+  <data name="pictureBox1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>232, 157</value>
+  </data>
+  <data name="btnChangeVisibilityExpression.TabIndex" type="System.Int32, mscorlib">
+    <value>163</value>
+  </data>
+  <data name="label15.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="$this.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="&gt;&gt;btnOpenLocation.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="$this.Text" xml:space="preserve">
+    <value>Layer properties</value>
+  </data>
+  <data name="&gt;&gt;toolStripEx1.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="btnCopyInfo.Size" type="System.Drawing.Size, System.Drawing">
+    <value>75, 21</value>
+  </data>
+  <data name="groupBox21.Size" type="System.Drawing.Size, System.Drawing">
+    <value>240, 67</value>
+  </data>
+  <data name="tabDefault.Size" type="System.Drawing.Size, System.Drawing">
+    <value>520, 402</value>
+  </data>
+  <data name="udMinDrawingSize.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="&gt;&gt;attributesControl1.Parent" xml:space="preserve">
+    <value>tabFields</value>
+  </data>
+  <data name="label12.Text" xml:space="preserve">
+    <value>to label:</value>
+  </data>
+  <data name="&gt;&gt;btnOpenLocation.Name" xml:space="preserve">
+    <value>btnOpenLocation</value>
+  </data>
+  <data name="&gt;&gt;tabDefault.Type" xml:space="preserve">
+    <value>Syncfusion.Windows.Forms.Tools.TabPageAdv, Syncfusion.Tools.Windows, Version=19.4460.0.38, Culture=neutral, PublicKeyToken=3d67ed1f87d44c89</value>
+  </data>
+  <data name="&gt;&gt;btnProjectionDetails.Type" xml:space="preserve">
+    <value>Syncfusion.Windows.Forms.ButtonAdv, Syncfusion.Shared.Base, Version=19.4460.0.38, Culture=neutral, PublicKeyToken=3d67ed1f87d44c89</value>
+  </data>
+  <data name="&gt;&gt;pctLabelPreview.Parent" xml:space="preserve">
+    <value>groupLabelStyle</value>
+  </data>
+  <data name="imageList1.ImageStream" mimetype="application/x-microsoft.net.object.binary.base64">
+    <value>
+        AAEAAAD/////AQAAAAAAAAAMAgAAAFdTeXN0ZW0uV2luZG93cy5Gb3JtcywgVmVyc2lvbj00LjAuMC4w
+        LCBDdWx0dXJlPW5ldXRyYWwsIFB1YmxpY0tleVRva2VuPWI3N2E1YzU2MTkzNGUwODkFAQAAACZTeXN0
+        ZW0uV2luZG93cy5Gb3Jtcy5JbWFnZUxpc3RTdHJlYW1lcgEAAAAERGF0YQcCAgAAAAkDAAAADwMAAACe
+        YwAAAk1TRnQBSQFMAgEBCgEAAeABAgEsAQMBGAEAARgBAAT/ASEBEAj/AUIBTQE2BwABNgMAASgDAAFg
+        AwABSAMAAQEBAAEgBgABbP8A/wD/AP8A/wAzAAMuAUgBWAJiAe8BMgJfAfsDMQFP/AADAwEEAwoBDQMJ
+        AQwDAgEDYAADUQGiATECfwH+AQABnwHaAf8BAAGfAdwB/wFOAl0B8AMKAQ7oAAMNAREDOQFfA1MBpQNe
+        AdkDbQH3A38B/gN/Af4DWQH1A14B1QNRAaADNgFZAwoBDUgAAyMBMwFeAmUB5QEAAbYB5QH/AQABmQHX
+        Af8BAAGXAdQB/wEAAZYB0wH/AQABrQHiAf8BWQJcAcngAAMcASgDUQGfA2IB9gHZAdMBuwH/A38B/gHR
+        AccBpwH/Aa4BmgEOAf8BogGJAQAB/wJ/AUUB/gGzAaABFQH/A38B/gHfAdkBwgH/AdgB0gG6Af8DXwHz
+        A04BlgMYASE8AANKAYsBQAKoAf0BAAGsAeIB/wEAAZoB1gH/AQABngHXAf8BAAGeAdcB/wEAAZ4B2AH/
+        AQABnQHYAf8BAAGwAeAB/wFGAkcBgdQAAwoBDgNOAZQDTQH6A38B/gHiAdwBxAH/AekB4wHNAf8DfwH+
+        AZoBKQEAAf8BsAGLAQAB/wG8AZUBAAH/An8BQQH+Ab4BoAEAAf8CfwEzAf4BxQG4AYwB/wHoAeIBzAH/
+        A38B/gHYAdIBuQH/A20B9wNJAYgDBwEJGAADEQEXAzgBXQNEAXkDQgF1AxkBIwMnAToBXgJhAdoBAAG8
+        AecB/wEAAaMB3QH/AQABnwHYAf8BAAGiAdoB/wEAAaIB2gH/AQABogHaAf8BAAGjAdoB/wEAAaIB2gH/
+        AQABpgHfAf8BLwJfAfsDJAE1zAADIgExA14B3QN/Af4DfwH+A38B/gN/Af4DfwH+AX8BewEeAf4CfwEu
+        Af4CfwE6Af4CfwE+Af4CfwE+Af4CfwE8Af4CfwE9Af4BfwF8ASEB/gN/Af4DfwH+A38B/gN/Af4DfwH+
+        A2AB1AMcAScMAAM7AWMBUQJtAfcBJQJ/Af4BIQJ/Af4BQAGJAagB/QIrATUB/AFeAmEB2gErATUBRQH8
+        AQABtAHnAf8BAAGjAdsB/wEAAaUB3AH/AQABpgHcAf8BAAGmAdwB/wEAAaYB3AH/AQABpgHdAf8BAAGm
+        Ad0B/wEAAacB3QH/AQABpgHdAf8BAAGuAeQB/wFYAmEB5sgAAycBOwNnAfIDfwH+Ad0B1wG9Af8B5wHh
+        AcgB/wN/Af4B8AHqAdQB/wGiAYsBAAH/An8BJQH+AcgBnQEAAf8BFAIAAf8DAAH/AQkBBwEEAf4BIAEI
+        AQAB/wJ/ATMB/gGrAYkBAAH/AagBkwEAAf8DfwH+AewB5gHPAf8B5gHgAccB/wN/Af4B0QHLAa8B/wNk
+        AewDIAEvBAABVQJWAbEBAAGRAcEB/wFYAmIB7wE+Aj8BbAQAAxIBGQFZAlsBwwEAAb4B6gH/AQABrQHj
+        Af8BAAGoAd0B/wEAAaoB3gH/AQABqgHeAf8BAAGqAd8B/wEAAasB3wH/AQABqwHfAf8BAAGrAd8B/wEA
+        AasB3wH/AQABqwHgAf8BAAGsAeAB/wEAAa0B4QH/AQABrwHjAf8DVQGyxAADYQHkAcoBxAGnAf8DfwH+
+        AeIB3AHCAf8B6gHkAcsB/wN/Af4B7AHlAc4B/wGSASMBAAH/An8BJwH+AaEBLQEAAf8DAAH/AwAB/wMD
+        Af4DAAH/An8BKgH+AbQBjwEAAf8BkwEmAQAB/wN/Af4B7QHnAdAB/wHqAeMBywH/A38B/gHWAdABtAH/
+        AckBwwGmAf8DXAHRAz0BaQEAAY8BvAH/AVMCVQGtCAADOAFeAUICWQH1AQABuwHpAf8BAAGtAeEB/wEA
+        Aa4B4QH/AQABsAHiAf8BAAGwAeIB/wEAAbAB4gH/AQABsAHiAf8BAAGxAeIB/wEAAbEB4gH/AQABsgHi
+        Af8BAAGyAeMB/wEAAbIB4wH/AQABswHjAf8BAAGzAeMB/wEAAbcB5wH/AQABpgHZAf8DOwFlwAADXAHP
+        AckBwwGiAf8DfwH+AeEB2gHBAf8B6QHjAcsB/wN/Af4B6AHhAcgB/wGRASIBAAH/An8BIwH+AYsBHAEA
+        Af8DAAH/AwAB/wMEAf4DAAH/AX8BeAEiAf4BswGPAQAB/wGOASIBAAH/A38B/gHtAecB0AH/AekB4gHK
+        Af8DfwH+AdUBzgGzAf8ByAHBAaEB/wNYAbsBUQJtAfcDXQHtDAABWgJcAc0BAAHBAfAB/wEAAbQB5AH/
+        AQABtgHlAf8BAAG3AeUB/wEAAbcB5gH/AQABtwHmAf8BAAG4AeYB/wEAAbgB5gH/AQABuQHnAf8BAAG5
+        AecB/wEAAboB5wH/AQABugHnAf8BAAG6AegB/wEAAbsB6AH/AQABuwHoAf8BAAG8AegB/wEAAcIB7wH/
+        AUICWQH1wAADNwFbA38B/gN/Af4DfwH+A38B/gN/Af4DfwH+AX8BegEjAf4CfwEcAf4CfwFMAf4BRwFE
+        ATsB/gMNAf4DBAH+ASQBHQEJAf4CfwEkAf4CfwEZAf4CfwEvAf4DfwH+A38B/gN/Af4DfwH+A38B/gN/
+        Af4DLgFIASICfwH+A0EBcggAA0UBfQEAAbsB5AH/AQABvwHrAf8BAAG+AekB/wEAAb8B6gH/AQABvwHq
+        Af8BAAG/AeoB/wEAAcAB6gH/AQABwAHrAf8BAAHBAesB/wEAAcEB6wH/AQABwQHrAf8BAAHCAewB/wEA
+        AcIB7AH/AQABwwHsAf8BAAHDAewB/wEAAcQB7QH/AQAByQHwAf8BAAHCAe8B/wFYAmIB78AAAwEBAgNZ
+        Ab4DfwH+AckBxQGiAf8B1wHRAbQB/wN/Af4B6AHiAcsB/wGyAaIBFgH/AX8BfAESAf4BzgG4AR4B/wHW
+        AccBmgH/ASYBFAEAAf8BagFVARUB/gGuAYsBAAH/An8BGwH+AZcBJwEAAf8BuQGrASUB/wN/Af4B4AHa
+        AcEB/wHXAdABswH/A38B/gGYAbcBwwH/A1UBrQQAASQCfwH+AxYBHwgAAVoCYQHkAQABywH0Af8BAAHG
+        Ae4B/wEAAcYB7gH/AQABxgHuAf8BAAHHAe4B/wEAAccB7gH/AQAByAHvAf8BAAHIAe8B/wEAAcgB7wH/
+        AQAByQHvAf8BAAHJAfAB/wEAAcoB8AH/AQABygHvAf8BAAHKAfAB/wEAAc0B8QH/AQAB0QH2Af8BAAGy
+        AeIB/wFZAlwBzwMRARfEAAMUARwDZQHlA38B/gN/Af4DfwH+A38B/gN/Af4BfwF9ASwB/gF/AX0BEgH+
+        An8BJwH+An8BGQH+An8BGQH+An8BFQH+AX8BewEPAf4CfwE1Af4DfwH+A38B/gN/Af4DfwH+A38B/gNf
+        AdsDDQESBAABIwJ/Af4DJgE5BAABSQJKAYkBAAHCAeoB/wEAAdAB8wH/AQABzwHyAf8BAAHPAfIB/wEA
+        Ac8B8gH/AQABzwHyAf8BAAHQAfIB/wEAAdAB8gH/AQAB0QHyAf8BAAHRAfMB/wEAAdIB8wH/AQAB0wHz
+        Af8BAAHTAfQB/wEAAdQB9AH/AQAB2gH4Af8BAAHRAfYB/wEvAl8B+wFEAkUBfNAAAyABLgNfAegBiwG8
+        AeYB/wN/Af4BrwHCAbwB/wHIAckBqQH/A38B/gGdAYwBAAH/AYkBHgEAAf8BkQEjAQAB/wF/AXUBCgH+
+        AYkBHgEAAf8CfwFJAf4B0AHKAaIB/wHHAcgBqgH/A38B/gGSAb0B3gH/AYsBvAHmAf8DXwHgAxgBIggA
+        AUACqAH9AVgCWwHGBAABWQJcAckBAAHdAf0B/wEAAdoB9wH/AQAB2gH6Af8BAAHbAfkB/wEAAdoB9gH/
+        AQAB2gH3Af8BAAHaAfcB/wEAAdsB9wH/AQAB2wH3Af8BAAHcAfgB/wEAAdwB+AH/AQAB3QH4Af8BAAHf
+        AfkB/wEAAeUB/gH/AQABwwHrAf8BWAJeAd0DGgEl2AADGAEiA1wBzAN/Af4BmAHEAeoB/wGYAcQB6gH/
+        A38B/gGsAcYBzQH/Aa0BvwG4Af8BoQGtAZkB/wN/Af4BrgHAAbsB/wN/Af4BnwHEAd8B/wGYAcQB6gH/
+        A38B/gGZAcIB5gH/A1gBwQMTARoMAAFWAlgBuwEAAawB2wH/AzoBYQNKAYwBNQJ/Af4BAAHeAfsB/wFe
+        AmUB5QFUAmEB7gEAAeEB/AH/AQAB5QH8Af8BAAHkAfsB/wEAAeUB/AH/AQAB5gH8Af8BAAHmAfwB/wEA
+        AecB/AH/AQAB7QL/AQAB5gH+Af8BQAGlAagB/QFLAkwBkOQAAwQBBgNCAXYDXQHtA38B/gN/Af4DfwH+
+        A38B/gN/Af4DfwH+A38B/gN/Af4DfwH+A38B/gNkAecDPgFrAwIBAxQAAVsCYAHWASACfwH+ASkCTQH6
+        AVoCYAHeAQABoAHCAf8CXgFlAeUBWgJdAdMBAAHmAf4B/wEAAfAC/wEAAe4C/wEAAe4C/wEAAe4C/wEA
+        AfAC/wEAAfcC/wEAAdUB8wH/AVcCXwHoAyQBNfAAAwgBCwM5AV8DVAGsA18B4wE0AUEBSwH8AbMB0AHn
+        Af8DfwH+A18B+wNfAeADUgGnAzYBWAMGAQggAAMvAUkBWQJcAckBVQJXAbcBXgJlAeUBAAHFAeoB/wEA
+        AdgB8wH/AQAB8gL/AQAB8AL/AQAB8QL/AQAB8wL/AQAB9wL/AQAB8AL/AS4CfwH+AVECUgGn/wAJAAMH
+        AQoDEgEYAxEBFwMHAQk8AAE8Aj0BZwErATEBRQH8AQAB/QL/AQAB9gL/AQAB8QL/AQAB6gL/AQAB3wH5
+        Af8BAAHOAe8B/wFOAl0B8AMwAUv/AF0AAUYCRwGAAUABpQGoAf0BUQJtAfcBXgJlAeUBWgJdAcoBUgJU
+        AaYBQQJCAXMDDQES/wD/AP8A/wD/AOgAAQEDAgEDAwQBBgMHAQkDBwEKAwkBDAMJAQwDCAELAwcBCQMF
+        AQcDAwEEAwEBApgAA0wBjwGZAZQBjQH/AaUBnwGXAf8DAAH/A0EB+QNOAZgDVAGvAz4BawNBAXMDOQFf
+        AzQBVAMLAQ9/AAEBAwQBBgMKAQ0DDwEUAxMBGgMWAR8DGgEkAxwBJwMcASgDHQEpAxwBJwMaASUDGAEh
+        AxQBHAMQARYDCwEPAwYBCAMBAQJ8AAMMARADUQGfA1cBugNTAaoDXAHqAe4B6AHiAf8B6QHjAdsB/wEd
+        ARYBDAH/AwAB/wNdAeIBtQGrAZsB/wGUAYkBJAH/AQ8BAwEAAf8DVwHCAz0BagMvAUkDOAFeAyoBQQMS
+        ARksAAMEAQYDDQERAw8BFAMGAQgDAAEBLAADAwEEAwoBDQMRBBcBIAMdASkDIQExAyYBOAMpAT8DSgGK
+        AUwCTQGRAT8CQAFuAy4BRwMqAUADJwE6AyMBMwMeASsDGQEjAxMBGgMNAREDBQEHdAADFwEgA2IB7wH+
+        AfoB+AH/AcsByAHFAf8BJwEkASEB/wGpAaUBoAH/AeoB5QHfAf8B5wHiAdoB/wGnAaABlwH/AQoBAgEA
+        Af8BywHDAbUB/wHdAdMBxAH/AecB3AHLAf8BJgEZAQYB/wEBAgAB/wNGAYADMgFRAzABSwMmATgDFQEd
+        Aw8BFBwAAwEBAgMGAQgDEAEWAyUBNwNAAXECRQFGAX4DLQFGAxQBHAMHAQoDAgEDIAADAgEDAwoBDQMS
+        BBgBIgMfAS0DJQE3AyoBQQMwAUsDTgGYAVkCfwH+AQABxQHbAf8BCwHMAeAB/wFTAmQB8QNVAbUBPQI+
+        AWoDLAFEAycBOgMhATADGwEmAxQBGwMNAREDBAEGcAADKgFAAd4C2gH/AfwB+AH3Af8B+QH2AfQB/wHp
+        AeUB4gH/AfMB7wHqAf8B6AHkAd4B/wHlAd8B2AH/AegB4QHYAf8B6gHjAdgB/wHiAdoBzQH/AdUBzAG9
+        Af8B5QHbAcsB/wEWAQsBAAH/AwAB/wMxAU8DKQE+AyYBOAMiATIDGQEjAxMBGhcAAQEDBQEHAxEBFwMf
+        AS0CRQFGAX4BWAJbAcsBQgJZAfUBAAGeAb8B/wFbAmAB1gJNAU4BlQMjATMDFAEcAwgBCwMBAQIYAAMD
+        AQQDCwEPAxMEGgElAyABLwMnAToDLQFFAzsBZAFRAm0B9wEAAbsB1QH/AQABywHfAf8BAAG2AdIB/wEA
+        AcsB4AH/AQkBzgHhAf8BMgJfAfsBVgJYAbwDNAFUAyMBMwMcASgDFQEdAw4BEwMGAQgUAAMXASADQAFw
+        A1QBrwFZAlwBzwEHAaYB3AH/AQQBoAHXAf8BAAGZAdEB/wEAAZEBzAH/AQABiAHGAf8BAAGAAcAB/wEA
+        AR4BsQH/NAADYgHvAf4B+QH4Af8B9wHzAfEB/wHzAe8B7QH/Ae0B6QHlAf8B6QHkAd8B/wHlAd8B2QH/
+        AeEB2wHTAf8B3QHWAc0B/wHaAdIBxgH/AdgB0AHCAf8B1gHNAb4B/wEJAgAB/wNbAdkDUAGaA04BlwND
+        AXgDFgEeAw0BEgMCAQMQAAMEAQYDDwEUAx8BLQM7AWMCWwFhAeEBAAEQAYoB/wEAASMBqwH/AQABIwGs
+        Af8BAAHJAe8B/wEAAcEB6AH/AQABlAG0Af8CAAETAf8DSAGFAyMBNAMSARkDBgEIAwABARMAAQEDBwEJ
+        Aw4BEwMVAR0DHAEnAyEBMQMnAToDVQG1AQEB0QHiAf8BAAG5AdQB/wEAAcIB2gH/AQABwAHaAf8BAAHV
+        AeYB/wEAAbMB0AH/AQAB0gHkAf8BAAG4AdMB/wFSAmUB9AFHAkgBgwMYASIDEQEXAwoBDQMCAQMMAAMy
+        AVADWQG/ASMBxQHwAf8BgQHMAfMB/wGOAdYB+gH/AZAB2QH+Af8BhQHTAf0B/wEqAcwB+wH/ASYBwgH1
+        Af8BIAG2Ae8B/wEYAacB5wH/ARwBngHhAf8BAAElAboB/ygAA0ABcAG4AakBqgH/AacBmgGbAf8B0gLM
+        Av8B+wH6Af8B+QH1AfMB/wHzAfAB7QH/Ae4B6gHnAf8B7wHqAeYB/wHsAecB4QH/AekB4wHcAf8B3wHZ
+        AdAB/wHcAdUBygH/AdoB0gHFAf8B5QHcAc4B/wHAAbYBpQH/AboBrwGdAf8B7gHiAc8B/wGtAaABiwH/
+        AR0BEAEAAf8DOwFlAwIBAwgAAwEBAgMGAQgDEAEWAyQBNgNBAXIBVwJaAcUBAAERAYwB/wEAASABpAH/
+        AQABgwGwAf8BAAGDAa8B/wEAAYABqwH/AQABywHuAf8BAAHAAecB/wEAAcIB6QH/AQABvAHiAf8BAAGN
+        AawB/wFaAl4B2AJGAUcBgAMtAUYDFAEcAwcBCgMCAQMPAAEBAwQBBgMLAQ8DEQEXAxYBHwMlATcBQgJZ
+        AfUBAAHBAdkB/wEAAckB4AH/AQABuwHXAf8BAAHTAekB/wEAAcMB3AH/AQABxgHdAf8BAAG4AdMB/wEA
+        Ab0B1wH/AQAB1AHlAf8BXQJ/Af4BUwJUAawDDQESAwEBAggAAwwBEANZAb8BhwHUAfkB/wGdAeEB/AH/
+        AZEB3AH8Af8BgQHVAfwB/wEfAc4B/AH/AQwBxgH8Af8BBQHBAfwB/wEBAboB+AH/AQABrQHyAf8BAAGe
+        AekB/wEAAYsB4AH/ARYBmQHgAf8BAAEmAboB/yQAAwwBEANiAe8B/gHwAfEC/wH1AfYC/wL6Av8B+wH6
+        Af8B+wH2AfUB/wHlAeIB4AH/AfAB7QHqAf8B7gHqAeYB/wHsAecB4gH/AfIB7QHmAf8B9wHxAekB/wHo
+        AeEB1wH/Ad0B1QHKAf8B2wHTAcYB/wHkAdoBywH/Ad8B1QHFAf8B3gHTAcEB/wHsAeEBzwH/ASYBGQEE
+        Af8BXAJXAd8IAAMDAQQDEAEWAx8BLQJFAUYBfgFYAlsBywFCAlkB9QEAAR8BowH/AQABggGuAf8BAAGE
+        Aa8B/wEAAYQBsAH/AQABhQGwAf8BAAGCAa0B/wEAAc8B7wH/AQABwAHnAf8BAAG/AeYB/wEAAcAB5wH/
+        AQABwAHoAf8BAAG0AdkB/wEAAZkBugH/AVsCYAHWAk0BTgGVAyMBMwMUARsDBgEIEwABAQMDAQQDBgEI
+        AzwBZgEAAcsB3wH/AQABwQHbAf8BAAHKAeMB/wEAAcwB5gH/AQAB1wHtAf8BAAG6AdcB/wEAAcUB3AH/
+        AQABuAHTAf8BAAHLAd8B/wEAAccB3QH/AQABtwHSAf8BIQHXAeYB/wFWAlgBuQMFAQcIAANZAb8BowHl
+        AfwB/wGYAeAB+wH/AYMB2AH7Af8BIgHSAfsB/wEaAc0B+wH/AREByAH7Af8BCAHDAfsB/wEBAb4B+wH/
+        AQABtwH3Af8BAAGrAfEB/wEAAZsB6QH/AQABjwHhAf8BGQGaAeEB/wEAASYBugH/AxcBIAMqAUADIQEw
+        GAADKgFAAdMBwAHDAf8B/AHrAewB/wH+Ae4B7wL/AvUB/wH5AfQB8wH/AcQBvgG8Af8B6wHnAeUB/wHw
+        Ae0B6gH/Ae0B6gHmAf8B6gHmAeIB/wHnAeIB3QH/AecB4gHbAf8B+AHxAekB/wHqAeMB2QH/Ad4B1wHL
+        Af8B3gHWAcgB/wHfAdUBxwH/AekB4AHRAf8B8QHpAd4B/wGrAaABjQH/AVwCWQHPCAADDAEQAzcDWwFh
+        AeEBAAEQAYoB/wEAAYEBqwH/AQABgwGvAf8BAAGDAa8B/wEAAYQBrwH/AQABhgGxAf8BAAGHAbIB/wEA
+        AYgBswH/AQABhQGwAf8BAAHTAfMB/wEAAcEB6AH/AQABwAHnAf8BAAHAAecB/wEAAb8B5gH/AQABwAHn
+        Af8BAAHBAekB/wEAAcEB6AH/AQABlAG1Af8CAAETAf8CRgFHAYEDFAEcHAADUAGeAQAB0AHkAf8BAAHN
+        AeYB/wEAAcoB5QH/AQAB3wH2Af8BAAHAAd0B/wEAAc8B5gH/AQABuAHUAf8BAAHHAd0B/wEAAcIB2QH/
+        AQABvgHXAf8BcwJ/Af4BXgJhAdoDMQFOAwABAQgAASUB0wH+Af8BmwHjAfsB/wGDAdoB+wH/ASkB1gH7
+        Af8BIAHRAfsB/wEYAcsB+wH/AQ8BxwH7Af8BBwHCAfsB/wEAAb0B+wH/AQEBuQH4Af8BAAGsAfEB/wEA
+        AZ8B6gH/AQABkgHiAf8BGQGaAeEB/wEAASYBugH/A2IB7wHbAaIBFQH/AZ0CAAH/AaACAAH/AVkCVwG/
+        A0ABcAMMARAMAANRAZ8B6AHYAdoB/wH+Ae4B7wL/AfIB8wH/AcwCwwH/AeoB4gHhAf8B9wHyAfEB/wH3
+        AfQB8gH/AdUB0gHPAf8ByAHEAcAB/wHxAe0B6AH/AekB5AHeAf8B6AHiAdsB/wH6AfMB6gH/AeUB3gHU
+        Af8B4gHaAc4B/wHnAd8B0gH/AfEB6gHgAf8BugGwAaIB/wNcAc8DDAEQCAADCQEMASECXwH7AQABIgGl
+        Af8BAAGEAbAB/wEAAYMBrwH/AQABhQGwAf8BAAGGAbEB/wEAAYcBsgH/AQABiQG0Af8BAAGKAbUB/wEA
+        AYsBtQH/AQABiAGyAf8BAAHXAfQB/wEAAcIB6gH/AQABwQHpAf8BAAHBAegB/wEAAcAB6AH/AQABwAHn
+        Af8BAAG/AeYB/wEAAcEB6AH/AQABwwHrAf8BAAG/AecB/wFAAYQBoQH9AzgBXBwAAVkCXAHMAQAB1AHp
+        Af8BAAHcAfMB/wEAAdUB7wH/AQAB2wH0Af8BAAHLAeYB/wEAAcQB3wH/AQABxwHeAf8BAAHAAdgB/wEA
+        AcQB2wH/AW8CfwH+AVACUQGfAwcBChAAAS0B1wL/AZ4B5AH8Af8BiwHeAfwB/wGEAdoB/AH/AYAB2QH9
+        Af8BkQHcAf4B/wGmAeIB/gH/AbQB5gL/AbkB6AL/AdEB7gH+Af8BwAHlAfsB/wGtAdoB+AH/AcIB4QH6
+        Af8BqQHOAfMB/wEJAZ4B0QH/AfMBygGXAf8BzQGHAQAB/wHKAYUBAAH/AcYBgAEAAf8BvwEkAQAB/wG1
+        ARYBAAH/AbUBEwEAAf8CTAFLAY8DDAEQBAADFwEgAdIBwAHCAf8B/QHsAe4B/wH4AukB/wHAArQB/wH6
+        AvAC/wH5AfgB/wGnAaMBoQH/AQsBCgEJAf8DRwGAA1kBvwHsAecB4gH/AekB5AHeAf8B8gHsAeUB/wHz
+        AewB4wH/AeUB3gHUAf8B6gHiAdcB/wG+AbYBqgH/ASIBGQELAf8BUQJQAZ8MAAMBAQIDSAGFAUECagH5
+        AQABiQGzAf8BAAGFAbAB/wEAAYcBsgH/AQABiAGzAf8BAAGJAbQB/wEAAYsBtgH/AQABjAG3Af8BAAGN
+        AbcB/wEAAYoBtAH/AQQB2wH2Af8BAAHCAewB/wEAAcMB6wH/AQABwgHqAf8BAAHCAeoB/wEAAcEB6QH/
+        AQABwQHoAf8BAAHBAegB/wEAAcMB6wH/AQABvgHiAf8BVQJXAboDFQEdGAADAQECAV4CZQHlAQAB3AHy
+        Af8BAAHhAfgB/wEAAeAB9gH/AQAB0AHqAf8BAAHXAfAB/wEAAc0B5QH/AQABwQHZAf8BAAHFAdwB/wNf
+        AfsDQAFwGAABLQHXAv8BwQH0Av8BsAHuAv8B2QH2Av8B8QH7Av8B+gH+Av8B6gH7Av8B0QH1Av8BygHy
+        Av8BtwHrAv8BmQHgAf4B/wGIAdgB/QH/AZsB3wL/AY8B0AHxAf8BqwHDAcAB/wH+AdoBqAH/AcMBIAEA
+        Af8BuQEKAQAB/wHHAR8BAAH/AdQBhAEAAf8B4AGaAREB/wHbAZIBBgH/AcoBKQEAAf8CWQFXAb8DUQGf
+        A2IB7wH3AeUB6AH/AfsB5wHpAf8B1QHEAcUB/wHaAcwBzQH/AfsC8QH/AekB5AHjAf8BuwG6AbkB/wNR
+        AZ8EAAMMARADXAHfAfEB7QHoAf8B7AHnAeEB/wH6AfQB7AH/AekB4gHaAf8B6QHiAdgB/wHrAeMB2QH/
+        AccBvwG0Af8BmwGTAYcB/wEZARABAwH/A1cBvwgAAwQBBgNUAa4BAAGWAb4B/wEAAY0BtwH/AQABiQG1
+        Af8BAAGLAbYB/wEAAYwBtwH/AQABjgG5Af8BAAGPAboB/wEAAZABugH/AQABjQG3Af8BEwHeAfkB/wEA
+        AcMB7QH/AQABxAHsAf8BAAHDAewB/wEAAcMB6wH/AQABwgHqAf8BAAHCAeoB/wEAAcQB6wH/AQABygHv
+        Af8BAwFnAX8B/gMIAQsYAAMDAQQDNAFUAVgCYgHvAQAB5AH6Af8BAAHjAfgB/wECAd8B9AH/AQAB4AH3
+        Af8BAAHWAe8B/wEAAckB4gH/AQAByAHdAf8BUQJtAfcDNQFXHAABggHYAv8B5gH7Av8B/AP/AegD/wHO
+        AfsC/wG4AfUC/wGtAfAC/wGjAesC/wGZAeUC/wGPAeAC/wEsAdgB/gH/AR0BzwH9Af8BHQHMAfgB/wGW
+        Ab0BxQH/Af4B1wGkAf8B/gHXAaQB/wHDAR4BAAH/AbgBBgEAAf8BwgERAQAB/wHMARsBAAH/AdYBJgEA
+        Af8B4wGQAQAB/wHrAZ4BDwH/AdABLQEAAf8B2QG9AcEB/wH6AeAB5AH/AfkB4QHkAf8B+gHlAecB/wHI
+        AbYBtwH/AeEB0QHSAf8B+wHvAfAB/wHDAb0BvAH/A5MB/wMqAUAIAANHAYAB9QHxAewB/wHtAekB5AH/
+        Af4B+QHzAf8B7AHmAd8B/wHsAeYB3gH/Ae0B5wHeAf8B8AHpAd8B/wHyAesB4AH/AZsBkwGIAf8BEwEL
+        AQAB/wwAAw0BEQFZAlsBwwEAAZMBtgH/AQABkQG7Af8BAAGNAbkB/wEAAY8BugH/AQABkQG8Af8BAAGS
+        AbwB/wEAAZMBvQH/AQABkAG7Af8BIgHiAfoB/wEAAcQB7wH/AQABxAHuAf8BAAHEAe0B/wEAAcQB7QH/
+        AQABwwHsAf8BAAHFAe0B/wEAAcUB6QH/AVkCXQHXAxMBGgMAAQEYAAI/AUABbgIAAakB/wIAAZkB/wEA
+        AZoBygH/AR8B6AH6Af8BEQHmAfkB/wEAAeQB+gH/AQAB2QHwAf8BAAHRAeUB/wFYAmIB7wMsAUQgAAGo
+        AecC/wHvA/8BzwP/AckB/gL/Ab4B+AL/AbQB8wL/AakB7gL/AZ8B6AL/AZUB4wL/AYsB3wL/ASsB1wH+
+        Af8BGAHIAfYB/wEpAa4BwQH/Af4B2AGlAf8B/QHWAaIB/wH9AdYBogH/AdEBigEAAf8BuAEFAQAB/wHC
+        ARABAAH/AcwBGwEAAf8B1gEmAQAB/wHfAYIBAAH/AewBmgEIAf8B0AEtAQAB/wHBAaMBqAH/AfkB3gHi
+        Af8B9wHdAeAB/wH5AeIB5AH/AcYBsgG0Af8B3AHKAcwB/wH4AuoB/wGqAqEB/wMkAf8DKgFACAADRwGA
+        AfcB8wHwAf8B8QHtAekB/wH8AfgB8wH/AfAB6wHlAf8B8AHrAeQB/wHxAesB5AH/AfIB7AHkAf8B+QHy
+        AekB/wGkAZ0BlAH/ASUBHgEUAf8QAAMUARsBVgJYAbkBAAGdAb8B/wEAAZEBvAH/AQABkQG8Af8BAAGT
+        Ab4B/wEAAZQBvgH/AQABlQG/Af8BAAGSAb0B/wGLAeUB/AH/AQABxgHxAf8BAAHGAfAB/wEAAcYB7wH/
+        AQABxgHvAf8BAAHGAe8B/wEAAdUB+AH/AVwCYQHcAywBRCAAA0cBggIAAZsB/wIAAcgB/wIAAcQB/wIA
+        AaoB/wELAbwB3gH/AQAB5gH7Af8BAAHbAe4B/wFYAl4B3QMhATAkAAGgAeUB/QH/Ac8D/wHMA/8BxQH7
+        Av8BugH2Av8BrwHxAv8BlAHeAfcB/wGLAdkB9gH/AScBzAHvAf8BHgHFAewB/wEUAb0B5wH/AQABqgGz
+        Af8B1wGpASQC/wHhAbQB/wH9AdcBpAH/AfwB2QGyAf8B+QHTAawB/wH5AdQBsgH/Ae4BuQGNAf8B5wGi
+        ARsB/wHfAYwBAAH/Ad8BggEAAf8B7QGfAQ8B/wHQAS0BAAH/A1QBrwHBAaQBqAH/AfcB4AHjAf8B+AHf
+        AeIB/wHQAboBvAH/AcoBtwG5Af8B8QHgAeEB/wHIArsB/wEOAgwB/wNGAYAIAANcAd8B+QH2AfMB/wH0
+        AfEB7gH/AfwB+AH0Af8B8wHvAesB/wHzAe8B6gH/AfMB7gHoAf8B6AHjAd0B/wHEAb4BtwH/AYUBLQEm
+        Af8DXAHPFAADJAE2AVoCYAHeAQABsgHTAf8BAAGVAb8B/wEAAZUBvwH/AQABlwHBAf8BAAGYAcIB/wEA
+        AZUBwAH/AZkB6QH9Af8BAAHHAfIB/wEAAccB8QH/AQABxwHxAf8BAAHHAfEB/wEAAdUB+QH/AQABpQHB
+        Af8DPQFpAwABARsAAQEDSAGFASkCTQH6AQABvAHZAf8BAAEDAakB/wIAAb4B/wIAAfQB/wIAAbUB/wJA
+        AaYB/QFMAk0BkQMLAQ8oAANcAc8BkAHcAfYB/wGKAdYB8gH/ASEBzwHVAf8BCQHBAcYB/wEAAcEBrAH/
+        AQABvAGdAf8BAAG6AYgB/wEAAbgBHwH/AQABuAEWAf8BAAG7AQAB/wEAAY0BAAH/AeABqQEdAv8B4gG1
+        Af8B/gHoAcoB/wH6AdQBrAH/AfYBtgEnAf8B9AGsARwB/wHzAaoBHAH/AfIBrAEiAf8B9AG2AYUB/wHy
+        AbABKwH/Ae8BpgEYAf8B1AGFAQAB/wQAAwwBEAHIAa0BsQH/AfkB4AHjAf8B6gHSAdUB/wGsAZYBmAH/
+        AeMB0AHSAf8B+AHoAekB/wGLASwBLQH/AwAB/wNAAXADVAGvAfAB7AHrAf8B+gH3AfUB/wH5AfYB9AH/
+        AfsB+AH1Af8B9wHzAfAB/wH4AfQB8AH/AdQB0AHMAf8BtwGzAa4B/wNRAZ8DFwEgGwABAQMxAU8BUQJt
+        AfcBAAGuAdAB/wEAAZoBxAH/AQABmQHEAf8BAAGbAcUB/wEAAZgBwwH/AacB7AL/AQAByAHzAf8BAAHI
+        AfMB/wEAAcgB8wH/AQAB0QH2Af8DTQH6A0IBdgMAAQEgAAE5AjoBYAFaAmEB5AEFAdsB7gH/AR0B7AH8
+        Af8BCQG2AdoB/wIAAacB/wIAAbwB/wJaAV4B2AMAAQExAAGxAQAB/wEAAcsBFQH/AQABywEVAf8BAAHL
+        ARUB/wEAAcsBFQH/AQABywEVAf8BAAHLARUB/wEAAcsBFQH/AQABywEVAf8BAAHLARUB/wEAAZkBAAH/
+        AeQBpgEYAv8B6wHOAf8B/QHjAcQB/wH6AcsBlgH/AfYBuAEqAf8B9QG0ASYB/wH0AawBHAH/AfEBoQEO
+        Af8B8AGcAQcB/wHxAaIBEQH/AfEBpgEYAf8B1gGLAQAB/wQAA1EBnwH2AdsB3wH/AfcB2wHfAf8B9wHd
+        AeAB/wG4AaABowH/AckBtAG2Af8B5gHTAdUB/wH2AeYB5wH/AdcCygH/AdABxgHHAv8C+QL/AvgB/wH9
+        AfcB9QH/Af4B+wH6Af8B/AH5AfcB/wH7AfgB9QH/Af0B+QH2Af8BugG3AbMB/wGEAYABKgH/A1wBzwMM
+        ARAfAAEBAzIBUAFMAl8B8wEAAa4B0AH/AQABmwHGAf8BAAGdAccB/wEAAZoBxQH/AbMB7gL/AQAByAH1
+        Af8BAAHKAfUB/wEAAdMB+QH/AVkCagH5A0gBhQMBAQIoAAFLAkwBkAEAAY0BuAH/AQAByQHhAf8BhQHt
+        AfoB/wGFAekB9wH/AlMBVAGsAiEBIgExNQABuwEAAf8BAAHSASUB/wENAdgBhwH/ARQB2wGMAf8BhgHl
+        AaQB/wGCAeUBogH/AZ4B8gG5Af8BnAHyAbkB/wGiAfoBwAH/AaEB+QG/Af8BAAHPARAB/wHgAZ0BAwH/
+        AfsB2gG1Af8B/AHTAaIB/wH6AcsBlgH/AfcBuQErAf8B9gG3ASoB/wH0AawBHAH/AfEBoQEOAf8B8AGc
+        AQcB/wHwAZwBBwH/Ae8BnAEIAf8B1gGLAQAB/wMqAUAB0QGvAbUB/wH2AdYB2gH/AfMB1AHZAf8B9gHZ
+        Ad0B/wHwAdYB2QH/AawBlQGYAf8BywG2AbgB/wHgAc0BzwH/AesB2wHcAf8B8QHjAeQB/wH0AugB/wH0
+        AukB/wH7AvQC/wL6Av8B+wH6Af8B/gH7AfkB/wH+AfsB+QH/AfYB8wHxAf8BsAGtAaoB/wGCASwBKQH/
+        A1kBvyQAATkCOgFgAQABrAHDAf8BAAGxAdYB/wEAAZ4ByQH/AQABnAHIAf8BvwHyAv8BAAHJAfcB/wEA
+        AdMB+wH/AZYB6AL/A1YBtgMKAQ0oAAMtAUYBIQJfAfsBAAEdAasB/wEAASABqAH/AVoCXAHNAVMCfwH+
+        ATUCNgFYOAADXAHPAboB8gHHAf8B0wH/AdcB/wHKAf8B0wH/AbUB/wHGAf8BogH+AbwB/wGIAf4BrAH/
+        ARkB/gGcAf8BEQH7AZcB/wEKAfQBkAH/AQEB6wGHAf8BEgHQAR0B/wHHAaIBAgH/AfgBxAGOAf8B+gHL
+        AZYB/wH3AbkBKwH/AfYBtwEqAf8B9AGsARwB/wHxAaEBDgH/AfABnAEHAf8B7QGaAQYB/wHdAY8BAAH/
+        AzoBYAQAA1wB3wH8Ad4B4gH/Af0B6AHrAf8B/QHkAecB/wH2AdoB3gH/AfAB1gHZAf8BvQGmAagB/wG4
+        AaMBpQH/AdABvQG/Af8B2AHHAckB/wHcAc0BzgH/AfMC5gH/Af4C8wH/Af4B9QH0Af8B/gH2AfUC/wH5
+        AfgB/wH9AfgB9wH/AfwB+AH2Af8B7gHrAekB/wGgAZwBmgH/AYYBgwGBAf8kAAMHAQkDSgGKAQsBuAHO
+        Af8BAAG0AdgB/wEAAZ8BywH/AckB9AL/AQAB0gH7Af8BGgHPAekB/wFYAlsBywMNARIoAAMOARMBXQJh
+        AeIBAAGAAb4B/wEAAScBtgH/AV0CYQHiAwYBCAMpAT4DFAEbPAADOgFgA1kBvwErAecBmgH/AYkB8AGl
+        Af8BhAH0AaQB/wEtAf4BpgH/ARkB/gGcAf8BEQH7AZcB/wEKAfQBkAH/AQEB6wGHAf8BAAHhASsB/wEA
+        AcoBDwH/AcoBnwEIAf8B8wG2ASsB/wH4Ab4BhQH/AfYBtwEqAf8B7gGlARUB/wHnAZkBCAH/Ad8BkQEB
+        Af8CUQFQAZ8DKgFACAADMgFQA1wB3wNiAe8DYgHvAfsB3gHjAf8B9gHaAd0B/wH3Ad0B4AH/AfIB2gHd
+        Af8B5gHQAdIB/wHtAdoB2wH/AfgB5gHoAf8B/AHsAe0B/wH8Au4B/wH8AvAB/wH9AvMB/wHfAtYB/wHx
+        AukB/wH+AfcB9gH/AeIB2wHaAf8BsQGsAaoB/wNMAY8oAAMNARIBTQJOAZYBAAG0AcoB/wEAAa8B1gH/
+        Ac4B9gL/AR8B1QHrAf8BVQJXAboDGAEiLAADUgGpAQABkQHIAf8BAAEqAcAB/wEAAYgBwQH/A0QBe1AA
+        AwwBEAMyAVADRwGAA1QBrwFXAlkBvwFXAlkBvwFXAlkBvwFXAlkBvwFXAlkBvwFXAlkBvwFXAlkBvwNM
+        AY8CWQFXAb8DVAGvA0cBgAMyAVADDAEQHAADXAHfAfgB2QHdAf8B9AHVAdoB/wH4AdwB4AH/AfYB3AHf
+        Af8B9wHfAeIB/wH5AeIB5QH/AfkB5QHnAf8B+gHnAegB/wH6AekB6gH/AfoB6gHrAf8B4ALTAf8BgAEh
+        ASIB/wNiAe8DVAGvA1kBvwNRAZ8DDAEQLAADAgEDAVYCWAG8AR4BzQHhAf8BsQH1Av8BWgJhAeQDKAE9
+        LAADMQFOAUQCfwH+AQABKQG8Af8BAAGBAcMB/wFSAmUB9AMQARasAAMXASAB0gGuAbQB/wH2AdMB2AH/
+        AfkB3QHhAf8B7wHaAd0B/wH9AeQB5wH/AfgB3QHhAf8B9gHdAeAB/wH7AeYB6QH/Af0B6gHsAf8B/AHr
+        AewB/wH4AeUB5wH/AfAB3wHhAf8BgwEhASIB/wEoAhoB/wMXASA8AAMdASkBWgJcAc0BXQJfAfMDMQFP
+        AwABASwAAUgCSQGIAQABhwG2Af8BDgGXAboB/wEAAZIBxgH/AU8CUAGbtAADXAHPAfcB1gHbAf8B8AHe
+        AeAB/wGyAZABlQH/AbEBkgGWAf8B+gHeAeIB/wH1AdkB3QH/Ae4B1wHaAf8BsAGYAZsB/wHcAccByQH/
+        AfkB5QHnAf8B+QHmAegB/wGZAYYBiAH/ASkBFwEYAf8DKgFAPwABAQMkATUDLwFJAwABATAAATQCNQFV
+        ATkCfwH+AQABhwG0Af8BUwJkAfEDHAEotAADDAEQA0cBgANZAb8DRwGAA1QBrwH8Ad4B4gH/AfgB2wHf
+        Af8B2QG+AcIB/wGnAYwBkAH/A2IB7wHXAcABwwH/AdIBuwG+Af8BnwGJAYsB/wNZAb8DDAEQfwABAQE1
+        AjYBWANEAXoDHAEnyAADMgFQAboBmAGdAf8B0QGxAbYB/wGmAYcBiwH/AZYBJgEqAf8DIQEwAyoBQAMq
+        AUADIQEwIAADAgEDAwQBBgMHAQkDEAEVAxoBJAMQARUDCgENAwgBCwMGAQgDAwEEAwABAQ8AAQEDAAQB
+        AQIDAQECAwABARAAAwMBBAMGBAgECwQPARQDFgEeAykBPwNEAXkDVQG1A10B7QNfAfsBzwGNAQ0B/wHP
+        AY4BDQH/An8BZQH+Am0BYgH3Al4BWgHVA0wBkgM4AV0DIwEzAx8BLAMaASUDEAEWAw0BEgMKAQ0fAAQB
+        AQIDAQECAwQBBgMFAQcDBQEHAwMBBAMCAQMDAQECAwABATwAAwEBAgMEBAUBBwMFAQcDBQEHAwUBBwME
+        AQYDAgEDIAADBwEJAw4BEwMVAR0DMQFPAVcCVQG3AVoCVwHFAVcCVgG4AzABSwMeASsDGQEjAxIBGQML
+        AQ8DBgEIAwUBBwMJAQwDDQERAw8BFAMRARcDEAEWAw4BEwMLAQ8DBwEKAwMBBAMAAQEDAAQBBAIEAwEE
+        AwcBCgM9AWgDXAHJA2oB+QHiAZ4BGwH/AecBowEeAf8B6AGkASAB/wHnAaMBHwH/AeYBogEfAf8B5wGj
+        AR8B/wHnAaMBHwH/AeMBoAEbAf8BOQIrAfwDXwHbA04BmAMSARkDBgEIAwUBBwMEAQUDAgEDGAADBAEF
+        Ax0BKQMzAVMDQAFvA0YBfwNIAYQDRgF+AzsBZQMqAUADEAEWAwIBAzQAAwIBAwMJAQwDEwEaAx0BKQMi
+        ATIDIwE0AyMBNAMjATMDHwEsAxYBHgMKAQ4DBAEFGAADCwEPAxMBGgMvAUkBYgFJAUgB9gGsASEBAAH/
+        AaMBGwEAAf8BsQEgAQAB/wFYAlYBvAMnATsDHwEsAxgBIQMTARoDEAEWAw4BEwMSARkDGAEhAxwBKAMh
+        ATADIwE0AygBPQMYASEDEAEWAwsBDwMEAQYQAANEAXsDXwH7AekBpQEhAf8B7QGoASEB/wHjAaABHQH/
+        Ad8BnAEbAf8B4AGdARwB/wHiAZ8BHgH/AeMBoAEfAf8B4gGfAR4B/wHgAZ0BHAH/Ad8BnAEbAf8B5AGg
+        AR0B/wHsAagBIQH/Ad0BmwEYAf8DWAG8AxIBGRwAAwkBDAM1AVUDVwG6A2IB9gEfAYoBpQH/AYABiQGm
+        Af8BIAGJAaQB/wEiAYsBpgH/AYcBlQGyAf8BjAGaAbgB/wGJAZcBtQH/A18B6ANQAZ4DLgFHAxABFQMC
+        AQMkAAMEAQYDEgEZAyUBNwNEAXwDWwHQAQECAAH/AQICAAH/AQICAAH/AQICAAH/A18B4ANOAZkDKAE8
+        AxgBIQMHAQkDAAEBEAADAwEEAxIBGANVAbIBxQGaAR0B/wG4AYoBCgH/AYoBAQEAAf8BngEUAQAB/wJf
+        AVcB6AI6ATkBYAMRARcDDAEQAwcBCQMEBAYBCAMKBA0BEgMYASEDRQF9A2oB+QNcAfgDWgG9AxABFQME
+        AQYDAQECCAADCQEMA0wBkAGoAZYBQAH9AecBpAEgAf8B5wGjAR8B/wHhAZ4BHQH/AeQBoQEgAf8B5gGj
+        ASIB/wHpAagBgwH/AeoBrgGJAf8B6gGvAYoB/wHqAa4BiQH/AegBpwGCAf8B5gGjASIB/wHkAaEBIAH/
+        AeIBnwEdAf8B5wGjAR8B/wJ/AXcB/gNYAbsDEQEXEAADCwEPAzcEWgHFA1wB+AEAASMBhwH/AQoBgQGT
+        Af8BBAGCAZIB/wEAAoMB/wEcAZEBpwH/AYwBmQG3Af8BjAGbAbgB/wGQAZ8BvQH/AZIBnwG/Af8BlwGj
+        AcYB/wN/Af4BWgJhAeQDTwGcAzgBXAMhATADDgETAwQBBQMAAQEPAAEBAwoBDgMjATQDRQF/A1oB5AEM
+        AQoBCQH/ARIBEAEPAf8BFgEUARIB/wEYARYBFAH/ARgBFgEUAf8BFQETARIB/wETAREBEAH/AQ4BDAEK
+        Af8DWQHyA1ABnQMrAUIDDwEUAwIBAxAAAxwBJwJeAVwBzgHZAbcBmwH/AdcBtwGdAf8BqgGEAQkB/wGC
+        AgAB/wF/AWsBSgH+AVwCWgHNAxABFgMAAQEPAAQBAQIDQAFvA2QB7APCAf8DuAH/A1wB+AMmATkMAAME
+        AQUDRAF5ATgCKwH8AegBpQEhAf8B5AGhAR4B/wHjAaABHwH/AecBpAEjAf8B6AGlAYAB/wHoAaUBgAH/
+        AeoBtgGWAf8B7QHXAcYB/wHuAdwBzgH/Ae0B1wHFAf8B6QG1AZQB/wHoAaUBgAH/AegBpQGAAf8B5wGk
+        ASMB/wHjAaABHwH/AeQBoQEeAf8CfwF5Af4DVwG4AwoBDQgAAwsBDwNKAYkDZwHyASEBjQGmAf8BAAGN
+        AZYB/wEAAYwBGQH/AQABGAEbAf8BAAEYAR0B/wEAAZcBjAH/AQUBlwGeAf8BlgGkAcIB/wGSAaEBvwH/
+        AZUBowHEAf8CigG3Af8BhwEjAbYB/wGQAYsBxAH/AZYBmwHIAf8DXwHzA1YBtgNEAXsDMgFRAxwBJwMK
+        AQ0LAAEBAwgBCwMtAUUDVQG6ARABDwENAf8BGQEXARUB/wEXARUBEwH/ARUBEwERAf8BFAESARAB/wET
+        AREBDwH/ARMBEQEPAf8BEwERARAB/wEVARMBEQH/ARYBFAETAf8BGQEXARUB/wEUARIBEAH/A1oB0wM8
+        AWcDDgETAwABAQwAAxABFQNVAbUBsAEeAQAB/wHSAagBhgH/AdkBugGiAf8BnAEaAQAB/wGHAQMBAAH/
+        AysB/AFeAloB1QMIAQsQAAM2AVkDXwH7A9cB/wPLAf8DwAH/A00B+gMNARIMAAMnATsDZQHlAe0BqgGB
+        Af8B5AGhAR4B/wHkAaEBIAH/AegBpQGAAf8B6AGlAYAB/wHoAaUBgAH/AegBpQGAAf8B5wG1AZoB/wHt
+        AegB5QH/A+4B/wHtAeYB4gH/AecBtAGYAf8B6AGlAYAB/wHoAaUBgAH/AegBpQGAAf8B6AGlAYAB/wHl
+        AaIBIQH/AeQBoQEfAf8B5QGkASAB/wNHAYIIAAM2AVkDZwHyAYYBlQGxAf8BiAGZAbQB/wEDAY8BmAH/
+        AQABmwGIAf8BAAGSASMB/wEAARgBDwH/AQABIQGFAf8BHgGkAbMB/wGaAasBygH/AZkBqgHIAf8BlQGf
+        AcQB/wGCAQIBrwH/AQoBAAGTAf8BFQEAAaUB/wGIARcBvQH/AaABqQHSAf8DZwHyA1IBqANEAXkDMQFO
+        AxoBJQgAAwQBBgMaASUDXAHMAYwBiwGJAf8BHAEaARgB/wERAQ8BDQH/ARIBEAEOAf8BEgEQAQ4B/wES
+        ARABDgH/ARIBEAEOAf8BEgEQAQ4B/wESARABDgH/ARIBEAEOAf8BEgEQAQ4B/wERAQ8BDQH/ARwBGgEY
+        Af8BIgEgAR4B/wFaAVkBWAHmAjUBNAFVAwcBCRAAAyEBMAFSAlEBpwJcAVUB6gJ/AXMB/gHNAaUBhQH/
+        AZsBGAEAAf8BjgEKAQAB/wJfAUcB+wFWAlUBsQMWAR8EAAMGAQgDOwFkA00B+gPZAf8D3gH/A+AB/wNk
+        AfEDRgF+EAADTAGTA38B/gHlAaIBHwH/AeQBoQEgAf8B5wGkASMB/wHoAaUBgAH/AegBpQGAAf8B6AGl
+        AYAB/wHoAaUBgAH/AeYBtQGaAf8B7wHpAeYB/wPwAf8B7gHoAeQB/wHnAbMBmAH/AegBpQGAAf8B6AGl
+        AYAB/wHoAaUBgAH/AegBpQGAAf8B5wGkASMB/wHkAaEBIAH/AecBowEhAf8DXAHPAxsBJgQAA1YBswEj
+        AY0BpwH/AYIBkAGqAf8BkAGhAb4B/wEfAaABsQH/AQABqQGZAf8BAAGoAZUB/wEAAZ4BjgH/AQAChwH/
+        AYwBogG8Af8BoAGxAdEB/wGgAbEB0AH/AZsBqgHKAf8BlQGSAcYB/wGKAQABvwH/AR0BAAGvAf8BHQEA
+        Aa4B/wKVAcUB/wGiAbIB0wH/A10B0gMyAVEDJgE4AxcBIAQAAwEBAgMSARgDUgGhAtABzwH/AeAB3wHe
+        Af8BjAGKAYkB/wENAQsBCQH/ARABDgEMAf8BEQEPAQ0B/wERAQ8BDQH/AREBDwENAf8BEQEPAQ0B/wER
+        AQ8BDQH/AREBDwENAf8BEQEPAQ0B/wERAQ8BDQH/ARABDgEMAf8BHAEaARgB/wEeAR0BGwH/AlgBVgHB
+        AxgBIQMEAQUQAAMFAQcDNgFZAl0BWQHXAcYBlwEXAf8BvgGPAQ4B/wGYAREBAAH/AYkBBgEAAf8CXAFH
+        AfgDUgGpAwABAQM5BF8B6APaAf8D3QH/A+IB/wNfAfsDTgGUAw0BEQwAAw0BEQNiAe8B6AGnAYEB/wHj
+        AaABHwH/AecBpQGAAf8B6AGmAYEB/wHoAaYBgQH/AegBpgGBAf8B6AGmAYEB/wHoAaYBgQH/AecBtwGb
+        Af8B8AHrAegB/wPyAf8B8AHpAeYB/wHnAbUBmgH/AegBpgGBAf8B6AGmAYEB/wHoAaYBgQH/AegBpgGB
+        Af8B6AGmAYEB/wHmAaQBIwH/AeQBogEhAf8DagH5AzoBYQQAA2QB5wEdAYYBngH/AYEBjgGjAf8BmQGq
+        AcUB/wGVAakBxQH/ARsBogGwAf8BAgGeAZ8B/wEFAZoBngH/ASIBrAG5Af8BIgGoAbUB/wGgAbIB0AH/
+        AaMBtQHUAf8BoQGyAdEB/wGZAZ0ByQH/AYoBGQHAAf8BjQEAAccB/wGFAQABxgH/AY8BiwG9Af8BpgG3
+        AdcB/wNNAfoDQQFzAwcBCgMGAQgEAAMGAQgDPAFmAcIBwQHAAf8B4wHiAeEB/wHiAeEB4AH/Ad4C3QH/
+        AZgBlgGUAf8BDAEKAQgB/wEQAQ4BDAH/ARABDgEMAf8BEAEOAQwB/wEQAQ4BDAH/ARABDgEMAf8BEAEO
+        AQwB/wEQAQ4BDAH/ARABDgEMAf8BEAEOAQwB/wEPAQ0BCwH/ASABHgEdAf8BGQEXARYB/wNLAY8DCgEO
+        AwABARQAAx8BLAFdAk4B8AJ/AW8B/gHAAYsBBwH/AZABCAEAAf8BkgEMAQAB/wJiAUgB9gM/AW0DTQH6
+        A9kB/wPcAf8D4AH/A18B+wNYAbkDAQECEAADQAFwAeQBpwGDAf8B6AGnAYEB/wHnAaQBIwH/AekBpwGC
+        Af8B6QGnAYIB/wHpAacBggH/AekBpwGCAf8B6QGnAYIB/wHpAacBggH/AecBtwGcAf8B8QHsAekB/wPz
+        Af8B8QHqAecB/wHoAbYBmgH/AekBpwGCAf8B6QGnAYIB/wHpAacBggH/AekBpwGCAf8B6QGnAYIB/wHp
+        AacBggH/AecBpQGAAf8B6AGqAYUB/wNVAa0EAANfAfMBHgGDAY8B/wGPAZUBnAH/AaEBqAGuAf8BoQGw
+        AcUB/wGfAbIB0AH/AZgBrQHIAf8BmgGyAcwB/wGnAbcB1gH/AaQBuwHVAf8BpwG6AdYB/wGoAbkB1wH/
+        AacBuQHXAf8BoQGvAdMB/wGXAZoByQH/AZkBkgHNAf8BogGIAdsB/wGmAbcB2AH/AagBuQHZAf8BrgHB
+        AeEB/wNhAeEDDQESCAADDgETA1cBtwHfAd4B3QH/AeEB4AHeAf8B3gHdAdsB/wHgAd8B3QH/Ad4B3QHb
+        Af8BiwGJAYgB/wEKAQgBBwH/AQ4BDAELAf8BDwENAQwB/wEPAQ0BDAH/AQ8BDQEMAf8BDwENAQwB/wEP
+        AQ0BDAH/AQ8BDQEMAf8BDwENAQwB/wEPAQ0BDAH/ARMBEQEQAf8BiQKHAf8DAAH/AxYBHgMCAQMYAAMa
+        ASUCXQFZAdICfwFsAf4BzAGhASIB/wG+AY4BDAH/AX8BaQFDAf4DKwH8A9gB/wPbAf8D3wH/A2oB+QNW
+        AasDBAEFFAADWAG7AeoBrwGKAf8B5wGmAYEB/wHpAagBgwH/AekBqQGEAf8B6QGpAYQB/wHpAakBhAH/
+        AekBqQGEAf8B6QGpAYQB/wHpAakBhAH/AecBuAGdAf8B8wHuAesB/wP1Af8B8gHsAegB/wHnAbcBmwH/
+        AekBqQGEAf8B6QGpAYQB/wHpAakBhAH/AekBqQGEAf8B6QGpAYQB/wHpAakBhAH/AekBqAGDAf8B6QGs
+        AYcB/wNhAeEEAANnAfIBkQGJARkB/wGYAR0BAAH/AZ4BIAEAAf8BpAGfAY0B/wGuAb4B1gH/Aa8BwAHd
+        Af8BsgHDAeAB/wGnAb0B2gH/AYkBpQHIAf8BhgGiAcMB/wGrAb4B2AH/AbUBxQHfAf8BtwHGAeEB/wGx
+        Ab8B2wH/AacBtgHVAf8BqQG9AdkB/wGrAb4B3gH/AawBvgHdAf8BrgHBAeAB/wN/Af4DLwFJCAADKwFC
+        A18B4ALoAecB/wHdAdwB2wH/Ad0B3AHbAf8B3QHcAdsB/wHgAd8B3gH/AdoB2QHYAf8BigGIAYcB/wEK
+        AQgBBwH/AQ0BCwEKAf8BDgEMAQsB/wEOAQwBCwH/AQ4BDAELAf8BDgEMAQsB/wEOAQwBCwH/AQ4BDAEL
+        Af8BDgEMAQsB/wEMAQoBCQH/AYQBggGAAf8BHQEcARsB/wNBAXIDBAEGHAACLAErAUMCYAFbAdYCqAGZ
+        Af0BfwF8AVkB/gGtAYkBFAH/AbYBqwGlAf8ByAHEAcIB/wPeAf8DqAH9A1cBuAMWAR4YAANkAecB7QGz
+        AY8B/wHoAakBhAH/AesBqwGGAf8B6wGrAYYB/wHrAasBhgH/AesBqwGGAf8B6wGrAYYB/wHrAasBhgH/
+        AesBqwGGAf8B6AG6AZ8B/wH1AfAB7QH/A/cB/wH0Ae4B6gH/AegBuQGdAf8B6wGrAYYB/wHrAasBhgH/
+        AesBqwGGAf8B6wGrAYYB/wHrAasBhgH/AesBqwGGAf8B6wGrAYYB/wHrAa8BigH/A2oB+QQAA18B6AGg
+        AaMBogH/AbUBjgEAAf8BsAGGAQAB/wGtAZwBFQH/AbIBuwHEAf8BswHFAeEB/wGzAcQB3wH/AZ0BtQHW
+        Af8BAAGHAbYB/wEAAREBpwH/AQoBiwG1Af8BkgGtAc0B/wGxAcQB3wH/Ab8BzgHmAf8BugHKAeEB/wG0
+        AcUB3gH/AbEBxAHhAf8BrwHDAeEB/wGvAcMB4gH/AbEBxgHkAf8DQAFvCAADOAFdA2oB+QHhAeAB3wH/
+        AdsB2gHZAf8B2wHaAdkB/wHbAdoB2QH/AdwB2wHaAf8B3gHdAdwB/wLbAdoB/wGVAZMBkQH/AQkBBwEG
+        Af8BDQELAQkB/wENAQsBCgH/AQ0BCwEKAf8BDQELAQoB/wENAQsBCgH/AQ0BCwEKAf8BDQELAQoB/wEM
+        AQoBCQH/ARkBFwEVAf8BnQGcAZoB/wNSAaYDBQEHIAADFAEcA0oBjQNfAfsBuAGvAakB/wHWAdIBzgH/
+        AbcBrwGpAf8DfwH+A2IB6QMKAQ4cAANNAfoB7gG4AZMB/wHqAawBhgH/AesBrgGIAf8B6wGuAYgB/wHr
+        Aa4BiAH/AesBrgGIAf8B6wGuAYgB/wHrAa4BiAH/AesBrgGIAf8B6AG7AZ8B/wH2AfEB7gH/A/gB/wH1
+        Ae8B6wH/AegBuQGeAf8B6wGuAYgB/wHrAa4BiAH/AesBrgGIAf8B6wGuAYgB/wHrAa4BiAH/AesBrgGI
+        Af8B6wGuAYgB/wHsAbIBjQH/AesBtAGQAf8EAANbAcQBrAGvAaAB/wHDAZ8BAAH/Ab0BmwEAAf8BpgGQ
+        AQAB/wGuAbIBtQH/AbYByAHhAf8BtQHIAeMB/wGhAbcB1QH/AQABggHCAf8BAAEUAcYB/wEAARABtAH/
+        AQcBjAG3Af8BmwG0AdQB/wG6AcsB5gH/AbsBzAHmAf8BuAHIAeEB/wG2AccB4AH/AbYByQHlAf8BtAHI
+        AeYB/wG6Ac4B7AH/A0QBeggAAzsBYwHaAdkB2AH/AdsB2gHZAf8B2gHZAdgB/wHaAdkB2AH/AdoB2QHY
+        Af8B2gHZAdgB/wHaAdkB2AH/AdwB2wHaAf8B2gHZAdgB/wGIAYYBhQH/AQcBBQEEAf8BCwEJAQgB/wEM
+        AQoBCQH/AQwBCgEJAf8BDAEKAQkB/wEMAQoBCQH/AQwBCgEJAf8BCwEJAQgB/wELAQkBCAH/AawBqwGq
+        Af8DVQGyAwUBBxAAAx8BLQM8AWYDRwGAAz8BbQM/AWwDYgH2A38B/gHAAbwBugH/AbkBsQGrAf8BygHE
+        Ab8B/wNfAfsDLQFGIAADWQH1Ae8BuwGXAf8B6wGuAYkB/wHsAbABiwH/AewBsAGLAf8B7AGwAYsB/wHs
+        AbABiwH/AewBsAGLAf8B7AGwAYsB/wHsAbABiwH/AekBuwGgAf8B9wHyAe8B/wP6Af8B9gHwAe0B/wHp
+        AboBnwH/AewBsAGLAf8B7AGwAYsB/wHsAbABiwH/AewBsAGLAf8B7AGwAYsB/wHsAbABiwH/AewBsAGL
+        Af8B7QG1AZAB/wN/Af4EAANIAYYBKwEuAS8B/AHPAbwBAAH/AdUBuQEAAf8BzAGyAQAB/wHBAawBAAH/
+        AbEBugGwAf8BtQHKAegB/wGsAcEB3wH/AR4BoQHLAf8BAAGNAdUB/wEAARwB2wH/AQABIgHEAf8BjwGu
+        AdIB/wGyAcYB4QH/AbUByQHjAf8BsgHFAd8B/wGrAb0B1wH/Aa4BwQHcAf8BtwHMAekB/wNfAfsDMQFP
+        CAADOwFjAd8B3gHdAf8B2QHYAdYB/wHaAdkB1wH/AdoB2QHXAf8B2gHZAdcB/wHaAdkB1wH/AdoB2QHX
+        Af8B2gHZAdcB/wHdAdwB2gH/AdcB1gHUAf8BhwGFAYQB/wEIAQYBBAH/AQsBCQEHAf8BDAEKAQgB/wEM
+        AQoBCAH/AQwBCgEIAf8BDAEKAQgB/wEMAQoBCAH/AQgBBgEEAf8BtgG1AbQB/wNVAbIDBQEHDAADKQE/
+        A10B0gNNAfoBOQI6AfwDOAH8A38B/gHVAdYB1QH/A8IB/wPJAf8BygHIAcUB/wMrAfwBNAEyATEB/ANe
+        AdUDKgFAHAADXQHTAfABvgGaAf8B7QGxAYwB/wHuAbIBjQH/Ae4BsgGNAf8B7gGyAY0B/wHuAbIBjQH/
+        Ae4BsgGNAf8B7gGyAY0B/wHuAbIBjQH/AeQBuQGfAf8B4wHgAd0B/wPjAf8B4gHeAdwB/wHlAbkBnwH/
+        Ae4BsgGNAf8B7QGyAY0B/wHuAbIBjQH/Ae4BsgGNAf8B7gGyAY0B/wHuAbIBjQH/Ae4BsgGNAf8B7wG6
+        AZUB/wNkAfEEAAMqAUADXwHjAa8BvQHEAf8BvwG4ARgB/wHBAbkBEAH/AdYBygEAAf8BxAHAARAB/wG1
+        AckB2wH/AbUBywHnAf8BqQHBAd8B/wGdAbwB3wH/ASABswHrAf8BGQGoAd0B/wGiAbsB2gH/AaQBtwHQ
+        Af8DfwH+A18B4ANdAdIDYAHrA2EB4gNKAYkDCgENCAADOwFjAd0B3AHbAf8B2AHXAdYB/wHYAdcB1gH/
+        AdgB1wHWAf8B2AHXAdYB/wHYAdcB1gH/AdgB1wHWAf8B2AHXAdYB/wHZAdgB1gH/AdsB2gHYAf8C2AHX
+        Af8BkgGQAY8B/wEGAQQBAwH/AQoBCAEHAf8BCgEIAQcB/wEKAQgBBwH/AQoBCAEHAf8BCgEIAQcB/wEI
+        AQYBBQH/AbwBuwG6Af8DVgGxAwUBBwgAAwsBDwNdAfAD5wH/A+kB/wPqAf8D6gH/A+kB/wPYAf8DswH/
+        A9EB/wNiAfYDQAFuA2EB5gHSAc4BygH/A10B0gMhATADAAEBFAADTgGWAfABvQGZAf8B7wG3AZIB/wHv
+        AbUBkAH/Ae8BtQGQAf8B7wG1AZAB/wHvAbUBkAH/Ae8BtQGQAf8B7wG1AZAB/wHvAbUBkAH/AesBsAGL
+        Af8B5AGoAYIB/wHkAagBggH/AeQBqAGCAf8B6wGxAYsB/wHvAbUBkAH/Ae8BtQGQAf8B7wG1AZAB/wHv
+        AbUBkAH/Ae8BtQGQAf8B7wG1AZAB/wHvAbUBkAH/AfABvwGbAf8DXAHRBAADCgENA1MCqAG7AdMB/wGp
+        Aa4BpAH/Aa8BwQHXAf8BsAHGAeUB/wG7AcwB1gH/AbgBzQHkAf8BuAHNAekB/wN/Af4DYAHrA2QB5wNf
+        AfsBsAHFAeAB/wGXAakBwQH/A10B1wMjATQDBAEFAxgBIQMQARUQAAM5AV8B2gLYAf8B3AHbAdoB/wHW
+        AdUB1AH/AdcB1gHVAf8B1wHWAdUB/wHXAdYB1QH/AdcB1gHVAf8B1wHWAdUB/wHXAdYB1QH/AdcB1gHV
+        Af8B2QHYAdcB/wHXAdYB1QH/AYUBhAGCAf8BBQEDAQEB/wEJAQcBBQH/AQoBCAEGAf8BCgEIAQYB/wEJ
+        AQcBBQH/ARQBEwEQAf8BwwHCAcEB/wNTAbADBAEFCAADPQFpA6gB/QPbAf8ByQLKAf8ByQLKAf8DYQHm
+        A38B/gPhAf8DfwH+A2EB5gMkATUDAQECAzgBXQNgAesBMgEvASwB/ANhAeYDVgGxAzoBYgMEAQYMAAMq
+        AUACqAGWAf0B8AG9AZgB/wHvAbgBkgH/Ae8BuQGTAf8B7wG5AZMB/wHvAbkBkwH/Ae8BuQGTAf8B7wG5
+        AZMB/wHvAbkBkwH/AfABvgGZAf8B9AHTAbUB/wH3AeAByAH/AfQB1AG3Af8B8AG/AZoB/wHvAbkBkwH/
+        Ae8BuQGTAf8B7wG5AZMB/wHvAbkBkwH/Ae8BuQGTAf8B7wG5AZMB/wHwAboBlAH/AfIBxAGgAf8DSwGO
+        CAADJQE3A2EB5gGpAbwB0gH/AacBpgGZAf8BoAGWASEB/wGxAcAB0wH/AbgBzgHrAf8BuQHPAeoB/wNe
+        AdgDJgE5Aw8BFAMvAUoDWwHEAaYBugHTAf8DWwHIAxYBHxwAAykBPgNhAeQB6gHpAegB/wHVAdQB0gH/
+        AdcB1gHUAf8B1wHWAdQB/wHXAdYB1AH/AdcB1gHUAf8B1wHWAdQB/wHXAdYB1AH/AdcB1gHUAf8B1wHW
+        AdQB/wHaAdkB1wH/AdQB0wHRAf8BhAGCAYEB/wEFAQMBAgH/AQgBBgEFAf8BCQEHAQYB/wEGAQQBAwH/
+        AY4BjQGMAf8BmwKaAf8DQgF2AwEBAggAA04BlAHAAsIB/wNgAdYDPQFnA0IBdQNZAb4DXwHbA+8B/wN/
+        Af4DWgG9AwABAQQAAwEBAgMxAU4DfwH+Ac0BwwG5Af8BxwG7AbIB/wNfAeMDKQE/DAADAwEEA1wBzQHy
+        AcMBnwH/AfABugGUAf8B8QG7AZUB/wHxAbsBlQH/AfEBuwGVAf8B8QG7AZUB/wHxAbsBlQH/AfEBuwGV
+        Af8B9AHOAbEB/wH9AfgB8gX/Af4B+QH0Af8B9QHQAbUB/wHxAbsBlQH/AfEBuwGVAf8B8QG7AZUB/wHx
+        AbsBlQH/AfEBuwGVAf8B8QG7AZUB/wH0AcgBpAH/A2EB7gMvAUkIAAMBAQIDNAFUA10B8AGtAaQBgwH/
+        AbMBhwEAAf8BpwGVAQAB/wGxAcABygH/AboB0QHsAf8DYQHiAyoBQAcAAQEDNgFYA38B/gNfAfMDSAGF
+        AwYBCBgAAw0BEQNXAboB7wLuAf8B2QHYAdYB/wHVAdQB0gH/AdUB1AHSAf8B1QHUAdIB/wHVAdQB0gH/
+        AdUB1AHSAf8B1QHUAdIB/wHVAdQB0gH/AdUB1AHSAf8B1gHVAdMB/wHYAdcB1QH/AtUB0gH/AY8BjQGM
+        Af8BBAECAQAB/wEHAQUBAwH/AQwBCgEIAf8BrAKrAf8BBgIEAf8DGAEiDAADIAEvAYYBiwGJAf0DJgE5
+        CAADQgF1A2EB4QPpAf8D2wH/A14BzgMAAQEMAANlAfQB2QHNAcIB/wHWAckBvQH/ATQBMAErAfwDWgHF
+        AwABAQwAAzsBYwNfAfsB8gHBAZsB/wHxAb0BlwH/AfIBvgGYAf8B8gG+AZgB/wHyAb4BmAH/AfIBvgGY
+        Af8B8gG+AZgB/wH2AdwByg3/AfYB3wHPAf8B8gG+AZgB/wHyAb4BmAH/AfIBvgGYAf8B8gG+AZgB/wHy
+        Ab4BmAH/AfMBwgGdAf8B9QHLAagB/wNWAbQDCQEMEAADQgF0A20B9wHFAbQBAAH/AdcBtgEAAf8BtAG2
+        AYsB/wG4AdEB8AH/AbQBywHkAf8DXgHVAzIBUAMcAScDSgGKAcoB4gH+Af8BuQHQAekB/wGxAcYB3wH/
+        A1sBxgMwAUsDBwEKEwABAQNDAXcCzQHMAf8C6gHpAf8B0wHSAdEB/wHUAdMB0gH/AdQB0wHSAf8B1AHT
+        AdIB/wHUAdMB0gH/AdQB0wHSAf8B1AHTAdIB/wHUAdMB0gH/AdQB0wHSAf8B1AHTAdIB/wHWAdUB1AH/
+        AdQB0wHSAf8BggGAASMB/wMAAf8BhgGEAYUB/wGlAqQB/wNTAbADAgEDEAADCgENDAADOAFeA2AB6wPl
+        Af8DfwH+A1IBpAMAAQEMAANWAbEDZQH0AdwBzgHBAf8B3AHOAcEB/wNNAfoDTAGTAwABAQgAAxUBHQNY
+        AbsB9QHLAagB/wH0AcQBnwH/AfMBwAGaAf8B8wHAAZoB/wHzAcABmgH/AfMBwAGaAf8B8wHAAZoB/wHs
+        Ac4BuAH/AfAB7wHuAf8D+AH/AfEB8AHvAf8B7AHQAbwB/wHzAcABmgH/AfMBwAGaAf8B8wHAAZoB/wHz
+        AcABmgH/AfQBwwGeAf8B9gHNAaoB/wNnAfIDLQFGFAADCgENA0IBdgNfAegBwAHFAZkB/wG4AcYBuwH/
+        AbcBzwHrAf8BuAHQAekB/wG6AdIB6wH/A38B/gNhAe4BLgE2ATwB/AHEAd0B+AH/AcIB2gH0Af8BvwHX
+        AfEB/wHEAd0B9wH/A20B9wNcAdEDRwGAAwQBBgwAAwMBBANbAcQB4gHhAeAB/wHhAeAB3wH/AdIB0QHP
+        Af8B0wHSAdAB/wHUAdMB0QH/AdQB0wHRAf8B1AHTAdEB/wHUAdMB0QH/AdQB0wHRAf8B1AHTAdEB/wHU
+        AdMB0QH/AdQB0wHRAf8B1gHVAdMB/wHPAc4BzAH/AYYBhQGEAf8BtgG1AbQB/wNeAdgDBQEHIAADHQEp
+        A14BzgOoAf0D6AH/A10B8AM1AVYQAAMSARkDTAGSA1wB+AN/Af4DYgH2A0IBdAMAAQELAAEBAyYBOANk
+        AewB9QHKAacB/wH1AcgBogH/AfQBwgGcAf8B9AHCAZwB/wH0AcIBnAH/AfQBwgGcAf8B7AG7AZoB/wHi
+        AckBuAH/AeEB2AHSAf8B4gHJAbkB/wHrAbsBmQH/AfQBwgGcAf8B9AHCAZwB/wH0AcIBnAH/AfQBxAGe
+        Af8B+AHQAa0B/wNcAfgDOAFcAwIBAxgAAwcBCQMtAUUDWQG+A00B+gG1AcwB4wH/AbkB0QHqAf8BvgHW
+        Ae8B/wG/AdkB8QH/AbQBzwHjAf8BtgHTAegB/wHGAd4B+AH/AccB3wH5Af8BxgHfAfkB/wHGAd8B+QH/
+        AckB4gH8Af8B1QHvAf4B/wNYAcEDBgEIEAADFQEdA10B0wPkAf8B5AHjAeIB/wHRAdABzgH/AdIB0QHP
+        Af8B0gHRAc8B/wHSAdEBzwH/AdIB0QHPAf8B0gHRAc8B/wHSAdEBzwH/AdIB0QHPAf8B0gHRAc8B/wHS
+        AdEBzgH/AeAB3wHdAf8B8wLyAf8DYgHpAzMBUiAAAwcBCQGGAYoBiAH9AboCvAH/AdMB1AHTAf8DYgH2
+        A1ABmwMGAQgYAANCAXUDZQH0AzoBYRgAAyEBMANcAeoB9gHOAawB/wH2AckBpQH/AfUBxQGfAf8B9QHF
+        AZ8B/wH1AcUBnwH/AfIBwAGbAf8B5gGuAYkB/wHjAagBgwH/AeYBrQGIAf8B8gHAAZoB/wH1AcUBnwH/
+        AfUBxQGfAf8B9gHJAaQB/wH6AdoBuAH/A1wB+ANAAXAoAAMKAQ0DPQFoA14B2QN/Af4BwgHXAfEB/wGX
+        AbwBzAH/AQABiQEhAf8BFAGnAawB/wHQAecC/wHHAeEB+QH/AckB4gH8Af8BygHjAf0B/wHPAekC/wNd
+        AdIDGAEhGAADJAE1A2EB3ALxAfAB/wHxAfIB8QH/AdQB0wHRAf8BzwHOAcsB/wHPAc4BzAH/AdABzwHN
+        Af8B0AHPAc0B/wHQAc8BzQH/Ac8BzgHLAf8BzgHNAcsB/wHpAegB5wH/AvQB8wH/A38B/gM9AWkDAAEB
+        JAADHQEpA04BlgNKAYsDLwFJAwIBAyAAAxkBIwMDAQQcAAMmATgDWAG8AT4BMwErAfwB9gHMAakB/wH2
+        AcwBpwH/AfYBygGkAf8B9gHHAaEB/wH1AcYBoAH/AfUBxgGgAf8B9QHHAaEB/wH2AckBpAH/AfcBzQGo
+        Af8B9wHPAasB/wN/Af4DXgHZAz0BZwMFAQcwAAMNAREDLQFGA0cBgANUAa8DXAHPA1wB3wNiAekDYQHm
+        A14B2ANYAbkDQgF0AxUBHSAAAxgBIgNTAaoDXQHtAucB5gH/AekC6AH/AeQB4wHiAf8C3gHdAf8B3gHd
+        AdwB/wHiAeEB4AH/AegC5wH/AesB6gHpAf8DYgH2A1oBvQMjATMDAAEBgwABAQMWAR4DOgFiA1wB0QKo
+        AZsB/QHzAccBpAH/AfgB0gGxAf8B+QHcAcIB/wH5Ad4BxQH/AfkB3QHDAf8B9gHPAa4B/wHxAcEBngH/
+        A2EB5gNIAYUDIAEvAwIBAzwAAwIBAwMNARIDGwEmAyQBNQMpAT8DKAE8AyABLgMRARcDAQECKwABAQMs
+        AUMDSQGIA2AB1ALIAcYB/wHRAdABzwH/AdQB0wHRAf8CygHJAf8DYQHiA1IBoQMwAUwDDwEUlAADAgED
+        AyUBNwNRAZ8DXAHRA18B8wHqAa8BjAH/A14B2ANVAbIDMgFRAwYBCNwAAUIBTQE+BwABPgMAASgDAAFg
+        AwABSAMAAQEBAAEBBQABYAEDFgAD/wEABv8GAAb/BgAG/wYABP8B/gEfBgAB/wHDAv8B/AEPBgAB/AEA
+        AT8B/wHwAQ8GAAHwAQABDwH/AeABBwYAAcABAAEDAfABAAEDBgABgAEAAQEBwAEAAQMJAAGEAQABAQkA
+        ARgLAAE4CwABMAoAAQEBMAgAAYABAAEBASABAAEDBgABwAEAAQMBIAEAAQcGAAHgAQABBwIAAR8GAAHw
+        AQABDwGAAQABPwYAAfwBAAE/AcABAAH/BgAB/wHDAf8B+AEBAf8GAAP/AfwBAwH/BgAG/wYABv8GAAb/
+        BgAD/wH8AQABPwT/AQABDwP/AeABAAEHA/8B8AEAAQEB/wHBAf8BwAEAAQMD/wHgAgAB/gEAAX8BgAEA
+        AQED/wHgAgAB+AEAAR8BgAEAAQEB8AEBAf8B8AIAAfABAAEHAYABAAEBAcABAQH/AYABAAEBAYABAAEB
+        AcABAAEDAQABAQH/AgABAwMAAfABAAEDAgABPwIAAQMDAAH+AQABAwIAAQMBgAEAAQMDAAH+AQABDwMA
+        AYABAAEHAwAB/AEAAT8EAAEgAQEBgAEAAQEB+AEAAX8EAAEwAQEBwAEAAQEB+AEAAf8EAAEwAQEB4AEA
+        AQcB+AEBAf8EAAEwAQEB8AEAAQcB4AEDAf8DAAGAAQABAwHwAQABDwHwAQcB/wGAAgABgAEAAQMB+AEA
+        AR8B+AEPAf8BgAQAAQMB/gEAAT8B8AEfAf8BgAIAAYABAAEDAf4BAAF/AeABHwH/AcABAAEBAYABAAED
+        Af8BAAH/AeAC/wHwAQABBwHwAQABAwH/AYEB/wHABf8B4AEAAR8B/wHBAf8BwQX/AfABAAEfAf8BwwH/
+        AcEF/wHwAQABHwP/AcMG/wEAAX8BgAEOAQ8DAAH+AQABfwH/AQAB/wYAAfwBAAF/AfwBAAE/AwAB8AEA
+        AQcB8AEAAQ8B+AEAAQ8DAAHAAQABAwHAAgAB4AEAAQcBgAEcAQMBgAEAAQEBgAIAAcABAAEDAYABHgED
+        AYABAAEBAYACAAHAAQABAwHAAQgBBwGAAgABgAIAAYABAAEBAeABAAEHAwABgAIAAYACAAH4AQABDwMA
+        AYABAAEBAYACAAH8AQABHwMAAYABAAEBAYACAAH+AQABPwMAAYABAAEBAYACAAH/AQABfwMAAYABAAEB
+        AYACAAHwAQAB/wMAAYABAAEBAYACAAHgAQABfwMAAYABAAEBAYACAAHAAQABHwMAAYABAAEHAYACAAHA
+        AQABBwMAAcABAAE/AYACAAHAAQQBBwMAAcABCAEfAYABAAEBAcYBBwEDAYACAAHwAQABBwGAAQABAQHu
+        AQcBAQGAAQABAQHwAQABAQHAAQABAwH8AQ8BAQGAAQABAQH4AQABAQHgAQABBwH4AQ8BxwHgAQABBwH+
+        AQABAwHwAQABBwH8AR8B5wHwAQABBwH/AYABBwH4AQABDwP/AfABAAEPAf8B4AEPAfwBAAE/A/8B/gEA
+        AX8G/xYACw==
+</value>
+  </data>
+  <data name="joinControl1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>3, 3</value>
+  </data>
+  <data name="label9.Text" xml:space="preserve">
+    <value>CategoriesSubView will be displayed here dynamically.</value>
+  </data>
+  <data name="&gt;&gt;chkLabelFrame.Type" xml:space="preserve">
+    <value>System.Windows.Forms.CheckBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="scaleControl1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="&gt;&gt;cboCollisionMode.Name" xml:space="preserve">
+    <value>cboCollisionMode</value>
+  </data>
+  <data name="txtLayerExpression.Multiline" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="label18.Text" xml:space="preserve">
+    <value>Layer name</value>
+  </data>
+  <data name="txtBriefInfo.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="label9.Location" type="System.Drawing.Point, System.Drawing">
+    <value>18, 19</value>
+  </data>
+  <data name="&gt;&gt;txtDatasourceName.Name" xml:space="preserve">
+    <value>txtDatasourceName</value>
+  </data>
+  <data name="btnCancel.Location" type="System.Drawing.Point, System.Drawing">
+    <value>560, 411</value>
+  </data>
+  <data name="txtLayerExpression.Location" type="System.Drawing.Point, System.Drawing">
+    <value>10, 18</value>
+  </data>
+  <data name="chkEditMode.Size" type="System.Drawing.Size, System.Drawing">
+    <value>96, 16</value>
+  </data>
+  <metadata name="imageList1.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>17, 17</value>
+  </metadata>
+  <metadata name="$this.Language" type="System.Globalization.CultureInfo, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>zh-CN</value>
+  </metadata>
+  <metadata name="$this.Localizable" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <metadata name="$this.TrayHeight" type="System.Int32, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>25</value>
+  </metadata>
+  <metadata name="toolStripEx1.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>233, 17</value>
+  </metadata>
+  <metadata name="toolTip1.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>132, 17</value>
+  </metadata>
+</root>

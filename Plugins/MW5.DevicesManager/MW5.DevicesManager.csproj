@@ -1,0 +1,276 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="12.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{5230EC84-46EF-49C7-814D-5BCE23652405}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>MW5.Plugins.DevicesManager</RootNamespace>
+    <AssemblyName>MW5.DevicesManager</AssemblyName>
+    <TargetFrameworkVersion>v4.6.1</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <OutputPath>..\..\..\bin\$(Platform)\$(Configuration)\Plugins\</OutputPath>
+    <TargetFrameworkProfile />
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Debug|x86'">
+    <DebugSymbols>true</DebugSymbols>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <DebugType>full</DebugType>
+    <PlatformTarget>x86</PlatformTarget>
+    <ErrorReport>prompt</ErrorReport>
+    <CodeAnalysisRuleSet>MinimumRecommendedRules.ruleset</CodeAnalysisRuleSet>
+    <LangVersion>7.1</LangVersion>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Release|x86'">
+    <DefineConstants>TRACE</DefineConstants>
+    <Optimize>true</Optimize>
+    <DebugType>pdbonly</DebugType>
+    <PlatformTarget>x86</PlatformTarget>
+    <ErrorReport>prompt</ErrorReport>
+    <CodeAnalysisRuleSet>MinimumRecommendedRules.ruleset</CodeAnalysisRuleSet>
+    <LangVersion>7.1</LangVersion>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Debug|x64'">
+    <DebugSymbols>true</DebugSymbols>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <DebugType>full</DebugType>
+    <PlatformTarget>x64</PlatformTarget>
+    <ErrorReport>prompt</ErrorReport>
+    <CodeAnalysisRuleSet>MinimumRecommendedRules.ruleset</CodeAnalysisRuleSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Release|x64'">
+    <DefineConstants>TRACE</DefineConstants>
+    <Optimize>true</Optimize>
+    <DebugType>pdbonly</DebugType>
+    <PlatformTarget>x64</PlatformTarget>
+    <ErrorReport>prompt</ErrorReport>
+    <CodeAnalysisRuleSet>MinimumRecommendedRules.ruleset</CodeAnalysisRuleSet>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="MediaDevices, Version=1.9.1.0, Culture=neutral, PublicKeyToken=36ac35b4ea7a1f67, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>obj\x86\Debug\MediaDevices.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.WindowsAPICodePack, Version=1.1.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>..\..\packages\Microsoft.WindowsAPICodePack-Core.1.1.0.0\lib\Microsoft.WindowsAPICodePack.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.WindowsAPICodePack.Shell, Version=1.1.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>..\..\packages\Microsoft.WindowsAPICodePack-Shell.1.1.0.0\lib\Microsoft.WindowsAPICodePack.Shell.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.WindowsAPICodePack.ShellExtensions, Version=1.1.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>..\..\packages\Microsoft.WindowsAPICodePack-Shell.1.1.0.0\lib\Microsoft.WindowsAPICodePack.ShellExtensions.dll</HintPath>
+    </Reference>
+    <Reference Include="Syncfusion.Office2016Theme.WinForms, Version=19.4460.0.38, Culture=neutral, PublicKeyToken=3d67ed1f87d44c89, processorArchitecture=MSIL" />
+    <Reference Include="Syncfusion.Office2019Theme.WinForms, Version=19.4460.0.38, Culture=neutral, PublicKeyToken=3d67ed1f87d44c89, processorArchitecture=MSIL" />
+    <Reference Include="Syncfusion.Shared.Base, Version=19.3460.0.43, Culture=neutral, PublicKeyToken=3d67ed1f87d44c89, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+    </Reference>
+    <Reference Include="Syncfusion.Tools.Windows, Version=19.3460.0.43, Culture=neutral, PublicKeyToken=3d67ed1f87d44c89, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.ComponentModel.Composition" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Management" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="..\..\SolutionItems\SolutionInfoPlugins.cs">
+      <Link>Properties\SolutionInfoPlugins.cs</Link>
+    </Compile>
+    <Compile Include="CompositionRoot.cs" />
+    <Compile Include="Views\.Designer.cs">
+      <DependentUpon>CsvToShp.cs</DependentUpon>
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Views\AddImportFilesForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Views\AddImportFilesForm.Designer.cs">
+      <DependentUpon>AddImportFilesForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Views\CreateFolderForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Views\CreateFolderForm.Designer.cs">
+      <DependentUpon>CreateFolderForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Views\CsvToShp.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Views\DevicesForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Views\DevicesForm.designer.cs">
+      <DependentUpon>DevicesForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Views\FormProgress.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Views\FormProgress.Designer.cs">
+      <DependentUpon>FormProgress.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Views\InputDialog.cs" />
+    <Compile Include="GroupKeys.cs" />
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <Compile Include="MapListener.cs" />
+    <Compile Include="Menu\MenuCommands.cs" />
+    <Compile Include="Menu\MenuGenerator.cs" />
+    <Compile Include="Menu\MenuKeys.cs" />
+    <Compile Include="Menu\MenuListener.cs" />
+    <Compile Include="DevicesManagerPlugin.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="SampleDockWindow.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="SampleDockWindow.Designer.cs">
+      <DependentUpon>SampleDockWindow.cs</DependentUpon>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\..\MW5.Api\MW5.Api.csproj">
+      <Project>{8AAD34B3-8EF3-485F-A04D-ED2C07D8F1DF}</Project>
+      <Name>MW5.Api</Name>
+      <Private>False</Private>
+    </ProjectReference>
+    <ProjectReference Include="..\..\MW5.Plugins\MW5.Plugins.csproj">
+      <Project>{76644cdf-5165-428d-8419-93c1e978db1b}</Project>
+      <Name>MW5.Plugins</Name>
+      <Private>False</Private>
+    </ProjectReference>
+    <ProjectReference Include="..\..\MW5.Tools\MW5.Tools.csproj">
+      <Project>{FB836BB0-2668-41E6-A4AD-7798B13C327F}</Project>
+      <Name>MW5.Tools</Name>
+      <Private>False</Private>
+    </ProjectReference>
+    <ProjectReference Include="..\..\MW5.UI\MW5.UI.csproj">
+      <Project>{784a24f2-9a57-46ee-8945-d87869595216}</Project>
+      <Name>MW5.UI</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Views\AddImportFilesForm.resx">
+      <DependentUpon>AddImportFilesForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Views\CreateFolderForm.resx">
+      <DependentUpon>CreateFolderForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Views\CsvToShp.resx">
+      <DependentUpon>CsvToShp.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Views\DevicesForm.resx">
+      <DependentUpon>DevicesForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Views\FormProgress.resx">
+      <DependentUpon>FormProgress.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="SampleDockWindow.resx">
+      <DependentUpon>SampleDockWindow.cs</DependentUpon>
+    </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="packages.config" />
+    <None Include="Resources\monitor.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\template-icon.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Arrow_Colorful_Up.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Arrow_white_left.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Arrow_white_right.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\closeFolder.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\openFolder.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\数据字典%281%29.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\新建图层%281%29.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ImportUp.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ExportUp.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\NewFolderUp.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\FileUp.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\DeleteUp.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Device.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Memory.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\DeviceBlue.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\MemoryBlue.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\NewFolderDown.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ImportDown.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ExportDown.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\UpLevelLight.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\UpLevel.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\DeleteDown.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\FileLight.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\img_server32.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\drop_down.png" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

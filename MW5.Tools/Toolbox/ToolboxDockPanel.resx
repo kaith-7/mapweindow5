@@ -1,0 +1,517 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="&gt;&gt;contextMenuStripEx1.Name" xml:space="preserve">
+    <value>contextMenuStripEx1</value>
+  </data>
+  <data name="&gt;&gt;mnuBatchRun.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <assembly alias="System.Drawing" name="System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
+  <data name="_textbox.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 0</value>
+  </data>
+  <data name="&gt;&gt;splitContainerAdv1.Name" xml:space="preserve">
+    <value>splitContainerAdv1</value>
+  </data>
+  <data name="toolRun.Size" type="System.Drawing.Size, System.Drawing">
+    <value>34, 34</value>
+  </data>
+  <assembly alias="mscorlib" name="mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="_treeView.ToolTipControl.AutoScroll" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="toolBatchRun.ImageTransparentColor" type="System.Drawing.Color, System.Drawing">
+    <value>Magenta</value>
+  </data>
+  <data name="_treeView.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 62</value>
+  </data>
+  <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="_treeView.ToolTipControl.BackgroundImage" type="System.Resources.ResXNullRef, System.Windows.Forms">
+    <value />
+  </data>
+  <data name="_textbox.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="&gt;&gt;splitContainerAdv1.Type" xml:space="preserve">
+    <value>Syncfusion.Windows.Forms.Tools.SplitContainerAdv, Syncfusion.Tools.Windows, Version=18.1460.0.42, Culture=neutral, PublicKeyToken=3d67ed1f87d44c89</value>
+  </data>
+  <data name="_textbox.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Fill</value>
+  </data>
+  <data name="txtSearch.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 0</value>
+  </data>
+  <data name="&gt;&gt;splitContainerAdv1.Panel2.Name" xml:space="preserve">
+    <value>splitContainerAdv1.Panel2</value>
+  </data>
+  <data name="_treeView.ToolTipControl.MaximumSize" type="System.Drawing.Size, System.Drawing">
+    <value>0, 0</value>
+  </data>
+  <data name="&gt;&gt;$this.Name" xml:space="preserve">
+    <value>ToolboxDockPanel</value>
+  </data>
+  <data name="_treeView.HelpTextControl.BackgroundImageLayout" type="System.Windows.Forms.ImageLayout, System.Windows.Forms">
+    <value>Tile</value>
+  </data>
+  <data name="txtSearch.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Fill</value>
+  </data>
+  <data name="&gt;&gt;txtSearch.Type" xml:space="preserve">
+    <value>MW5.UI.Controls.WatermarkTextbox, MW5.UI, Version=5.6.3.27549, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;txtSearch.Parent" xml:space="preserve">
+    <value>gradientPanel1</value>
+  </data>
+  <data name="&gt;&gt;_treeView.Type" xml:space="preserve">
+    <value>MW5.Tools.Toolbox.ToolboxTreeView, MW5.Tools, Version=5.6.3.27550, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="_treeView.ToolTipControl.RightToLeft" type="System.Windows.Forms.RightToLeft, System.Windows.Forms">
+    <value>Inherit</value>
+  </data>
+  <data name="toolRun.ImageTransparentColor" type="System.Drawing.Color, System.Drawing">
+    <value>Magenta</value>
+  </data>
+  <data name="toolStripEx1.Text" xml:space="preserve">
+    <value>toolStripEx1</value>
+  </data>
+  <data name="txtSearch.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;_textbox.Parent" xml:space="preserve">
+    <value>splitContainerAdv1.Panel2</value>
+  </data>
+  <data name="_treeView.ToolTipControl.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 0</value>
+  </data>
+  <data name="_treeView.HelpTextControl.BackgroundImage" type="System.Resources.ResXNullRef, System.Windows.Forms">
+    <value />
+  </data>
+  <data name="&gt;&gt;toolStripEx1.Parent" xml:space="preserve">
+    <value>splitContainerAdv1.Panel1</value>
+  </data>
+  <data name="&gt;&gt;splitContainerAdv1.Panel2.Type" xml:space="preserve">
+    <value>Syncfusion.Windows.Forms.Tools.SplitPanelAdv, Syncfusion.Tools.Windows, Version=18.1460.0.42, Culture=neutral, PublicKeyToken=3d67ed1f87d44c89</value>
+  </data>
+  <data name="&gt;&gt;_treeView.Name" xml:space="preserve">
+    <value>_treeView</value>
+  </data>
+  <data name="&gt;&gt;splitContainerAdv1.Panel1.Type" xml:space="preserve">
+    <value>Syncfusion.Windows.Forms.Tools.SplitPanelAdv, Syncfusion.Tools.Windows, Version=18.1460.0.42, Culture=neutral, PublicKeyToken=3d67ed1f87d44c89</value>
+  </data>
+  <data name="_treeView.HelpTextControl.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>None</value>
+  </data>
+  <data name="_treeView.ToolTipControl.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>Inherit</value>
+  </data>
+  <data name="_textbox.Size" type="System.Drawing.Size, System.Drawing">
+    <value>252, 57</value>
+  </data>
+  <data name="_treeView.Text" xml:space="preserve">
+    <value>toolboxTreeView1</value>
+  </data>
+  <data name="_treeView.ToolTipControl.AccessibleName" type="System.Resources.ResXNullRef, System.Windows.Forms">
+    <value />
+  </data>
+  <data name="&gt;&gt;splitContainerAdv1.Panel2.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="_treeView.TabIndex" type="System.Int32, mscorlib">
+    <value>2</value>
+  </data>
+  <data name="_treeView.HelpTextControl.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Top, Left</value>
+  </data>
+  <data name="&gt;&gt;_textbox.Name" xml:space="preserve">
+    <value>_textbox</value>
+  </data>
+  <data name="splitContainerAdv1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 0</value>
+  </data>
+  <data name="&gt;&gt;splitContainerAdv1.Panel1.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="toolBatchRun.Size" type="System.Drawing.Size, System.Drawing">
+    <value>34, 34</value>
+  </data>
+  <data name="&gt;&gt;mnuRun.Name" xml:space="preserve">
+    <value>mnuRun</value>
+  </data>
+  <data name="contextMenuStripEx1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>157, 48</value>
+  </data>
+  <data name="splitContainerAdv1.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="mnuBatchRun.Text" xml:space="preserve">
+    <value>批量执行</value>
+  </data>
+  <data name="_treeView.Size" type="System.Drawing.Size, System.Drawing">
+    <value>252, 94</value>
+  </data>
+  <data name="gradientPanel1.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Top</value>
+  </data>
+  <data name="_treeView.HelpTextControl.AutoScroll" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="_treeView.ToolTipControl.AutoSize" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="&gt;&gt;gradientPanel1.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="_treeView.HelpTextControl.AutoSizeMode" type="System.Windows.Forms.AutoSizeMode, System.Windows.Forms">
+    <value>GrowOnly</value>
+  </data>
+  <data name="_treeView.HelpTextControl.Visible" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="&gt;&gt;toolStripEx1.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="_treeView.ToolTipControl.BackgroundImageLayout" type="System.Windows.Forms.ImageLayout, System.Windows.Forms">
+    <value>Tile</value>
+  </data>
+  <data name="_treeView.HelpTextControl.RightToLeft" type="System.Windows.Forms.RightToLeft, System.Windows.Forms">
+    <value>Inherit</value>
+  </data>
+  <data name="toolStripEx1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 0</value>
+  </data>
+  <data name="_treeView.ToolTipControl.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>None</value>
+  </data>
+  <data name="&gt;&gt;toolStripEx1.Type" xml:space="preserve">
+    <value>Syncfusion.Windows.Forms.Tools.ToolStripEx, Syncfusion.Tools.Windows, Version=18.1460.0.42, Culture=neutral, PublicKeyToken=3d67ed1f87d44c89</value>
+  </data>
+  <data name="_treeView.HelpTextControl.Font" type="System.Resources.ResXNullRef, System.Windows.Forms">
+    <value />
+  </data>
+  <data name="_treeView.HelpTextControl.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 0</value>
+  </data>
+  <data name="&gt;&gt;mnuBatchRun.Name" xml:space="preserve">
+    <value>mnuBatchRun</value>
+  </data>
+  <data name="_treeView.HelpTextControl.AutoSize" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="_treeView.ToolTipControl.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Top, Left</value>
+  </data>
+  <data name="toolStripEx1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>252, 37</value>
+  </data>
+  <data name="toolRun.ImageScaling" type="System.Windows.Forms.ToolStripItemImageScaling, System.Windows.Forms">
+    <value>None</value>
+  </data>
+  <data name="_treeView.HelpTextControl.MaximumSize" type="System.Drawing.Size, System.Drawing">
+    <value>0, 0</value>
+  </data>
+  <data name="txtSearch.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>0, 0, 0, 2</value>
+  </data>
+  <data name="&gt;&gt;_textbox.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="splitContainerAdv1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>252, 220</value>
+  </data>
+  <data name="&gt;&gt;splitContainerAdv1.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="_treeView.HelpTextControl.AccessibleDescription" type="System.Resources.ResXNullRef, System.Windows.Forms">
+    <value />
+  </data>
+  <data name="&gt;&gt;_textbox.Type" xml:space="preserve">
+    <value>System.Windows.Forms.RichTextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="_treeView.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Fill</value>
+  </data>
+  <data name="gradientPanel1.TabIndex" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="toolBatchRun.Text" xml:space="preserve">
+    <value>Execute tool in batch mode</value>
+  </data>
+  <data name="gradientPanel1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 37</value>
+  </data>
+  <data name="toolStripEx1.TabIndex" type="System.Int32, mscorlib">
+    <value>2</value>
+  </data>
+  <data name="txtSearch.FarImage" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        iVBORw0KGgoAAAANSUhEUgAAABgAAAAYCAYAAADgdz34AAAABGdBTUEAALGPC/xhBQAAAx1JREFUSEvt
+        k8lPU1EYxflb3GhiQAL0UREMIFGiwTqUGexAZ55tH4UWOtCWtvSV0gERMCYaVIYC+jeQusBC0QXuWHVj
+        UheaaDQWAzl+r2I3UHQvJznJy0vu+Z1773dLTvUfq1QkOlNWxaTJmWIuZ8SZCnFNhqmpzVTX1WVqLtc7
+        DpefrNLKynNlVaIPrJnDi6VlLCwnCl5MJLCUWMHyyioSa2tYWXuJ1ZevEInH0XC1ef4worjOM8yFMhHz
+        0WA04cn8Mzx+8hR8KIRofArPFhbwfGERLxaXCLyEcCSCh3NzSKyuYnp2Fs0tLScDykUi0QWm+rNKZ8Ak
+        BUbIQsj+/j42NjbgHx/HzNyjvPmJCezt7SGVSmEyFkU4GsUtqbQ4oKyCqauovvhVrtLA5R2De8wHt8+H
+        KC08ODiAoI03b2B3ueAPBJCjcEFv373DWMAPfzCIju7O4wEisbiJqa373iNXwGQZBDdkhcVqw+DwCHkY
+        E+FwAbKzs4NcLpf/3t7ehs1uRzDEY9TrgVyhOAoQ19Y3XWpozLV1dUOp0UKl00FjMEDHsjAY74M1m8Ga
+        TOB5vgARtJXegonj4HSPUrgbdqcDGr3uKKD+ypXmhmvXftIFQSKVor27Cz1yOWRKJeRqFfq0GoJqYaOd
+        /GkuKJlMQm/QgxvkYBow4b6ZynDG44+oWSK5fkMi+XHzzh3capXibnsbWjs70Nnbja57vbDabIXw3d3d
+        wk7W19cJrobZYsbA0AAd52DxS77d2dpIod86erryoT1yGWR9Ctgd9vy0CEptpqBUKRGhyfoDSb5O0lEZ
+        6YiG4fQ4igMEyWSySxT6RaHug0qrhlqvQZAP5sM2NzehM+hgoaYW6wBi8d/TlU6nMWSzwOtz0xh7TwYI
+        0rLaKj3b/6nfxMJIzQS73C6wxn6aGCuN6QhdrIP+OeALjME2MoRx3kfvIoBg2P93gCCO40qpZXbYYaNm
+        HgR4P0JhHpPRMGIPIpiajuHBwzimZ+L0HUVsapIeJP/vAEFOp/MsNX3v8bqyXr8nS9vPUtMsNS3qYCjg
+        OVx+qv9HJSW/AEy3TXanRs8BAAAAAElFTkSuQmCC
+</value>
+  </data>
+  <data name="&gt;&gt;_treeView.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;toolRun.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripButton, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;toolStripEx1.Name" xml:space="preserve">
+    <value>toolStripEx1</value>
+  </data>
+  <data name="&gt;&gt;$this.Type" xml:space="preserve">
+    <value>MW5.UI.Controls.DockPanelControlBase, MW5.UI, Version=5.6.3.27549, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="_treeView.HelpTextControl.AccessibleName" type="System.Resources.ResXNullRef, System.Windows.Forms">
+    <value />
+  </data>
+  <data name="_treeView.ToolTipControl.Visible" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="splitContainerAdv1.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Fill</value>
+  </data>
+  <data name="txtSearch.Cue" xml:space="preserve">
+    <value>输入工具名称</value>
+  </data>
+  <data name="&gt;&gt;mnuRun.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="$this.Size" type="System.Drawing.Size, System.Drawing">
+    <value>252, 220</value>
+  </data>
+  <data name="&gt;&gt;splitContainerAdv1.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="_treeView.HelpTextControl.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>Inherit</value>
+  </data>
+  <data name="&gt;&gt;gradientPanel1.Type" xml:space="preserve">
+    <value>Syncfusion.Windows.Forms.Tools.GradientPanel, Syncfusion.Shared.Base, Version=18.1460.0.42, Culture=neutral, PublicKeyToken=3d67ed1f87d44c89</value>
+  </data>
+  <data name="_treeView.ToolTipControl.AccessibleDescription" type="System.Resources.ResXNullRef, System.Windows.Forms">
+    <value />
+  </data>
+  <data name="_treeView.ToolTipControl.TabIndex" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="mnuRun.Size" type="System.Drawing.Size, System.Drawing">
+    <value>156, 22</value>
+  </data>
+  <data name="gradientPanel1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>252, 25</value>
+  </data>
+  <data name="splitContainerAdv1.Text" xml:space="preserve">
+    <value>splitContainerAdv1</value>
+  </data>
+  <data name="toolRun.Text" xml:space="preserve">
+    <value>Execute tool</value>
+  </data>
+  <data name="_treeView.ToolTipControl.AutoSizeMode" type="System.Windows.Forms.AutoSizeMode, System.Windows.Forms">
+    <value>GrowOnly</value>
+  </data>
+  <data name="&gt;&gt;txtSearch.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;splitContainerAdv1.Panel2.Parent" xml:space="preserve">
+    <value>splitContainerAdv1</value>
+  </data>
+  <data name="&gt;&gt;toolBatchRun.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripButton, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="txtSearch.Size" type="System.Drawing.Size, System.Drawing">
+    <value>252, 21</value>
+  </data>
+  <data name="_treeView.HelpTextControl.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="txtSearch.MinimumSize" type="System.Drawing.Size, System.Drawing">
+    <value>24, 20</value>
+  </data>
+  <data name="&gt;&gt;gradientPanel1.Name" xml:space="preserve">
+    <value>gradientPanel1</value>
+  </data>
+  <data name="&gt;&gt;txtSearch.Name" xml:space="preserve">
+    <value>txtSearch</value>
+  </data>
+  <data name="&gt;&gt;gradientPanel1.Parent" xml:space="preserve">
+    <value>splitContainerAdv1.Panel1</value>
+  </data>
+  <data name="&gt;&gt;contextMenuStripEx1.Type" xml:space="preserve">
+    <value>Syncfusion.Windows.Forms.Tools.ContextMenuStripEx, Syncfusion.Tools.Windows, Version=18.1460.0.42, Culture=neutral, PublicKeyToken=3d67ed1f87d44c89</value>
+  </data>
+  <data name="mnuBatchRun.Size" type="System.Drawing.Size, System.Drawing">
+    <value>156, 22</value>
+  </data>
+  <data name="&gt;&gt;toolRun.Name" xml:space="preserve">
+    <value>toolRun</value>
+  </data>
+  <data name="&gt;&gt;splitContainerAdv1.Panel1.Parent" xml:space="preserve">
+    <value>splitContainerAdv1</value>
+  </data>
+  <data name="_textbox.TabIndex" type="System.Int32, mscorlib">
+    <value>2</value>
+  </data>
+  <data name="_treeView.ToolTipControl.Font" type="System.Resources.ResXNullRef, System.Windows.Forms">
+    <value />
+  </data>
+  <data name="&gt;&gt;toolBatchRun.Name" xml:space="preserve">
+    <value>toolBatchRun</value>
+  </data>
+  <data name="txtSearch.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 9pt</value>
+  </data>
+  <data name="mnuRun.Text" xml:space="preserve">
+    <value>打开</value>
+  </data>
+  <data name="toolBatchRun.ImageScaling" type="System.Windows.Forms.ToolStripItemImageScaling, System.Windows.Forms">
+    <value>None</value>
+  </data>
+  <data name="&gt;&gt;splitContainerAdv1.Panel1.Name" xml:space="preserve">
+    <value>splitContainerAdv1.Panel1</value>
+  </data>
+  <data name="&gt;&gt;_treeView.Parent" xml:space="preserve">
+    <value>splitContainerAdv1.Panel1</value>
+  </data>
+  <data name="$this.Localizable" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="toolStripEx1.TrayLocation" type="System.Drawing.Point, System.Drawing">
+    <value>195, 17</value>
+  </data>
+  <data name="$this.Language" type="System.Globalization.CultureInfo, mscorlib">
+    <value>zh-CN</value>
+  </data>
+  <data name="contextMenuStripEx1.TrayLocation" type="System.Drawing.Point, System.Drawing">
+    <value>17, 17</value>
+  </data>
+</root>

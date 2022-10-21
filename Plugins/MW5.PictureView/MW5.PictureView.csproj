@@ -1,0 +1,189 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="12.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{9D084FD3-2BA3-4ECF-891C-87772345D7E8}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>MW5.Plugins.PictureView</RootNamespace>
+    <AssemblyName>MW5.PictureView</AssemblyName>
+    <TargetFrameworkVersion>v4.6.1</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <OutputPath>..\..\..\bin\$(Platform)\$(Configuration)\Plugins\</OutputPath>
+    <TargetFrameworkProfile />
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Debug|x86'">
+    <DebugSymbols>true</DebugSymbols>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <DebugType>full</DebugType>
+    <PlatformTarget>x86</PlatformTarget>
+    <ErrorReport>prompt</ErrorReport>
+    <CodeAnalysisRuleSet>MinimumRecommendedRules.ruleset</CodeAnalysisRuleSet>
+    <LangVersion>7.1</LangVersion>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Release|x86'">
+    <DefineConstants>TRACE</DefineConstants>
+    <Optimize>true</Optimize>
+    <DebugType>pdbonly</DebugType>
+    <PlatformTarget>x86</PlatformTarget>
+    <ErrorReport>prompt</ErrorReport>
+    <CodeAnalysisRuleSet>MinimumRecommendedRules.ruleset</CodeAnalysisRuleSet>
+    <LangVersion>7.1</LangVersion>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Debug|x64'">
+    <DebugSymbols>true</DebugSymbols>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <DebugType>full</DebugType>
+    <PlatformTarget>x64</PlatformTarget>
+    <ErrorReport>prompt</ErrorReport>
+    <CodeAnalysisRuleSet>MinimumRecommendedRules.ruleset</CodeAnalysisRuleSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Release|x64'">
+    <DefineConstants>TRACE</DefineConstants>
+    <Optimize>true</Optimize>
+    <DebugType>pdbonly</DebugType>
+    <PlatformTarget>x64</PlatformTarget>
+    <ErrorReport>prompt</ErrorReport>
+    <CodeAnalysisRuleSet>MinimumRecommendedRules.ruleset</CodeAnalysisRuleSet>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Cyotek.Windows.Forms.ImageBox, Version=1.2.0.0, Culture=neutral, PublicKeyToken=58daa28b0b2de221, processorArchitecture=MSIL">
+      <HintPath>..\..\packages\CyotekImageBox.1.3.1\lib\net20\Cyotek.Windows.Forms.ImageBox.dll</HintPath>
+    </Reference>
+    <Reference Include="MW5.Shared, Version=1.0.0.0, Culture=neutral, processorArchitecture=x86">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\MW5.Shared\bin\x86\Debug\MW5.Shared.dll</HintPath>
+    </Reference>
+    <Reference Include="Syncfusion.Shared.Base, Version=19.3460.0.43, Culture=neutral, PublicKeyToken=3d67ed1f87d44c89, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+    </Reference>
+    <Reference Include="Syncfusion.Tools.Windows, Version=19.3460.0.43, Culture=neutral, PublicKeyToken=3d67ed1f87d44c89, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.ComponentModel.Composition" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="..\..\SolutionItems\SolutionInfoPlugins.cs">
+      <Link>Properties\SolutionInfoPlugins.cs</Link>
+    </Compile>
+    <Compile Include="CompositionRoot.cs" />
+    <Compile Include="GroupKeys.cs" />
+    <Compile Include="MapListener.cs" />
+    <Compile Include="Menu\MenuCommands.cs" />
+    <Compile Include="Menu\MenuGenerator.cs" />
+    <Compile Include="Menu\MenuKeys.cs" />
+    <Compile Include="Menu\MenuListener.cs" />
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <Compile Include="PictureView.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Views\Abstract\IPolygonPictureView.cs" />
+    <Compile Include="Views\LookPicture.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Views\LookPicture.Designer.cs">
+      <DependentUpon>LookPicture.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Views\PictureBoxEx.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Views\PictureBoxEx.Designer.cs">
+      <DependentUpon>PictureBoxEx.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Views\PolygonPictureView.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Views\PolygonPictureView.Designer.cs">
+      <DependentUpon>PolygonPictureView.cs</DependentUpon>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\..\MW5.Api\MW5.Api.csproj">
+      <Project>{8AAD34B3-8EF3-485F-A04D-ED2C07D8F1DF}</Project>
+      <Name>MW5.Api</Name>
+      <Private>False</Private>
+    </ProjectReference>
+    <ProjectReference Include="..\..\MW5.Plugins\MW5.Plugins.csproj">
+      <Project>{76644cdf-5165-428d-8419-93c1e978db1b}</Project>
+      <Name>MW5.Plugins</Name>
+      <Private>False</Private>
+    </ProjectReference>
+    <ProjectReference Include="..\..\MW5.Tools\MW5.Tools.csproj">
+      <Project>{FB836BB0-2668-41E6-A4AD-7798B13C327F}</Project>
+      <Name>MW5.Tools</Name>
+      <Private>False</Private>
+    </ProjectReference>
+    <ProjectReference Include="..\..\MW5.UI\MW5.UI.csproj">
+      <Project>{784a24f2-9a57-46ee-8945-d87869595216}</Project>
+      <Name>MW5.UI</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\..\MW5\MW5.csproj">
+      <Project>{BC107A2C-9A23-48C0-A7D5-3C9A03EC8038}</Project>
+      <Name>MW5</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\MW5.Identifier\MW5.Identifier.csproj">
+      <Project>{d6ad6ff4-56bc-4929-9af7-256d0e5a5f0d}</Project>
+      <Name>MW5.Identifier</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Views\LookPicture.resx">
+      <DependentUpon>LookPicture.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Views\PolygonPictureView.resx">
+      <DependentUpon>PolygonPictureView.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Views\PolygonPictureView.zh-CN.resx">
+      <DependentUpon>PolygonPictureView.cs</DependentUpon>
+    </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="app.config" />
+    <None Include="packages.config" />
+    <None Include="Properties\DataSources\Cyotek.Windows.Forms.ImageBox.datasource" />
+    <None Include="Properties\DataSources\Cyotek.Windows.Forms.ImageBoxCancelEventArgs.datasource" />
+    <None Include="Properties\DataSources\Cyotek.Windows.Forms.ImageBoxZoomEventArgs.datasource" />
+    <None Include="Properties\DataSources\Cyotek.Windows.Forms.ScrollControl+HScrollProperties.datasource" />
+    <None Include="Properties\DataSources\Cyotek.Windows.Forms.ScrollControl+ScrollProperties.datasource" />
+    <None Include="Properties\DataSources\Cyotek.Windows.Forms.ScrollControl+VScrollProperties.datasource" />
+    <None Include="Properties\DataSources\Cyotek.Windows.Forms.ScrollControl.datasource" />
+    <None Include="Properties\DataSources\Cyotek.Windows.Forms.VirtualScrollableControl.datasource" />
+    <None Include="Properties\DataSources\Cyotek.Windows.Forms.ZoomLevelCollection.datasource" />
+    <None Include="Resources\old.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ico_template.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\template-icon.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\hello-icon.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Resources\monitor.png" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>
